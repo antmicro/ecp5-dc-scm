@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -15,4 +15,10 @@ Comment4 ""
 $EndDescr
 Text Notes 3400 975  0    118  ~ 0
 ECP5- Datacenter Secure Control Module (DC-SCM)
+$Sheet
+S 1150 1725 3200 1600
+U 5FC6B687
+F0 "FPGA banks" 50
+F1 "fpga-banks.sch" 50
+$EndSheet
 $EndSCHEMATC

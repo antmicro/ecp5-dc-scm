@@ -1,0 +1,1028 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U?
+U 9 1 5FD0E78E
+P 6950 8200
+F 0 "U?" H 7980 7610 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 7075 6100 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 6950 8200 50  0001 C CNN
+F 3 "" H 6950 8200 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 7100 8150 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 7980 7451 50  0001 L CNN "Manufacturer"
+	9    6950 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U?
+U 8 1 5FE548A2
+P 14450 1800
+F 0 "U?" H 14625 2375 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 14650 -3100 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 14450 1800 50  0001 C CNN
+F 3 "" H 14450 1800 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 14600 1750 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 15580 -349 50  0001 L CNN "Manufacturer"
+	8    14450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U?
+U 7 1 5FDECAB9
+P 11925 1825
+F 0 "U?" H 12100 2400 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 12025 -4650 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 11925 1825 50  0001 C CNN
+F 3 "" H 11925 1825 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 12075 1775 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 13055 -1124 50  0001 L CNN "Manufacturer"
+	7    11925 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U?
+U 5 1 5FC7B4D6
+P 9375 1850
+F 0 "U?" H 9575 2450 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 9425 -4650 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 9375 1850 50  0001 C CNN
+F 3 "" H 9375 1850 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 9525 1800 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 10505 -1099 50  0001 L CNN "Manufacturer"
+	5    9375 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U
+U 4 1 5FC6BB1C
+P 6875 1850
+F 0 "U" H 7075 2425 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 6925 -3025 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 6875 1850 50  0001 C CNN
+F 3 "" H 6875 1850 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 7025 1800 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 8005 -299 50  0001 L CNN "Manufacturer"
+	4    6875 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U?
+U 2 1 5FC8A8B1
+P 1900 1850
+F 0 "U?" H 2100 2450 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 2025 -3825 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 1900 1850 50  0001 C CNN
+F 3 "" H 1900 1850 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 2050 1800 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 3030 -699 50  0001 L CNN "Manufacturer"
+	2    1900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U
+U 3 1 5FCBC7B0
+P 4400 1850
+F 0 "U" H 4600 2450 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 4600 -3025 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 4400 1850 50  0001 C CNN
+F 3 "" H 4400 1850 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 4550 1800 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 5530 -299 50  0001 L CNN "Manufacturer"
+	3    4400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1150 2900 775 
+Wire Wire Line
+	2900 775  2800 775 
+Connection ~ 2450 775 
+Wire Wire Line
+	2450 775  2200 775 
+Connection ~ 2800 775 
+Wire Wire Line
+	2800 775  2700 775 
+Wire Wire Line
+	2800 775  2800 1150
+Wire Wire Line
+	2700 1150 2700 775 
+Connection ~ 2700 775 
+Wire Wire Line
+	2700 775  2600 775 
+Connection ~ 2600 775 
+Wire Wire Line
+	2450 1075 2200 1075
+Wire Wire Line
+	2600 775  2450 775 
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6208D834
+P 2450 925
+F 0 "C?" H 2475 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 2450 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2650 1125 60  0001 L CNN
+F 3 "" H 2450 925 50  0001 C CNN
+F 4 "TDK" H 2650 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2650 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 2475 825 50  0000 L CNN "Val"
+	1    2450 925 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 62101289
+P 2200 925
+F 0 "C?" H 2225 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 2200 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2400 1125 60  0001 L CNN
+F 3 "" H 2200 925 50  0001 C CNN
+F 4 "TDK" H 2400 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2400 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 2225 825 50  0000 L CNN "Val"
+	1    2200 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2200 775 
+Wire Wire Line
+	2200 775  1950 775 
+Connection ~ 2200 1075
+Wire Wire Line
+	2200 1075 1950 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 62102D04
+P 1950 925
+F 0 "C?" H 1975 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 1950 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2150 1125 60  0001 L CNN
+F 3 "" H 1950 925 50  0001 C CNN
+F 4 "TDK" H 2150 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2150 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 1975 825 50  0000 L CNN "Val"
+	1    1950 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1950 775 
+Wire Wire Line
+	1950 775  1700 775 
+Connection ~ 1950 1075
+Wire Wire Line
+	1950 1075 1700 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 62121955
+P 1700 925
+F 0 "C?" H 1725 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 1700 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1900 1125 60  0001 L CNN
+F 3 "" H 1700 925 50  0001 C CNN
+F 4 "TDK" H 1900 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 1900 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 1725 825 50  0000 L CNN "Val"
+	1    1700 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1700 775 
+Wire Wire Line
+	1700 775  1450 775 
+Connection ~ 1700 1075
+Wire Wire Line
+	1700 1075 1450 1075
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 62124E47
+P 1450 925
+F 0 "C?" H 1475 1025 60  0000 L CNN
+F 1 "C_4u7_0402" H 1450 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1650 1125 60  0001 L CNN
+F 3 "" H 1450 925 50  0001 C CNN
+F 4 "MURATA" H 1650 1325 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 1650 1225 60  0001 L CNN "MPN"
+F 6 "4u7" H 1475 825 50  0000 L CNN "Val"
+	1    1450 925 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1075 1450 1200
+Connection ~ 1450 1075
+$Comp
+L power:GND #PWR?
+U 1 1 621442CD
+P 1450 1200
+F 0 "#PWR?" H 1450 950 50  0001 C CNN
+F 1 "GND" H 1455 1027 50  0000 C CNN
+F 2 "" H 1450 1200 50  0001 C CNN
+F 3 "" H 1450 1200 50  0001 C CNN
+	1    1450 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 775  1450 625 
+Connection ~ 1450 775 
+Text GLabel 1450 625  0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	2600 775  2600 1150
+Wire Wire Line
+	5400 1150 5400 775 
+Wire Wire Line
+	5400 775  5300 775 
+Connection ~ 4950 775 
+Wire Wire Line
+	4950 775  4700 775 
+Connection ~ 5300 775 
+Wire Wire Line
+	5300 775  5200 775 
+Wire Wire Line
+	5300 775  5300 1150
+Wire Wire Line
+	5200 1150 5200 775 
+Connection ~ 5200 775 
+Wire Wire Line
+	5200 775  5100 775 
+Connection ~ 5100 775 
+Wire Wire Line
+	4950 1075 4700 1075
+Wire Wire Line
+	5100 775  4950 775 
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622D7774
+P 4950 925
+F 0 "C?" H 4975 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 4950 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5150 1125 60  0001 L CNN
+F 3 "" H 4950 925 50  0001 C CNN
+F 4 "TDK" H 5150 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 5150 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 4975 825 50  0000 L CNN "Val"
+	1    4950 925 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622D777D
+P 4700 925
+F 0 "C?" H 4725 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 4700 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4900 1125 60  0001 L CNN
+F 3 "" H 4700 925 50  0001 C CNN
+F 4 "TDK" H 4900 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4900 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 4725 825 50  0000 L CNN "Val"
+	1    4700 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4700 775 
+Wire Wire Line
+	4700 775  4450 775 
+Connection ~ 4700 1075
+Wire Wire Line
+	4700 1075 4450 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622D778A
+P 4450 925
+F 0 "C?" H 4475 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 4450 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4650 1125 60  0001 L CNN
+F 3 "" H 4450 925 50  0001 C CNN
+F 4 "TDK" H 4650 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4650 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 4475 825 50  0000 L CNN "Val"
+	1    4450 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4450 775 
+Wire Wire Line
+	4450 775  4200 775 
+Connection ~ 4450 1075
+Wire Wire Line
+	4450 1075 4200 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622D7797
+P 4200 925
+F 0 "C?" H 4225 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 4200 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4400 1125 60  0001 L CNN
+F 3 "" H 4200 925 50  0001 C CNN
+F 4 "TDK" H 4400 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4400 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 4225 825 50  0000 L CNN "Val"
+	1    4200 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4200 775 
+Wire Wire Line
+	4200 775  3950 775 
+Connection ~ 4200 1075
+Wire Wire Line
+	4200 1075 3950 1075
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 622D77A4
+P 3950 925
+F 0 "C?" H 3975 1025 60  0000 L CNN
+F 1 "C_4u7_0402" H 3950 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4150 1125 60  0001 L CNN
+F 3 "" H 3950 925 50  0001 C CNN
+F 4 "MURATA" H 4150 1325 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 4150 1225 60  0001 L CNN "MPN"
+F 6 "4u7" H 3975 825 50  0000 L CNN "Val"
+	1    3950 925 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1075 3950 1200
+Connection ~ 3950 1075
+Wire Wire Line
+	3950 775  3950 625 
+Connection ~ 3950 775 
+Text GLabel 3950 625  0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	5100 775  5100 1150
+Wire Wire Line
+	7875 1150 7875 775 
+Wire Wire Line
+	7875 775  7775 775 
+Connection ~ 7425 775 
+Wire Wire Line
+	7425 775  7175 775 
+Connection ~ 7775 775 
+Wire Wire Line
+	7775 775  7675 775 
+Wire Wire Line
+	7775 775  7775 1150
+Wire Wire Line
+	7675 1150 7675 775 
+Connection ~ 7675 775 
+Wire Wire Line
+	7675 775  7575 775 
+Connection ~ 7575 775 
+Wire Wire Line
+	7425 1075 7175 1075
+Wire Wire Line
+	7575 775  7425 775 
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622DAB1E
+P 7425 925
+F 0 "C?" H 7450 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 7425 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7625 1125 60  0001 L CNN
+F 3 "" H 7425 925 50  0001 C CNN
+F 4 "TDK" H 7625 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 7625 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 7450 825 50  0000 L CNN "Val"
+	1    7425 925 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622DAB27
+P 7175 925
+F 0 "C?" H 7200 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 7175 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7375 1125 60  0001 L CNN
+F 3 "" H 7175 925 50  0001 C CNN
+F 4 "TDK" H 7375 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 7375 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 7200 825 50  0000 L CNN "Val"
+	1    7175 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7175 775 
+Wire Wire Line
+	7175 775  6925 775 
+Connection ~ 7175 1075
+Wire Wire Line
+	7175 1075 6925 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622DAB34
+P 6925 925
+F 0 "C?" H 6950 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 6925 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7125 1125 60  0001 L CNN
+F 3 "" H 6925 925 50  0001 C CNN
+F 4 "TDK" H 7125 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 7125 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 6950 825 50  0000 L CNN "Val"
+	1    6925 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6925 775 
+Wire Wire Line
+	6925 775  6675 775 
+Connection ~ 6925 1075
+Wire Wire Line
+	6925 1075 6675 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622DAB41
+P 6675 925
+F 0 "C?" H 6700 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 6675 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6875 1125 60  0001 L CNN
+F 3 "" H 6675 925 50  0001 C CNN
+F 4 "TDK" H 6875 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 6875 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 6700 825 50  0000 L CNN "Val"
+	1    6675 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6675 775 
+Wire Wire Line
+	6675 775  6425 775 
+Connection ~ 6675 1075
+Wire Wire Line
+	6675 1075 6425 1075
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 622DAB4E
+P 6425 925
+F 0 "C?" H 6450 1025 60  0000 L CNN
+F 1 "C_4u7_0402" H 6425 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6625 1125 60  0001 L CNN
+F 3 "" H 6425 925 50  0001 C CNN
+F 4 "MURATA" H 6625 1325 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 6625 1225 60  0001 L CNN "MPN"
+F 6 "4u7" H 6450 825 50  0000 L CNN "Val"
+	1    6425 925 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 1075 6425 1200
+Connection ~ 6425 1075
+Wire Wire Line
+	6425 775  6425 625 
+Connection ~ 6425 775 
+Text GLabel 6425 625  0    50   Input ~ 0
+VCC1V35
+Wire Wire Line
+	7575 775  7575 1150
+Wire Wire Line
+	10375 1150 10375 775 
+Wire Wire Line
+	10375 775  10275 775 
+Connection ~ 9925 775 
+Wire Wire Line
+	9925 775  9675 775 
+Connection ~ 10275 775 
+Wire Wire Line
+	10275 775  10175 775 
+Wire Wire Line
+	10275 775  10275 1150
+Wire Wire Line
+	10175 1150 10175 775 
+Connection ~ 10175 775 
+Wire Wire Line
+	10175 775  10075 775 
+Connection ~ 10075 775 
+Wire Wire Line
+	9925 1075 9675 1075
+Wire Wire Line
+	10075 775  9925 775 
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622E8F1D
+P 9925 925
+F 0 "C?" H 9950 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 9925 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10125 1125 60  0001 L CNN
+F 3 "" H 9925 925 50  0001 C CNN
+F 4 "TDK" H 10125 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10125 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 9950 825 50  0000 L CNN "Val"
+	1    9925 925 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622E8F26
+P 9675 925
+F 0 "C?" H 9700 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 9675 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9875 1125 60  0001 L CNN
+F 3 "" H 9675 925 50  0001 C CNN
+F 4 "TDK" H 9875 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 9875 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 9700 825 50  0000 L CNN "Val"
+	1    9675 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9675 775 
+Wire Wire Line
+	9675 775  9425 775 
+Connection ~ 9675 1075
+Wire Wire Line
+	9675 1075 9425 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622E8F33
+P 9425 925
+F 0 "C?" H 9450 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 9425 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9625 1125 60  0001 L CNN
+F 3 "" H 9425 925 50  0001 C CNN
+F 4 "TDK" H 9625 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 9625 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 9450 825 50  0000 L CNN "Val"
+	1    9425 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9425 775 
+Wire Wire Line
+	9425 775  9175 775 
+Connection ~ 9425 1075
+Wire Wire Line
+	9425 1075 9175 1075
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622E8F40
+P 9175 925
+F 0 "C?" H 9200 1025 60  0000 L CNN
+F 1 "C_470n_0402" H 9175 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9375 1125 60  0001 L CNN
+F 3 "" H 9175 925 50  0001 C CNN
+F 4 "TDK" H 9375 1325 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 9375 1225 60  0001 L CNN "MPN"
+F 6 "470n" H 9200 825 50  0000 L CNN "Val"
+	1    9175 925 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9175 775 
+Wire Wire Line
+	9175 775  8925 775 
+Connection ~ 9175 1075
+Wire Wire Line
+	9175 1075 8925 1075
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 622E8F4D
+P 8925 925
+F 0 "C?" H 8950 1025 60  0000 L CNN
+F 1 "C_4u7_0402" H 8925 775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9125 1125 60  0001 L CNN
+F 3 "" H 8925 925 50  0001 C CNN
+F 4 "MURATA" H 9125 1325 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 9125 1225 60  0001 L CNN "MPN"
+F 6 "4u7" H 8950 825 50  0000 L CNN "Val"
+	1    8925 925 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 1075 8925 1200
+Connection ~ 8925 1075
+Wire Wire Line
+	8925 775  8925 625 
+Connection ~ 8925 775 
+Wire Wire Line
+	10075 775  10075 1150
+Wire Wire Line
+	12925 1125 12925 750 
+Wire Wire Line
+	12925 750  12825 750 
+Connection ~ 12475 750 
+Wire Wire Line
+	12475 750  12225 750 
+Connection ~ 12825 750 
+Wire Wire Line
+	12825 750  12725 750 
+Wire Wire Line
+	12825 750  12825 1125
+Wire Wire Line
+	12725 1125 12725 750 
+Connection ~ 12725 750 
+Wire Wire Line
+	12725 750  12625 750 
+Connection ~ 12625 750 
+Wire Wire Line
+	12475 1050 12225 1050
+Wire Wire Line
+	12625 750  12475 750 
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F09B5
+P 12475 900
+F 0 "C?" H 12500 1000 60  0000 L CNN
+F 1 "C_470n_0402" H 12475 750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 12675 1100 60  0001 L CNN
+F 3 "" H 12475 900 50  0001 C CNN
+F 4 "TDK" H 12675 1300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 12675 1200 60  0001 L CNN "MPN"
+F 6 "470n" H 12500 800 50  0000 L CNN "Val"
+	1    12475 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F09BE
+P 12225 900
+F 0 "C?" H 12250 1000 60  0000 L CNN
+F 1 "C_470n_0402" H 12225 750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 12425 1100 60  0001 L CNN
+F 3 "" H 12225 900 50  0001 C CNN
+F 4 "TDK" H 12425 1300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 12425 1200 60  0001 L CNN "MPN"
+F 6 "470n" H 12250 800 50  0000 L CNN "Val"
+	1    12225 900 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 12225 750 
+Wire Wire Line
+	12225 750  11975 750 
+Connection ~ 12225 1050
+Wire Wire Line
+	12225 1050 11975 1050
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F09CB
+P 11975 900
+F 0 "C?" H 12000 1000 60  0000 L CNN
+F 1 "C_470n_0402" H 11975 750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 12175 1100 60  0001 L CNN
+F 3 "" H 11975 900 50  0001 C CNN
+F 4 "TDK" H 12175 1300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 12175 1200 60  0001 L CNN "MPN"
+F 6 "470n" H 12000 800 50  0000 L CNN "Val"
+	1    11975 900 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 11975 750 
+Wire Wire Line
+	11975 750  11725 750 
+Connection ~ 11975 1050
+Wire Wire Line
+	11975 1050 11725 1050
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F09D8
+P 11725 900
+F 0 "C?" H 11750 1000 60  0000 L CNN
+F 1 "C_470n_0402" H 11725 750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11925 1100 60  0001 L CNN
+F 3 "" H 11725 900 50  0001 C CNN
+F 4 "TDK" H 11925 1300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 11925 1200 60  0001 L CNN "MPN"
+F 6 "470n" H 11750 800 50  0000 L CNN "Val"
+	1    11725 900 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 11725 750 
+Wire Wire Line
+	11725 750  11475 750 
+Connection ~ 11725 1050
+Wire Wire Line
+	11725 1050 11475 1050
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 622F09E5
+P 11475 900
+F 0 "C?" H 11500 1000 60  0000 L CNN
+F 1 "C_4u7_0402" H 11475 750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11675 1100 60  0001 L CNN
+F 3 "" H 11475 900 50  0001 C CNN
+F 4 "MURATA" H 11675 1300 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 11675 1200 60  0001 L CNN "MPN"
+F 6 "4u7" H 11500 800 50  0000 L CNN "Val"
+	1    11475 900 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11475 1050 11475 1175
+Connection ~ 11475 1050
+Wire Wire Line
+	11475 750  11475 600 
+Connection ~ 11475 750 
+Text GLabel 11475 600  0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	12625 750  12625 1125
+Wire Wire Line
+	15450 1100 15450 725 
+Wire Wire Line
+	15450 725  15350 725 
+Connection ~ 15000 725 
+Wire Wire Line
+	15000 725  14750 725 
+Connection ~ 15350 725 
+Wire Wire Line
+	15350 725  15250 725 
+Wire Wire Line
+	15350 725  15350 1100
+Wire Wire Line
+	15250 1100 15250 725 
+Connection ~ 15250 725 
+Wire Wire Line
+	15250 725  15150 725 
+Connection ~ 15150 725 
+Wire Wire Line
+	15000 1025 14750 1025
+Wire Wire Line
+	15150 725  15000 725 
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F6919
+P 15000 875
+F 0 "C?" H 15025 975 60  0000 L CNN
+F 1 "C_470n_0402" H 15000 725 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 15200 1075 60  0001 L CNN
+F 3 "" H 15000 875 50  0001 C CNN
+F 4 "TDK" H 15200 1275 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 15200 1175 60  0001 L CNN "MPN"
+F 6 "470n" H 15025 775 50  0000 L CNN "Val"
+	1    15000 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F6922
+P 14750 875
+F 0 "C?" H 14775 975 60  0000 L CNN
+F 1 "C_470n_0402" H 14750 725 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 14950 1075 60  0001 L CNN
+F 3 "" H 14750 875 50  0001 C CNN
+F 4 "TDK" H 14950 1275 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 14950 1175 60  0001 L CNN "MPN"
+F 6 "470n" H 14775 775 50  0000 L CNN "Val"
+	1    14750 875 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 14750 725 
+Wire Wire Line
+	14750 725  14500 725 
+Connection ~ 14750 1025
+Wire Wire Line
+	14750 1025 14500 1025
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F692F
+P 14500 875
+F 0 "C?" H 14525 975 60  0000 L CNN
+F 1 "C_470n_0402" H 14500 725 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 14700 1075 60  0001 L CNN
+F 3 "" H 14500 875 50  0001 C CNN
+F 4 "TDK" H 14700 1275 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 14700 1175 60  0001 L CNN "MPN"
+F 6 "470n" H 14525 775 50  0000 L CNN "Val"
+	1    14500 875 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 14500 725 
+Wire Wire Line
+	14500 725  14250 725 
+Connection ~ 14500 1025
+Wire Wire Line
+	14500 1025 14250 1025
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 622F693C
+P 14250 875
+F 0 "C?" H 14275 975 60  0000 L CNN
+F 1 "C_470n_0402" H 14250 725 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 14450 1075 60  0001 L CNN
+F 3 "" H 14250 875 50  0001 C CNN
+F 4 "TDK" H 14450 1275 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 14450 1175 60  0001 L CNN "MPN"
+F 6 "470n" H 14275 775 50  0000 L CNN "Val"
+	1    14250 875 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 14250 725 
+Wire Wire Line
+	14250 725  14000 725 
+Connection ~ 14250 1025
+Wire Wire Line
+	14250 1025 14000 1025
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 622F6949
+P 14000 875
+F 0 "C?" H 14025 975 60  0000 L CNN
+F 1 "C_4u7_0402" H 14000 725 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 14200 1075 60  0001 L CNN
+F 3 "" H 14000 875 50  0001 C CNN
+F 4 "MURATA" H 14200 1275 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 14200 1175 60  0001 L CNN "MPN"
+F 6 "4u7" H 14025 775 50  0000 L CNN "Val"
+	1    14000 875 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 1025 14000 1150
+Connection ~ 14000 1025
+Wire Wire Line
+	14000 725  14000 575 
+Connection ~ 14000 725 
+Text GLabel 14000 575  0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	15150 725  15150 1100
+Connection ~ 4950 7150
+Wire Wire Line
+	4950 7150 4700 7150
+Wire Wire Line
+	5200 7525 5200 7150
+Wire Wire Line
+	5200 7150 5100 7150
+Connection ~ 5100 7150
+Wire Wire Line
+	4950 7450 4700 7450
+Wire Wire Line
+	5100 7150 4950 7150
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 623303E6
+P 4950 7300
+F 0 "C?" H 4975 7400 60  0000 L CNN
+F 1 "C_470n_0402" H 4950 7150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5150 7500 60  0001 L CNN
+F 3 "" H 4950 7300 50  0001 C CNN
+F 4 "TDK" H 5150 7700 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 5150 7600 60  0001 L CNN "MPN"
+F 6 "470n" H 4975 7200 50  0000 L CNN "Val"
+	1    4950 7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 623303EF
+P 4700 7300
+F 0 "C?" H 4725 7400 60  0000 L CNN
+F 1 "C_470n_0402" H 4700 7150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4900 7500 60  0001 L CNN
+F 3 "" H 4700 7300 50  0001 C CNN
+F 4 "TDK" H 4900 7700 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4900 7600 60  0001 L CNN "MPN"
+F 6 "470n" H 4725 7200 50  0000 L CNN "Val"
+	1    4700 7300
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4700 7150
+Connection ~ 4700 7450
+Wire Wire Line
+	4700 7450 4425 7450
+Wire Wire Line
+	4700 7150 4450 7150
+Text GLabel 4450 7150 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	5100 7150 5100 7525
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U?
+U 6 1 5FDF751C
+P 4400 8225
+F 0 "U?" H 4600 8775 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 4475 5725 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" H 4400 8225 50  0001 C CNN
+F 3 "" H 4400 8225 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 4550 8175 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 5330 7276 50  0001 L CNN "Manufacturer"
+	6    4400 8225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62461A46
+P 4425 7450
+F 0 "#PWR?" H 4425 7200 50  0001 C CNN
+F 1 "GND" H 4430 7277 50  0000 C CNN
+F 2 "" H 4425 7450 50  0001 C CNN
+F 3 "" H 4425 7450 50  0001 C CNN
+	1    4425 7450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7600 7125
+Wire Wire Line
+	7600 7125 7350 7125
+Wire Wire Line
+	7850 7500 7850 7125
+Wire Wire Line
+	7850 7125 7750 7125
+Connection ~ 7750 7125
+Wire Wire Line
+	7600 7425 7350 7425
+Wire Wire Line
+	7750 7125 7600 7125
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6257F061
+P 7600 7275
+F 0 "C?" H 7625 7375 60  0000 L CNN
+F 1 "C_470n_0402" H 7600 7125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7800 7475 60  0001 L CNN
+F 3 "" H 7600 7275 50  0001 C CNN
+F 4 "TDK" H 7800 7675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 7800 7575 60  0001 L CNN "MPN"
+F 6 "470n" H 7625 7175 50  0000 L CNN "Val"
+	1    7600 7275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6257F06A
+P 7350 7275
+F 0 "C?" H 7375 7375 60  0000 L CNN
+F 1 "C_470n_0402" H 7350 7125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7550 7475 60  0001 L CNN
+F 3 "" H 7350 7275 50  0001 C CNN
+F 4 "TDK" H 7550 7675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 7550 7575 60  0001 L CNN "MPN"
+F 6 "470n" H 7375 7175 50  0000 L CNN "Val"
+	1    7350 7275
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7350 7125
+Connection ~ 7350 7425
+Wire Wire Line
+	7350 7425 7075 7425
+Wire Wire Line
+	7350 7125 7100 7125
+Text GLabel 7100 7125 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7750 7125 7750 7500
+$Comp
+L power:GND #PWR?
+U 1 1 6257F076
+P 7075 7425
+F 0 "#PWR?" H 7075 7175 50  0001 C CNN
+F 1 "GND" H 7080 7252 50  0000 C CNN
+F 2 "" H 7075 7425 50  0001 C CNN
+F 3 "" H 7075 7425 50  0001 C CNN
+	1    7075 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A8C8E
+P 3950 1200
+F 0 "#PWR?" H 3950 950 50  0001 C CNN
+F 1 "GND" H 3955 1027 50  0000 C CNN
+F 2 "" H 3950 1200 50  0001 C CNN
+F 3 "" H 3950 1200 50  0001 C CNN
+	1    3950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625AA1AD
+P 6425 1200
+F 0 "#PWR?" H 6425 950 50  0001 C CNN
+F 1 "GND" H 6430 1027 50  0000 C CNN
+F 2 "" H 6425 1200 50  0001 C CNN
+F 3 "" H 6425 1200 50  0001 C CNN
+	1    6425 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625BA10D
+P 8925 1200
+F 0 "#PWR?" H 8925 950 50  0001 C CNN
+F 1 "GND" H 8930 1027 50  0000 C CNN
+F 2 "" H 8925 1200 50  0001 C CNN
+F 3 "" H 8925 1200 50  0001 C CNN
+	1    8925 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625C9F13
+P 11475 1175
+F 0 "#PWR?" H 11475 925 50  0001 C CNN
+F 1 "GND" H 11480 1002 50  0000 C CNN
+F 2 "" H 11475 1175 50  0001 C CNN
+F 3 "" H 11475 1175 50  0001 C CNN
+	1    11475 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625CC73F
+P 14000 1150
+F 0 "#PWR?" H 14000 900 50  0001 C CNN
+F 1 "GND" H 14005 977 50  0000 C CNN
+F 2 "" H 14000 1150 50  0001 C CNN
+F 3 "" H 14000 1150 50  0001 C CNN
+	1    14000 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8925 625  0    50   Input ~ 0
+VCC1V35
+$EndSCHEMATC

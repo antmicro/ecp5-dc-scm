@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -26,5 +26,17 @@ S 1275 3800 3125 1450
 U 626D078D
 F0 "FPGA power supply" 50
 F1 "fpga-power-supply.sch" 50
+$EndSheet
+$Sheet
+S 5900 1825 2225 1200
+U 60570C04
+F0 "Ethernet" 50
+F1 "ethernet.sch" 50
+$EndSheet
+$Sheet
+S 5950 3775 2425 1650
+U 5FCA4661
+F0 "Power supply" 50
+F1 "power-supply.sch" 50
 $EndSheet
 $EndSCHEMATC

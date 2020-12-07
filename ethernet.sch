@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -114,19 +114,6 @@ Text GLabel 12400 3300 0    50   Input ~ 0
 VCC3V3
 Text Notes 12925 1725 0    79   ~ 0
 RJ45 connector
-$Comp
-L ecp5_mainboard-rescue:KSZ9031RNXCA-Interface_Ethernet U?
-U 1 1 6066FF69
-P 6500 5150
-F 0 "U?" H 5425 6625 50  0000 C CNN
-F 1 "KSZ9031RNXCA-Interface_Ethernet" H 5700 3700 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 6950 3700 50  0001 L CNN
-F 3 "" H 6500 3400 50  0001 C CNN
-	1    6500 5150
-	1    0    0    -1  
-$EndComp
-Text Notes 5250 1000 0    79   ~ 0
-TODO:Replace KSZ9031RNXCA with component from antmicro database
 $Comp
 L antmicroCapacitors0402:C_4u7_0402 C?
 U 1 1 6068A781
@@ -249,7 +236,7 @@ Wire Wire Line
 	8375 2000 8375 1925
 Connection ~ 8375 1925
 Wire Wire Line
-	8375 1925 9275 1925
+	8375 1925 8700 1925
 Wire Wire Line
 	8125 1925 8125 2000
 Text GLabel 9275 1925 2    50   Input ~ 0
@@ -382,7 +369,7 @@ Connection ~ 8125 3050
 Connection ~ 8375 3050
 Connection ~ 8625 3050
 Wire Wire Line
-	8625 3050 9275 3050
+	8625 3050 8800 3050
 Wire Wire Line
 	7400 3050 8125 3050
 Wire Wire Line
@@ -561,24 +548,8 @@ Wire Wire Line
 	6500 6750 6500 7000
 Wire Wire Line
 	6600 6750 6600 7000
-$Comp
-L antmicroResistors0402:R_12k_0402 R?
-U 1 1 608978D8
-P 6750 7000
-F 0 "R?" H 6750 7213 60  0000 C CNN
-F 1 "R_12k_0402" H 6750 6850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6950 7200 60  0001 L CNN
-F 3 "" H 6750 7000 50  0001 C CNN
-F 4 "VISHAY" H 6950 7400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040212K0FKEDHP" H 6950 7300 60  0001 L CNN "MPN"
-F 6 "12k" H 6750 7115 50  0000 C CNN "Val"
-	1    6750 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 6750 6900 7000
-Text Notes 6100 7500 0    79   ~ 0
-TODO:Replace with 12k1\n
 NoConn ~ 7800 4350
 Text GLabel 4375 6400 0    50   Input ~ 0
 ETH_~RESET
@@ -1387,7 +1358,7 @@ Wire Wire Line
 	6200 2200 5075 2200
 Connection ~ 4575 2200
 Wire Wire Line
-	4575 2200 3425 2200
+	4575 2200 4100 2200
 Connection ~ 4825 2200
 Wire Wire Line
 	4825 2200 4575 2200
@@ -1498,6 +1469,78 @@ Connection ~ 4575 2700
 Connection ~ 4825 2700
 Wire Wire Line
 	4825 2700 5075 2700
-Text Notes 7525 1200 0    79   ~ 0
-TODO:Add ferrite beads
+Text GLabel 4400 5150 0    50   Output ~ 0
+RGMII_RX_DV
+$Comp
+L antmicroInterfaceControllers:KSZ9031RNXCA U?
+U 1 1 619D6509
+P 5400 3750
+F 0 "U?" H 5450 3825 50  0000 C CNN
+F 1 "KSZ9031RNXCA" H 5800 850 50  0000 C CNN
+F 2 "antmicro-footprints:QFN-48-Microchip-QFN77-48LD-PL-2" H 5400 4250 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117F.pdf" H 5400 4250 50  0001 L CNN
+F 4 "Microchip" H 5400 4050 50  0001 L CNN "Manufacturer"
+F 5 "KSZ9031RNXCA" H 5700 4150 50  0001 C CNN "MPN"
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB?
+U 1 1 61E98E96
+P 8900 1925
+F 0 "FB?" H 8900 2212 60  0000 C CNN
+F 1 "BLM18PG121SN1D" H 8900 2106 60  0000 C CNN
+F 2 "antmicro-footprints:0603-res" H 9100 2125 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9100 2225 60  0001 L CNN
+F 4 "BLM18PG121SN1D" H 9100 2425 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 9100 3025 60  0001 L CNN "Manufacturer"
+	1    8900 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1925 9275 1925
+$Comp
+L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB?
+U 1 1 61EA6DB6
+P 9000 3050
+F 0 "FB?" H 9000 3337 60  0000 C CNN
+F 1 "BLM18PG121SN1D" H 9000 3231 60  0000 C CNN
+F 2 "antmicro-footprints:0603-res" H 9200 3250 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9200 3350 60  0001 L CNN
+F 4 "BLM18PG121SN1D" H 9200 3550 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 9200 4150 60  0001 L CNN "Manufacturer"
+	1    9000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3050 9275 3050
+$Comp
+L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB?
+U 1 1 61EAD8B2
+P 3900 2200
+F 0 "FB?" H 3725 2375 60  0000 C CNN
+F 1 "BLM18PG121SN1D" H 3900 2025 60  0000 C CNN
+F 2 "antmicro-footprints:0603-res" H 4100 2400 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 4100 2500 60  0001 L CNN
+F 4 "BLM18PG121SN1D" H 4100 2700 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 4100 3300 60  0001 L CNN "Manufacturer"
+	1    3900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2200 3425 2200
+$Comp
+L antmicroResistors0402:R_12k1_0402 R?
+U 1 1 61EC0E28
+P 6750 7000
+F 0 "R?" H 6700 7150 60  0000 C CNN
+F 1 "R_12k1_0402" H 6750 6850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6950 7200 60  0001 L CNN
+F 3 "" H 6750 7000 50  0001 C CNN
+F 4 "MULTICOMP" H 6950 7400 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04X1212FTL" H 6950 7300 60  0001 L CNN "MPN"
+F 6 "12k1" H 6775 6925 50  0000 C CNN "Val"
+	1    6750 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

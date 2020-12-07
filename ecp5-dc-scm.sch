@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -38,5 +38,11 @@ S 5950 3775 2425 1650
 U 5FCA4661
 F0 "Power supply" 50
 F1 "power-supply.sch" 50
+$EndSheet
+$Sheet
+S 9025 1925 1550 950 
+U 5FD8EBC2
+F0 "DDR3" 50
+F1 "ddr3.sch" 50
 $EndSheet
 $EndSCHEMATC

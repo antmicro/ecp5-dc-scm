@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -1025,4 +1025,78 @@ F 3 "" H 14000 1150 50  0001 C CNN
 $EndComp
 Text GLabel 8925 625  0    50   Input ~ 0
 VCC1V35
+Text GLabel 1525 2250 0    50   Input ~ 0
+RGMII_RX_DV
+Text GLabel 1525 1950 0    50   Output ~ 0
+ETH_MDC
+Text GLabel 1525 3350 0    50   BiDi ~ 0
+ETH_MDIO
+Text GLabel 1525 3050 0    50   Output ~ 0
+RGMII_TX_DV
+Text GLabel 1525 3150 0    50   Output ~ 0
+RGMII_TXD0
+Text GLabel 1525 3250 0    50   Output ~ 0
+RGMII_TXD1
+Text GLabel 1525 2950 0    50   Output ~ 0
+RGMII_TXD2
+Text GLabel 1525 3450 0    50   Input ~ 0
+RGMII_TXD3
+Text GLabel 1525 3550 0    50   Input ~ 0
+RGMII_TX_CLK
+Text GLabel 1525 2350 0    50   Input ~ 0
+RGMII_RXD0
+Text GLabel 1525 2450 0    50   Input ~ 0
+RGMII_RXD1
+Text GLabel 1525 3650 0    50   Input ~ 0
+RGMII_RXD2
+Text GLabel 1525 2850 0    50   Input ~ 0
+RGMII_RXD3
+Text GLabel 1525 2050 0    50   Input ~ 0
+RGMII_RX_CLK
+Wire Wire Line
+	1900 1950 1525 1950
+Wire Wire Line
+	1900 2150 1525 2150
+Wire Wire Line
+	1900 2050 1525 2050
+Wire Wire Line
+	1900 2250 1525 2250
+Wire Wire Line
+	1900 2450 1525 2450
+Wire Wire Line
+	1900 2350 1525 2350
+Wire Wire Line
+	1900 2750 1525 2750
+Wire Wire Line
+	1900 2650 1525 2650
+Wire Wire Line
+	1900 2850 1525 2850
+Wire Wire Line
+	1900 3050 1525 3050
+Wire Wire Line
+	1900 2950 1525 2950
+Wire Wire Line
+	1900 3150 1525 3150
+Wire Wire Line
+	1900 3350 1525 3350
+Wire Wire Line
+	1900 3250 1525 3250
+Wire Wire Line
+	1900 3450 1525 3450
+Wire Wire Line
+	1900 3650 1525 3650
+Wire Wire Line
+	1900 3550 1525 3550
+Text GLabel 1525 2650 0    50   Input ~ 0
+ETH_INT_N
+Text GLabel 1525 2150 0    50   Input ~ 0
+RGMII_REF_CLK
+Wire Wire Line
+	1900 2550 1525 2550
+Text GLabel 1525 2550 0    50   Output ~ 0
+ETH_~RESET
+Text GLabel 1525 2750 0    50   Output ~ 0
+RGMII_TX_CLK
+Text Notes 700  3000 1    50   ~ 0
+ethernet.sch
 $EndSCHEMATC

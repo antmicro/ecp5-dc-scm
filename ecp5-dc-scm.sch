@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -44,5 +44,11 @@ S 9025 1925 1550 950
 U 5FD8EBC2
 F0 "DDR3" 50
 F1 "ddr3.sch" 50
+$EndSheet
+$Sheet
+S 1225 5750 875  700 
+U 614223A1
+F0 "Interfaces" 50
+F1 "interfaces.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -56,5 +56,17 @@ S 9125 3675 1375 900
 U 625AEC25
 F0 "Edge connector" 50
 F1 "edge-connector.sch" 50
+$EndSheet
+$Sheet
+S 2750 5775 625  600 
+U 624C566F
+F0 "RoT" 50
+F1 "rot.sch" 50
+$EndSheet
+$Sheet
+S 3825 5725 850  750 
+U 5FD17EF1
+F0 "PCIe-connector" 50
+F1 "pcie-conn.sch" 50
 $EndSheet
 $EndSCHEMATC

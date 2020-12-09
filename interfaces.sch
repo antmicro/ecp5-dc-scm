@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -77,46 +77,20 @@ Text GLabel 4925 2675 0    50   Input ~ 0
 I2C0_SCL
 Text GLabel 8425 2575 0    50   Input ~ 0
 I3C0_SDA
-Text GLabel 9025 2575 2    50   Input ~ 0
+Text GLabel 8775 2575 2    50   Input ~ 0
 I3C1_SDA
-Text GLabel 9025 2675 2    50   Input ~ 0
+Text GLabel 8775 2675 2    50   Input ~ 0
 I3C1_SCL
 Text GLabel 8425 2775 0    50   Input ~ 0
 I3C2_SDA
 Text GLabel 8425 2875 0    50   Input ~ 0
 I3C2_SCL
-Text GLabel 9025 2775 2    50   Input ~ 0
+Text GLabel 8775 2775 2    50   Input ~ 0
 I3C3_SDA
-Text GLabel 9025 2875 2    50   Input ~ 0
+Text GLabel 8775 2875 2    50   Input ~ 0
 I3C3_SCL
 Text GLabel 8425 2675 0    50   Input ~ 0
 I3C0_SCL
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301011121 J?
-U 1 1 6142A4B0
-P 5175 2575
-F 0 "J?" V 4950 2633 50  0000 C CNN
-F 1 "61301011121" V 5041 2633 50  0000 C CNN
-F 2 "antmicro-footprints:61301011121" H 5375 2775 60  0001 L CNN
-F 3 "" H 5375 2875 60  0001 L CNN
-F 4 "61301011121" H 5375 3075 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 5375 3675 60  0001 L CNN "Manufacturer"
-	1    5175 2575
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301011121 J?
-U 1 1 6142B9B5
-P 5075 2575
-F 0 "J?" V 6150 2775 50  0000 R CNN
-F 1 "61301011121" V 6100 2675 50  0000 R CNN
-F 2 "antmicro-footprints:61301011121" H 5275 2775 60  0001 L CNN
-F 3 "" H 5275 2875 60  0001 L CNN
-F 4 "61301011121" H 5275 3075 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 5275 3675 60  0001 L CNN "Manufacturer"
-	1    5075 2575
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4925 3475 4725 3475
 Wire Wire Line
@@ -136,32 +110,6 @@ Text GLabel 4850 3375 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	4925 3375 4850 3375
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301011121 J?
-U 1 1 61492339
-P 6825 2575
-F 0 "J?" V 7900 2775 50  0000 R CNN
-F 1 "61301011121" V 7850 2675 50  0000 R CNN
-F 2 "antmicro-footprints:61301011121" H 7025 2775 60  0001 L CNN
-F 3 "" H 7025 2875 60  0001 L CNN
-F 4 "61301011121" H 7025 3075 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 7025 3675 60  0001 L CNN "Manufacturer"
-	1    6825 2575
-	0    -1   1    0   
-$EndComp
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301011121 J?
-U 1 1 61492B28
-P 6925 2575
-F 0 "J?" V 6700 2633 50  0000 C CNN
-F 1 "61301011121" V 6791 2633 50  0000 C CNN
-F 2 "antmicro-footprints:61301011121" H 7125 2775 60  0001 L CNN
-F 3 "" H 7125 2875 60  0001 L CNN
-F 4 "61301011121" H 7125 3075 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 7125 3675 60  0001 L CNN "Manufacturer"
-	1    6925 2575
-	0    1    1    0   
-$EndComp
 Text GLabel 6675 3375 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
@@ -184,18 +132,18 @@ VCC1V0
 $Comp
 L power:GND #PWR?
 U 1 1 614EAF09
-P 9150 3100
-F 0 "#PWR?" H 9150 2850 50  0001 C CNN
-F 1 "GND" H 9155 2927 50  0000 C CNN
-F 2 "" H 9150 3100 50  0001 C CNN
-F 3 "" H 9150 3100 50  0001 C CNN
-	1    9150 3100
+P 8900 3100
+F 0 "#PWR?" H 8900 2850 50  0001 C CNN
+F 1 "GND" H 8905 2927 50  0000 C CNN
+F 2 "" H 8900 3100 50  0001 C CNN
+F 3 "" H 8900 3100 50  0001 C CNN
+	1    8900 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9025 2975 9150 2975
+	8775 2975 8900 2975
 Wire Wire Line
-	9150 2975 9150 3100
+	8900 2975 8900 3100
 Text Notes 5800 2075 0    118  ~ 24
 Debug UART, I2C, I3C
 $Comp
@@ -250,23 +198,43 @@ Text GLabel 7075 3275 2    50   Input ~ 0
 UART0_SCM_TX
 Text GLabel 7075 3175 2    50   Input ~ 0
 UART0_SCM_RX
-Text Notes 4575 4025 0    50   ~ 0
-TODO: replace with single connector 
-Text Notes 6350 4000 0    50   ~ 0
-TODO: replace with single connector 
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:2X05 J?
-U 1 1 61591871
-P 8725 2575
-F 0 "J?" H 8725 2864 60  0000 C CNN
-F 1 "2X05" H 8725 2758 60  0000 C CNN
-F 2 "antmicro-footprints:SHF-105-01-X-D-SM" H 9225 1925 60  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 8725 2575 60  0001 C CNN
-F 4 "SHF-105-01-L-D-SM" H 8525 1825 50  0001 C CNN "MPN"
-F 5 "Samtec" H 8525 1725 50  0001 C CNN "Manufacturer"
-	1    8725 2575
+L antmicroRectangularConnectorsHeadersMalePins:61301021121 J?
+U 1 1 615EA3A1
+P 5025 2525
+F 0 "J?" H 5120 2700 50  0000 C CNN
+F 1 "61301021121" H 5120 2609 50  0000 C CNN
+F 2 "antmicro-footprints:61301021121" V 4825 1775 60  0001 L CNN
+F 3 "" H 5225 2825 60  0001 L CNN
+F 4 "61301021121" H 5225 3025 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 5225 3625 60  0001 L CNN "Manufacturer"
+	1    5025 2525
 	1    0    0    -1  
 $EndComp
-Text Notes 8275 3450 0    50   ~ 0
-TODO: replace with 2x05 2.54mm pinhead
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:61301021121 J?
+U 1 1 615ECA44
+P 6775 2525
+F 0 "J?" H 6870 2700 50  0000 C CNN
+F 1 "61301021121" H 6870 2609 50  0000 C CNN
+F 2 "antmicro-footprints:61301021121" V 6575 1775 60  0001 L CNN
+F 3 "" H 6975 2825 60  0001 L CNN
+F 4 "61301021121" H 6975 3025 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 6975 3625 60  0001 L CNN "Manufacturer"
+	1    6775 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:61301221121 J?
+U 1 1 61602A77
+P 8525 3125
+F 0 "J?" H 8600 3900 50  0000 C CNN
+F 1 "61301221121" H 8600 3809 50  0000 C CNN
+F 2 "antmicro-footprints:61301221121" V 8375 3375 60  0001 L CNN
+F 3 "" V 8275 3375 60  0001 L CNN
+F 4 "61301221121" H 8725 3625 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 8725 4225 60  0001 L CNN "Manufacturer"
+	1    8525 3125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

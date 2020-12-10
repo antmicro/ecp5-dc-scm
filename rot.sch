@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 10
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -1381,4 +1381,8 @@ Text GLabel 12825 3775 2    50   Input ~ 0
 QSPI0_D2
 Text GLabel 12825 3875 2    50   Input ~ 0
 QSPI0_D3
+Text GLabel 8250 6800 0    50   Input ~ 0
+ROT_RDY
+Wire Wire Line
+	8750 6800 8250 6800
 $EndSCHEMATC

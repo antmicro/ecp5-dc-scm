@@ -291,4 +291,365 @@ F 5 "Wurth Electronics Inc." H 11850 3775 60  0001 L CNN "Manufacturer"
 	1    11650 2675
 	0    -1   1    0   
 $EndComp
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NVT2008DQ,115 U?
+U 1 1 628E0C73
+P 8350 6450
+F 0 "U?" H 8350 6965 50  0000 C CNN
+F 1 "NVT2008DQ,115" H 8350 6874 50  0000 C CNN
+F 2 "antmicro-footprints:QFN50P250X450X100-21N" H 9050 7200 50  0001 C CNN
+F 3 "" H 9000 7200 50  0001 C CNN
+F 4 "NVT2008BQ,115" H 8650 7300 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 8750 7400 50  0001 C CNN "Manufacturer"
+	1    8350 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 6350 0    50   Input ~ 0
+I3C[0]_SDA_3V3
+Text GLabel 7650 6550 0    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 7650 6650 0    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 7650 6750 0    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 7650 6850 0    50   Input ~ 0
+I3C[2]_SCL_3V3
+Text GLabel 7650 6950 0    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 7650 7050 0    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 7650 6450 0    50   Input ~ 0
+I3C[0]_SCL_3V3
+Text GLabel 9050 6200 2    50   Input ~ 0
+VCC1V0
+$Comp
+L power:GND #PWR?
+U 1 1 628E4783
+P 7825 7675
+F 0 "#PWR?" H 7825 7425 50  0001 C CNN
+F 1 "GND" H 7830 7502 50  0000 C CNN
+F 2 "" H 7825 7675 50  0001 C CNN
+F 3 "" H 7825 7675 50  0001 C CNN
+	1    7825 7675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 7200 7825 7200
+Wire Wire Line
+	7825 7200 7825 7675
+Wire Wire Line
+	7950 6350 7650 6350
+Wire Wire Line
+	7950 6450 7650 6450
+Wire Wire Line
+	7950 6550 7650 6550
+Wire Wire Line
+	7950 6650 7650 6650
+Wire Wire Line
+	7950 6750 7650 6750
+Wire Wire Line
+	7950 6850 7650 6850
+Wire Wire Line
+	7950 6950 7650 6950
+Wire Wire Line
+	7950 7050 7650 7050
+Text GLabel 9050 6350 2    50   Input ~ 0
+I3C[0]_SDA_1V0
+Text GLabel 9050 6550 2    50   Input ~ 0
+I3C[1]_SDA_1V0
+Text GLabel 9050 6650 2    50   Input ~ 0
+I3C[1]_SCL_1V0
+Text GLabel 9050 6750 2    50   Input ~ 0
+I3C[2]_SDA_1V0
+Text GLabel 9050 6850 2    50   Input ~ 0
+I3C[2]_SCL_1V0
+Text GLabel 9050 6950 2    50   Input ~ 0
+I3C[3]_SDA_1V0
+Text GLabel 9050 7050 2    50   Input ~ 0
+I3C[3]_SCL_1V0
+Text GLabel 9050 6450 2    50   Input ~ 0
+I3C[0]_SCL_1V0
+Wire Wire Line
+	8750 6350 9050 6350
+Wire Wire Line
+	8750 6450 9050 6450
+Wire Wire Line
+	8750 6550 9050 6550
+Wire Wire Line
+	8750 6650 9050 6650
+Wire Wire Line
+	8750 6750 9050 6750
+Wire Wire Line
+	8750 6850 9050 6850
+Wire Wire Line
+	8750 6950 9050 6950
+Wire Wire Line
+	8750 7050 9050 7050
+Text GLabel 7550 5750 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7950 6200 7600 6200
+Wire Wire Line
+	9050 6200 8750 6200
+Wire Wire Line
+	9375 7200 8950 7200
+Text Label 9375 7200 2    50   ~ 0
+1V0_EN
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 629DF3D6
+P 5625 6475
+F 0 "R?" V 5475 6500 60  0000 L CNN
+F 1 "R_357k_0402" H 5625 6325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5825 6675 60  0001 L CNN
+F 3 "" H 5625 6475 50  0001 C CNN
+F 4 "Vishay" H 5825 6875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 5825 6775 60  0001 L CNN "MPN"
+F 6 "357k" V 5775 6475 50  0000 L CNN "Val"
+	1    5625 6475
+	0    1    1    0   
+$EndComp
+Text GLabel 5450 6750 0    50   Input ~ 0
+I3C[0]_SDA_3V3
+Text GLabel 5450 6950 0    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 5450 7050 0    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 5450 7150 0    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 5450 7250 0    50   Input ~ 0
+I3C[2]_SCL_3V3
+Text GLabel 5450 7350 0    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 5450 7450 0    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 5450 6850 0    50   Input ~ 0
+I3C[0]_SCL_3V3
+Wire Wire Line
+	6225 7450 5450 7450
+Wire Wire Line
+	5525 6750 5525 6250
+Wire Wire Line
+	5625 6850 5625 6625
+Wire Wire Line
+	5725 6950 5725 6250
+Wire Wire Line
+	5825 7050 5825 6625
+Wire Wire Line
+	5525 6750 5450 6750
+Wire Wire Line
+	5625 6850 5450 6850
+Wire Wire Line
+	5450 6950 5725 6950
+Wire Wire Line
+	5450 7050 5825 7050
+Wire Wire Line
+	5925 7150 5925 6250
+Wire Wire Line
+	6025 7250 6025 6625
+Wire Wire Line
+	6125 7350 6125 6250
+Wire Wire Line
+	6225 7450 6225 6625
+Wire Wire Line
+	5925 7150 5450 7150
+Wire Wire Line
+	6025 7250 5450 7250
+Wire Wire Line
+	6125 7350 5450 7350
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 62A11F2C
+P 5525 6100
+F 0 "R?" V 5375 6125 60  0000 L CNN
+F 1 "R_357k_0402" H 5525 5950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5725 6300 60  0001 L CNN
+F 3 "" H 5525 6100 50  0001 C CNN
+F 4 "Vishay" H 5725 6500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 5725 6400 60  0001 L CNN "MPN"
+F 6 "357k" V 5675 6100 50  0000 L CNN "Val"
+	1    5525 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5525 5950 5525 5875
+Wire Wire Line
+	5625 6325 5625 5875
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 62A15908
+P 5725 6100
+F 0 "R?" V 5575 6125 60  0000 L CNN
+F 1 "R_357k_0402" H 5725 5950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5925 6300 60  0001 L CNN
+F 3 "" H 5725 6100 50  0001 C CNN
+F 4 "Vishay" H 5925 6500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 5925 6400 60  0001 L CNN "MPN"
+F 6 "357k" V 5875 6100 50  0000 L CNN "Val"
+	1    5725 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 5950 5725 5875
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 62A15CCD
+P 5825 6475
+F 0 "R?" V 5675 6500 60  0000 L CNN
+F 1 "R_357k_0402" H 5825 6325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6025 6675 60  0001 L CNN
+F 3 "" H 5825 6475 50  0001 C CNN
+F 4 "Vishay" H 6025 6875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 6025 6775 60  0001 L CNN "MPN"
+F 6 "357k" V 5975 6475 50  0000 L CNN "Val"
+	1    5825 6475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5825 6325 5825 5875
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 62A15FA6
+P 5925 6100
+F 0 "R?" V 5775 6125 60  0000 L CNN
+F 1 "R_357k_0402" H 5925 5950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6125 6300 60  0001 L CNN
+F 3 "" H 5925 6100 50  0001 C CNN
+F 4 "Vishay" H 6125 6500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 6125 6400 60  0001 L CNN "MPN"
+F 6 "357k" V 6075 6100 50  0000 L CNN "Val"
+	1    5925 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5925 5950 5925 5875
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 62A17B7C
+P 6025 6475
+F 0 "R?" V 5875 6500 60  0000 L CNN
+F 1 "R_357k_0402" H 6025 6325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6225 6675 60  0001 L CNN
+F 3 "" H 6025 6475 50  0001 C CNN
+F 4 "Vishay" H 6225 6875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 6225 6775 60  0001 L CNN "MPN"
+F 6 "357k" V 6175 6475 50  0000 L CNN "Val"
+	1    6025 6475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6025 6325 6025 5875
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 62A1999F
+P 6125 6100
+F 0 "R?" V 5975 6125 60  0000 L CNN
+F 1 "R_357k_0402" H 6125 5950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6325 6300 60  0001 L CNN
+F 3 "" H 6125 6100 50  0001 C CNN
+F 4 "Vishay" H 6325 6500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 6325 6400 60  0001 L CNN "MPN"
+F 6 "357k" V 6275 6100 50  0000 L CNN "Val"
+	1    6125 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6125 5950 6125 5875
+$Comp
+L antmicroResistors0402:R_357k_0402 R?
+U 1 1 62A19C3C
+P 6225 6475
+F 0 "R?" V 6075 6500 60  0000 L CNN
+F 1 "R_357k_0402" H 6225 6325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6425 6675 60  0001 L CNN
+F 3 "" H 6225 6475 50  0001 C CNN
+F 4 "Vishay" H 6425 6875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402357KFKED" H 6425 6775 60  0001 L CNN "MPN"
+F 6 "357k" V 6375 6475 50  0000 L CNN "Val"
+	1    6225 6475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6225 6325 6225 5875
+Text GLabel 5125 5875 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	5125 5875 5525 5875
+Connection ~ 5525 5875
+Wire Wire Line
+	5525 5875 5625 5875
+Connection ~ 5625 5875
+Wire Wire Line
+	5625 5875 5725 5875
+Connection ~ 5725 5875
+Wire Wire Line
+	5725 5875 5825 5875
+Connection ~ 5825 5875
+Wire Wire Line
+	5825 5875 5925 5875
+Connection ~ 5925 5875
+Wire Wire Line
+	5925 5875 6025 5875
+Connection ~ 6025 5875
+Wire Wire Line
+	6025 5875 6125 5875
+Connection ~ 6125 5875
+Wire Wire Line
+	6125 5875 6225 5875
+$Comp
+L antmicroResistors0402:R_200k_0402 R?
+U 1 1 62A1EC48
+P 7600 6000
+F 0 "R?" V 7555 6070 60  0000 L CNN
+F 1 "R_200k_0402" H 7600 5850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7800 6200 60  0001 L CNN
+F 3 "" H 7600 6000 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 7800 6400 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 7800 6300 60  0001 L CNN "MPN"
+F 6 "200k" V 7653 6070 50  0000 L CNN "Val"
+	1    7600 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 6200 7600 6150
+Wire Wire Line
+	7600 5850 7600 5750
+Wire Wire Line
+	7550 5750 7600 5750
+Text Label 7650 6200 0    50   ~ 0
+1V0_EN
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62A2E02E
+P 8950 7400
+F 0 "C?" H 8835 7355 60  0000 R CNN
+F 1 "C_100n_0402" H 8950 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9150 7600 60  0001 L CNN
+F 3 "" H 8950 7400 50  0001 C CNN
+F 4 "Walsin" H 9150 7800 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9150 7700 60  0001 L CNN "MPN"
+F 6 "100n" H 8835 7453 50  0000 R CNN "Val"
+	1    8950 7400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 7200 8950 7250
+Connection ~ 8950 7200
+Wire Wire Line
+	8950 7200 8700 7200
+$Comp
+L power:GND #PWR?
+U 1 1 62A34612
+P 8950 7675
+F 0 "#PWR?" H 8950 7425 50  0001 C CNN
+F 1 "GND" H 8955 7502 50  0000 C CNN
+F 2 "" H 8950 7675 50  0001 C CNN
+F 3 "" H 8950 7675 50  0001 C CNN
+	1    8950 7675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 7550 8950 7675
+Text Notes 5550 5325 0    118  ~ 24
+I3C voltage level translation
 $EndSCHEMATC

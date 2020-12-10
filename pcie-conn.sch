@@ -16,11 +16,11 @@ $EndDescr
 Wire Wire Line
 	6250 2750 6450 2750
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 5FD1CF34
 P 6600 2750
 F 0 "C?" V 6342 2750 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 6600 2600 60  0001 C CNN
+F 1 "C_100n_0402" H 6600 2600 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6800 2950 60  0001 L CNN
 F 3 "" H 6600 2750 50  0001 C CNN
 F 4 "Walsin" H 6800 3150 60  0001 L CNN "Manufacturer"
@@ -30,11 +30,11 @@ F 6 "100n" V 6440 2750 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 5FD1DAE4
 P 6875 2850
 F 0 "C?" V 6617 2850 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 6875 2700 60  0001 C CNN
+F 1 "C_100n_0402" H 6875 2700 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7075 3050 60  0001 L CNN
 F 3 "" H 6875 2850 50  0001 C CNN
 F 4 "Walsin" H 7075 3250 60  0001 L CNN "Manufacturer"
@@ -52,11 +52,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 3350 6450 3350
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 5FD279F6
 P 6600 3350
 F 0 "C?" V 6342 3350 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 6600 3200 60  0001 C CNN
+F 1 "C_100n_0402" H 6600 3200 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6800 3550 60  0001 L CNN
 F 3 "" H 6600 3350 50  0001 C CNN
 F 4 "Walsin" H 6800 3750 60  0001 L CNN "Manufacturer"
@@ -66,11 +66,11 @@ F 6 "100n" V 6440 3350 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 5FD279FF
 P 6875 3450
 F 0 "C?" V 6617 3450 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 6875 3300 60  0001 C CNN
+F 1 "C_100n_0402" H 6875 3300 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7075 3650 60  0001 L CNN
 F 3 "" H 6875 3450 50  0001 C CNN
 F 4 "Walsin" H 7075 3850 60  0001 L CNN "Manufacturer"

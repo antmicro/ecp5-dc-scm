@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 8
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -430,11 +430,11 @@ PWR_GOOD
 Wire Wire Line
 	6025 2250 6025 2350
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C136
+L antmicroCapacitors0402:C_100n_0402 C136
 U 1 1 60E0359F
 P 6100 2550
 F 0 "C136" V 6025 2425 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 6100 2400 60  0001 C CNN
+F 1 "C_100n_0402" H 6100 2400 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6300 2750 60  0001 L CNN
 F 3 "" H 6100 2550 50  0001 C CNN
 F 4 "Walsin" H 6300 2950 60  0001 L CNN "Manufacturer"
@@ -2113,11 +2113,11 @@ F 6 "10R" H 2000 5500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C125
+L antmicroCapacitors0402:C_100n_0402 C125
 U 1 1 6027EAB0
 P 2225 5800
 F 0 "C125" H 2250 5900 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 2225 5650 60  0001 C CNN
+F 1 "C_100n_0402" H 2225 5650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2425 6000 60  0001 L CNN
 F 3 "" H 2225 5800 50  0001 C CNN
 F 4 "Walsin" H 2425 6200 60  0001 L CNN "Manufacturer"

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 6
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -940,11 +940,13 @@ Connection ~ 11325 3700
 Wire Wire Line
 	11325 3700 11775 3700
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 6053AE48
 P 10975 5100
+AR Path="/6053AE48" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/6053AE48" Ref="C?"  Part="1" 
 F 0 "C?" H 11000 5200 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 10975 4950 60  0001 C CNN
+F 1 "C_100n_0402" H 10975 4950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 11175 5300 60  0001 L CNN
 F 3 "" H 10975 5100 50  0001 C CNN
 F 4 "Walsin" H 11175 5500 60  0001 L CNN "Manufacturer"
@@ -960,11 +962,13 @@ Wire Wire Line
 Wire Wire Line
 	10975 5250 10975 5400
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 605C067B
 P 11325 5100
+AR Path="/605C067B" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/605C067B" Ref="C?"  Part="1" 
 F 0 "C?" H 11350 5200 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 11325 4950 60  0001 C CNN
+F 1 "C_100n_0402" H 11325 4950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 11525 5300 60  0001 L CNN
 F 3 "" H 11325 5100 50  0001 C CNN
 F 4 "Walsin" H 11525 5500 60  0001 L CNN "Manufacturer"
@@ -1185,24 +1189,10 @@ Wire Wire Line
 	2450 6650 3175 6650
 Wire Wire Line
 	6475 7475 5750 7475
-$Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
-U 1 1 607DB66C
-P 12950 8250
-F 0 "C?" V 12875 8050 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 12950 8100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13150 8450 60  0001 L CNN
-F 3 "" H 12950 8250 50  0001 C CNN
-F 4 "Walsin" H 13150 8650 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 13150 8550 60  0001 L CNN "MPN"
-F 6 "100n" V 13025 8300 50  0000 L CNN "Val"
-	1    12950 8250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	12475 8250 12800 8250
 Wire Wire Line
-	13100 8250 13175 8250
+	13100 8250 13125 8250
 Text Notes 11900 7600 0    50   ~ 0
 TODO:Replace 51R resistors 
 $Comp
@@ -1374,31 +1364,19 @@ Wire Wire Line
 Wire Wire Line
 	8475 7475 8475 7600
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 60AEFC4F
 P 8175 7750
+AR Path="/60AEFC4F" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/60AEFC4F" Ref="C?"  Part="1" 
 F 0 "C?" H 8200 7850 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 8175 7600 60  0001 C CNN
+F 1 "C_100n_0402" H 8175 7600 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8375 7950 60  0001 L CNN
 F 3 "" H 8175 7750 50  0001 C CNN
 F 4 "Walsin" H 8375 8150 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8375 8050 60  0001 L CNN "MPN"
 F 6 "100n" H 8200 7650 50  0000 L CNN "Val"
 	1    8175 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
-U 1 1 609F9D7B
-P 8475 7750
-F 0 "C?" H 8500 7850 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 8475 7600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8675 7950 60  0001 L CNN
-F 3 "" H 8475 7750 50  0001 C CNN
-F 4 "Walsin" H 8675 8150 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 8675 8050 60  0001 L CNN "MPN"
-F 6 "100n" H 8500 7650 50  0000 L CNN "Val"
-	1    8475 7750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1461,34 +1439,6 @@ Wire Wire Line
 Connection ~ 7175 9850
 Wire Wire Line
 	7175 9850 7325 9850
-$Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
-U 1 1 61385FE4
-P 7025 9625
-F 0 "C?" H 7050 9725 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 7025 9475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7225 9825 60  0001 L CNN
-F 3 "" H 7025 9625 50  0001 C CNN
-F 4 "Walsin" H 7225 10025 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7225 9925 60  0001 L CNN "MPN"
-F 6 "100n" H 7050 9525 50  0000 L CNN "Val"
-	1    7025 9625
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
-U 1 1 6138636D
-P 7325 9625
-F 0 "C?" H 7350 9725 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 7325 9475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7525 9825 60  0001 L CNN
-F 3 "" H 7325 9625 50  0001 C CNN
-F 4 "Walsin" H 7525 10025 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7525 9925 60  0001 L CNN "MPN"
-F 6 "100n" H 7350 9525 50  0000 L CNN "Val"
-	1    7325 9625
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7025 9400 7025 9475
 Wire Wire Line
@@ -1572,4 +1522,71 @@ Wire Wire Line
 	9325 9000 9325 9100
 Wire Wire Line
 	9325 9400 9325 9525
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 628665BB
+P 8475 7750
+AR Path="/628665BB" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/628665BB" Ref="C?"  Part="1" 
+F 0 "C?" H 8500 7850 60  0000 L CNN
+F 1 "C_100n_0402" H 8475 7600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8675 7950 60  0001 L CNN
+F 3 "" H 8475 7750 50  0001 C CNN
+F 4 "Walsin" H 8675 8150 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8675 8050 60  0001 L CNN "MPN"
+F 6 "100n" H 8500 7650 50  0000 L CNN "Val"
+	1    8475 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62867A2A
+P 7025 9625
+AR Path="/62867A2A" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/62867A2A" Ref="C?"  Part="1" 
+F 0 "C?" H 7050 9725 60  0000 L CNN
+F 1 "C_100n_0402" H 7025 9475 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7225 9825 60  0001 L CNN
+F 3 "" H 7025 9625 50  0001 C CNN
+F 4 "Walsin" H 7225 10025 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7225 9925 60  0001 L CNN "MPN"
+F 6 "100n" H 7050 9525 50  0000 L CNN "Val"
+	1    7025 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62867ED9
+P 7325 9625
+AR Path="/62867ED9" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/62867ED9" Ref="C?"  Part="1" 
+F 0 "C?" H 7350 9725 60  0000 L CNN
+F 1 "C_100n_0402" H 7325 9475 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7525 9825 60  0001 L CNN
+F 3 "" H 7325 9625 50  0001 C CNN
+F 4 "Walsin" H 7525 10025 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7525 9925 60  0001 L CNN "MPN"
+F 6 "100n" H 7350 9525 50  0000 L CNN "Val"
+	1    7325 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6286E330
+P 12950 8250
+AR Path="/6286E330" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/6286E330" Ref="C?"  Part="1" 
+F 0 "C?" V 12850 8100 60  0000 L CNN
+F 1 "C_100n_0402" H 12950 8100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 13150 8450 60  0001 L CNN
+F 3 "" H 12950 8250 50  0001 C CNN
+F 4 "Walsin" H 13150 8650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 13150 8550 60  0001 L CNN "MPN"
+F 6 "100n" V 13050 8300 50  0000 L CNN "Val"
+	1    12950 8250
+	0    1    1    0   
+$EndComp
+Connection ~ 13125 8250
+Wire Wire Line
+	13125 8250 13175 8250
 $EndSCHEMATC

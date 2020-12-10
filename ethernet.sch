@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 5
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -339,13 +339,14 @@ F 6 "4u7" H 8150 3125 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402 C?
 U 1 1 6068A79C
 P 8375 3225
 AR Path="/626D078D/6068A79C" Ref="C?"  Part="1" 
 AR Path="/60570C04/6068A79C" Ref="C?"  Part="1" 
+AR Path="/6068A79C" Ref="C?"  Part="1" 
 F 0 "C?" H 8400 3325 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 8375 3075 60  0001 C CNN
+F 1 "C_100n_0402" H 8375 3075 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8575 3425 60  0001 L CNN
 F 3 "" H 8375 3225 50  0001 C CNN
 F 4 "Walsin" H 8575 3625 60  0001 L CNN "Manufacturer"

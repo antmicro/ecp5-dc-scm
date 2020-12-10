@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 8
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -1297,251 +1297,6 @@ Text GLabel 8975 4425 0    50   Output ~ 0
 DDR3_CKE
 Text GLabel 8975 4625 0    50   Output ~ 0
 DDR3_RESET
-Text GLabel 1025 9950 0    50   Input ~ 0
-QSPI0_CS_N
-Text GLabel 1025 10250 0    50   Input ~ 0
-QSPI0_CLK
-Text GLabel 1025 10150 0    50   Input ~ 0
-QSPI0_D0
-Text GLabel 3025 10150 2    50   Input ~ 0
-QSPI0_D1
-Text GLabel 1025 10050 0    50   Input ~ 0
-QSPI0_D2
-Text GLabel 1025 10350 0    50   Input ~ 0
-QSPI0_D3
-Text GLabel 1225 9200 1    50   Input ~ 0
-VCC3V3
-$Comp
-L antmicroResistors0402:R_4k7_0402 R?
-U 1 1 60F979AE
-P 1225 9700
-AR Path="/5FCFE2A8/60F979AE" Ref="R?"  Part="1" 
-AR Path="/5FC6B687/60F979AE" Ref="R?"  Part="1" 
-F 0 "R?" V 1180 9770 60  0000 L CNN
-F 1 "R_4k7_0402" H 1225 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1425 9900 60  0001 L CNN
-F 3 "" H 1225 9700 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 1425 10100 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ472X" H 1425 10000 60  0001 L CNN "MPN"
-F 6 "4k7" V 1278 9770 50  0000 L CNN "Val"
-	1    1225 9700
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroResistors0402:R_1k_0402 R?
-U 1 1 60F979B7
-P 1350 9700
-AR Path="/5FCFE2A8/60F979B7" Ref="R?"  Part="1" 
-AR Path="/5FC6B687/60F979B7" Ref="R?"  Part="1" 
-F 0 "R?" V 1305 9770 60  0000 L CNN
-F 1 "R_1k_0402" H 1350 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1550 9900 60  0001 L CNN
-F 3 "" H 1350 9700 50  0001 C CNN
-F 4 "BOURNS" H 1550 10100 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 1550 10000 60  0001 L CNN "MPN"
-F 6 "1k" V 1403 9770 50  0000 L CNN "Val"
-	1    1350 9700
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroResistors0402:R_10k_0402 R?
-U 1 1 60F979C0
-P 1475 9700
-AR Path="/5FCFE2A8/60F979C0" Ref="R?"  Part="1" 
-AR Path="/5FC6B687/60F979C0" Ref="R?"  Part="1" 
-F 0 "R?" V 1520 9630 60  0000 R CNN
-F 1 "R_10k_0402" H 1475 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1675 9900 60  0001 L CNN
-F 3 "" H 1475 9700 50  0001 C CNN
-F 4 "VISHAY" H 1675 10100 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 1675 10000 60  0001 L CNN "MPN"
-F 6 "10k" V 1422 9630 50  0000 R CNN "Val"
-	1    1475 9700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroResistors0402:R_10k_0402 R?
-U 1 1 60F979C9
-P 1725 9700
-AR Path="/5FCFE2A8/60F979C9" Ref="R?"  Part="1" 
-AR Path="/5FC6B687/60F979C9" Ref="R?"  Part="1" 
-F 0 "R?" V 1770 9630 60  0000 R CNN
-F 1 "R_10k_0402" H 1725 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1925 9900 60  0001 L CNN
-F 3 "" H 1725 9700 50  0001 C CNN
-F 4 "VISHAY" H 1925 10100 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 1925 10000 60  0001 L CNN "MPN"
-F 6 "10k" V 1672 9630 50  0000 R CNN "Val"
-	1    1725 9700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroResistors0402:R_10k_0402 R?
-U 1 1 60F979D2
-P 2925 9700
-AR Path="/5FCFE2A8/60F979D2" Ref="R?"  Part="1" 
-AR Path="/5FC6B687/60F979D2" Ref="R?"  Part="1" 
-F 0 "R?" V 2970 9630 60  0000 R CNN
-F 1 "R_10k_0402" H 2925 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3125 9900 60  0001 L CNN
-F 3 "" H 2925 9700 50  0001 C CNN
-F 4 "VISHAY" H 3125 10100 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 3125 10000 60  0001 L CNN "MPN"
-F 6 "10k" V 2872 9630 50  0000 R CNN "Val"
-	1    2925 9700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1225 9850 1225 9950
-Wire Wire Line
-	1475 9850 1475 10150
-Wire Wire Line
-	1225 9550 1225 9400
-Wire Wire Line
-	1225 9400 1350 9400
-Wire Wire Line
-	1725 9550 1725 9400
-Connection ~ 1600 9400
-Wire Wire Line
-	1600 9400 1725 9400
-Wire Wire Line
-	1475 9550 1475 9400
-Connection ~ 1475 9400
-Wire Wire Line
-	1475 9400 1600 9400
-Wire Wire Line
-	1350 9550 1350 9400
-Connection ~ 1350 9400
-Wire Wire Line
-	1350 9400 1475 9400
-Wire Wire Line
-	1225 9400 1225 9200
-Connection ~ 1225 9400
-$Comp
-L antmicroCapacitors0402:C_470n_0402 C?
-U 1 1 60F979EA
-P 2125 9400
-F 0 "C?" H 2240 9445 60  0000 L CNN
-F 1 "C_470n_0402" H 2125 9250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2325 9600 60  0001 L CNN
-F 3 "" H 2125 9400 50  0001 C CNN
-F 4 "TDK" H 2325 9800 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1E474M050BB" H 2325 9700 60  0001 L CNN "MPN"
-F 6 "470n" H 2240 9347 50  0000 L CNN "Val"
-	1    2125 9400
-	1    0    0    -1  
-$EndComp
-Text GLabel 2125 9200 1    50   Input ~ 0
-VCC3V3
-$Comp
-L power:GND #PWR?
-U 1 1 60F979F1
-P 2125 9600
-AR Path="/5FCFE2A8/60F979F1" Ref="#PWR?"  Part="1" 
-AR Path="/5FC6B687/60F979F1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2125 9350 50  0001 C CNN
-F 1 "GND" H 2130 9427 50  0000 C CNN
-F 2 "" H 2125 9600 50  0001 C CNN
-F 3 "" H 2125 9600 50  0001 C CNN
-	1    2125 9600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2125 9200 2125 9250
-Wire Wire Line
-	2125 9550 2125 9600
-Wire Wire Line
-	1600 9550 1600 9400
-$Comp
-L antmicroResistors0402:R_10k_0402 R?
-U 1 1 60F979FD
-P 1600 9700
-AR Path="/5FCFE2A8/60F979FD" Ref="R?"  Part="1" 
-AR Path="/5FC6B687/60F979FD" Ref="R?"  Part="1" 
-F 0 "R?" V 1645 9630 60  0000 R CNN
-F 1 "R_10k_0402" H 1600 9550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 9900 60  0001 L CNN
-F 3 "" H 1600 9700 50  0001 C CNN
-F 4 "VISHAY" H 1800 10100 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 1800 10000 60  0001 L CNN "MPN"
-F 6 "10k" V 1547 9630 50  0000 R CNN "Val"
-	1    1600 9700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1725 9850 1725 10350
-$Comp
-L antmicroMemory:W25Q32JVSSIQ_TR U?
-U 1 1 60F97A06
-P 2525 10150
-F 0 "U?" H 2775 9875 50  0000 L CNN
-F 1 "W25Q32JVSSIQ_TR" H 2775 9975 50  0000 L CNN
-F 2 "antmicro-footprints:SOIC-8_W5.6mm" H 2725 10350 60  0001 L CNN
-F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 2725 10450 60  0001 L CNN
-F 4 "W25Q32JVSSIQ TR" H 2725 10650 60  0001 L CNN "MPN"
-F 5 "Winbond Electronics" H 2725 11250 60  0001 L CNN "Manufacturer"
-	1    2525 10150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 9850 1350 10250
-Wire Wire Line
-	1600 9850 1600 10050
-Wire Wire Line
-	1025 9950 1225 9950
-Connection ~ 1225 9950
-Wire Wire Line
-	1225 9950 2125 9950
-Wire Wire Line
-	1025 10050 1600 10050
-Connection ~ 1600 10050
-Wire Wire Line
-	1600 10050 2125 10050
-Wire Wire Line
-	1025 10150 1475 10150
-Connection ~ 1475 10150
-Wire Wire Line
-	1475 10150 2125 10150
-Wire Wire Line
-	1025 10250 1350 10250
-Connection ~ 1350 10250
-Wire Wire Line
-	1350 10250 2125 10250
-Wire Wire Line
-	1025 10350 1725 10350
-Connection ~ 1725 10350
-Wire Wire Line
-	1725 10350 2125 10350
-Wire Wire Line
-	3025 10150 2925 10150
-Wire Wire Line
-	2925 9850 2925 10150
-Connection ~ 2925 10150
-Wire Wire Line
-	2925 10150 2825 10150
-Text GLabel 2925 9200 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	2925 9200 2925 9550
-Text GLabel 2525 9200 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	2525 9200 2525 9750
-Wire Wire Line
-	2525 10550 2525 10650
-$Comp
-L power:GND #PWR?
-U 1 1 60F97A26
-P 2525 10650
-F 0 "#PWR?" H 2525 10400 50  0001 C CNN
-F 1 "GND" H 2530 10477 50  0000 C CNN
-F 2 "" H 2525 10650 50  0001 C CNN
-F 3 "" H 2525 10650 50  0001 C CNN
-	1    2525 10650
-	1    0    0    -1  
-$EndComp
-Text Notes 625  10550 0    50   ~ 0
-QSPI from HPM to SCM BIOS flash 
 Text GLabel 4025 2225 0    50   Input ~ 0
 I2C0_SDA
 Text GLabel 4025 2425 0    50   Input ~ 0
@@ -1688,30 +1443,6 @@ Text GLabel 6550 5325 0    50   Input ~ 0
 UART0_SCM_TX
 Text GLabel 6550 5425 0    50   Input ~ 0
 UART0_SCM_RX
-Text GLabel 6550 5525 0    50   Input ~ 0
-SPI0_CLK
-Text GLabel 6550 5625 0    50   Input ~ 0
-SPI0_CS_N
-Text GLabel 6550 5725 0    50   Input ~ 0
-SPI0_MOSI
-Text GLabel 6550 5825 0    50   Input ~ 0
-SPI0_MISO
-Text GLabel 6550 5925 0    50   Input ~ 0
-PCIE_BMC_TX_DP
-Text GLabel 6550 6025 0    50   Input ~ 0
-PCIE_BMC_TX_DN
-Text GLabel 6550 6125 0    50   Input ~ 0
-PCIE_BMC_RX_DP
-Text GLabel 6550 6225 0    50   Input ~ 0
-PCIE_BMC_RX_DN
-Text GLabel 6550 6325 0    50   Input ~ 0
-CLK_100M_PCIE_DP
-Text GLabel 6550 6425 0    50   Input ~ 0
-CLK_100M_PCIE_DN
-Text Notes 5700 6700 0    50   ~ 0
-PCIe Gen5 capable clock\n(taken from OCP)
-Text Notes 625  10675 0    50   ~ 10
-TBD: What about RoT? 
 Text Notes 4025 800  0    50   ~ 0
 FPGA connections to be established while preparing layout
 Wire Wire Line
@@ -1874,4 +1605,12 @@ Wire Wire Line
 	6550 6325 6875 6325
 Wire Wire Line
 	6550 6425 6875 6425
+Text GLabel 6550 5525 0    50   Input ~ 0
+SPI_ROT_CLK
+Text GLabel 6550 5625 0    50   Input ~ 0
+SPI_ROT_CS_N
+Text GLabel 6550 5725 0    50   Input ~ 0
+SPI_ROT_MOSI
+Text GLabel 6550 5825 0    50   Input ~ 0
+SPI_ROT_MISO
 $EndSCHEMATC

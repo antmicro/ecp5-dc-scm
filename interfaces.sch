@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 8
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -24,73 +24,73 @@ JTAG_TMS
 Text Notes 2400 2125 0    118  ~ 24
 JTAG
 Text GLabel 4925 2575 0    50   Input ~ 0
-I2C0_SDA
+I2C[0]_SDA
 Text GLabel 5325 2575 2    50   Input ~ 0
-I2C1_SDA
+I2C[1]_SDA
 Text GLabel 5325 2675 2    50   Input ~ 0
-I2C1_SCL
+I2C[1]_SCL
 Text GLabel 4925 2775 0    50   Input ~ 0
-I2C2_SDA
+I2C[2]_SDA
 Text GLabel 4925 2875 0    50   Input ~ 0
-I2C2_SCL
+I2C[2]_SCL
 Text GLabel 5325 2775 2    50   Input ~ 0
-I2C3_SDA
+I2C[3]_SDA
 Text GLabel 5325 2875 2    50   Input ~ 0
-I2C3_SCL
+I2C[3]_SCL
 Text GLabel 4925 2975 0    50   Input ~ 0
-I2C4_SDA
+I2C[4]_SDA
 Text GLabel 4925 3075 0    50   Input ~ 0
-I2C4_SCL
+I2C[4]_SCL
 Text GLabel 5325 2975 2    50   Input ~ 0
-I2C5_SDA
+I2C[5]_SDA
 Text GLabel 5325 3075 2    50   Input ~ 0
-I2C5_SCL
+I2C[5]_SCL
 Text GLabel 4925 3175 0    50   Input ~ 0
-I2C6_SDA
+I2C[6]_SDA
 Text GLabel 4925 3275 0    50   Input ~ 0
-I2C6_SCL
+I2C[6]_SCL
 Text GLabel 5325 3175 2    50   Input ~ 0
-I2C7_SDA
+I2C[7]_SDA
 Text GLabel 5325 3275 2    50   Input ~ 0
-I2C7_SCL
+I2C[7]_SCL
 Text GLabel 6675 2575 0    50   Input ~ 0
-I2C8_SDA
+I2C[8]_SDA
 Text GLabel 6675 2675 0    50   Input ~ 0
-I2C8_SCL
+I2C[8]_SCL
 Text GLabel 7075 2575 2    50   Input ~ 0
-I2C9_SDA
+I2C[9]_SDA
 Text GLabel 7075 2675 2    50   Input ~ 0
-I2C9_SCL
+I2C[9]_SCL
 Text GLabel 6675 2775 0    50   Input ~ 0
-I2C10_SDA
+I2C[10]_SDA
 Text GLabel 6675 2875 0    50   Input ~ 0
-I2C10_SCL
+I2C[10]_SCL
 Text GLabel 7075 2775 2    50   Input ~ 0
-I2C11_SDA
+I2C[11]_SDA
 Text GLabel 7075 2875 2    50   Input ~ 0
-I2C11_SCL
+I2C[11]_SCL
 Text GLabel 6675 2975 0    50   Input ~ 0
-I2C12_SDA
+I2C[12]_SDA
 Text GLabel 6675 3075 0    50   Input ~ 0
-I2C12_SCL
+I2C[12]_SCL
 Text GLabel 4925 2675 0    50   Input ~ 0
-I2C0_SCL
+I2C[0]_SCL
 Text GLabel 8425 2575 0    50   Input ~ 0
-I3C0_SDA
+I3C[0]_SDA
 Text GLabel 8775 2575 2    50   Input ~ 0
-I3C1_SDA
+I3C[1]_SDA
 Text GLabel 8775 2675 2    50   Input ~ 0
-I3C1_SCL
+I3C[1]_SCL
 Text GLabel 8425 2775 0    50   Input ~ 0
-I3C2_SDA
+I3C[2]_SDA
 Text GLabel 8425 2875 0    50   Input ~ 0
-I3C2_SCL
+I3C[2]_SCL
 Text GLabel 8775 2775 2    50   Input ~ 0
-I3C3_SDA
+I3C[3]_SDA
 Text GLabel 8775 2875 2    50   Input ~ 0
-I3C3_SCL
+I3C[3]_SCL
 Text GLabel 8425 2675 0    50   Input ~ 0
-I3C0_SCL
+I3C[0]_SCL
 Wire Wire Line
 	4925 3475 4725 3475
 Wire Wire Line
@@ -236,5 +236,59 @@ F 4 "61301221121" H 8725 3625 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 8725 4225 60  0001 L CNN "Manufacturer"
 	1    8525 3125
 	1    0    0    -1  
+$EndComp
+Text GLabel 11225 2975 0    50   Input ~ 0
+SPI0_CLK
+Text GLabel 11225 3075 0    50   Input ~ 0
+SPI0_CS_N
+Text GLabel 11225 2775 0    50   Input ~ 0
+SPI0_MOSI
+Text GLabel 11225 2875 0    50   Input ~ 0
+SPI0_MISO
+Text Notes 10175 2100 0    50   ~ 0
+reserved for future use (as  of DC-SCI OPC specification)
+Text Notes 10825 2000 0    118  ~ 24
+HPM SPI
+Text GLabel 11325 2575 1    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR?
+U 1 1 605F8173
+P 11325 3250
+F 0 "#PWR?" H 11325 3000 50  0001 C CNN
+F 1 "GND" H 11330 3077 50  0000 C CNN
+F 2 "" H 11325 3250 50  0001 C CNN
+F 3 "" H 11325 3250 50  0001 C CNN
+	1    11325 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11225 2775 11500 2775
+Wire Wire Line
+	11225 2875 11500 2875
+Wire Wire Line
+	11225 2975 11500 2975
+Wire Wire Line
+	11225 3075 11500 3075
+Wire Wire Line
+	11500 3175 11325 3175
+Wire Wire Line
+	11325 3175 11325 3250
+Wire Wire Line
+	11500 2675 11325 2675
+Wire Wire Line
+	11325 2675 11325 2575
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:61300611121 J?
+U 1 1 606F5DB3
+P 11650 2675
+F 0 "J?" V 11849 2597 50  0000 R CNN
+F 1 "61300611121" V 11940 2597 50  0000 R CNN
+F 2 "antmicro-footprints:61300611121" H 11850 2875 60  0001 L CNN
+F 3 "" H 11850 2975 60  0001 L CNN
+F 4 "61300611121" H 11600 3075 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 11850 3775 60  0001 L CNN "Manufacturer"
+	1    11650 2675
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC

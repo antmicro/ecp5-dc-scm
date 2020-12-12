@@ -75,31 +75,15 @@ Text GLabel 6675 3075 0    50   Input ~ 0
 I2C[12]_SCL
 Text GLabel 4925 2675 0    50   Input ~ 0
 I2C[0]_SCL
-Text GLabel 8425 2575 0    50   Input ~ 0
-I3C[0]_SDA
-Text GLabel 8775 2575 2    50   Input ~ 0
-I3C[1]_SDA
-Text GLabel 8775 2675 2    50   Input ~ 0
-I3C[1]_SCL
-Text GLabel 8425 2775 0    50   Input ~ 0
-I3C[2]_SDA
-Text GLabel 8425 2875 0    50   Input ~ 0
-I3C[2]_SCL
-Text GLabel 8775 2775 2    50   Input ~ 0
-I3C[3]_SDA
-Text GLabel 8775 2875 2    50   Input ~ 0
-I3C[3]_SCL
-Text GLabel 8425 2675 0    50   Input ~ 0
-I3C[0]_SCL
 Wire Wire Line
 	4925 3475 4725 3475
 Wire Wire Line
 	4725 3475 4725 3600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 61437285
 P 4725 3600
-F 0 "#PWR?" H 4725 3350 50  0001 C CNN
+F 0 "#PWR0125" H 4725 3350 50  0001 C CNN
 F 1 "GND" H 4730 3427 50  0000 C CNN
 F 2 "" H 4725 3600 50  0001 C CNN
 F 3 "" H 4725 3600 50  0001 C CNN
@@ -117,40 +101,40 @@ Wire Wire Line
 Wire Wire Line
 	6475 3475 6475 3600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 614CDD94
 P 6475 3600
-F 0 "#PWR?" H 6475 3350 50  0001 C CNN
+F 0 "#PWR0126" H 6475 3350 50  0001 C CNN
 F 1 "GND" H 6480 3427 50  0000 C CNN
 F 2 "" H 6475 3600 50  0001 C CNN
 F 3 "" H 6475 3600 50  0001 C CNN
 	1    6475 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8425 2975 0    50   Input ~ 0
+Text GLabel 8825 2925 0    50   Input ~ 0
 VCC1V0
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 614EAF09
-P 8900 3100
-F 0 "#PWR?" H 8900 2850 50  0001 C CNN
-F 1 "GND" H 8905 2927 50  0000 C CNN
-F 2 "" H 8900 3100 50  0001 C CNN
-F 3 "" H 8900 3100 50  0001 C CNN
-	1    8900 3100
+P 9300 3050
+F 0 "#PWR0127" H 9300 2800 50  0001 C CNN
+F 1 "GND" H 9305 2877 50  0000 C CNN
+F 2 "" H 9300 3050 50  0001 C CNN
+F 3 "" H 9300 3050 50  0001 C CNN
+	1    9300 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8775 2975 8900 2975
+	9175 2925 9300 2925
 Wire Wire Line
-	8900 2975 8900 3100
+	9300 2925 9300 3050
 Text Notes 5800 2075 0    118  ~ 24
 Debug UART, I2C, I3C
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:2X05 J?
+L antmicroRectangularConnectorsHeadersMalePins:2X05 J3
 U 1 1 61510600
 P 2550 2825
-F 0 "J?" H 2550 3114 60  0000 C CNN
+F 0 "J3" H 2550 3114 60  0000 C CNN
 F 1 "2X05" H 2550 3008 60  0000 C CNN
 F 2 "antmicro-footprints:SHF-105-01-X-D-SM" H 3050 2175 60  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 2550 2825 60  0001 C CNN
@@ -180,10 +164,10 @@ Connection ~ 2025 3225
 Wire Wire Line
 	2025 3225 2025 3450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 61514DD7
 P 2025 3450
-F 0 "#PWR?" H 2025 3200 50  0001 C CNN
+F 0 "#PWR0128" H 2025 3200 50  0001 C CNN
 F 1 "GND" H 2030 3277 50  0000 C CNN
 F 2 "" H 2025 3450 50  0001 C CNN
 F 3 "" H 2025 3450 50  0001 C CNN
@@ -199,10 +183,10 @@ UART0_SCM_TX
 Text GLabel 7075 3175 2    50   Input ~ 0
 UART0_SCM_RX
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301021121 J?
+L antmicroRectangularConnectorsHeadersMalePins:61301021121 J4
 U 1 1 615EA3A1
 P 5025 2525
-F 0 "J?" H 5120 2700 50  0000 C CNN
+F 0 "J4" H 5120 2700 50  0000 C CNN
 F 1 "61301021121" H 5120 2609 50  0000 C CNN
 F 2 "antmicro-footprints:61301021121" V 4825 1775 60  0001 L CNN
 F 3 "" H 5225 2825 60  0001 L CNN
@@ -212,10 +196,10 @@ F 5 "Wurth Electronics Inc." H 5225 3625 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301021121 J?
+L antmicroRectangularConnectorsHeadersMalePins:61301021121 J5
 U 1 1 615ECA44
 P 6775 2525
-F 0 "J?" H 6870 2700 50  0000 C CNN
+F 0 "J5" H 6870 2700 50  0000 C CNN
 F 1 "61301021121" H 6870 2609 50  0000 C CNN
 F 2 "antmicro-footprints:61301021121" V 6575 1775 60  0001 L CNN
 F 3 "" H 6975 2825 60  0001 L CNN
@@ -225,16 +209,16 @@ F 5 "Wurth Electronics Inc." H 6975 3625 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301221121 J?
+L antmicroRectangularConnectorsHeadersMalePins:61301221121 J6
 U 1 1 61602A77
-P 8525 3125
-F 0 "J?" H 8600 3900 50  0000 C CNN
-F 1 "61301221121" H 8600 3809 50  0000 C CNN
-F 2 "antmicro-footprints:61301221121" V 8375 3375 60  0001 L CNN
-F 3 "" V 8275 3375 60  0001 L CNN
-F 4 "61301221121" H 8725 3625 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 8725 4225 60  0001 L CNN "Manufacturer"
-	1    8525 3125
+P 8925 3075
+F 0 "J6" H 9000 3850 50  0000 C CNN
+F 1 "61301221121" H 9000 3759 50  0000 C CNN
+F 2 "antmicro-footprints:61301221121" V 8775 3325 60  0001 L CNN
+F 3 "" V 8675 3325 60  0001 L CNN
+F 4 "61301221121" H 9125 3575 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 9125 4175 60  0001 L CNN "Manufacturer"
+	1    8925 3075
 	1    0    0    -1  
 $EndComp
 Text GLabel 11225 2975 0    50   Input ~ 0
@@ -252,10 +236,10 @@ HPM SPI
 Text GLabel 11325 2575 1    50   Input ~ 0
 VCC
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 605F8173
 P 11325 3250
-F 0 "#PWR?" H 11325 3000 50  0001 C CNN
+F 0 "#PWR0129" H 11325 3000 50  0001 C CNN
 F 1 "GND" H 11330 3077 50  0000 C CNN
 F 2 "" H 11325 3250 50  0001 C CNN
 F 3 "" H 11325 3250 50  0001 C CNN
@@ -279,10 +263,10 @@ Wire Wire Line
 Wire Wire Line
 	11325 2675 11325 2575
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300611121 J?
+L antmicroRectangularConnectorsHeadersMalePins:61300611121 J7
 U 1 1 606F5DB3
 P 11650 2675
-F 0 "J?" V 11849 2597 50  0000 R CNN
+F 0 "J7" V 11849 2597 50  0000 R CNN
 F 1 "61300611121" V 11940 2597 50  0000 R CNN
 F 2 "antmicro-footprints:61300611121" H 11850 2875 60  0001 L CNN
 F 3 "" H 11850 2975 60  0001 L CNN
@@ -292,10 +276,10 @@ F 5 "Wurth Electronics Inc." H 11850 3775 60  0001 L CNN "Manufacturer"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NVT2008DQ,115 U?
+L antmicroLogicTranslatorsLevelShifters:NVT2008DQ,115 U11
 U 1 1 628E0C73
 P 8350 6450
-F 0 "U?" H 8350 6965 50  0000 C CNN
+F 0 "U11" H 8350 6965 50  0000 C CNN
 F 1 "NVT2008DQ,115" H 8350 6874 50  0000 C CNN
 F 2 "antmicro-footprints:QFN50P250X450X100-21N" H 9050 7200 50  0001 C CNN
 F 3 "" H 9000 7200 50  0001 C CNN
@@ -323,10 +307,10 @@ I3C[0]_SCL_3V3
 Text GLabel 9050 6200 2    50   Input ~ 0
 VCC1V0
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0130
 U 1 1 628E4783
 P 7825 7675
-F 0 "#PWR?" H 7825 7425 50  0001 C CNN
+F 0 "#PWR0130" H 7825 7425 50  0001 C CNN
 F 1 "GND" H 7830 7502 50  0000 C CNN
 F 2 "" H 7825 7675 50  0001 C CNN
 F 3 "" H 7825 7675 50  0001 C CNN
@@ -396,10 +380,10 @@ Wire Wire Line
 Text Label 9375 7200 2    50   ~ 0
 1V0_EN
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R68
 U 1 1 629DF3D6
 P 5625 6475
-F 0 "R?" V 5475 6500 60  0000 L CNN
+F 0 "R68" V 5475 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 5625 6325 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5825 6675 60  0001 L CNN
 F 3 "" H 5625 6475 50  0001 C CNN
@@ -458,10 +442,10 @@ Wire Wire Line
 Wire Wire Line
 	6125 7350 5450 7350
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R67
 U 1 1 62A11F2C
 P 5525 6100
-F 0 "R?" V 5375 6125 60  0000 L CNN
+F 0 "R67" V 5375 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 5525 5950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5725 6300 60  0001 L CNN
 F 3 "" H 5525 6100 50  0001 C CNN
@@ -476,10 +460,10 @@ Wire Wire Line
 Wire Wire Line
 	5625 6325 5625 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R69
 U 1 1 62A15908
 P 5725 6100
-F 0 "R?" V 5575 6125 60  0000 L CNN
+F 0 "R69" V 5575 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 5725 5950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5925 6300 60  0001 L CNN
 F 3 "" H 5725 6100 50  0001 C CNN
@@ -492,10 +476,10 @@ $EndComp
 Wire Wire Line
 	5725 5950 5725 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R70
 U 1 1 62A15CCD
 P 5825 6475
-F 0 "R?" V 5675 6500 60  0000 L CNN
+F 0 "R70" V 5675 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 5825 6325 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 6025 6675 60  0001 L CNN
 F 3 "" H 5825 6475 50  0001 C CNN
@@ -508,10 +492,10 @@ $EndComp
 Wire Wire Line
 	5825 6325 5825 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R71
 U 1 1 62A15FA6
 P 5925 6100
-F 0 "R?" V 5775 6125 60  0000 L CNN
+F 0 "R71" V 5775 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 5925 5950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 6125 6300 60  0001 L CNN
 F 3 "" H 5925 6100 50  0001 C CNN
@@ -524,10 +508,10 @@ $EndComp
 Wire Wire Line
 	5925 5950 5925 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R72
 U 1 1 62A17B7C
 P 6025 6475
-F 0 "R?" V 5875 6500 60  0000 L CNN
+F 0 "R72" V 5875 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 6025 6325 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 6225 6675 60  0001 L CNN
 F 3 "" H 6025 6475 50  0001 C CNN
@@ -540,10 +524,10 @@ $EndComp
 Wire Wire Line
 	6025 6325 6025 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R73
 U 1 1 62A1999F
 P 6125 6100
-F 0 "R?" V 5975 6125 60  0000 L CNN
+F 0 "R73" V 5975 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 6125 5950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 6325 6300 60  0001 L CNN
 F 3 "" H 6125 6100 50  0001 C CNN
@@ -556,10 +540,10 @@ $EndComp
 Wire Wire Line
 	6125 5950 6125 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R?
+L antmicroResistors0402:R_357k_0402 R74
 U 1 1 62A19C3C
 P 6225 6475
-F 0 "R?" V 6075 6500 60  0000 L CNN
+F 0 "R74" V 6075 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 6225 6325 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 6425 6675 60  0001 L CNN
 F 3 "" H 6225 6475 50  0001 C CNN
@@ -597,10 +581,10 @@ Connection ~ 6125 5875
 Wire Wire Line
 	6125 5875 6225 5875
 $Comp
-L antmicroResistors0402:R_200k_0402 R?
+L antmicroResistors0402:R_200k_0402 R75
 U 1 1 62A1EC48
 P 7600 6000
-F 0 "R?" V 7555 6070 60  0000 L CNN
+F 0 "R75" V 7555 6070 60  0000 L CNN
 F 1 "R_200k_0402" H 7600 5850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 7800 6200 60  0001 L CNN
 F 3 "" H 7600 6000 50  0001 C CNN
@@ -619,10 +603,10 @@ Wire Wire Line
 Text Label 7650 6200 0    50   ~ 0
 1V0_EN
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C182
 U 1 1 62A2E02E
 P 8950 7400
-F 0 "C?" H 8835 7355 60  0000 R CNN
+F 0 "C182" H 8835 7355 60  0000 R CNN
 F 1 "C_100n_0402" H 8950 7250 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 9150 7600 60  0001 L CNN
 F 3 "" H 8950 7400 50  0001 C CNN
@@ -638,10 +622,10 @@ Connection ~ 8950 7200
 Wire Wire Line
 	8950 7200 8700 7200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 62A34612
 P 8950 7675
-F 0 "#PWR?" H 8950 7425 50  0001 C CNN
+F 0 "#PWR0131" H 8950 7425 50  0001 C CNN
 F 1 "GND" H 8955 7502 50  0000 C CNN
 F 2 "" H 8950 7675 50  0001 C CNN
 F 3 "" H 8950 7675 50  0001 C CNN
@@ -652,4 +636,20 @@ Wire Wire Line
 	8950 7550 8950 7675
 Text Notes 5550 5325 0    118  ~ 24
 I3C voltage level translation
+Text GLabel 9175 2525 2    50   Input ~ 0
+I3C[1]_SDA_1V0
+Text GLabel 9175 2625 2    50   Input ~ 0
+I3C[1]_SCL_1V0
+Text GLabel 8825 2725 0    50   Input ~ 0
+I3C[2]_SDA_1V0
+Text GLabel 8825 2825 0    50   Input ~ 0
+I3C[2]_SCL_1V0
+Text GLabel 9175 2725 2    50   Input ~ 0
+I3C[3]_SDA_1V0
+Text GLabel 9175 2825 2    50   Input ~ 0
+I3C[3]_SCL_1V0
+Text GLabel 8825 2625 0    50   Input ~ 0
+I3C[0]_SCL_1V0
+Text GLabel 8825 2525 0    50   Input ~ 0
+I3C[0]_SDA_1V0
 $EndSCHEMATC

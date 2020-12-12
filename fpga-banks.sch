@@ -471,8 +471,6 @@ Connection ~ 6425 1450
 Wire Wire Line
 	6425 1150 6425 1000
 Connection ~ 6425 1150
-Text GLabel 6425 1000 0    50   Input ~ 0
-VCC1V35
 Wire Wire Line
 	7575 1150 7575 1525
 Wire Wire Line
@@ -1025,79 +1023,79 @@ F 3 "" H 14000 1525 50  0001 C CNN
 $EndComp
 Text GLabel 8925 1000 0    50   Input ~ 0
 VCC1V35
-Text GLabel 1525 2625 0    50   Input ~ 0
+Text GLabel 11550 6900 0    50   Input ~ 0
 RGMII_RX_DV
-Text GLabel 1525 2325 0    50   Output ~ 0
+Text GLabel 11550 6600 0    50   Output ~ 0
 ETH_MDC
-Text GLabel 1525 3725 0    50   BiDi ~ 0
+Text GLabel 11550 8200 0    50   BiDi ~ 0
 ETH_MDIO
-Text GLabel 1525 3425 0    50   Output ~ 0
+Text GLabel 11550 7900 0    50   Output ~ 0
 RGMII_TX_DV
-Text GLabel 1525 3525 0    50   Output ~ 0
+Text GLabel 11550 8000 0    50   Output ~ 0
 RGMII_TXD0
-Text GLabel 1525 3625 0    50   Output ~ 0
+Text GLabel 11550 8100 0    50   Output ~ 0
 RGMII_TXD1
-Text GLabel 1525 3325 0    50   Output ~ 0
+Text GLabel 11550 7800 0    50   Output ~ 0
 RGMII_TXD2
-Text GLabel 1525 3825 0    50   Input ~ 0
+Text GLabel 11550 8300 0    50   Input ~ 0
 RGMII_TXD3
-Text GLabel 1525 3925 0    50   Input ~ 0
+Text GLabel 11550 8400 0    50   Input ~ 0
 RGMII_TX_CLK
-Text GLabel 1525 2725 0    50   Input ~ 0
+Text GLabel 11550 7000 0    50   Input ~ 0
 RGMII_RXD0
-Text GLabel 1525 2825 0    50   Input ~ 0
+Text GLabel 11550 7100 0    50   Input ~ 0
 RGMII_RXD1
-Text GLabel 1525 4025 0    50   Input ~ 0
+Text GLabel 11550 8500 0    50   Input ~ 0
 RGMII_RXD2
-Text GLabel 1525 3225 0    50   Input ~ 0
+Text GLabel 11550 7700 0    50   Input ~ 0
 RGMII_RXD3
-Text GLabel 1525 2425 0    50   Input ~ 0
+Text GLabel 11550 6700 0    50   Input ~ 0
 RGMII_RX_CLK
 Wire Wire Line
-	1900 2325 1525 2325
+	11925 6600 11550 6600
 Wire Wire Line
-	1900 2525 1525 2525
+	11925 6800 11550 6800
 Wire Wire Line
-	1900 2425 1525 2425
+	11925 6700 11550 6700
 Wire Wire Line
-	1900 2625 1525 2625
+	11925 6900 11550 6900
 Wire Wire Line
-	1900 2825 1525 2825
+	11925 7100 11550 7100
 Wire Wire Line
-	1900 2725 1525 2725
+	11925 7000 11550 7000
 Wire Wire Line
-	1900 3125 1525 3125
+	11925 7500 11550 7500
 Wire Wire Line
-	1900 3025 1525 3025
+	11925 7300 11550 7300
 Wire Wire Line
-	1900 3225 1525 3225
+	11925 7700 11550 7700
 Wire Wire Line
-	1900 3425 1525 3425
+	11925 7900 11550 7900
 Wire Wire Line
-	1900 3325 1525 3325
+	11925 7800 11550 7800
 Wire Wire Line
-	1900 3525 1525 3525
+	11925 8000 11550 8000
 Wire Wire Line
-	1900 3725 1525 3725
+	11925 8200 11550 8200
 Wire Wire Line
-	1900 3625 1525 3625
+	11925 8100 11550 8100
 Wire Wire Line
-	1900 3825 1525 3825
+	11925 8300 11550 8300
 Wire Wire Line
-	1900 4025 1525 4025
+	11925 8500 11550 8500
 Wire Wire Line
-	1900 3925 1525 3925
-Text GLabel 1525 3025 0    50   Input ~ 0
+	11925 8400 11550 8400
+Text GLabel 11550 7300 0    50   Input ~ 0
 ETH_INT_N
-Text GLabel 1525 2525 0    50   Input ~ 0
+Text GLabel 11550 6800 0    50   Input ~ 0
 RGMII_REF_CLK
 Wire Wire Line
-	1900 2925 1525 2925
-Text GLabel 1525 2925 0    50   Output ~ 0
+	11925 7200 11550 7200
+Text GLabel 11550 7200 0    50   Output ~ 0
 ETH_~RESET
-Text GLabel 1525 3125 0    50   Output ~ 0
+Text GLabel 11550 7500 0    50   Output ~ 0
 RGMII_TX_CLK
-Text Notes 700  3375 1    50   ~ 0
+Text Notes 10800 7900 1    50   ~ 0
 ethernet.sch
 Wire Wire Line
 	8975 2225 9375 2225
@@ -1297,143 +1295,57 @@ Text GLabel 8975 4425 0    50   Output ~ 0
 DDR3_CKE
 Text GLabel 8975 4625 0    50   Output ~ 0
 DDR3_RESET
-Text GLabel 4025 2225 0    50   Input ~ 0
-I2C0_SDA
-Text GLabel 4025 2425 0    50   Input ~ 0
-I2C1_SDA
-Text GLabel 4025 2525 0    50   Input ~ 0
-I2C1_SCL
-Text GLabel 4025 2625 0    50   Input ~ 0
-I2C2_SDA
-Text GLabel 4025 2725 0    50   Input ~ 0
-I2C2_SCL
-Text GLabel 4025 2825 0    50   Input ~ 0
-I2C3_SDA
-Text GLabel 4025 2925 0    50   Input ~ 0
-I2C3_SCL
-Text GLabel 4025 3025 0    50   Input ~ 0
-I2C4_SDA
-Text GLabel 4025 3125 0    50   Input ~ 0
-I2C4_SCL
-Text GLabel 4025 3225 0    50   Input ~ 0
-I2C5_SDA
-Text GLabel 4025 3325 0    50   Input ~ 0
-I2C5_SCL
-Text GLabel 4025 3425 0    50   Input ~ 0
-I2C6_SDA
-Text GLabel 4025 3525 0    50   Input ~ 0
-I2C6_SCL
-Text GLabel 4025 3625 0    50   Input ~ 0
-I2C7_SDA
-Text GLabel 4025 3725 0    50   Input ~ 0
-I2C7_SCL
-Text GLabel 4025 3825 0    50   Input ~ 0
-I2C8_SDA
-Text GLabel 4025 3925 0    50   Input ~ 0
-I2C8_SCL
-Text GLabel 4025 4025 0    50   Input ~ 0
-I2C9_SDA
-Text GLabel 4025 4125 0    50   Input ~ 0
-I2C9_SCL
-Text GLabel 4075 4225 0    50   Input ~ 0
-I2C10_SDA
-Text GLabel 4075 4325 0    50   Input ~ 0
-I2C10_SCL
-Text GLabel 4075 4425 0    50   Input ~ 0
-I2C11_SDA
-Text GLabel 4075 4525 0    50   Input ~ 0
-I2C11_SCL
-Text GLabel 4075 4625 0    50   Input ~ 0
-I2C12_SDA
-Text GLabel 4075 4725 0    50   Input ~ 0
-I2C12_SCL
-Text GLabel 4025 2325 0    50   Input ~ 0
-I2C0_SCL
-Text GLabel 4075 4825 0    50   Input ~ 0
-I3C0_SDA
-Text GLabel 4075 5025 0    50   Input ~ 0
-I3C1_SDA
-Text GLabel 4075 5125 0    50   Input ~ 0
-I3C1_SCL
-Text GLabel 4075 5225 0    50   Input ~ 0
-I3C2_SDA
-Text GLabel 4075 5325 0    50   Input ~ 0
-I3C2_SCL
-Text GLabel 4075 5425 0    50   Input ~ 0
-I3C3_SDA
-Text GLabel 4075 5525 0    50   Input ~ 0
-I3C3_SCL
-Text GLabel 4075 4925 0    50   Input ~ 0
-I3C0_SCL
-Text GLabel 4075 5625 0    50   Input ~ 0
+Text GLabel 1575 6625 0    50   Input ~ 0
 USB1_DP
-Text GLabel 4075 5725 0    50   Input ~ 0
+Text GLabel 1575 6725 0    50   Input ~ 0
 USB1_DN
-Text GLabel 4075 5825 0    50   Input ~ 0
+Text GLabel 1575 6825 0    50   Input ~ 0
 USB2_DP
-Text GLabel 4075 5925 0    50   Input ~ 0
+Text GLabel 1575 6925 0    50   Input ~ 0
 USB2_DN
-Text GLabel 4075 6025 0    50   Input ~ 0
+Text GLabel 1575 4725 0    50   Input ~ 0
 QSPI1_CS_N
-Text GLabel 4075 6325 0    50   Input ~ 0
+Text GLabel 1575 5025 0    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 4075 6225 0    50   Input ~ 0
+Text GLabel 1575 4925 0    50   Input ~ 0
 QSPI1_D0
-Text GLabel 4075 6125 0    50   Input ~ 0
+Text GLabel 1575 4825 0    50   Input ~ 0
 QSPI1_D2
-Text GLabel 4075 6425 0    50   Input ~ 0
+Text GLabel 1575 5125 0    50   Input ~ 0
 QSPI1_D3
-Text GLabel 4075 6525 0    50   Input ~ 0
+Text GLabel 1575 5225 0    50   Input ~ 0
 QSPI1_D1
-Text Notes 3550 6625 1    50   ~ 0
+Text Notes 975  5250 1    50   ~ 0
 QSPI from SCM \nto HPM FPGA
-Text Notes 3350 5975 1    50   ~ 0
+Text Notes 1050 7425 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
-Text GLabel 6550 2225 0    50   Input ~ 0
+Text GLabel 1575 2225 0    50   Input ~ 0
 SGPIO_CLK
-Text GLabel 6550 2325 0    50   Input ~ 0
+Text GLabel 1575 2325 0    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 6550 2425 0    50   Input ~ 0
+Text GLabel 1575 2425 0    50   Input ~ 0
 SGPIO0_DO
-Text GLabel 6550 2525 0    50   Input ~ 0
+Text GLabel 1575 2525 0    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 6550 2625 0    50   Input ~ 0
+Text GLabel 1575 2625 0    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 6550 2725 0    50   Input ~ 0
+Text GLabel 1575 2725 0    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 6550 2825 0    50   Input ~ 0
+Text GLabel 1575 2825 0    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 6550 2925 0    50   Input ~ 0
+Text GLabel 1575 2925 0    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 6550 3025 0    50   Input ~ 0
+Text GLabel 1575 3025 0    50   Input ~ 0
 SGPIO_INTR_N
-Text GLabel 6550 3125 0    50   Input ~ 0
-ESPI_CLK
-Text GLabel 6550 3225 0    50   Input ~ 0
-ESPI_CS0_N
-Text GLabel 6550 3325 0    50   Input ~ 0
-ESPI_CS1_N
-Text GLabel 6575 3425 0    50   Input ~ 0
-ESPI_IO0
-Text GLabel 6575 3525 0    50   Input ~ 0
-ESPI_IO1
-Text GLabel 6575 3625 0    50   Input ~ 0
-ESPI_IO2
-Text GLabel 6575 3725 0    50   Input ~ 0
-ESPI_IO3
-Text GLabel 6575 3825 0    50   Input ~ 0
-ESPI_ALERT_N
-Text GLabel 6575 3925 0    50   Input ~ 0
-ESPI_RESET_N
 Text Notes 5775 4550 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
-Text GLabel 6550 4725 0    50   Input ~ 0
+Text GLabel 7700 8950 0    50   Input ~ 0
 JTAG_TCK
-Text GLabel 6550 4825 0    50   Input ~ 0
+Text GLabel 7700 9150 0    50   Input ~ 0
 JTAG_TMS
-Text GLabel 6550 4925 0    50   Input ~ 0
+Text GLabel 7700 9050 0    50   Input ~ 0
 JTAG_TDI
-Text GLabel 6550 5025 0    50   Input ~ 0
+Text GLabel 7700 8850 0    50   Input ~ 0
 JTAG_TDO
 Text GLabel 6550 5125 0    50   Input ~ 0
 UART1_SCM_TX
@@ -1486,17 +1398,17 @@ Wire Wire Line
 Wire Wire Line
 	4400 4025 4025 4025
 Wire Wire Line
-	4075 4225 4400 4225
+	4025 4225 4400 4225
 Wire Wire Line
-	4075 4325 4400 4325
+	4025 4325 4400 4325
 Wire Wire Line
-	4075 4425 4400 4425
+	4025 4425 4400 4425
 Wire Wire Line
-	4075 4525 4400 4525
+	4025 4525 4400 4525
 Wire Wire Line
-	4075 4625 4400 4625
+	4025 4625 4400 4625
 Wire Wire Line
-	4075 4725 4400 4725
+	4025 4725 4400 4725
 Wire Wire Line
 	4075 4825 4400 4825
 Wire Wire Line
@@ -1514,69 +1426,51 @@ Wire Wire Line
 Wire Wire Line
 	4075 5525 4400 5525
 Wire Wire Line
-	4075 5625 4400 5625
+	1575 6625 1900 6625
 Wire Wire Line
-	4075 5725 4400 5725
+	1575 6725 1900 6725
 Wire Wire Line
-	4075 5825 4400 5825
+	1575 6825 1900 6825
 Wire Wire Line
-	4075 5925 4400 5925
+	1575 6925 1900 6925
 Wire Wire Line
-	4075 6025 4400 6025
+	1575 4725 1900 4725
 Wire Wire Line
-	4075 6125 4400 6125
+	1575 4825 1900 4825
 Wire Wire Line
-	4075 6225 4400 6225
+	1575 4925 1900 4925
 Wire Wire Line
-	4075 6325 4400 6325
+	1575 5025 1900 5025
 Wire Wire Line
-	4075 6425 4400 6425
+	1575 5125 1900 5125
 Wire Wire Line
-	4075 6525 4400 6525
+	1575 5225 1900 5225
 Wire Wire Line
-	6550 2225 6875 2225
+	1575 2225 1900 2225
 Wire Wire Line
-	6550 2325 6875 2325
+	1575 2325 1900 2325
 Wire Wire Line
-	6550 2425 6875 2425
+	1575 2425 1900 2425
 Wire Wire Line
-	6550 2525 6875 2525
+	1575 2525 1900 2525
 Wire Wire Line
-	6550 2625 6875 2625
+	1575 2625 1900 2625
 Wire Wire Line
-	6550 2725 6875 2725
+	1575 2725 1900 2725
 Wire Wire Line
-	6550 2825 6875 2825
+	1575 2825 1900 2825
 Wire Wire Line
-	6550 2925 6875 2925
+	1575 2925 1900 2925
 Wire Wire Line
-	6550 3025 6875 3025
+	1575 3025 1900 3025
 Wire Wire Line
-	6550 3125 6875 3125
+	7700 8950 8025 8950
 Wire Wire Line
-	6550 3225 6875 3225
+	7700 9150 8025 9150
 Wire Wire Line
-	6550 3325 6875 3325
+	7700 9050 8025 9050
 Wire Wire Line
-	6550 3425 6875 3425
-Wire Wire Line
-	6550 3525 6875 3525
-Wire Wire Line
-	6550 3625 6875 3625
-Wire Wire Line
-	6550 3725 6875 3725
-Wire Wire Line
-	6550 3825 6875 3825
-Wire Wire Line
-	6550 3925 6875 3925
-Wire Wire Line
-	6550 4725 6875 4725
-Wire Wire Line
-	6550 4825 6875 4825
-Wire Wire Line
-	6550 4925 6875 4925
-Wire Wire Line
-	6550 5025 6875 5025
+	7700 8850 8025 8850
 Wire Wire Line
 	6550 5125 6875 5125
 Wire Wire Line
@@ -1593,18 +1487,6 @@ Wire Wire Line
 	6550 5725 6875 5725
 Wire Wire Line
 	6550 5825 6875 5825
-Wire Wire Line
-	6550 5925 6875 5925
-Wire Wire Line
-	6550 6025 6875 6025
-Wire Wire Line
-	6550 6125 6875 6125
-Wire Wire Line
-	6550 6225 6875 6225
-Wire Wire Line
-	6550 6325 6875 6325
-Wire Wire Line
-	6550 6425 6875 6425
 Text GLabel 6550 5525 0    50   Input ~ 0
 SPI_ROT_CLK
 Text GLabel 6550 5625 0    50   Input ~ 0
@@ -1613,4 +1495,149 @@ Text GLabel 6550 5725 0    50   Input ~ 0
 SPI_ROT_MOSI
 Text GLabel 6550 5825 0    50   Input ~ 0
 SPI_ROT_MISO
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U1
+U 10 1 6100A116
+P 8025 8850
+F 0 "U1" H 8555 8753 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 8555 8647 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" V 7575 11200 50  0001 C CNN
+F 3 "" V 7575 11200 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" V 7525 11050 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" V 7575 11200 50  0001 C CNN "Manufacturer"
+	10   8025 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U1
+U 11 1 6103B98E
+P 8225 9900
+F 0 "U1" H 9155 9503 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 9155 9397 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" V 7775 12250 50  0001 C CNN
+F 3 "" V 7775 12250 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" V 7725 12100 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" V 7775 12250 50  0001 C CNN "Manufacturer"
+	11   8225 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:ECP5UM5G_85_CABGA756 U1
+U 12 1 61050AD0
+P 10600 9975
+F 0 "U1" H 11530 9578 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 11530 9472 60  0000 L CNN
+F 2 "antmicro-footprints:CABGA756_27x27mm_p0.8mm" V 10150 12325 50  0001 C CNN
+F 3 "" V 10150 12325 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" V 10100 12175 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" V 10150 12325 50  0001 C CNN "Manufacturer"
+	12   10600 9975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 6925 6875 6925
+Wire Wire Line
+	6550 6825 6875 6825
+Wire Wire Line
+	6550 6725 6875 6725
+Wire Wire Line
+	6550 6625 6875 6625
+Wire Wire Line
+	6550 6525 6875 6525
+Wire Wire Line
+	6550 6425 6875 6425
+Wire Wire Line
+	6550 6325 6875 6325
+Wire Wire Line
+	6550 6225 6875 6225
+Wire Wire Line
+	6550 6125 6875 6125
+Text GLabel 6575 6925 0    50   Input ~ 0
+ESPI_RESET_N
+Text GLabel 6575 6825 0    50   Input ~ 0
+ESPI_ALERT_N
+Text GLabel 6575 6725 0    50   Input ~ 0
+ESPI_IO3
+Text GLabel 6575 6625 0    50   Input ~ 0
+ESPI_IO2
+Text GLabel 6575 6525 0    50   Input ~ 0
+ESPI_IO1
+Text GLabel 6575 6425 0    50   Input ~ 0
+ESPI_IO0
+Text GLabel 6550 6325 0    50   Input ~ 0
+ESPI_CS1_N
+Text GLabel 6550 6225 0    50   Input ~ 0
+ESPI_CS0_N
+Text GLabel 6550 6125 0    50   Input ~ 0
+ESPI_CLK
+Text GLabel 6425 1000 0    50   Input ~ 0
+VCC3V3
+Text GLabel 4075 4825 0    50   Input ~ 0
+I3C[0]_SDA_3V3
+Text GLabel 4075 5025 0    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 4075 5125 0    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 4075 5225 0    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 4075 5325 0    50   Input ~ 0
+I3C[2]_SCL_3V3
+Text GLabel 4075 5425 0    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 4075 5525 0    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 4075 4925 0    50   Input ~ 0
+I3C[0]_SCL_3V3
+Text GLabel 4025 2225 0    50   Input ~ 0
+I2C[0]_SDA
+Text GLabel 4025 2625 0    50   Input ~ 0
+I2C[2]_SDA
+Text GLabel 4025 2725 0    50   Input ~ 0
+I2C[2]_SCL
+Text GLabel 4025 3025 0    50   Input ~ 0
+I2C[4]_SDA
+Text GLabel 4025 3125 0    50   Input ~ 0
+I2C[4]_SCL
+Text GLabel 4025 3425 0    50   Input ~ 0
+I2C[6]_SDA
+Text GLabel 4025 3525 0    50   Input ~ 0
+I2C[6]_SCL
+Text GLabel 4025 2325 0    50   Input ~ 0
+I2C[0]_SCL
+Text GLabel 4025 2425 0    50   Input ~ 0
+I2C[1]_SDA
+Text GLabel 4025 2525 0    50   Input ~ 0
+I2C[1]_SCL
+Text GLabel 4025 2825 0    50   Input ~ 0
+I2C[3]_SDA
+Text GLabel 4025 2925 0    50   Input ~ 0
+I2C[3]_SCL
+Text GLabel 4025 3225 0    50   Input ~ 0
+I2C[5]_SDA
+Text GLabel 4025 3325 0    50   Input ~ 0
+I2C[5]_SCL
+Text GLabel 4025 3625 0    50   Input ~ 0
+I2C[7]_SDA
+Text GLabel 4025 3725 0    50   Input ~ 0
+I2C[7]_SCL
+Text GLabel 4025 3825 0    50   Input ~ 0
+I2C[8]_SDA
+Text GLabel 4025 3925 0    50   Input ~ 0
+I2C[8]_SCL
+Text GLabel 4025 4225 0    50   Input ~ 0
+I2C[10]_SDA
+Text GLabel 4025 4325 0    50   Input ~ 0
+I2C[10]_SCL
+Text GLabel 4025 4625 0    50   Input ~ 0
+I2C[12]_SDA
+Text GLabel 4025 4725 0    50   Input ~ 0
+I2C[12]_SCL
+Text GLabel 4025 4025 0    50   Input ~ 0
+I2C[9]_SDA
+Text GLabel 4025 4125 0    50   Input ~ 0
+I2C[9]_SCL
+Text GLabel 4025 4425 0    50   Input ~ 0
+I2C[11]_SDA
+Text GLabel 4025 4525 0    50   Input ~ 0
+I2C[11]_SCL
 $EndSCHEMATC

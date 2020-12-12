@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 11
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -1048,191 +1048,12 @@ Text Notes 2425 1350 0    118  ~ 0
 BIOS flash
 Text Notes 2525 6300 0    118  ~ 0
 BMC flash
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301021121 J?
-U 1 1 5FEAFE3F
-P 11625 2750
-AR Path="/614223A1/5FEAFE3F" Ref="J?"  Part="1" 
-AR Path="/624C566F/5FEAFE3F" Ref="J?"  Part="1" 
-F 0 "J?" H 11720 2925 50  0000 C CNN
-F 1 "61301021121" H 11720 2834 50  0000 C CNN
-F 2 "antmicro-footprints:61301021121" V 11425 2000 60  0001 L CNN
-F 3 "" H 11825 3050 60  0001 L CNN
-F 4 "61301021121" H 11825 3250 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 11825 3850 60  0001 L CNN "Manufacturer"
-	1    11625 2750
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	11525 1800 10900 1800
-Text GLabel 10900 1800 0    50   Input ~ 0
-PCICLK
-Text GLabel 10900 1900 0    50   Input ~ 0
-FRAME
-Text GLabel 10900 2100 0    50   Input ~ 0
-LAD3
-Wire Wire Line
-	11525 2200 11425 2200
-Wire Wire Line
-	11425 2200 11425 1650
-Text GLabel 10900 2300 0    50   Input ~ 0
-LAD0
-Text GLabel 10900 2500 0    50   Input ~ 0
-3VSB
-Wire Wire Line
-	11525 1900 10900 1900
-Wire Wire Line
-	11525 2100 10900 2100
-Text GLabel 10900 2000 0    50   Input ~ 0
-PCIRST#
-Wire Wire Line
-	11525 2000 10900 2000
-Wire Wire Line
-	10900 2300 11525 2300
-Wire Wire Line
-	10900 2500 11525 2500
-NoConn ~ 11525 2400
-Wire Wire Line
-	11525 2600 11425 2600
-Wire Wire Line
-	11425 2600 11425 2875
-$Comp
-L power:GND #PWR?
-U 1 1 5FF2F616
-P 11425 2875
-F 0 "#PWR?" H 11425 2625 50  0001 C CNN
-F 1 "GND" H 11430 2702 50  0000 C CNN
-F 2 "" H 11425 2875 50  0001 C CNN
-F 3 "" H 11425 2875 50  0001 C CNN
-	1    11425 2875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11925 1800 12050 1800
-Wire Wire Line
-	12050 1800 12050 2300
-$Comp
-L power:GND #PWR?
-U 1 1 5FF39BDA
-P 12050 2875
-F 0 "#PWR?" H 12050 2625 50  0001 C CNN
-F 1 "GND" H 12055 2702 50  0000 C CNN
-F 2 "" H 12050 2875 50  0001 C CNN
-F 3 "" H 12050 2875 50  0001 C CNN
-	1    12050 2875
-	1    0    0    -1  
-$EndComp
-NoConn ~ 11925 1900
-NoConn ~ 11925 2000
-Text GLabel 12550 2100 2    50   Input ~ 0
-LAD2
-Wire Wire Line
-	11925 2100 12550 2100
-Text GLabel 12550 2200 2    50   Input ~ 0
-LAD1
-Wire Wire Line
-	11925 2200 12550 2200
-Wire Wire Line
-	11925 2300 12050 2300
-Connection ~ 12050 2300
-Wire Wire Line
-	12050 2300 12050 2875
-Text GLabel 12550 2400 2    50   Input ~ 0
-ID
-Wire Wire Line
-	11925 2500 12550 2500
-Text GLabel 12550 2500 2    50   Input ~ 0
-SERIRQ
-Text GLabel 12550 2700 2    50   Input ~ 0
-SUSCLK
-Text Notes 11950 1925 0    50   ~ 0
-no pin\n
-Text GLabel 11425 1650 1    50   Input ~ 0
-VCC3V0
-Text GLabel 11025 2700 0    50   Input ~ 0
-PWRDWN
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 5FF9DBC1
-P 11225 2700
-F 0 "R?" H 11225 2913 60  0000 C CNN
-F 1 "R_0R_0402" H 11225 2550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11425 2900 60  0001 L CNN
-F 3 "" H 11225 2700 50  0001 C CNN
-F 4 "PANASONIC" H 11425 3100 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11425 3000 60  0001 L CNN "MPN"
-F 6 "0R" H 11225 2815 50  0000 C CNN "Val"
-	1    11225 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11075 2700 11025 2700
-Wire Wire Line
-	11375 2700 11525 2700
-Text GLabel 12550 2600 2    50   Input ~ 0
-CLKRUN
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 5FFB3D35
-P 12275 2600
-F 0 "R?" H 12275 2813 60  0000 C CNN
-F 1 "R_0R_0402" H 12275 2450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12475 2800 60  0001 L CNN
-F 3 "" H 12275 2600 50  0001 C CNN
-F 4 "PANASONIC" H 12475 3000 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 12475 2900 60  0001 L CNN "MPN"
-F 6 "0R" H 12275 2715 50  0000 C CNN "Val"
-	1    12275 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 5FFB415C
-P 12275 2700
-F 0 "R?" H 12275 2913 60  0000 C CNN
-F 1 "R_0R_0402" H 12275 2550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12475 2900 60  0001 L CNN
-F 3 "" H 12275 2700 50  0001 C CNN
-F 4 "PANASONIC" H 12475 3100 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 12475 3000 60  0001 L CNN "MPN"
-F 6 "0R" H 12275 2815 50  0000 C CNN "Val"
-	1    12275 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11925 2700 12125 2700
-Wire Wire Line
-	12425 2700 12550 2700
-Wire Wire Line
-	11925 2600 12125 2600
-Wire Wire Line
-	12425 2600 12550 2600
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 5FFECBDF
-P 12275 2400
-F 0 "R?" H 12275 2613 60  0000 C CNN
-F 1 "R_0R_0402" H 12275 2250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12475 2600 60  0001 L CNN
-F 3 "" H 12275 2400 50  0001 C CNN
-F 4 "PANASONIC" H 12475 2800 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 12475 2700 60  0001 L CNN "MPN"
-F 6 "0R" H 12275 2515 50  0000 C CNN "Val"
-	1    12275 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12550 2400 12425 2400
-Wire Wire Line
-	12125 2400 11925 2400
-Text Notes 10975 1075 0    118  ~ 0
+Text Notes 10750 1300 0    118  ~ 0
 TPM connector
 Text Notes 1650 6400 0    50   ~ 0
 One or typically two flash devices used to contain the BMC firmware image
 Text Notes 1475 1475 0    50   ~ 0
 One or typically two flash devices used to contain the BIOS firmware image
-Text Notes 11050 3225 0    50   ~ 0
-This is TPM running on LPC interface, search for some with SPI?
 Text GLabel 8250 4900 0    50   Input ~ 0
 SPI_ROT_CLK
 Text GLabel 8250 5000 0    50   Input ~ 0
@@ -1301,8 +1122,6 @@ Text GLabel 9700 5200 2    50   Input ~ 0
 QSPI0_D2
 Text GLabel 9700 5300 2    50   Input ~ 0
 QSPI0_D3
-Text GLabel 12825 3375 2    50   Input ~ 0
-QSPI0_CS1_N
 Wire Wire Line
 	8250 5300 8750 5300
 Wire Wire Line
@@ -1371,18 +1190,83 @@ Text Notes 10500 6550 1    50   ~ 0
 BMC flash
 Text Notes 10525 5325 1    50   ~ 0
 QSPI to HPM
-Text GLabel 12825 3475 2    50   Input ~ 0
-QSPI0_CLK
-Text GLabel 12825 3575 2    50   Input ~ 0
-QSPI0_D0
-Text GLabel 12825 3675 2    50   Input ~ 0
-QSPI0_D1
-Text GLabel 12825 3775 2    50   Input ~ 0
-QSPI0_D2
-Text GLabel 12825 3875 2    50   Input ~ 0
-QSPI0_D3
 Text GLabel 8250 6800 0    50   Input ~ 0
 ROT_RDY
 Wire Wire Line
 	8750 6800 8250 6800
+Text GLabel 11850 1875 2    50   Input ~ 0
+PIRQ#
+Text GLabel 11850 1975 2    50   Input ~ 0
+RST
+Text GLabel 11850 2075 2    50   Input ~ 0
+GPIO
+Text GLabel 11850 2175 2    50   Input ~ 0
+PP
+Text Notes 12050 2575 0    50   ~ 0
+Pinout for AES-PMOD-TPM20-SLB9670-G
+Wire Wire Line
+	11450 2375 10850 2375
+Wire Wire Line
+	10850 2375 10850 1800
+Wire Wire Line
+	11850 2375 12325 2375
+Wire Wire Line
+	12325 2375 12325 1800
+Wire Wire Line
+	11450 2275 11375 2275
+Wire Wire Line
+	11375 2275 11375 2575
+Wire Wire Line
+	11850 2275 11950 2275
+Wire Wire Line
+	11950 2275 11950 2575
+$Comp
+L power:GND #PWR?
+U 1 1 61AD108E
+P 11375 2575
+F 0 "#PWR?" H 11375 2325 50  0001 C CNN
+F 1 "GND" H 11380 2402 50  0000 C CNN
+F 2 "" H 11375 2575 50  0001 C CNN
+F 3 "" H 11375 2575 50  0001 C CNN
+	1    11375 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61AD142C
+P 11950 2575
+F 0 "#PWR?" H 11950 2325 50  0001 C CNN
+F 1 "GND" H 11955 2402 50  0000 C CNN
+F 2 "" H 11950 2575 50  0001 C CNN
+F 3 "" H 11950 2575 50  0001 C CNN
+	1    11950 2575
+	1    0    0    -1  
+$EndComp
+Text GLabel 10850 1800 1    50   Input ~ 0
+VCC3V3
+Text GLabel 12325 1800 1    50   Input ~ 0
+VCC3V3
+Text GLabel 11450 2175 0    50   Input ~ 0
+SPI0_CLK
+Text GLabel 11450 1875 0    50   Input ~ 0
+SPI0_CS_N
+Text GLabel 11450 1975 0    50   Input ~ 0
+SPI0_MOSI
+Text GLabel 11450 2075 0    50   Input ~ 0
+SPI0_MISO
+Text Notes 12225 2325 1    50   ~ 0
+TODO: tie this pins to DC-SCI connector
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:M20-7830642 J?
+U 1 1 61B2CE0C
+P 11650 2075
+F 0 "J?" H 11650 2522 60  0000 C CNN
+F 1 "M20-7830642" H 11650 2416 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Vertical" H 11850 2275 60  0001 L CNN
+F 3 "" H 11850 2375 60  0001 L CNN
+F 4 "M20-7830642" H 11850 2575 60  0001 L CNN "MPN"
+F 5 "Molex" H 11850 2675 60  0001 L CNN "Manufacturer"
+	1    11650 2075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

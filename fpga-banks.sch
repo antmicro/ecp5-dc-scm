@@ -828,7 +828,7 @@ Wire Wire Line
 	14000 1100 14000 950 
 Connection ~ 14000 1100
 Text GLabel 14000 950  0    50   Input ~ 0
-VCC3V3
+VCC1V8
 Wire Wire Line
 	15150 1100 15150 1475
 Connection ~ 4275 7500
@@ -1535,40 +1535,40 @@ F 5 "Lattice Semiconductor" V 10150 12325 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 6925 6875 6925
+	14125 2975 14450 2975
 Wire Wire Line
-	6550 6825 6875 6825
+	14125 2875 14450 2875
 Wire Wire Line
-	6550 6725 6875 6725
+	14125 2775 14450 2775
 Wire Wire Line
-	6550 6625 6875 6625
+	14125 2675 14450 2675
 Wire Wire Line
-	6550 6525 6875 6525
+	14125 2575 14450 2575
 Wire Wire Line
-	6550 6425 6875 6425
+	14125 2475 14450 2475
 Wire Wire Line
-	6550 6325 6875 6325
+	14125 2375 14450 2375
 Wire Wire Line
-	6550 6225 6875 6225
+	14125 2275 14450 2275
 Wire Wire Line
-	6550 6125 6875 6125
-Text GLabel 6575 6925 0    50   Input ~ 0
+	14125 2175 14450 2175
+Text GLabel 14150 2975 0    50   Input ~ 0
 ESPI_RESET_N
-Text GLabel 6575 6825 0    50   Input ~ 0
+Text GLabel 14150 2875 0    50   Input ~ 0
 ESPI_ALERT_N
-Text GLabel 6575 6725 0    50   Input ~ 0
+Text GLabel 14150 2775 0    50   Input ~ 0
 ESPI_IO3
-Text GLabel 6575 6625 0    50   Input ~ 0
+Text GLabel 14150 2675 0    50   Input ~ 0
 ESPI_IO2
-Text GLabel 6575 6525 0    50   Input ~ 0
+Text GLabel 14150 2575 0    50   Input ~ 0
 ESPI_IO1
-Text GLabel 6575 6425 0    50   Input ~ 0
+Text GLabel 14150 2475 0    50   Input ~ 0
 ESPI_IO0
-Text GLabel 6550 6325 0    50   Input ~ 0
+Text GLabel 14125 2375 0    50   Input ~ 0
 ESPI_CS1_N
-Text GLabel 6550 6225 0    50   Input ~ 0
+Text GLabel 14125 2275 0    50   Input ~ 0
 ESPI_CS0_N
-Text GLabel 6550 6125 0    50   Input ~ 0
+Text GLabel 14125 2175 0    50   Input ~ 0
 ESPI_CLK
 Text GLabel 6425 1000 0    50   Input ~ 0
 VCC3V3

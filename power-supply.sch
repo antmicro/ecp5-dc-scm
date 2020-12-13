@@ -239,11 +239,7 @@ Wire Wire Line
 	12425 8450 12425 8500
 Connection ~ 12425 8450
 Wire Wire Line
-	12425 8450 13025 8450
-Text Label 12700 8600 0    50   ~ 0
-1V0_EN
-Wire Wire Line
-	13025 8600 12700 8600
+	12425 8450 12825 8450
 $Comp
 L antmicroResistors0402:R_124k_0402 R28
 U 1 1 63766005
@@ -691,9 +687,7 @@ Wire Wire Line
 	12450 6725 12450 6775
 Connection ~ 12450 6725
 Wire Wire Line
-	12450 6725 13050 6725
-Text Label 12725 6875 0    50   ~ 0
-1V35_EN
+	12450 6725 12725 6725
 Wire Wire Line
 	13050 6875 12725 6875
 $Comp
@@ -976,9 +970,7 @@ Wire Wire Line
 	12400 4900 12400 4950
 Connection ~ 12400 4900
 Wire Wire Line
-	12400 4900 13000 4900
-Text Label 12700 5050 0    50   ~ 0
-1V8_EN
+	12400 4900 12700 4900
 Wire Wire Line
 	13000 5050 12700 5050
 $Comp
@@ -1915,9 +1907,7 @@ Wire Wire Line
 	12375 2750 12375 2800
 Connection ~ 12375 2750
 Wire Wire Line
-	12375 2750 12975 2750
-Text Label 12675 2900 0    50   ~ 0
-3V3_EN
+	12375 2750 12675 2750
 Wire Wire Line
 	12975 2900 12675 2900
 Text Notes 1025 1550 0    50   ~ 0
@@ -2136,9 +2126,9 @@ $EndComp
 Text GLabel 9175 8225 0    50   Input ~ 0
 VCC1V0
 Text Label 2700 9775 2    50   ~ 0
-VCCINT_EN
+1V2_EN
 Text Label 2700 9875 2    50   ~ 0
-VCCAUX_EN
+3V3_EN
 Wire Wire Line
 	2075 10500 2075 10075
 $Comp
@@ -2308,135 +2298,91 @@ $EndComp
 Wire Notes Line
 	475  8400 475  8425
 Text Label 2700 9975 2    50   ~ 0
-VCCIO_EN
-Text GLabel 6175 8675 0    50   Input ~ 0
+2V5_EN
+Text GLabel 5875 8575 0    50   Input ~ 0
 ROT_RDY
-Text GLabel 6675 8775 2    50   Input ~ 0
+Text GLabel 6375 8675 2    50   Input ~ 0
 HPM_STBY_EN
-Text GLabel 6175 8975 0    50   Input ~ 0
+Text GLabel 5875 8875 0    50   Input ~ 0
 HPM_STBY_RDY
 $Comp
 L antmicroLogicGatesandInverters:SN74LS08DBR U?
 U 1 1 604C4E84
-P 6475 8775
+P 6175 8675
 AR Path="/5FEC3511/604C4E84" Ref="U?"  Part="1" 
 AR Path="/5FCA4661/604C4E84" Ref="U6"  Part="1" 
-F 0 "U6" H 6175 9275 60  0000 C CNN
-F 1 "SN74LS08DBR" H 6050 9150 60  0000 C CNN
-F 2 "" H 6675 8975 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 6675 9075 60  0001 L CNN
-F 4 "SN74LS08DBR" H 6675 9275 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 6675 9875 60  0001 L CNN "Manufacturer"
-	1    6475 8775
+F 0 "U6" H 5875 9175 60  0000 C CNN
+F 1 "SN74LS08DBR" H 5750 9050 60  0000 C CNN
+F 2 "" H 6375 8875 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 6375 8975 60  0001 L CNN
+F 4 "SN74LS08DBR" H 6375 9175 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 6375 9775 60  0001 L CNN "Manufacturer"
+	1    6175 8675
 	1    0    0    -1  
 $EndComp
-Text GLabel 6125 8875 0    50   Input ~ 0
+Text GLabel 5825 8775 0    50   Input ~ 0
 HPM_STBY_EN
 Wire Wire Line
-	6675 8975 7050 8975
-Text GLabel 6475 8375 1    50   Input ~ 0
+	6375 8875 6750 8875
+Text GLabel 6175 8275 1    50   Input ~ 0
 VCC3V3
 $Comp
 L power:GND #PWR?
 U 1 1 604C4EA6
-P 6475 9750
+P 6175 9650
 AR Path="/5FEC3511/604C4EA6" Ref="#PWR?"  Part="1" 
 AR Path="/5FCA4661/604C4EA6" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 6475 9500 50  0001 C CNN
-F 1 "GND" H 6480 9577 50  0000 C CNN
-F 2 "" H 6475 9750 50  0001 C CNN
-F 3 "" H 6475 9750 50  0001 C CNN
-	1    6475 9750
+F 0 "#PWR016" H 6175 9400 50  0001 C CNN
+F 1 "GND" H 6180 9477 50  0000 C CNN
+F 2 "" H 6175 9650 50  0001 C CNN
+F 3 "" H 6175 9650 50  0001 C CNN
+	1    6175 9650
 	1    0    0    -1  
 $EndComp
-Text Notes 5475 8600 0    50   ~ 0
+Text Notes 5175 8500 0    50   ~ 0
 RoT booted flag pin
-Text Notes 5175 9550 0    50   ~ 0
+Text Notes 4875 9450 0    50   ~ 0
 TODO: add footprint in libs
 Wire Wire Line
-	6175 8775 5275 8775
-Text Label 5275 8775 0    50   ~ 0
+	5875 8675 4975 8675
+Text Label 4975 8675 0    50   ~ 0
 VR_GOOD
-$Comp
-L antmicroLogicGatesandInverters:SN74LVC1G08DCKR U5
-U 1 1 60BD4DD0
-P 6475 7350
-F 0 "U5" H 6625 7150 60  0000 L CNN
-F 1 "SN74LVC1G08DCKR" H 6550 7050 60  0000 L CNN
-F 2 "antmicro-footprints:SC-70-5" H 6675 7550 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 6675 7650 60  0001 L CNN
-F 4 "SN74LVC1G08DCKR" H 6675 7850 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 6675 8450 60  0001 L CNN "Manufacturer"
-	1    6475 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6175 9075 5250 9075
+	5875 8975 4950 8975
 Wire Wire Line
-	6175 9175 5250 9175
+	5875 9075 4950 9075
 Wire Wire Line
-	6175 9275 5250 9275
+	5875 9175 4950 9175
 Wire Wire Line
-	6175 9375 5250 9375
+	5875 9275 4950 9275
 Wire Wire Line
-	6675 9175 7050 9175
+	6375 9075 6750 9075
 Wire Wire Line
-	6675 9375 7050 9375
-Text Label 6775 9175 0    50   ~ 0
+	6375 9275 6750 9275
+Text Label 6475 9075 0    50   ~ 0
 VR1_PG
-Text Label 6775 9375 0    50   ~ 0
+Text Label 6475 9275 0    50   ~ 0
 VR2_PG
-Text GLabel 6475 7050 1    50   Input ~ 0
-VCC3V3
-$Comp
-L power:GND #PWR?
-U 1 1 60DF020D
-P 6475 7650
-AR Path="/5FEC3511/60DF020D" Ref="#PWR?"  Part="1" 
-AR Path="/5FCA4661/60DF020D" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 6475 7400 50  0001 C CNN
-F 1 "GND" H 6480 7477 50  0000 C CNN
-F 2 "" H 6475 7650 50  0001 C CNN
-F 3 "" H 6475 7650 50  0001 C CNN
-	1    6475 7650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6175 7250 5700 7250
-Wire Wire Line
-	6175 7450 5700 7450
-Text Label 5700 7250 0    50   ~ 0
+Text Label 5100 7250 0    50   ~ 0
 VR1_PG
-Text Label 5700 7450 0    50   ~ 0
+Text Label 5100 7350 0    50   ~ 0
 VR2_PG
-Wire Wire Line
-	6775 7350 7200 7350
-Text Label 6850 7350 0    50   ~ 0
-VR_GOOD
-Text Label 6775 8975 0    50   ~ 0
+Text Label 6475 8875 0    50   ~ 0
 PWR_EN
 Wire Wire Line
 	9250 8875 8850 8875
 Text Label 8850 8875 0    50   ~ 0
 1V0_PG
 Text Notes 4300 11025 0    50   ~ 0
-STEP1: VRs start and RoT boots (HPM_STBY_EN when both are done)\nSTEP2: HPM starts its VRs and sets HPM_STBY_RDY when done\nSTEP3: FPGA VCCINT (1.0V)\nSTEP4: FPGA VCCAUX + DDR3 (1.8V, 1.35V)\nSTEP5: FPGA VCCIO + DDR3 (3.3V, DDRVTT), HPM reset is de-asserted\nSTEP6: HPM boots
-Text GLabel 3425 6950 0    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	3650 7350 3650 7425
-Wire Wire Line
-	3650 7425 3850 7425
-Text GLabel 3850 7425 2    50   Input ~ 0
-VCC3V3_BANK
+STEP1: VRs start and RoT boots (HPM_STBY_EN when both are done)\nSTEP2: HPM starts its VRs and sets HPM_STBY_RDY when done\nSTEP3: FPGA 1V2\nSTEP4: FPGA 3V3, 1V8 + DDR3 1.35V, 3V3\nSTEP5: FPGA 2V5, HPM reset is de-asserted\nSTEP6: HPM boots
 Text GLabel 3425 7550 0    50   Input ~ 0
-VCC1V35
+VCC3V3
 Wire Wire Line
 	3650 7950 3650 8025
 Wire Wire Line
 	3650 8025 3850 8025
 Text GLabel 3850 8025 2    50   Input ~ 0
-VCC1V35_BANK
+VCC3V3_T
 Text GLabel 3425 8150 0    50   Input ~ 0
 VCC1V35
 Wire Wire Line
@@ -2444,13 +2390,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 8625 3850 8625
 Text GLabel 3850 8625 2    50   Input ~ 0
-VCC1V35_DDR3
+VCC1V35_T
 Wire Wire Line
 	3650 8150 3425 8150
 Wire Wire Line
 	3425 7550 3650 7550
-Wire Wire Line
-	3425 6950 3650 6950
 Text GLabel 3425 8750 0    50   Input ~ 0
 VCC1V8
 Wire Wire Line
@@ -2458,15 +2402,9 @@ Wire Wire Line
 Wire Wire Line
 	3650 9225 3850 9225
 Text GLabel 3850 9225 2    50   Input ~ 0
-VCCAUX
+VCC1V8_T
 Wire Wire Line
 	3650 8750 3425 8750
-Text GLabel 3425 9350 0    50   Input ~ 0
-VCC1V0
-Wire Wire Line
-	3650 9825 3850 9825
-Text GLabel 3850 9825 2    50   Input ~ 0
-VCCINT
 $Comp
 L antmicroPMICVoltageRegulatorsDCDCSwitchingControllers:LM3881MME_NOPB U4
 U 1 1 6113B8AB
@@ -2488,26 +2426,11 @@ Wire Wire Line
 	2900 9050 3350 9050
 Wire Wire Line
 	2900 8450 3350 8450
-Wire Wire Line
-	2900 7850 3350 7850
 $Comp
 L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q1
 U 1 1 60AACDB5
-P 3650 7150
-F 0 "Q1" H 3758 7203 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 3758 7097 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 3850 7350 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3850 7450 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 3850 7650 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 3850 8250 60  0001 L CNN "Manufacturer"
-	1    3650 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q2
-U 1 1 60ABC3AE
 P 3650 7750
-F 0 "Q2" H 3758 7803 60  0000 L CNN
+F 0 "Q1" H 3758 7803 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 3758 7697 60  0000 L CNN
 F 2 "antmicro-footprints:SOT-23-3" H 3850 7950 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3850 8050 60  0001 L CNN
@@ -2542,66 +2465,22 @@ F 5 "Infineon Technologies" H 3850 10050 60  0001 L CNN "Manufacturer"
 	1    3650 8950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3650 9350 3425 9350
-Wire Wire Line
-	2900 9650 3350 9650
-Wire Wire Line
-	3650 9750 3650 9825
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q5
-U 1 1 60AC39E0
-P 3650 9550
-F 0 "Q5" H 3758 9603 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 3758 9497 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 3850 9750 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3850 9850 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 3850 10050 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 3850 10650 60  0001 L CNN "Manufacturer"
-	1    3650 9550
-	1    0    0    -1  
-$EndComp
-Text Label 5250 9075 0    50   ~ 0
+Text Label 4950 8975 0    50   ~ 0
 1V8_PG
-Text Label 5250 9175 0    50   ~ 0
+Text Label 4950 9075 0    50   ~ 0
 1V35_PG
-Text Label 5250 9275 0    50   ~ 0
-1V0_PG
-Text Label 5250 9375 0    50   ~ 0
+Text Label 4950 9175 0    50   ~ 0
+1V2_PG
+Text Label 4950 9275 0    50   ~ 0
 3V3_PG
 Wire Wire Line
-	2900 7250 3350 7250
+	2900 7850 3350 7850
 Wire Wire Line
-	6175 8875 6125 8875
+	5875 8775 5825 8775
 Wire Wire Line
-	6475 9675 6475 9750
+	6175 9575 6175 9650
 Text Notes 1025 6650 0    118  ~ 0
 Power sequencer
-Text GLabel 3425 9950 0    50   Input ~ 0
-VCC1V8
-Wire Wire Line
-	3650 10350 3650 10425
-Wire Wire Line
-	3650 10425 3850 10425
-Text GLabel 3850 10425 2    50   Input ~ 0
-VCC1V8_BANK
-Wire Wire Line
-	3425 9950 3650 9950
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q6
-U 1 1 613CE2C1
-P 3650 10150
-F 0 "Q6" H 3758 10203 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 3758 10097 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 3850 10350 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3850 10450 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 3850 10650 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 3850 11250 60  0001 L CNN "Manufacturer"
-	1    3650 10150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 10250 3350 10250
 Text Notes 6075 11100 0    50   ~ 0
 ^ TODO: decide which DC-SCI pin connected\n    to FPGA does this
 Wire Wire Line
@@ -2613,17 +2492,7 @@ Wire Wire Line
 Wire Wire Line
 	1025 10075 1200 10075
 Connection ~ 1025 9775
-Text Label 3275 9650 2    50   ~ 0
-VCCINT_EN
-Text Label 3275 10250 2    50   ~ 0
-VCCIO_EN
-Text Label 3300 9050 2    50   ~ 0
-VCCAUX_EN
-Text Label 3300 8450 2    50   ~ 0
-VCCAUX_EN
 Text Label 3250 7850 2    50   ~ 0
-VCCIO_EN
-Text Label 3250 7250 2    50   ~ 0
 VCCIO_EN
 Wire Wire Line
 	2050 9775 2050 9450
@@ -2634,7 +2503,7 @@ Wire Wire Line
 	2150 9875 2150 9450
 Connection ~ 2150 9875
 Wire Wire Line
-	2150 9875 2700 9875
+	2150 9875 2350 9875
 Wire Wire Line
 	2000 9975 2250 9975
 Wire Wire Line
@@ -2699,4 +2568,140 @@ Wire Wire Line
 	2150 9100 2150 9150
 Wire Wire Line
 	2150 9100 2250 9100
+Wire Wire Line
+	2350 9875 2350 10075
+Wire Wire Line
+	2350 10075 2700 10075
+Connection ~ 2350 9875
+Wire Wire Line
+	2350 9875 2700 9875
+Wire Wire Line
+	2350 10075 2350 10175
+Wire Wire Line
+	2350 10175 2700 10175
+Connection ~ 2350 10075
+Text Label 2700 10075 2    50   ~ 0
+1V8_EN
+Text Label 2700 10175 2    50   ~ 0
+1V35_EN
+Text Label 3175 9050 2    50   ~ 0
+1V8_EN
+Text Label 3225 8450 2    50   ~ 0
+1V35_EN
+Text GLabel 3425 6975 0    50   Input ~ 0
+VCC2V5
+Wire Wire Line
+	3650 7375 3650 7450
+Wire Wire Line
+	3650 7450 3850 7450
+Text GLabel 3850 7450 2    50   Input ~ 0
+VCC2V5_T
+Wire Wire Line
+	3425 6975 3650 6975
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q?
+U 1 1 60671B35
+P 3650 7175
+F 0 "Q?" H 3758 7228 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 3758 7122 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23-3" H 3850 7375 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3850 7475 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 3850 7675 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 3850 8275 60  0001 L CNN "Manufacturer"
+	1    3650 7175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 7275 3350 7275
+Text Label 3175 7275 2    50   ~ 0
+1V8_EN
+Wire Wire Line
+	3425 9350 3650 9350
+Text GLabel 3425 9350 0    50   Input ~ 0
+VCC1V2
+Text Label 3175 9650 2    50   ~ 0
+1V8_EN
+Wire Wire Line
+	2900 9650 3350 9650
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q6
+U 1 1 613CE2C1
+P 3650 9550
+F 0 "Q6" H 3758 9603 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 3758 9497 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23-3" H 3850 9750 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3850 9850 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 3850 10050 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 3850 10650 60  0001 L CNN "Manufacturer"
+	1    3650 9550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 9825 2    50   Input ~ 0
+VCC1V2_T
+Wire Wire Line
+	3650 9825 3850 9825
+Wire Wire Line
+	3650 9750 3650 9825
+Wire Wire Line
+	13025 8600 12825 8600
+Wire Wire Line
+	12825 8600 12825 8450
+Connection ~ 12825 8450
+Wire Wire Line
+	12825 8450 13025 8450
+$Comp
+L antmicroLogicGatesandInverters:SN74LVC1G11DBVR U?
+U 1 1 608DBF3B
+P 5850 7450
+F 0 "U?" H 6025 7425 60  0000 L CNN
+F 1 "SN74LVC1G11DBVR" H 6025 7350 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23-6" H 5880 7600 60  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1607678267544&ref_url=https%253A%252F%252Fru.mouser.com%252F" H 6050 7750 60  0001 L CNN
+F 4 "SN74LVC1G11DBVR" H 6050 7950 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 6050 8550 60  0001 L CNN "Manufacturer"
+	1    5850 7450
+	1    0    0    -1  
+$EndComp
+Text Label 5100 7450 0    50   ~ 0
+2V5_PG
+Wire Wire Line
+	5450 7250 5100 7250
+Wire Wire Line
+	5450 7350 5100 7350
+Wire Wire Line
+	5450 7450 5100 7450
+Text GLabel 5750 7000 1    50   Input ~ 0
+VCC3V3
+$Comp
+L power:GND #PWR?
+U 1 1 609C1D01
+P 5750 7700
+AR Path="/5FEC3511/609C1D01" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4661/609C1D01" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 7450 50  0001 C CNN
+F 1 "GND" H 5755 7527 50  0000 C CNN
+F 2 "" H 5750 7700 50  0001 C CNN
+F 3 "" H 5750 7700 50  0001 C CNN
+	1    5750 7700
+	1    0    0    -1  
+$EndComp
+Text Label 6150 7350 0    50   ~ 0
+VR_GOOD
+Wire Wire Line
+	6100 7350 6525 7350
+Wire Wire Line
+	12675 2900 12675 2750
+Connection ~ 12675 2750
+Wire Wire Line
+	12675 2750 12975 2750
+Wire Wire Line
+	12700 5050 12700 4900
+Connection ~ 12700 4900
+Wire Wire Line
+	12700 4900 13000 4900
+Wire Wire Line
+	12725 6875 12725 6725
+Connection ~ 12725 6725
+Wire Wire Line
+	12725 6725 13050 6725
 $EndSCHEMATC

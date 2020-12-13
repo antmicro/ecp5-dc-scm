@@ -232,7 +232,7 @@ Wire Wire Line
 	1450 1150 1450 1000
 Connection ~ 1450 1150
 Text GLabel 1450 1000 0    50   Input ~ 0
-VCC3V3
+VCC3V3_T
 Wire Wire Line
 	2600 1150 2600 1525
 Wire Wire Line
@@ -352,7 +352,7 @@ Wire Wire Line
 	3950 1150 3950 1000
 Connection ~ 3950 1150
 Text GLabel 3950 1000 0    50   Input ~ 0
-VCC3V3
+VCC3V3_T
 Wire Wire Line
 	5100 1150 5100 1525
 Wire Wire Line
@@ -708,7 +708,7 @@ Wire Wire Line
 	11475 1125 11475 975 
 Connection ~ 11475 1125
 Text GLabel 11475 975  0    50   Input ~ 0
-VCC3V3
+VCC3V3_T
 Wire Wire Line
 	12625 1125 12625 1500
 Wire Wire Line
@@ -828,7 +828,7 @@ Wire Wire Line
 	14000 1100 14000 950 
 Connection ~ 14000 1100
 Text GLabel 14000 950  0    50   Input ~ 0
-VCC1V8
+VCC1V8_T
 Wire Wire Line
 	15150 1100 15150 1475
 Connection ~ 4275 7500
@@ -878,7 +878,7 @@ Wire Wire Line
 Wire Wire Line
 	4025 7500 3775 7500
 Text GLabel 3775 7500 0    50   Input ~ 0
-VCC3V3
+VCC3V3_T
 Wire Wire Line
 	4425 7500 4425 7875
 $Comp
@@ -952,7 +952,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 7500 6100 7500
 Text GLabel 6100 7500 0    50   Input ~ 0
-VCC3V3
+VCC3V3_T
 Wire Wire Line
 	6750 7500 6750 7875
 $Comp
@@ -1022,7 +1022,7 @@ F 3 "" H 14000 1525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8925 1000 0    50   Input ~ 0
-VCC1V35
+VCC1V35_T
 Text GLabel 11550 6900 0    50   Input ~ 0
 RGMII_RX_DV
 Text GLabel 11550 6600 0    50   Output ~ 0
@@ -1571,7 +1571,7 @@ ESPI_CS0_N
 Text GLabel 14125 2175 0    50   Input ~ 0
 ESPI_CLK
 Text GLabel 6425 1000 0    50   Input ~ 0
-VCC3V3
+VCC3V3_T
 Text GLabel 4075 4825 0    50   Input ~ 0
 I3C[0]_SDA_3V3
 Text GLabel 4075 5025 0    50   Input ~ 0

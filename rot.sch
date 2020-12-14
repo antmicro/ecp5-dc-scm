@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 11
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -216,7 +216,7 @@ AR Path="/5FC6B687/5FD7A6EF" Ref="U?"  Part="1"
 AR Path="/624C566F/5FD7A6EF" Ref="U5"  Part="1" 
 F 0 "U5" H 3700 2475 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3700 2575 50  0000 L CNN
-F 2 "antmicro-footprints:SOIC-8_W5.6mm" H 3650 2950 60  0001 L CNN
+F 2 "antmicro-footprints:W25Q32JVSSIQ" H 3650 2950 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3650 3050 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3650 3250 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3650 3850 60  0001 L CNN "Manufacturer"
@@ -470,7 +470,7 @@ AR Path="/5FC6B687/5FD83521" Ref="U?"  Part="1"
 AR Path="/624C566F/5FD83521" Ref="U4"  Part="1" 
 F 0 "U4" H 3675 4525 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3675 4625 50  0000 L CNN
-F 2 "antmicro-footprints:SOIC-8_W5.6mm" H 3625 5000 60  0001 L CNN
+F 2 "antmicro-footprints:W25Q32JVSSIQ" H 3625 5000 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3625 5100 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3625 5300 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3625 5900 60  0001 L CNN "Manufacturer"
@@ -724,7 +724,7 @@ AR Path="/5FC6B687/5FE29486" Ref="U?"  Part="1"
 AR Path="/624C566F/5FE29486" Ref="U3"  Part="1" 
 F 0 "U3" H 3625 7425 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3625 7525 50  0000 L CNN
-F 2 "antmicro-footprints:SOIC-8_W5.6mm" H 3575 7900 60  0001 L CNN
+F 2 "antmicro-footprints:W25Q32JVSSIQ" H 3575 7900 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3575 8000 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3575 8200 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3575 8800 60  0001 L CNN "Manufacturer"
@@ -978,7 +978,7 @@ AR Path="/5FC6B687/5FE2950F" Ref="U?"  Part="1"
 AR Path="/624C566F/5FE2950F" Ref="U2"  Part="1" 
 F 0 "U2" H 3600 9475 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3600 9575 50  0000 L CNN
-F 2 "antmicro-footprints:SOIC-8_W5.6mm" H 3550 9950 60  0001 L CNN
+F 2 "antmicro-footprints:W25Q32JVSSIQ" H 3550 9950 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3550 10050 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3550 10250 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3550 10850 60  0001 L CNN "Manufacturer"
@@ -1048,7 +1048,7 @@ Text Notes 2425 1350 0    118  ~ 0
 BIOS flash
 Text Notes 2525 6300 0    118  ~ 0
 BMC flash
-Text Notes 10750 1300 0    118  ~ 0
+Text Notes 10900 1500 0    118  ~ 0
 TPM connector
 Text Notes 1650 6400 0    50   ~ 0
 One or typically two flash devices used to contain the BMC firmware image
@@ -1194,79 +1194,83 @@ Text GLabel 8250 6800 0    50   Input ~ 0
 ROT_RDY
 Wire Wire Line
 	8750 6800 8250 6800
-Text GLabel 11850 1875 2    50   Input ~ 0
-PIRQ#
-Text GLabel 11850 1975 2    50   Input ~ 0
-RST
-Text GLabel 11850 2075 2    50   Input ~ 0
-GPIO
-Text GLabel 11850 2175 2    50   Input ~ 0
-PP
-Text Notes 12050 2575 0    50   ~ 0
-Pinout for AES-PMOD-TPM20-SLB9670-G
-Wire Wire Line
-	11450 2375 10850 2375
-Wire Wire Line
-	10850 2375 10850 1800
-Wire Wire Line
-	11850 2375 12325 2375
-Wire Wire Line
-	12325 2375 12325 1800
-Wire Wire Line
-	11450 2275 11375 2275
-Wire Wire Line
-	11375 2275 11375 2575
-Wire Wire Line
-	11850 2275 11950 2275
-Wire Wire Line
-	11950 2275 11950 2575
-$Comp
-L power:GND #PWR024
-U 1 1 61AD108E
-P 11375 2575
-F 0 "#PWR024" H 11375 2325 50  0001 C CNN
-F 1 "GND" H 11380 2402 50  0000 C CNN
-F 2 "" H 11375 2575 50  0001 C CNN
-F 3 "" H 11375 2575 50  0001 C CNN
-	1    11375 2575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 61AD142C
-P 11950 2575
-F 0 "#PWR025" H 11950 2325 50  0001 C CNN
-F 1 "GND" H 11955 2402 50  0000 C CNN
-F 2 "" H 11950 2575 50  0001 C CNN
-F 3 "" H 11950 2575 50  0001 C CNN
-	1    11950 2575
-	1    0    0    -1  
-$EndComp
-Text GLabel 10850 1800 1    50   Input ~ 0
-VCC3V3
-Text GLabel 12325 1800 1    50   Input ~ 0
-VCC3V3
-Text GLabel 11450 2175 0    50   Input ~ 0
-SPI0_CLK
-Text GLabel 11450 1875 0    50   Input ~ 0
-SPI0_CS_N
-Text GLabel 11450 1975 0    50   Input ~ 0
-SPI0_MOSI
-Text GLabel 11450 2075 0    50   Input ~ 0
-SPI0_MISO
-Text Notes 12225 2325 1    50   ~ 0
-TODO: tie this pins to DC-SCI connector
 $Comp
 L antmicroRectangularConnectorsHeadersFemalePins:M20-7830642 J4
-U 1 1 61B2CE0C
-P 11650 2075
-F 0 "J4" H 11650 2522 60  0000 C CNN
-F 1 "M20-7830642" H 11650 2416 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Vertical" H 11850 2275 60  0001 L CNN
-F 3 "" H 11850 2375 60  0001 L CNN
-F 4 "M20-7830642" H 11850 2575 60  0001 L CNN "MPN"
-F 5 "Molex" H 11850 2675 60  0001 L CNN "Manufacturer"
-	1    11650 2075
+U 1 1 5FD63CCC
+P 11725 2200
+F 0 "J4" H 11725 2647 60  0000 C CNN
+F 1 "M20-7830642" H 11725 2541 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Vertical" H 11925 2400 60  0001 L CNN
+F 3 "" H 11925 2500 60  0001 L CNN
+F 4 "M20-7830642" H 11925 2700 60  0001 L CNN "MPN"
+F 5 "Molex" H 11925 2800 60  0001 L CNN "Manufacturer"
+	1    11725 2200
 	1    0    0    -1  
 $EndComp
+Text GLabel 10900 1950 1    50   Input ~ 0
+VCC3V3
+Text GLabel 11525 2000 0    50   Input ~ 0
+SPI0_CS_N
+Text GLabel 11525 2100 0    50   Input ~ 0
+SPI0_MOSI
+Text GLabel 11525 2200 0    50   Input ~ 0
+SPI0_MISO
+Text GLabel 11525 2300 0    50   Input ~ 0
+SPI0_CLK
+Text GLabel 11925 2000 2    50   Input ~ 0
+PIRQ#
+Text GLabel 11925 2100 2    50   Input ~ 0
+RST
+Text GLabel 11925 2200 2    50   Input ~ 0
+GPIO
+Text GLabel 11925 2300 2    50   Input ~ 0
+PP
+Text GLabel 12375 1950 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	11525 2500 10900 2500
+Wire Wire Line
+	10900 2500 10900 1950
+Wire Wire Line
+	11925 2500 12375 2500
+Wire Wire Line
+	12375 2500 12375 1950
+Wire Wire Line
+	11525 2400 11400 2400
+Wire Wire Line
+	11400 2400 11400 2650
+Wire Wire Line
+	11925 2400 12050 2400
+Wire Wire Line
+	12050 2400 12050 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5FD82134
+P 11400 2650
+AR Path="/5FC6B687/5FD82134" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/5FD82134" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 11400 2400 50  0001 C CNN
+F 1 "GND" H 11405 2477 50  0000 C CNN
+F 2 "" H 11400 2650 50  0001 C CNN
+F 3 "" H 11400 2650 50  0001 C CNN
+	1    11400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD8331F
+P 12050 2650
+AR Path="/5FC6B687/5FD8331F" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/5FD8331F" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 12050 2400 50  0001 C CNN
+F 1 "GND" H 12055 2477 50  0000 C CNN
+F 2 "" H 12050 2650 50  0001 C CNN
+F 3 "" H 12050 2650 50  0001 C CNN
+	1    12050 2650
+	1    0    0    -1  
+$EndComp
+Text Notes 12175 2675 0    50   ~ 0
+Pinout for AES-PMOD-TPM20-SLB9670-G
+Text Notes 12325 2425 1    50   ~ 0
+TODO: tie this pins to DC-SCI connector
 $EndSCHEMATC

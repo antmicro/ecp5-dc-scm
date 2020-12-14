@@ -131,10 +131,10 @@ Wire Wire Line
 Text Notes 5800 2075 0    118  ~ 24
 Debug UART, I2C, I3C
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:2X05 J5
+L antmicroRectangularConnectorsHeadersMalePins:2X05 J6
 U 1 1 61510600
 P 2550 2825
-F 0 "J5" H 2550 3114 60  0000 C CNN
+F 0 "J6" H 2550 3114 60  0000 C CNN
 F 1 "2X05" H 2550 3008 60  0000 C CNN
 F 2 "antmicro-footprints:SHF-105-01-X-D-SM" H 3050 2175 60  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 2550 2825 60  0001 C CNN
@@ -183,10 +183,10 @@ UART0_SCM_TX
 Text GLabel 7075 3175 2    50   Input ~ 0
 UART0_SCM_RX
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301021121 J6
+L antmicroRectangularConnectorsHeadersMalePins:61301021121 J7
 U 1 1 615EA3A1
 P 5025 2525
-F 0 "J6" H 5120 2700 50  0000 C CNN
+F 0 "J7" H 5120 2700 50  0000 C CNN
 F 1 "61301021121" H 5120 2609 50  0000 C CNN
 F 2 "antmicro-footprints:61301021121" V 4825 1775 60  0001 L CNN
 F 3 "" H 5225 2825 60  0001 L CNN
@@ -196,10 +196,10 @@ F 5 "Wurth Electronics Inc." H 5225 3625 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301021121 J7
+L antmicroRectangularConnectorsHeadersMalePins:61301021121 J8
 U 1 1 615ECA44
 P 6775 2525
-F 0 "J7" H 6870 2700 50  0000 C CNN
+F 0 "J8" H 6870 2700 50  0000 C CNN
 F 1 "61301021121" H 6870 2609 50  0000 C CNN
 F 2 "antmicro-footprints:61301021121" V 6575 1775 60  0001 L CNN
 F 3 "" H 6975 2825 60  0001 L CNN
@@ -209,10 +209,10 @@ F 5 "Wurth Electronics Inc." H 6975 3625 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301221121 J8
+L antmicroRectangularConnectorsHeadersMalePins:61301221121 J9
 U 1 1 61602A77
 P 8925 3075
-F 0 "J8" H 9000 3850 50  0000 C CNN
+F 0 "J9" H 9000 3850 50  0000 C CNN
 F 1 "61301221121" H 9000 3759 50  0000 C CNN
 F 2 "antmicro-footprints:61301221121" V 8775 3325 60  0001 L CNN
 F 3 "" V 8675 3325 60  0001 L CNN
@@ -263,10 +263,10 @@ Wire Wire Line
 Wire Wire Line
 	11325 2675 11325 2575
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300611121 J9
+L antmicroRectangularConnectorsHeadersMalePins:61300611121 J10
 U 1 1 606F5DB3
 P 11650 2675
-F 0 "J9" V 11849 2597 50  0000 R CNN
+F 0 "J10" V 11849 2597 50  0000 R CNN
 F 1 "61300611121" V 11940 2597 50  0000 R CNN
 F 2 "antmicro-footprints:61300611121" H 11850 2875 60  0001 L CNN
 F 3 "" H 11850 2975 60  0001 L CNN

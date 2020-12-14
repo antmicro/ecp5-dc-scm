@@ -40,19 +40,19 @@ F0 "Edge connector" 50
 F1 "edge-connector.sch" 50
 $EndSheet
 $Sheet
-S 6550 2675 1100 750 
+S 6700 2625 1100 750 
 U 614223A1
 F0 "Interfaces" 50
 F1 "interfaces.sch" 50
 $EndSheet
 $Sheet
-S 8150 2650 1025 725 
+S 8225 2650 1025 725 
 U 5FD8EBC2
 F0 "DDR3" 50
 F1 "ddr3.sch" 50
 $EndSheet
 $Sheet
-S 9725 2650 1125 750 
+S 9650 2650 1125 750 
 U 5FD86BEB
 F0 "Power supply" 50
 F1 "power-supply.sch" 50

@@ -1257,10 +1257,10 @@ SPI0_MISO
 Text Notes 12225 2325 1    50   ~ 0
 TODO: tie this pins to DC-SCI connector
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:M20-7830642 J?
+L antmicroRectangularConnectorsHeadersFemalePins:M20-7830642 J4
 U 1 1 61B2CE0C
 P 11650 2075
-F 0 "J?" H 11650 2522 60  0000 C CNN
+F 0 "J4" H 11650 2522 60  0000 C CNN
 F 1 "M20-7830642" H 11650 2416 60  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Vertical" H 11850 2275 60  0001 L CNN
 F 3 "" H 11850 2375 60  0001 L CNN

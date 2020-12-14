@@ -1170,10 +1170,10 @@ $EndComp
 Text GLabel 8400 10725 2    50   Input ~ 0
 3V0_BAT
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:S2B-PH-K-S_LF__SN_ J11
+L antmicroRectangularConnectorsHeadersMalePins:S2B-PH-K-S_LF__SN_ J12
 U 1 1 5FE878FF
 P 8000 10725
-F 0 "J11" V 7775 10733 50  0000 C CNN
+F 0 "J12" V 7775 10733 50  0000 C CNN
 F 1 "S2B-PH-K-S_LF__SN_" V 7866 10733 50  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_1x2_P2mm_Drill1mm_RA" H 8200 10925 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8200 11025 60  0001 L CNN
@@ -1312,10 +1312,10 @@ Text Notes 12950 4450 0    118  ~ 0
 Text Notes 12900 6375 0    118  ~ 0
 1V35 supply
 $Comp
-L antmicroBarrelAudioConnectors:DC_SOCKET J10
+L antmicroBarrelAudioConnectors:DC_SOCKET J11
 U 1 1 633BB6FF
 P 1250 1250
-F 0 "J10" H 1183 1603 60  0000 C CNN
+F 0 "J11" H 1183 1603 60  0000 C CNN
 F 1 "DC_SOCKET" H 1300 975 60  0001 C CNN
 F 2 "antmicro-footprints:DC_SOCKET" H 1300 900 60  0001 C CNN
 F 3 "" H 1250 1250 60  0001 C CNN

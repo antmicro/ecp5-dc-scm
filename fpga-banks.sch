@@ -1799,4 +1799,16 @@ Text GLabel 4025 4425 0    50   Input ~ 0
 I2C[11]_SDA
 Text GLabel 4025 4525 0    50   Input ~ 0
 I2C[11]_SCL
+Text GLabel 6875 2225 0    50   Input ~ 0
+CLK_100M_PCIE_DP
+Text GLabel 6875 2325 0    50   Input ~ 0
+CLK_100M_PCIE_DN
+Text GLabel 6875 2425 0    50   Input ~ 0
+PCIE_BMC_TX_DP
+Text GLabel 6875 2525 0    50   Input ~ 0
+PCIE_BMC_TX_DN
+Text GLabel 6875 2625 0    50   Input ~ 0
+PCIE_BMC_RX_DP
+Text GLabel 6875 2725 0    50   Input ~ 0
+PCIE_BMC_RX_DN
 $EndSCHEMATC

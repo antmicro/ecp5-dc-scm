@@ -1375,7 +1375,7 @@
     (add_net VIRTUAL_RESEAT)
   )
 
-  (module antmicro-footprints:SFF-TA-1002-4C+ (layer F.Cu) (tedit 5FD1F1C6) (tstamp 5FD59E73)
+  (module ecp5-dc-scm-footprints:SFF-TA-1002-4C+ (layer F.Cu) (tedit 5FD1F1C6) (tstamp 5FD59E73)
     (at 104.89 177.345)
     (path /625AEC25/625AED2C)
     (fp_text reference J5 (at -29.6 3.3) (layer F.SilkS)
@@ -1749,7 +1749,7 @@
       (net 159 PCIE_HPM_TXP[1]))
   )
 
-  (module antmicro-footprints:R_Array_Convex_8x0602 (layer F.Cu) (tedit 58E0A8FC) (tstamp 5FE1E282)
+  (module ecp5-dc-scm-footprints:R_Array_Convex_8x0602 (layer F.Cu) (tedit 58E0A8FC) (tstamp 5FE1E282)
     (at 72 121 180)
     (descr "Chip Resistor Network, ROHM MNR18 (see mnr_g.pdf)")
     (tags "resistor array")
@@ -1813,7 +1813,7 @@
     )
   )
 
-  (module antmicro-footprints:R_Array_Convex_8x0602 (layer F.Cu) (tedit 58E0A8FC) (tstamp 5FE1E263)
+  (module ecp5-dc-scm-footprints:R_Array_Convex_8x0602 (layer F.Cu) (tedit 58E0A8FC) (tstamp 5FE1E263)
     (at 72 116 180)
     (descr "Chip Resistor Network, ROHM MNR18 (see mnr_g.pdf)")
     (tags "resistor array")
@@ -1877,7 +1877,7 @@
     )
   )
 
-  (module antmicro-footprints:R_Array_Convex_8x0602 (layer F.Cu) (tedit 58E0A8FC) (tstamp 5FE1E2A1)
+  (module ecp5-dc-scm-footprints:R_Array_Convex_8x0602 (layer F.Cu) (tedit 58E0A8FC) (tstamp 5FE1E2A1)
     (at 72 111 180)
     (descr "Chip Resistor Network, ROHM MNR18 (see mnr_g.pdf)")
     (tags "resistor array")
@@ -1941,7 +1941,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FE1E322)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FE1E322)
     (at 89 116 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1975,7 +1975,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FE1E313)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FE1E313)
     (at 89 115)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2009,7 +2009,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1E304)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1E304)
     (at 79.8 112.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2043,7 +2043,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FE1CD03)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FE1CD03)
     (at 89 114)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2077,7 +2077,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCF4)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCF4)
     (at 84.7 115.7 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2111,7 +2111,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCE5)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCE5)
     (at 84.7 117.7 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2145,7 +2145,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCD6)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCD6)
     (at 78.3 112.9 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2179,7 +2179,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE228D3)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE228D3)
     (at 78.3 118.5 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2213,7 +2213,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCB8)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCB8)
     (at 78.3 110.3 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2247,7 +2247,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCA9)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CCA9)
     (at 79.8 113.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2281,7 +2281,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC9A)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC9A)
     (at 78.1 120.7 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2315,7 +2315,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC8B)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC8B)
     (at 84.7 112.8 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2349,7 +2349,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC7C)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC7C)
     (at 84.7 119.7 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2383,7 +2383,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC6D)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC6D)
     (at 78.3 116.5 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2417,7 +2417,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE202A9)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE202A9)
     (at 78.6 122.2 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2451,7 +2451,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE25A57)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE25A57)
     (at 84.7 110.285 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2485,7 +2485,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC40)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC40)
     (at 84.7 121.7 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2519,7 +2519,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC31)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE1CC31)
     (at 79.8 114.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2553,7 +2553,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE2020B)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE2020B)
     (at 76.4 114.7 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2587,7 +2587,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1810C)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1810C)
     (at 123.75 142.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2621,7 +2621,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1868D)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1868D)
     (at 115 142.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2655,7 +2655,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1097E)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1097E)
     (at 106.25 142.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2689,7 +2689,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1096F)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1096F)
     (at 98.25 142.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2723,7 +2723,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE180E2)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE180E2)
     (at 123.75 140.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2757,7 +2757,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE186B7)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE186B7)
     (at 115 140.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2791,7 +2791,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10942)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10942)
     (at 106.25 140.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2825,7 +2825,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10933)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10933)
     (at 98.25 140.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2859,7 +2859,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE18136)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE18136)
     (at 123.75 143.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2893,7 +2893,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE186E1)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE186E1)
     (at 115 143.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2927,7 +2927,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10906)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10906)
     (at 106.25 143.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2961,7 +2961,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE108F7)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE108F7)
     (at 98.25 143.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2995,7 +2995,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE18160)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE18160)
     (at 123.75 138.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3029,7 +3029,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1870B)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1870B)
     (at 114.985 138.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3063,7 +3063,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE108CA)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE108CA)
     (at 106.25 138.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3097,7 +3097,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE108BB)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE108BB)
     (at 98.25 138.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3131,7 +3131,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1818A)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1818A)
     (at 123.75 139.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3165,7 +3165,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE18735)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE18735)
     (at 115 139.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3199,7 +3199,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1088E)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1088E)
     (at 106.25 139.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3233,7 +3233,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1087F)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1087F)
     (at 98.25 139.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3267,7 +3267,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE181B4)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE181B4)
     (at 123.75 141.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3301,7 +3301,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1875F)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE1875F)
     (at 115 141.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3335,7 +3335,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10852)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10852)
     (at 106.25 141.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3369,7 +3369,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10843)
+  (module ecp5-dc-scm-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FE10843)
     (at 98.25 141.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3403,7 +3403,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE13260)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE13260)
     (at 118.5 139.5)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3437,7 +3437,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE0F42C)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE0F42C)
     (at 109.75 139.5)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3471,7 +3471,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE18BCA)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE18BCA)
     (at 101 139.5)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3505,7 +3505,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE0F40E)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FE0F40E)
     (at 93 139.5)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3539,7 +3539,7 @@
     )
   )
 
-  (module antmicro-footprints:PinHeader_6x2_P2.54mm_Vertical (layer F.Cu) (tedit 5FD50C17) (tstamp 5FD888CF)
+  (module ecp5-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical (layer F.Cu) (tedit 5FD50C17) (tstamp 5FD888CF)
     (at 115.5 149.3)
     (descr http://portal.fciconnect.com/Comergent//fci/drawing/68020.pdf)
     (path /624C566F/5FD63CCC)
@@ -3596,7 +3596,7 @@
     )
   )
 
-  (module antmicro-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD819FC)
+  (module ecp5-dc-scm-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD819FC)
     (at 93.56 141.23 90)
     (path /624C566F/5FE2950F)
     (fp_text reference U2 (at 0.05 -4.07 90) (layer F.SilkS)
@@ -3699,7 +3699,7 @@
     )
   )
 
-  (module antmicro-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD8196C)
+  (module ecp5-dc-scm-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD8196C)
     (at 101.56 141.23 90)
     (path /624C566F/5FE29486)
     (fp_text reference U3 (at 0.05 -4.07 90) (layer F.SilkS)
@@ -3802,7 +3802,7 @@
     )
   )
 
-  (module antmicro-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD819B4)
+  (module ecp5-dc-scm-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD819B4)
     (at 110.26 141.23 90)
     (path /624C566F/5FD83521)
     (fp_text reference U4 (at 0.05 -4.07 90) (layer F.SilkS)
@@ -3905,7 +3905,7 @@
     )
   )
 
-  (module antmicro-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD81924)
+  (module ecp5-dc-scm-footprints:W25Q32JVSSIQ (layer F.Cu) (tedit 5FD77122) (tstamp 5FD81924)
     (at 118.96 141.23 90)
     (path /624C566F/5FD7A6EF)
     (fp_text reference U5 (at 0.05 -4.07 90) (layer F.SilkS)
@@ -4008,7 +4008,7 @@
     )
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FD7B5E3)
+  (module ecp5-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FD7B5E3)
     (at 71.1 83.3 270)
     (path /5FD86BEB/60710083)
     (attr virtual)
@@ -4022,7 +4022,7 @@
       (net 22 "Net-(IC1-Pad3)"))
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD97168)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD97168)
     (at 88.35 102.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4056,7 +4056,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD971D7)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD971D7)
     (at 88.35 101.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4090,7 +4090,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9720A)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9720A)
     (at 94.55 103.3 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4124,7 +4124,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD970E4)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD970E4)
     (at 88.35 100.6 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4158,7 +4158,7 @@
     )
   )
 
-  (module antmicro-footprints:VSON-10-1EP_3x3mm (layer F.Cu) (tedit 5D67C56E) (tstamp 5FD97040)
+  (module ecp5-dc-scm-footprints:VSON-10-1EP_3x3mm (layer F.Cu) (tedit 5D67C56E) (tstamp 5FD97040)
     (at 91.95 100.3)
     (path /5FD8EBC2/63F37552)
     (attr smd)
@@ -4215,7 +4215,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B57A)
+  (module ecp5-dc-scm-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B57A)
     (at 76.5 90.9 180)
     (path /5FD86BEB/615627AF)
     (attr smd)
@@ -4250,7 +4250,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B567)
+  (module ecp5-dc-scm-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B567)
     (at 76.5 89.5 180)
     (path /5FD86BEB/61562BEA)
     (attr smd)
@@ -4285,7 +4285,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B559)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B559)
     (at 70 91.3 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4319,7 +4319,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B54B)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B54B)
     (at 69.2 85.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4353,7 +4353,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B53D)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B53D)
     (at 74.4 89.7 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4387,7 +4387,7 @@
     )
   )
 
-  (module antmicro-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG (layer F.Cu) (tedit 5FCA67F4) (tstamp 5FD7B52D)
+  (module ecp5-dc-scm-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG (layer F.Cu) (tedit 5FCA67F4) (tstamp 5FD7B52D)
     (at 71.3 76)
     (path /5FD86BEB/5FFF57DB)
     (fp_text reference F2 (at -2.050999 -1.8255) (layer F.SilkS)
@@ -4418,7 +4418,7 @@
     )
   )
 
-  (module antmicro-footprints:WSON-10_4x4 (layer F.Cu) (tedit 5FC4FB19) (tstamp 5FD7B51F)
+  (module ecp5-dc-scm-footprints:WSON-10_4x4 (layer F.Cu) (tedit 5FC4FB19) (tstamp 5FD7B51F)
     (at 71.9 87.1 270)
     (path /5FD86BEB/60694B04)
     (attr smd)
@@ -4457,7 +4457,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B500)
+  (module ecp5-dc-scm-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B500)
     (at 73.4 81)
     (path /5FD86BEB/606A5476)
     (attr smd)
@@ -4490,7 +4490,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B4ED)
+  (module ecp5-dc-scm-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B4ED)
     (at 73.4 79.6)
     (path /5FD86BEB/606A5C82)
     (attr smd)
@@ -4523,7 +4523,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B4DA)
+  (module ecp5-dc-scm-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B4DA)
     (at 73.4 78.2)
     (path /5FD86BEB/606A5ED9)
     (attr smd)
@@ -4556,7 +4556,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4CC)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4CC)
     (at 71.5 91.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4590,7 +4590,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4BE)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4BE)
     (at 68.7 84 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4624,7 +4624,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4B0)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4B0)
     (at 71.5 90.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4658,7 +4658,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4A2)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B4A2)
     (at 73.5 83.3 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4692,7 +4692,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B48F)
+  (module ecp5-dc-scm-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD7B48F)
     (at 76.5 92.3 180)
     (path /5FD86BEB/615622D6)
     (attr smd)
@@ -4727,7 +4727,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD97114)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD97114)
     (at 96.35 99.1 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4761,7 +4761,7 @@
     )
   )
 
-  (module antmicro-footprints:WE_7447798720 (layer F.Cu) (tedit 5EB2B67E) (tstamp 5FD7B45A)
+  (module ecp5-dc-scm-footprints:WE_7447798720 (layer F.Cu) (tedit 5EB2B67E) (tstamp 5FD7B45A)
     (at 78 97.6)
     (path /5FD86BEB/614D2866)
     (attr smd)
@@ -4782,7 +4782,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD970BA)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD970BA)
     (at 93.55 103.3 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4816,7 +4816,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9719E)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9719E)
     (at 88.35 99.6 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4850,7 +4850,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9708A)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9708A)
     (at 88.35 98.6 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4884,7 +4884,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9723A)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD9723A)
     (at 95.25 98.4 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4918,7 +4918,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B414)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B414)
     (at 74.4 92 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4952,7 +4952,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B406)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B406)
     (at 74.9 93.6)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4986,7 +4986,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B3F8)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B3F8)
     (at 71.5 94 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5020,7 +5020,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B3EA)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B3EA)
     (at 71.5 92.9)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5054,7 +5054,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD9713E)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD9713E)
     (at 91.25 97.6)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5088,7 +5088,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B3CE)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B3CE)
     (at 91.25 96.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5122,7 +5122,7 @@
     )
   )
 
-  (module antmicro-footprints:PDS760-13 (layer F.Cu) (tedit 5F994A85) (tstamp 5FD7B3C4)
+  (module ecp5-dc-scm-footprints:PDS760-13 (layer F.Cu) (tedit 5F994A85) (tstamp 5FD7B3C4)
     (at 68.6 97.7 180)
     (path /5FD86BEB/60F104BF)
     (attr smd)
@@ -5145,7 +5145,7 @@
     )
   )
 
-  (module antmicro-footprints:DC_SOCKET (layer F.Cu) (tedit 5EB2D0B5) (tstamp 5FD78B80)
+  (module ecp5-dc-scm-footprints:DC_SOCKET (layer F.Cu) (tedit 5EB2D0B5) (tstamp 5FD78B80)
     (at 71.4 58.9 180)
     (path /5FD86BEB/633BB6FF)
     (fp_text reference J11 (at 0 0) (layer F.SilkS) hide
@@ -5178,7 +5178,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B38E)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B38E)
     (at 111.9 91.7 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5212,7 +5212,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B380)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B380)
     (at 111.9 92.8 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5246,7 +5246,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B372)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B372)
     (at 123.5 90.8 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5280,7 +5280,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B364)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B364)
     (at 125.1 92 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5314,7 +5314,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B356)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B356)
     (at 117.6 99.5 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5348,7 +5348,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B348)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B348)
     (at 118.4 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5382,7 +5382,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B33A)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B33A)
     (at 117.4 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5416,7 +5416,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B32C)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B32C)
     (at 116.2 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5450,7 +5450,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B31E)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B31E)
     (at 115.2 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5484,7 +5484,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B310)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B310)
     (at 119.05 87.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5518,7 +5518,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B302)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B302)
     (at 120.9 92.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5552,7 +5552,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B2F4)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B2F4)
     (at 123.6 92.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5586,7 +5586,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B2E6)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B2E6)
     (at 127.5 89.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5620,7 +5620,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5FD7B2D3)
+  (module ecp5-dc-scm-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5FD7B2D3)
     (at 113.7 87.3 270)
     (path /60570C04/61EAD8B2)
     (attr smd)
@@ -5655,7 +5655,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5FD7B2C0)
+  (module ecp5-dc-scm-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5FD7B2C0)
     (at 117.9 87.3 90)
     (path /60570C04/61E98E96)
     (attr smd)
@@ -5690,7 +5690,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5FD7B2AD)
+  (module ecp5-dc-scm-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 5FD7B2AD)
     (at 123.9 97.1 180)
     (path /60570C04/61EA6DB6)
     (attr smd)
@@ -5725,7 +5725,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B29F)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B29F)
     (at 123.55 95.85)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5759,7 +5759,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B291)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B291)
     (at 115.6 99.5 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5793,7 +5793,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B283)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B283)
     (at 114.7 95)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5827,7 +5827,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B275)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B275)
     (at 111.9 91.2 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5861,7 +5861,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B267)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B267)
     (at 119.6 96.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5895,7 +5895,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B259)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B259)
     (at 115.6 96.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5929,7 +5929,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B24B)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B24B)
     (at 120.9 94.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5963,7 +5963,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B23D)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B23D)
     (at 114.7 94)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5997,7 +5997,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B22F)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B22F)
     (at 115.05 87.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6031,7 +6031,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B221)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B221)
     (at 111.9 92.25 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6065,7 +6065,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B213)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B213)
     (at 114.7 91.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6099,7 +6099,7 @@
     )
   )
 
-  (module antmicro-footprints:KX-7 (layer F.Cu) (tedit 5D7218CB) (tstamp 5FD7B202)
+  (module ecp5-dc-scm-footprints:KX-7 (layer F.Cu) (tedit 5D7218CB) (tstamp 5FD7B202)
     (at 127.4 92 90)
     (path /60570C04/6085DB39)
     (attr smd)
@@ -6133,7 +6133,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B13F)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B13F)
     (at 120.6 87.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6167,7 +6167,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B131)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B131)
     (at 123.55 94.75)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6201,7 +6201,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B123)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B123)
     (at 117.6 96.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6235,7 +6235,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B115)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B115)
     (at 120.55 90.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6269,7 +6269,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B107)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B107)
     (at 119.6 99.5 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6303,7 +6303,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0F9)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0F9)
     (at 116.65 87.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6337,7 +6337,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0EB)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0EB)
     (at 116.55 90.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6371,7 +6371,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B0DD)
+  (module ecp5-dc-scm-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD7B0DD)
     (at 127.4 94.7 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6405,7 +6405,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0CF)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0CF)
     (at 119 90.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6439,7 +6439,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0C1)
+  (module ecp5-dc-scm-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FD7B0C1)
     (at 123.6 91.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6473,7 +6473,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 5FCA0732) (tstamp 5FD7B073)
+  (module ecp5-dc-scm-footprints:QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 5FCA0732) (tstamp 5FD7B073)
     (at 117.8 93.5 270)
     (path /60570C04/619D6509)
     (fp_text reference U1 (at -4.336237 -5.036237 90) (layer F.SilkS)
@@ -6617,7 +6617,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B063)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B063)
     (at 119.4 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6651,7 +6651,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B055)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B055)
     (at 120.5 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6685,7 +6685,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B047)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B047)
     (at 123.6 94.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6719,7 +6719,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B039)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B039)
     (at 121.5 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6753,7 +6753,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B02B)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B02B)
     (at 122.5 99.6 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6787,7 +6787,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B01D)
+  (module ecp5-dc-scm-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD7B01D)
     (at 123.6 93.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6821,7 +6821,7 @@
     )
   )
 
-  (module antmicro-footprints:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm (layer F.Cu) (tedit 5FD3B922) (tstamp 5FD7C19F)
+  (module ecp5-dc-scm-footprints:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm (layer F.Cu) (tedit 5FD3B922) (tstamp 5FD7C19F)
     (at 81.5 116 180)
     (descr "BGA-96, http://www.mouser.com/ds/2/198/43-46TR16640B-81280BL-706483.pdf")
     (tags BGA-96)
@@ -7050,7 +7050,7 @@
     )
   )
 
-  (module antmicro-footprints:CABGA756_27x27mm_p0.8mm (layer F.Cu) (tedit 5FD612A9) (tstamp 5FD79838)
+  (module ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm (layer F.Cu) (tedit 5FD612A9) (tstamp 5FD79838)
     (at 105.4 119.5 180)
     (path /5FD86C51/626D08BC)
     (attr smd)
@@ -8602,7 +8602,7 @@
     )
   )
 
-  (module antmicro-footprints:61301021121 (layer F.Cu) (tedit 5FD08D0C) (tstamp 5FDE180F)
+  (module ecp5-dc-scm-footprints:61301021121 (layer F.Cu) (tedit 5FD08D0C) (tstamp 5FDE180F)
     (at 77 133.5)
     (descr "WR-PHD 2.54mm Pin Header, 10 Pin")
     (path /614223A1/615ECA44)
@@ -8672,7 +8672,7 @@
     )
   )
 
-  (module antmicro-footprints:7499111121A (layer F.Cu) (tedit 5FC2D09C) (tstamp 5FD58F6A)
+  (module ecp5-dc-scm-footprints:7499111121A (layer F.Cu) (tedit 5FC2D09C) (tstamp 5FD58F6A)
     (at 128.5 70)
     (descr WE-RJ45_Transformer-10/100/1000)
     (path /60570C04/606566C5)
@@ -8740,7 +8740,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN50P250X450X100-21N (layer F.Cu) (tedit 5FD269AF) (tstamp 5FDE333F)
+  (module ecp5-dc-scm-footprints:QFN50P250X450X100-21N (layer F.Cu) (tedit 5FD269AF) (tstamp 5FDE333F)
     (at 70 159.5 180)
     (path /614223A1/628E0C73)
     (fp_text reference U6 (at 0.175 -3.135) (layer F.SilkS)
@@ -8812,7 +8812,7 @@
     )
   )
 
-  (module antmicro-footprints:1-2199230-6 (layer F.Cu) (tedit 5EE0CA7C) (tstamp 5FD46EE0)
+  (module ecp5-dc-scm-footprints:1-2199230-6 (layer F.Cu) (tedit 5EE0CA7C) (tstamp 5FD46EE0)
     (at 133 163.5 180)
     (path /5FD17EF1/5FD380A4)
     (fp_text reference J2 (at -6.705175 -7.917465) (layer F.SilkS)
@@ -8990,7 +8990,7 @@
     )
   )
 
-  (module antmicro-footprints:543630489 (layer F.Cu) (tedit 5D9DA385) (tstamp 5FD65814)
+  (module ecp5-dc-scm-footprints:543630489 (layer F.Cu) (tedit 5D9DA385) (tstamp 5FD65814)
     (at 106.7 158.6)
     (path /624C566F/6268C044)
     (attr smd)
@@ -9102,7 +9102,7 @@
     )
   )
 
-  (module antmicro-footprints:61300611121 (layer F.Cu) (tedit 5EDFAB3A) (tstamp 5FDB97F6)
+  (module ecp5-dc-scm-footprints:61300611121 (layer F.Cu) (tedit 5EDFAB3A) (tstamp 5FDB97F6)
     (at 65.7 114.2 270)
     (descr "WR-PHD 2.54mm Pin Header, 6 Pin")
     (path /614223A1/606F5DB3)
@@ -9140,7 +9140,7 @@
     )
   )
 
-  (module antmicro-footprints:61301221121 (layer F.Cu) (tedit 5FD08EAA) (tstamp 5FDE329B)
+  (module ecp5-dc-scm-footprints:61301221121 (layer F.Cu) (tedit 5FD08EAA) (tstamp 5FDE329B)
     (at 72 152.5)
     (descr "WR-PHD 2.54mm Pin Header, 6 Pin")
     (path /614223A1/61602A77)
@@ -9189,7 +9189,7 @@
     )
   )
 
-  (module antmicro-footprints:61301021121 (layer F.Cu) (tedit 5FD08D0C) (tstamp 5FDE18AB)
+  (module ecp5-dc-scm-footprints:61301021121 (layer F.Cu) (tedit 5FD08D0C) (tstamp 5FDE18AB)
     (at 77 140.5 180)
     (descr "WR-PHD 2.54mm Pin Header, 10 Pin")
     (path /614223A1/615EA3A1)
@@ -9259,7 +9259,7 @@
     )
   )
 
-  (module antmicro-footprints:SHF-105-01-X-D-SM (layer F.Cu) (tedit 5F353E43) (tstamp 5FDB96C7)
+  (module ecp5-dc-scm-footprints:SHF-105-01-X-D-SM (layer F.Cu) (tedit 5F353E43) (tstamp 5FDB96C7)
     (at 105 63 90)
     (path /614223A1/61510600)
     (attr smd)

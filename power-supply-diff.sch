@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 12675 3450 0    118  ~ 0
-To CHECK
 Text GLabel 14475 5450 0    50   Input ~ 0
 ROT_RDY
 Text GLabel 14975 5550 2    50   Input ~ 0
@@ -22,7 +20,7 @@ HPM_STBY_EN
 Text GLabel 14475 5750 0    50   Input ~ 0
 HPM_STBY_RDY
 $Comp
-L antmicroLogicGatesandInverters:SN74LS08DBR U?
+L ecp5-dc-scm:SN74LS08DBR U?
 U 1 1 60012F74
 P 14775 5550
 AR Path="/5FEC3511/60012F74" Ref="U?"  Part="1" 
@@ -45,7 +43,7 @@ Wire Wire Line
 Text GLabel 14775 5150 1    50   Input ~ 0
 VCC3V3
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 60012F7D
 P 14775 6525
 AR Path="/5FEC3511/60012F7D" Ref="#PWR?"  Part="1" 
@@ -126,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 5325 11950 5325
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q?
+L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60012FB0
 P 12250 4625
 AR Path="/5FCA4661/60012FB0" Ref="Q?"  Part="1" 
@@ -134,7 +132,7 @@ AR Path="/5FFA4931/60012FB0" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60012FB0" Ref="Q9"  Part="1" 
 F 0 "Q9" H 12358 4678 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 12358 4572 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 12450 4825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 12450 4825 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 12450 4925 60  0001 L CNN
 F 4 "IRLML6402TRPBF" H 12450 5125 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 12450 5725 60  0001 L CNN "Manufacturer"
@@ -142,7 +140,7 @@ F 5 "Infineon Technologies" H 12450 5725 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q?
+L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60012FB8
 P 12250 5225
 AR Path="/5FCA4661/60012FB8" Ref="Q?"  Part="1" 
@@ -150,7 +148,7 @@ AR Path="/5FFA4931/60012FB8" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60012FB8" Ref="Q10"  Part="1" 
 F 0 "Q10" H 12358 5278 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 12358 5172 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 12450 5425 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 12450 5425 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 12450 5525 60  0001 L CNN
 F 4 "IRLML6402TRPBF" H 12450 5725 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 12450 6325 60  0001 L CNN "Manufacturer"
@@ -158,7 +156,7 @@ F 5 "Infineon Technologies" H 12450 6325 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q?
+L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60012FC0
 P 12250 5825
 AR Path="/5FCA4661/60012FC0" Ref="Q?"  Part="1" 
@@ -166,7 +164,7 @@ AR Path="/5FFA4931/60012FC0" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60012FC0" Ref="Q11"  Part="1" 
 F 0 "Q11" H 12358 5878 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 12358 5772 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 12450 6025 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 12450 6025 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 12450 6125 60  0001 L CNN
 F 4 "IRLML6402TRPBF" H 12450 6325 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 12450 6925 60  0001 L CNN "Manufacturer"
@@ -187,7 +185,7 @@ Wire Wire Line
 	14475 5650 14425 5650
 Wire Wire Line
 	14775 6450 14775 6525
-Text Notes 11875 3150 0    118  ~ 0
+Text Notes 11950 3500 0    118  ~ 0
 Power sequencer
 Text Notes 13825 7825 0    50   ~ 0
 ^ TODO: decide which DC-SCI pin connected\n    to FPGA does this
@@ -208,7 +206,7 @@ VCC2V5_T
 Wire Wire Line
 	12025 3850 12250 3850
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q?
+L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60013014
 P 12250 4050
 AR Path="/5FCA4661/60013014" Ref="Q?"  Part="1" 
@@ -216,7 +214,7 @@ AR Path="/5FFA4931/60013014" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60013014" Ref="Q8"  Part="1" 
 F 0 "Q8" H 12358 4103 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 12358 3997 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 12450 4250 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 12450 4250 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 12450 4350 60  0001 L CNN
 F 4 "IRLML6402TRPBF" H 12450 4550 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 12450 5150 60  0001 L CNN "Manufacturer"
@@ -236,7 +234,7 @@ Text Label 11775 6525 2    50   ~ 0
 Wire Wire Line
 	11500 6525 11950 6525
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRLML6402TRPBF Q?
+L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60013022
 P 12250 6425
 AR Path="/5FCA4661/60013022" Ref="Q?"  Part="1" 
@@ -244,7 +242,7 @@ AR Path="/5FFA4931/60013022" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60013022" Ref="Q12"  Part="1" 
 F 0 "Q12" H 12358 6478 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 12358 6372 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 12450 6625 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 12450 6625 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 12450 6725 60  0001 L CNN
 F 4 "IRLML6402TRPBF" H 12450 6925 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 12450 7525 60  0001 L CNN "Manufacturer"
@@ -258,7 +256,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 6625 12250 6700
 $Comp
-L antmicroLogicGatesandInverters:SN74LVC1G11DBVR U?
+L ecp5-dc-scm:SN74LVC1G11DBVR U?
 U 1 1 6001302D
 P 14450 4325
 AR Path="/5FCA4661/6001302D" Ref="U?"  Part="1" 
@@ -266,7 +264,7 @@ AR Path="/5FFA4931/6001302D" Ref="U?"  Part="1"
 AR Path="/5FD86D1B/6001302D" Ref="U17"  Part="1" 
 F 0 "U17" H 14625 4300 60  0000 L CNN
 F 1 "SN74LVC1G11DBVR" H 14625 4225 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-6" H 14480 4475 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-6" H 14480 4475 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1607678267544&ref_url=https%253A%252F%252Fru.mouser.com%252F" H 14650 4625 60  0001 L CNN
 F 4 "SN74LVC1G11DBVR" H 14650 4825 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 14650 5425 60  0001 L CNN "Manufacturer"
@@ -284,7 +282,7 @@ Wire Wire Line
 Text GLabel 14350 3875 1    50   Input ~ 0
 VCC3V3
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 60013038
 P 14350 4575
 AR Path="/5FEC3511/60013038" Ref="#PWR?"  Part="1" 
@@ -302,7 +300,6 @@ Text Label 14750 4225 0    50   ~ 0
 VR_GOOD
 Wire Wire Line
 	14700 4225 15125 4225
-NoConn ~ 6325 3350
 Wire Wire Line
 	3325 7525 3025 7525
 Text Label 3025 7525 0    50   ~ 0
@@ -311,7 +308,7 @@ Wire Wire Line
 	2725 7375 3325 7375
 Connection ~ 2725 7375
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 6016C9C5
 P 2725 8400
 AR Path="/5FDA6477/6016C9C5" Ref="#PWR?"  Part="1" 
@@ -325,7 +322,7 @@ F 3 "" H 2725 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 6016C9CB
 P 4225 8425
 AR Path="/5FDA6477/6016C9CB" Ref="#PWR?"  Part="1" 
@@ -339,65 +336,46 @@ F 3 "" H 4225 8425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4225 8425 4225 8175
-Wire Wire Line
 	4225 7825 4125 7825
 Text Label 3025 7675 0    50   ~ 0
 2V5_PG
-$Comp
-L Device:L L?
-U 1 1 6016C9D4
-P 4425 7375
-AR Path="/5FDA6477/6016C9D4" Ref="L?"  Part="1" 
-AR Path="/5FFA4931/6016C9D4" Ref="L?"  Part="1" 
-AR Path="/5FD86D1B/6016C9D4" Ref="L6"  Part="1" 
-F 0 "L6" V 4615 7375 50  0000 C CNN
-F 1 "470n/IHLP1212" V 4524 7375 50  0000 C CNN
-F 2 "Inductor_SMD:L_Vishay_IHLP-1212" H 4425 7375 50  0001 C CNN
-F 3 "~" H 4425 7375 50  0001 C CNN
-	1    4425 7375
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	4125 7375 4275 7375
+	4125 7375 4325 7375
 Wire Wire Line
-	4225 8175 4975 8175
-Connection ~ 4225 8175
+	4225 8175 5125 8175
 Wire Wire Line
-	4225 8175 4225 7825
+	5125 7825 4825 7825
 Wire Wire Line
-	4975 7825 4675 7825
+	4675 7825 4675 7675
 Wire Wire Line
-	4525 7825 4525 7675
+	4675 7675 4125 7675
+Connection ~ 5125 7825
 Wire Wire Line
-	4525 7675 4125 7675
-Connection ~ 4975 7825
+	4725 7375 4825 7375
 Wire Wire Line
-	4575 7375 4675 7375
+	5475 8175 5125 8175
+Connection ~ 5125 8175
 Wire Wire Line
-	5325 8175 4975 8175
-Connection ~ 4975 8175
+	5125 7375 5475 7375
+Connection ~ 5125 7375
 Wire Wire Line
-	4975 7375 5325 7375
-Connection ~ 4975 7375
+	5475 7375 5775 7375
+Connection ~ 5475 7375
 Wire Wire Line
-	5325 7375 5625 7375
-Connection ~ 5325 7375
+	5775 8175 5475 8175
+Connection ~ 5475 8175
+Connection ~ 4825 7825
 Wire Wire Line
-	5625 8175 5325 8175
-Connection ~ 5325 8175
-Connection ~ 4675 7825
+	4825 7825 4675 7825
+Connection ~ 4825 7375
 Wire Wire Line
-	4675 7825 4525 7825
-Connection ~ 4675 7375
-Wire Wire Line
-	4675 7375 4975 7375
+	4825 7375 5125 7375
 Wire Wire Line
 	8275 9925 8200 9925
 Wire Wire Line
 	8275 10475 8575 10475
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 6016C9F1
 P 8875 10675
 AR Path="/5FDA6477/6016C9F1" Ref="#PWR?"  Part="1" 
@@ -415,7 +393,7 @@ Wire Wire Line
 Wire Wire Line
 	8875 9875 8875 10175
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L ecp5-dc-scm:C_10u_0402 C?
 U 1 1 6016C9FC
 P 2725 7575
 AR Path="/5FDA6477/6016C9FC" Ref="C?"  Part="1" 
@@ -423,7 +401,7 @@ AR Path="/5FFA4931/6016C9FC" Ref="C?"  Part="1"
 AR Path="/5FD86D1B/6016C9FC" Ref="C189"  Part="1" 
 F 0 "C189" H 2840 7620 60  0000 L CNN
 F 1 "C_10u_0402" H 2725 7425 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2925 7775 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 2925 7775 60  0001 L CNN
 F 3 "" H 2725 7575 50  0001 C CNN
 F 4 "MURATA" H 2925 7975 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 2925 7875 60  0001 L CNN "MPN"
@@ -440,7 +418,7 @@ Wire Wire Line
 Wire Wire Line
 	2725 6975 2725 7375
 $Comp
-L antmicroDCDCConverters:TPS62823DLCT U?
+L ecp5-dc-scm:TPS62823DLCT U?
 U 1 1 6016CA08
 P 3675 7875
 AR Path="/5FDA6477/6016CA08" Ref="U?"  Part="1" 
@@ -448,7 +426,7 @@ AR Path="/5FFA4931/6016CA08" Ref="U?"  Part="1"
 AR Path="/5FD86D1B/6016CA08" Ref="U15"  Part="1" 
 F 0 "U15" H 3725 8640 50  0000 C CNN
 F 1 "TPS62823DLCT" H 3725 8549 50  0000 C CNN
-F 2 "antmicro-footprints:QFN-8_2x1mm" H 3575 7675 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:QFN-8_2x1mm" H 3575 7675 50  0001 C CNN
 F 3 "" H 3675 7775 50  0001 C CNN
 F 4 "TPS62823DLCT" H 3725 8640 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 3725 8549 50  0001 C CNN "Manufacturer"
@@ -463,116 +441,116 @@ Connection ~ 2725 7825
 Wire Wire Line
 	2725 7825 2725 8400
 $Comp
-L antmicroCapacitors0402:C_120p_0402 C?
+L ecp5-dc-scm:C_120p_0402 C?
 U 1 1 6016CA15
-P 4675 7575
+P 4825 7575
 AR Path="/5FDA6477/6016CA15" Ref="C?"  Part="1" 
 AR Path="/5FFA4931/6016CA15" Ref="C?"  Part="1" 
 AR Path="/5FD86D1B/6016CA15" Ref="C190"  Part="1" 
-F 0 "C190" H 4700 7675 60  0000 L CNN
-F 1 "C_120p_0402" H 4675 7425 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4875 7775 60  0001 L CNN
-F 3 "" H 4675 7575 50  0001 C CNN
-F 4 "KEMET" H 4875 7975 60  0001 L CNN "Manufacturer"
-F 5 "C0402C121J5GACTU" H 4875 7875 60  0001 L CNN "MPN"
-F 6 "120p" H 4700 7475 50  0000 L CNN "Val"
-	1    4675 7575
+F 0 "C190" H 4850 7675 60  0000 L CNN
+F 1 "C_120p_0402" H 4825 7425 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5025 7775 60  0001 L CNN
+F 3 "" H 4825 7575 50  0001 C CNN
+F 4 "KEMET" H 5025 7975 60  0001 L CNN "Manufacturer"
+F 5 "C0402C121J5GACTU" H 5025 7875 60  0001 L CNN "MPN"
+F 6 "120p" H 4850 7475 50  0000 L CNN "Val"
+	1    4825 7575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4675 7375 4675 7425
+	4825 7375 4825 7425
 Wire Wire Line
-	4675 7725 4675 7825
+	4825 7725 4825 7825
 $Comp
-L antmicroResistors0402:R_453k_0402 R?
+L ecp5-dc-scm:R_453k_0402 R?
 U 1 1 6016CA20
-P 4975 7600
+P 5125 7600
 AR Path="/5FDA6477/6016CA20" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/6016CA20" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/6016CA20" Ref="R83"  Part="1" 
-F 0 "R83" V 4825 7625 60  0000 L CNN
-F 1 "R_453k_0402" H 4975 7450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5175 7800 60  0001 L CNN
-F 3 "" H 4975 7600 50  0001 C CNN
-F 4 "VISHAY" H 5175 8000 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402453KFKED" H 5175 7900 60  0001 L CNN "MPN"
-F 6 "453k" V 5100 7625 50  0000 L CNN "Val"
-	1    4975 7600
+F 0 "R83" V 4975 7625 60  0000 L CNN
+F 1 "R_453k_0402" H 5125 7450 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5325 7800 60  0001 L CNN
+F 3 "" H 5125 7600 50  0001 C CNN
+F 4 "VISHAY" H 5325 8000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402453KFKED" H 5325 7900 60  0001 L CNN "MPN"
+F 6 "453k" H 5025 7600 50  0000 L CNN "Val"
+	1    5125 7600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4975 7375 4975 7450
+	5125 7375 5125 7450
 Wire Wire Line
-	4975 7750 4975 7825
+	5125 7750 5125 7825
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L ecp5-dc-scm:R_100k_0402 R?
 U 1 1 6016CA2B
-P 4975 8000
+P 5125 8000
 AR Path="/5FDA6477/6016CA2B" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/6016CA2B" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/6016CA2B" Ref="R84"  Part="1" 
-F 0 "R84" V 4850 8050 60  0000 L CNN
-F 1 "R_100k_0402" H 4975 7850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5175 8200 60  0001 L CNN
-F 3 "" H 4975 8000 50  0001 C CNN
-F 4 "VISHAY" H 5175 8400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 5175 8300 60  0001 L CNN "MPN"
-F 6 "100k" V 5075 8050 50  0000 L CNN "Val"
-	1    4975 8000
+F 0 "R84" V 5000 8050 60  0000 L CNN
+F 1 "R_100k_0402" H 5125 7850 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5325 8200 60  0001 L CNN
+F 3 "" H 5125 8000 50  0001 C CNN
+F 4 "VISHAY" H 5325 8400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 5325 8300 60  0001 L CNN "MPN"
+F 6 "100k" H 5025 8000 50  0000 L CNN "Val"
+	1    5125 8000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4975 7825 4975 7850
+	5125 7825 5125 7850
 Wire Wire Line
-	4975 8150 4975 8175
+	5125 8150 5125 8175
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L ecp5-dc-scm:C_10u_0402 C?
 U 1 1 6016CA36
-P 5325 7775
+P 5475 7775
 AR Path="/5FDA6477/6016CA36" Ref="C?"  Part="1" 
 AR Path="/5FFA4931/6016CA36" Ref="C?"  Part="1" 
 AR Path="/5FD86D1B/6016CA36" Ref="C192"  Part="1" 
-F 0 "C192" H 5350 7875 60  0000 L CNN
-F 1 "C_10u_0402" H 5325 7625 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5525 7975 60  0001 L CNN
-F 3 "" H 5325 7775 50  0001 C CNN
-F 4 "MURATA" H 5525 8175 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 5525 8075 60  0001 L CNN "MPN"
-F 6 "10u" H 5350 7675 50  0000 L CNN "Val"
-	1    5325 7775
+F 0 "C192" H 5500 7875 60  0000 L CNN
+F 1 "C_10u_0402" H 5475 7625 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 5675 7975 60  0001 L CNN
+F 3 "" H 5475 7775 50  0001 C CNN
+F 4 "MURATA" H 5675 8175 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 5675 8075 60  0001 L CNN "MPN"
+F 6 "10u" H 5500 7675 50  0000 L CNN "Val"
+	1    5475 7775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5325 7375 5325 7625
+	5475 7375 5475 7625
 Wire Wire Line
-	5625 7375 5625 7625
+	5775 7375 5775 7625
 Wire Wire Line
-	5325 7925 5325 8175
+	5475 7925 5475 8175
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L ecp5-dc-scm:C_10u_0402 C?
 U 1 1 6016CA42
-P 5625 7775
+P 5775 7775
 AR Path="/5FDA6477/6016CA42" Ref="C?"  Part="1" 
 AR Path="/5FFA4931/6016CA42" Ref="C?"  Part="1" 
 AR Path="/5FD86D1B/6016CA42" Ref="C194"  Part="1" 
-F 0 "C194" H 5650 7875 60  0000 L CNN
-F 1 "C_10u_0402" H 5625 7625 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5825 7975 60  0001 L CNN
-F 3 "" H 5625 7775 50  0001 C CNN
-F 4 "MURATA" H 5825 8175 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 5825 8075 60  0001 L CNN "MPN"
-F 6 "10u" H 5650 7675 50  0000 L CNN "Val"
-	1    5625 7775
+F 0 "C194" H 5800 7875 60  0000 L CNN
+F 1 "C_10u_0402" H 5775 7625 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 5975 7975 60  0001 L CNN
+F 3 "" H 5775 7775 50  0001 C CNN
+F 4 "MURATA" H 5975 8175 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 5975 8075 60  0001 L CNN "MPN"
+F 6 "10u" H 5800 7675 50  0000 L CNN "Val"
+	1    5775 7775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5625 7925 5625 8175
+	5775 7925 5775 8175
 Wire Wire Line
-	5325 7000 5275 7000
+	5475 7000 5425 7000
 Wire Wire Line
-	5325 7000 5325 7375
+	5475 7000 5475 7375
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 6016CA4E
 P 8275 10150
 AR Path="/5FDA6477/6016CA4E" Ref="R?"  Part="1" 
@@ -580,7 +558,7 @@ AR Path="/5FFA4931/6016CA4E" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/6016CA4E" Ref="R93"  Part="1" 
 F 0 "R93" V 8125 10175 60  0000 L CNN
 F 1 "R_10k_0402" H 8275 10000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8475 10350 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 8475 10350 60  0001 L CNN
 F 3 "" H 8275 10150 50  0001 C CNN
 F 4 "VISHAY" H 8475 10550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8475 10450 60  0001 L CNN "MPN"
@@ -592,10 +570,8 @@ Wire Wire Line
 	8275 9925 8275 10000
 Wire Wire Line
 	8275 10300 8275 10475
-Text Notes 3300 6950 0    50   ~ 0
-SOURCE:Trelis board
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 6016CA59
 P 9075 9875
 AR Path="/5FDA6477/6016CA59" Ref="D?"  Part="1" 
@@ -603,7 +579,7 @@ AR Path="/5FFA4931/6016CA59" Ref="D?"  Part="1"
 AR Path="/5FD86D1B/6016CA59" Ref="D7"  Part="1" 
 F 0 "D7" H 9100 9775 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 8200 10100 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9275 10075 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 9275 10075 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 9275 10175 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 9275 10375 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 9275 10975 60  0001 L CNN "Manufacturer"
@@ -615,7 +591,7 @@ Wire Wire Line
 Wire Wire Line
 	9275 9875 9375 9875
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 6016CA64
 P 9525 9875
 AR Path="/5FDA6477/6016CA64" Ref="R?"  Part="1" 
@@ -623,7 +599,7 @@ AR Path="/5FFA4931/6016CA64" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/6016CA64" Ref="R100"  Part="1" 
 F 0 "R100" H 9475 9975 60  0000 C CNN
 F 1 "R_1k_0402" H 9525 9725 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9725 10075 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9725 10075 60  0001 L CNN
 F 3 "" H 9525 9875 50  0001 C CNN
 F 4 "BOURNS" H 9725 10275 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9725 10175 60  0001 L CNN "MPN"
@@ -643,7 +619,7 @@ Wire Wire Line
 	7950 10575 8275 10575
 Connection ~ 8275 10475
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:2N7002 Q?
+L ecp5-dc-scm:2N7002 Q?
 U 1 1 6016CA73
 P 8875 10375
 AR Path="/5FDA6477/6016CA73" Ref="Q?"  Part="1" 
@@ -651,16 +627,16 @@ AR Path="/5FFA4931/6016CA73" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/6016CA73" Ref="Q5"  Part="1" 
 F 0 "Q5" H 8983 10428 60  0000 L CNN
 F 1 "2N7002" H 8983 10322 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9075 10575 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 9075 10575 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9075 10675 60  0001 L CNN
 F 4 "2N7002" H 9075 10875 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9075 11475 60  0001 L CNN "Manufacturer"
 	1    8875 10375
 	1    0    0    -1  
 $EndComp
-Text GLabel 5275 7000 0    50   Input ~ 0
+Text GLabel 5425 7000 0    50   Input ~ 0
 VCC2V5
-Text Notes 5375 7025 0    50   ~ 0
+Text Notes 5525 7025 0    50   ~ 0
 2.5V/3A
 Wire Wire Line
 	3150 3125 3050 3125
@@ -673,7 +649,7 @@ Wire Wire Line
 Wire Wire Line
 	1775 3275 1525 3275
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 6016CBEA
 P 1525 3325
 AR Path="/5FDA6477/6016CBEA" Ref="#PWR?"  Part="1" 
@@ -709,7 +685,7 @@ Wire Wire Line
 Text Label 2700 3325 0    50   ~ 0
 1V2_EN
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 6016CBFD
 P 3850 4525
 AR Path="/5FDA6477/6016CBFD" Ref="#PWR?"  Part="1" 
@@ -793,7 +769,7 @@ Wire Wire Line
 Text Label 7900 7675 0    50   ~ 0
 1V2_PG
 $Comp
-L power:+1V2 #PWR?
+L ecp5-dc-scm:+1V2 #PWR?
 U 1 1 6016CC2B
 P 5725 2675
 AR Path="/5FDA6477/6016CC2B" Ref="#PWR?"  Part="1" 
@@ -809,7 +785,6 @@ $EndComp
 Wire Wire Line
 	5725 2675 5725 2825
 Connection ~ 5725 2825
-Connection ~ 6025 3625
 Wire Wire Line
 	4950 3925 4950 3625
 Connection ~ 4950 3625
@@ -822,7 +797,7 @@ Wire Wire Line
 	6025 2825 5725 2825
 Connection ~ 6025 2825
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 6016CC3B
 P 6300 4250
 AR Path="/5FDA6477/6016CC3B" Ref="#PWR?"  Part="1" 
@@ -845,7 +820,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 7575 8550 7575
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 6016CC49
 P 8850 7775
 AR Path="/5FDA6477/6016CC49" Ref="#PWR?"  Part="1" 
@@ -863,7 +838,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 6975 8850 7275
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 6016CC54
 P 8250 7250
 AR Path="/5FDA6477/6016CC54" Ref="R?"  Part="1" 
@@ -871,7 +846,7 @@ AR Path="/5FFA4931/6016CC54" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/6016CC54" Ref="R89"  Part="1" 
 F 0 "R89" V 8100 7275 60  0000 L CNN
 F 1 "R_10k_0402" H 8250 7100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8450 7450 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 8450 7450 60  0001 L CNN
 F 3 "" H 8250 7250 50  0001 C CNN
 F 4 "VISHAY" H 8450 7650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8450 7550 60  0001 L CNN "MPN"
@@ -884,7 +859,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 7400 8250 7575
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 6016CC5E
 P 9050 6975
 AR Path="/5FDA6477/6016CC5E" Ref="D?"  Part="1" 
@@ -892,7 +867,7 @@ AR Path="/5FFA4931/6016CC5E" Ref="D?"  Part="1"
 AR Path="/5FD86D1B/6016CC5E" Ref="D3"  Part="1" 
 F 0 "D3" H 9075 6875 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 8175 7200 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9250 7175 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 9250 7175 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 9250 7275 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 9250 7475 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 9250 8075 60  0001 L CNN "Manufacturer"
@@ -904,7 +879,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 6975 9350 6975
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 6016CC69
 P 9500 6975
 AR Path="/5FDA6477/6016CC69" Ref="R?"  Part="1" 
@@ -912,7 +887,7 @@ AR Path="/5FFA4931/6016CC69" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/6016CC69" Ref="R96"  Part="1" 
 F 0 "R96" H 9450 7075 60  0000 C CNN
 F 1 "R_1k_0402" H 9500 6825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9700 7175 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9700 7175 60  0001 L CNN
 F 3 "" H 9500 6975 50  0001 C CNN
 F 4 "BOURNS" H 9700 7375 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9700 7275 60  0001 L CNN "MPN"
@@ -930,7 +905,7 @@ Wire Wire Line
 	7900 7675 8250 7675
 Connection ~ 8250 7575
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:2N7002 Q?
+L ecp5-dc-scm:2N7002 Q?
 U 1 1 6016CC76
 P 8850 7475
 AR Path="/5FDA6477/6016CC76" Ref="Q?"  Part="1" 
@@ -938,7 +913,7 @@ AR Path="/5FFA4931/6016CC76" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/6016CC76" Ref="Q1"  Part="1" 
 F 0 "Q1" H 8958 7528 60  0000 L CNN
 F 1 "2N7002" H 8958 7422 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9050 7675 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 9050 7675 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9050 7775 60  0001 L CNN
 F 4 "2N7002" H 9050 7975 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9050 8575 60  0001 L CNN "Manufacturer"
@@ -948,7 +923,7 @@ $EndComp
 Text Label 4850 3725 2    50   ~ 0
 1V2_PG
 $Comp
-L antmicroResistors0603:R_10R_0603 R?
+L ecp5-dc-scm:R_10R_0603 R?
 U 1 1 6016CC80
 P 2275 2825
 AR Path="/5FDA6477/6016CC80" Ref="R?"  Part="1" 
@@ -956,7 +931,7 @@ AR Path="/5FFA4931/6016CC80" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/6016CC80" Ref="R81"  Part="1" 
 F 0 "R81" H 2225 2925 60  0000 C CNN
 F 1 "R_10R_0603" H 2275 2675 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2475 3025 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0603-res" H 2475 3025 60  0001 L CNN
 F 3 "" H 2275 2825 50  0001 C CNN
 F 4 "MULTICOMP" H 2475 3225 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X10R0FTL" H 2475 3125 60  0001 L CNN "MPN"
@@ -965,7 +940,7 @@ F 6 "10R" H 2300 2750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 6016CC89
 P 2525 3050
 AR Path="/5FDA6477/6016CC89" Ref="C?"  Part="1" 
@@ -973,7 +948,7 @@ AR Path="/5FFA4931/6016CC89" Ref="C?"  Part="1"
 AR Path="/5FD86D1B/6016CC89" Ref="C188"  Part="1" 
 F 0 "C188" H 2550 3150 60  0000 L CNN
 F 1 "C_100n_0402" H 2525 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2725 3250 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 2725 3250 60  0001 L CNN
 F 3 "" H 2525 3050 50  0001 C CNN
 F 4 "Walsin" H 2725 3450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2725 3350 60  0001 L CNN "MPN"
@@ -982,7 +957,7 @@ F 6 "100n" H 2550 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_47k_0402 R?
+L ecp5-dc-scm:R_47k_0402 R?
 U 1 1 6016CC92
 P 2700 3675
 AR Path="/5FDA6477/6016CC92" Ref="R?"  Part="1" 
@@ -990,7 +965,7 @@ AR Path="/5FFA4931/6016CC92" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/6016CC92" Ref="R82"  Part="1" 
 F 0 "R82" V 2655 3745 60  0000 L CNN
 F 1 "R_47k_0402" H 2700 3525 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2900 3875 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 2900 3875 60  0001 L CNN
 F 3 "" H 2700 3675 50  0001 C CNN
 F 4 "MULTICOMP" H 2900 4075 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X4702FTL" H 2900 3975 60  0001 L CNN "MPN"
@@ -1003,7 +978,7 @@ Wire Wire Line
 Wire Wire Line
 	1775 2825 1775 2900
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L ecp5-dc-scm:C_10u_0402 C?
 U 1 1 6016CC9D
 P 1525 3050
 AR Path="/5FDA6477/6016CC9D" Ref="C?"  Part="1" 
@@ -1011,7 +986,7 @@ AR Path="/5FFA4931/6016CC9D" Ref="C?"  Part="1"
 AR Path="/5FD86D1B/6016CC9D" Ref="C186"  Part="1" 
 F 0 "C186" H 1525 3150 60  0000 L CNN
 F 1 "C_10u_0402" H 1525 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1725 3250 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 1725 3250 60  0001 L CNN
 F 3 "" H 1525 3050 50  0001 C CNN
 F 4 "MURATA" H 1725 3450 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 1725 3350 60  0001 L CNN "MPN"
@@ -1022,7 +997,7 @@ $EndComp
 Wire Wire Line
 	1525 3200 1525 3275
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L ecp5-dc-scm:C_10u_0402 C?
 U 1 1 6016CCA7
 P 1775 3050
 AR Path="/5FDA6477/6016CCA7" Ref="C?"  Part="1" 
@@ -1030,7 +1005,7 @@ AR Path="/5FFA4931/6016CCA7" Ref="C?"  Part="1"
 AR Path="/5FD86D1B/6016CCA7" Ref="C187"  Part="1" 
 F 0 "C187" H 1775 3150 60  0000 L CNN
 F 1 "C_10u_0402" H 1775 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1975 3250 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 1975 3250 60  0001 L CNN
 F 3 "" H 1775 3050 50  0001 C CNN
 F 4 "MURATA" H 1975 3450 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 1975 3350 60  0001 L CNN "MPN"
@@ -1073,7 +1048,7 @@ Wire Wire Line
 Wire Wire Line
 	6025 2825 6300 2825
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP?
 U 1 1 6016CCBF
 P 6300 2575
 AR Path="/5FDA6477/6016CCBF" Ref="TP?"  Part="1" 
@@ -1081,32 +1056,30 @@ AR Path="/5FFA4931/6016CCBF" Ref="TP?"  Part="1"
 AR Path="/5FD86D1B/6016CCBF" Ref="TP2"  Part="1" 
 F 0 "TP2" H 6250 2622 50  0000 R CNN
 F 1 "TP_SMD1MM" H 6300 2475 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6500 2775 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 6500 2775 60  0001 L CNN
 F 3 "" H 6500 2875 60  0001 L CNN
 	1    6300 2575
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1n8_0402 C?
+L ecp5-dc-scm:C_1n8_0402 C?
 U 1 1 6016CCC8
 P 5175 3625
 AR Path="/5FDA6477/6016CCC8" Ref="C?"  Part="1" 
 AR Path="/5FFA4931/6016CCC8" Ref="C?"  Part="1" 
 AR Path="/5FD86D1B/6016CCC8" Ref="C191"  Part="1" 
-F 0 "C191" V 5050 3525 60  0000 C CNN
+F 0 "C191" V 4925 3625 60  0000 C CNN
 F 1 "C_1n8_0402" H 5175 3475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5375 3825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 5375 3825 60  0001 L CNN
 F 3 "" H 5175 3625 50  0001 C CNN
 F 4 "WALSIN" H 5375 4025 60  0001 L CNN "Manufacturer"
 F 5 "0402B182K500CT" H 5375 3925 60  0001 L CNN "MPN"
-F 6 "1n8" V 5225 3750 50  0000 C CNN "Val"
+F 6 "1n8" V 5025 3625 50  0000 C CNN "Val"
 	1    5175 3625
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5725 3225 5725 3625
-Wire Wire Line
-	5725 3625 6025 3625
 Text GLabel 8175 7025 0    50   Input ~ 0
 VCC1V2
 Wire Wire Line
@@ -1114,38 +1087,38 @@ Wire Wire Line
 Wire Wire Line
 	5325 3625 5375 3625
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L ecp5-dc-scm:R_4k7_0402 R?
 U 1 1 6016CCDA
 P 5525 3625
 AR Path="/5FDA6477/6016CCDA" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/6016CCDA" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/6016CCDA" Ref="R85"  Part="1" 
-F 0 "R85" H 5475 3725 60  0000 C CNN
+F 0 "R85" H 5525 3725 60  0000 C CNN
 F 1 "R_4k7_0402" H 5525 3475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5725 3825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5725 3825 60  0001 L CNN
 F 3 "" H 5525 3625 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5725 4025 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 5725 3925 60  0001 L CNN "MPN"
-F 6 "4k7" H 5575 3525 50  0000 C CNN "Val"
+F 6 "4k7" H 5525 3625 50  0000 C CNN "Val"
 	1    5525 3625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5675 3625 5725 3625
 $Comp
-L antmicroCapacitors0402:C_180p_0402 C?
+L ecp5-dc-scm:C_180p_0402 C?
 U 1 1 6016CCE4
 P 5350 3925
 AR Path="/5FDA6477/6016CCE4" Ref="C?"  Part="1" 
 AR Path="/5FFA4931/6016CCE4" Ref="C?"  Part="1" 
 AR Path="/5FD86D1B/6016CCE4" Ref="C193"  Part="1" 
-F 0 "C193" V 5275 3825 60  0000 C CNN
+F 0 "C193" V 5525 3925 60  0000 C CNN
 F 1 "C_180p_0402" H 5350 3775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5550 4125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 5550 4125 60  0001 L CNN
 F 3 "" H 5350 3925 50  0001 C CNN
 F 4 "AVX" H 5550 4325 60  0001 L CNN "Manufacturer"
 F 5 "04025A181JAT2A" H 5550 4225 60  0001 L CNN "MPN"
-F 6 "180p" V 5400 4100 50  0000 C CNN "Val"
+F 6 "180p" V 5600 3925 50  0000 C CNN "Val"
 	1    5350 3925
 	0    1    1    0   
 $EndComp
@@ -1153,62 +1126,41 @@ Wire Wire Line
 	4950 3925 5200 3925
 Wire Wire Line
 	5500 3925 5725 3925
-Wire Wire Line
-	6025 3625 6025 3775
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
-U 1 1 6016CCF0
-P 6025 3925
-AR Path="/5FDA6477/6016CCF0" Ref="R?"  Part="1" 
-AR Path="/5FFA4931/6016CCF0" Ref="R?"  Part="1" 
-AR Path="/5FD86D1B/6016CCF0" Ref="R88"  Part="1" 
-F 0 "R88" V 5980 3995 60  0000 L CNN
-F 1 "R_10k_0402" H 6025 3775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6225 4125 60  0001 L CNN
-F 3 "" H 6025 3925 50  0001 C CNN
-F 4 "VISHAY" H 6225 4325 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 6225 4225 60  0001 L CNN "MPN"
-F 6 "10k" V 6078 3995 50  0000 L CNN "Val"
-	1    6025 3925
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6025 4075 6025 4150
-$Comp
-L antmicroCapacitors0603:C_47u_0603 C?
+L ecp5-dc-scm:C_47u_0603 C?
 U 1 1 6016CCFA
-P 6300 3200
+P 6300 3520
 AR Path="/5FDA6477/6016CCFA" Ref="C?"  Part="1" 
 AR Path="/5FFA4931/6016CCFA" Ref="C?"  Part="1" 
 AR Path="/5FD86D1B/6016CCFA" Ref="C196"  Part="1" 
-F 0 "C196" H 6325 3300 60  0000 L CNN
-F 1 "C_47u_0603" H 6300 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 6500 3400 60  0001 L CNN
-F 3 "" H 6300 3200 50  0001 C CNN
-F 4 "MURATA" H 6500 3600 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 6500 3500 60  0001 L CNN "MPN"
-F 6 "47u" H 6325 3100 50  0000 L CNN "Val"
-	1    6300 3200
+F 0 "C196" H 6325 3620 60  0000 L CNN
+F 1 "C_47u_0603" H 6300 3370 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0603-cap" H 6500 3720 60  0001 L CNN
+F 3 "" H 6300 3520 50  0001 C CNN
+F 4 "MURATA" H 6500 3920 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 6500 3820 60  0001 L CNN "MPN"
+F 6 "47u" H 6325 3420 50  0000 L CNN "Val"
+	1    6300 3520
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 2825 6300 3050
+	6300 2825 6300 3370
 Wire Wire Line
-	6300 3350 6300 4150
+	6300 3670 6300 4150
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 6016CD05
 P 5725 3025
 AR Path="/5FDA6477/6016CD05" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/6016CD05" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/6016CD05" Ref="R86"  Part="1" 
-F 0 "R86" V 5680 3095 60  0000 L CNN
+F 0 "R86" V 5675 2775 60  0000 L CNN
 F 1 "R_10k_0402" H 5725 2875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5925 3225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5925 3225 60  0001 L CNN
 F 3 "" H 5725 3025 50  0001 C CNN
 F 4 "VISHAY" H 5925 3425 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5925 3325 60  0001 L CNN "MPN"
-F 6 "10k" V 5778 3095 50  0000 L CNN "Val"
+F 6 "10k" H 5675 3025 50  0000 L CNN "Val"
 	1    5725 3025
 	0    1    1    0   
 $EndComp
@@ -1219,7 +1171,7 @@ Wire Wire Line
 Text Notes 3450 4900 0    50   ~ 0
 SOURCE:Trelis board
 $Comp
-L antmicroCapacitors0402:C_750p_0402 C?
+L ecp5-dc-scm:C_750p_0402 C?
 U 1 1 6016CD19
 P 6025 3025
 AR Path="/5FDA6477/6016CD19" Ref="C?"  Part="1" 
@@ -1227,7 +1179,7 @@ AR Path="/5FFA4931/6016CD19" Ref="C?"  Part="1"
 AR Path="/5FD86D1B/6016CD19" Ref="C195"  Part="1" 
 F 0 "C195" H 6050 3125 60  0000 L CNN
 F 1 "C_750p_0402" H 6025 2875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6225 3225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6225 3225 60  0001 L CNN
 F 3 "" H 6025 3025 50  0001 C CNN
 F 4 "KEMET" H 6225 3425 60  0001 L CNN "Manufacturer"
 F 5 "C0402C751J5GACTU" H 6225 3325 60  0001 L CNN "MPN"
@@ -1235,31 +1187,12 @@ F 6 "750p" H 6050 2925 50  0000 L CNN "Val"
 	1    6025 3025
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroResistors0402:R_470k_0402 R?
-U 1 1 6016CD22
-P 6025 3425
-AR Path="/5FDA6477/6016CD22" Ref="R?"  Part="1" 
-AR Path="/5FFA4931/6016CD22" Ref="R?"  Part="1" 
-AR Path="/5FD86D1B/6016CD22" Ref="R87"  Part="1" 
-F 0 "R87" V 5980 3495 60  0000 L CNN
-F 1 "R_470k_0402" H 6025 3275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6225 3625 60  0001 L CNN
-F 3 "" H 6025 3425 50  0001 C CNN
-F 4 "YAGEO" H 6225 3825 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07470KL" H 6225 3725 60  0001 L CNN "MPN"
-F 6 "470k" V 6078 3495 50  0000 L CNN "Val"
-	1    6025 3425
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6025 2825 6025 2875
 Wire Wire Line
-	6025 3575 6025 3625
-Wire Wire Line
 	6025 3175 6025 3275
 $Comp
-L antmicroPMICVoltageRegulatorsDCDCSwitchingRegulators:LM21212-2 U?
+L ecp5-dc-scm:LM21212-2 U?
 U 1 1 6016CD2D
 P 3850 3375
 AR Path="/5FDA6477/6016CD2D" Ref="U?"  Part="1" 
@@ -1267,7 +1200,7 @@ AR Path="/5FFA4931/6016CD2D" Ref="U?"  Part="1"
 AR Path="/5FD86D1B/6016CD2D" Ref="U16"  Part="1" 
 F 0 "U16" H 3850 4190 50  0000 C CNN
 F 1 "LM21212-2" H 3850 4099 50  0000 C CNN
-F 2 "antmicro-footprints:HTSSOP-20_TI-PWP" H 3850 2825 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:HTSSOP-20_TI-PWP" H 3850 2825 50  0001 C CNN
 F 3 "https://www.ti.com/product/LM21212-2" H 3850 2825 50  0001 C CNN
 F 4 "Texas Instruments" H 4200 4425 50  0001 C CNN "Manufacturer"
 F 5 "LM21212MH-2/NOPB " H 4300 4325 50  0001 C CNN "MPN"
@@ -1275,7 +1208,7 @@ F 5 "LM21212MH-2/NOPB " H 4300 4325 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:XAL5030-801 L?
+L ecp5-dc-scm:XAL5030-801 L?
 U 1 1 6016CD63
 P 5100 2825
 AR Path="/5FDA6477/6016CD63" Ref="L?"  Part="1" 
@@ -1283,7 +1216,7 @@ AR Path="/5FFA4931/6016CD63" Ref="L?"  Part="1"
 AR Path="/5FD86D1B/6016CD63" Ref="L7"  Part="1" 
 F 0 "L7" H 5100 3039 60  0000 C CNN
 F 1 "XAL5030-801" H 5100 2933 60  0000 C CNN
-F 2 "antmicro-footprints:Coilcraft-XAL5030" H 5900 3075 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:Coilcraft-XAL5030" H 5900 3075 60  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1681990.pdf" H 5100 2825 60  0001 C CNN
 F 4 "Coilcraft" H 5200 3275 50  0001 C CNN "Manufacturer"
 F 5 "XAL5030-801MEC" H 5350 3175 50  0001 C CNN "MPN"
@@ -1313,7 +1246,7 @@ VCC1V8
 Text GLabel 8200 8400 0    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:2N7002 Q?
+L ecp5-dc-scm:2N7002 Q?
 U 1 1 609709BF
 P 8975 3425
 AR Path="/5FCA4661/609709BF" Ref="Q?"  Part="1" 
@@ -1321,7 +1254,7 @@ AR Path="/5FFA4931/609709BF" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/609709BF" Ref="Q7"  Part="1" 
 F 0 "Q7" H 9083 3478 60  0000 L CNN
 F 1 "2N7002" H 9083 3372 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9175 3625 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 9175 3625 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9175 3725 60  0001 L CNN
 F 4 "2N7002" H 9175 3925 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9175 4525 60  0001 L CNN "Manufacturer"
@@ -1333,7 +1266,7 @@ Wire Wire Line
 Text GLabel 9875 2925 2    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 609709CA
 P 9625 2925
 AR Path="/5FCA4661/609709CA" Ref="R?"  Part="1" 
@@ -1341,7 +1274,7 @@ AR Path="/5FFA4931/609709CA" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/609709CA" Ref="R102"  Part="1" 
 F 0 "R102" H 9575 3025 60  0000 C CNN
 F 1 "R_1k_0402" H 9625 2775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9825 3125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9825 3125 60  0001 L CNN
 F 3 "" H 9625 2925 50  0001 C CNN
 F 4 "BOURNS" H 9825 3325 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9825 3225 60  0001 L CNN "MPN"
@@ -1354,7 +1287,7 @@ Wire Wire Line
 Wire Wire Line
 	8975 2925 9075 2925
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 609709D4
 P 9175 2925
 AR Path="/5FCA4661/609709D4" Ref="D?"  Part="1" 
@@ -1362,7 +1295,7 @@ AR Path="/5FFA4931/609709D4" Ref="D?"  Part="1"
 AR Path="/5FD86D1B/609709D4" Ref="D9"  Part="1" 
 F 0 "D9" H 9200 2825 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 8300 3150 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9375 3125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 9375 3125 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 9375 3225 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 9375 3425 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 9375 4025 60  0001 L CNN "Manufacturer"
@@ -1372,7 +1305,7 @@ $EndComp
 Wire Wire Line
 	8375 2975 8375 3050
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 609709DE
 P 8375 3200
 AR Path="/5FCA4661/609709DE" Ref="R?"  Part="1" 
@@ -1380,7 +1313,7 @@ AR Path="/5FFA4931/609709DE" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/609709DE" Ref="R95"  Part="1" 
 F 0 "R95" V 8225 3225 60  0000 L CNN
 F 1 "R_10k_0402" H 8375 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8575 3400 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 8575 3400 60  0001 L CNN
 F 3 "" H 8375 3200 50  0001 C CNN
 F 4 "VISHAY" H 8575 3600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8575 3500 60  0001 L CNN "MPN"
@@ -1393,7 +1326,7 @@ Wire Wire Line
 Wire Wire Line
 	8975 3725 8975 3625
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 609709E6
 P 8975 3725
 AR Path="/5FCA4661/609709E6" Ref="#PWR?"  Part="1" 
@@ -1416,7 +1349,7 @@ Wire Wire Line
 Wire Wire Line
 	8375 2975 8300 2975
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:2N7002 Q?
+L ecp5-dc-scm:2N7002 Q?
 U 1 1 609709F3
 P 8950 2000
 AR Path="/5FCA4661/609709F3" Ref="Q?"  Part="1" 
@@ -1424,7 +1357,7 @@ AR Path="/5FFA4931/609709F3" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/609709F3" Ref="Q6"  Part="1" 
 F 0 "Q6" H 9058 2053 60  0000 L CNN
 F 1 "2N7002" H 9058 1947 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9150 2200 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 9150 2200 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9150 2300 60  0001 L CNN
 F 4 "2N7002" H 9150 2500 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9150 3100 60  0001 L CNN "Manufacturer"
@@ -1438,7 +1371,7 @@ Wire Wire Line
 Text GLabel 9850 1500 2    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 609709FF
 P 9600 1500
 AR Path="/5FCA4661/609709FF" Ref="R?"  Part="1" 
@@ -1446,7 +1379,7 @@ AR Path="/5FFA4931/609709FF" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/609709FF" Ref="R101"  Part="1" 
 F 0 "R101" H 9550 1600 60  0000 C CNN
 F 1 "R_1k_0402" H 9600 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9800 1700 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9800 1700 60  0001 L CNN
 F 3 "" H 9600 1500 50  0001 C CNN
 F 4 "BOURNS" H 9800 1900 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9800 1800 60  0001 L CNN "MPN"
@@ -1459,7 +1392,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 1500 9050 1500
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60970A09
 P 9150 1500
 AR Path="/5FCA4661/60970A09" Ref="D?"  Part="1" 
@@ -1467,7 +1400,7 @@ AR Path="/5FFA4931/60970A09" Ref="D?"  Part="1"
 AR Path="/5FD86D1B/60970A09" Ref="D8"  Part="1" 
 F 0 "D8" H 9175 1400 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 8275 1725 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9350 1700 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 9350 1700 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 9350 1800 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 9350 2000 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 9350 2600 60  0001 L CNN "Manufacturer"
@@ -1477,7 +1410,7 @@ $EndComp
 Wire Wire Line
 	8350 1550 8350 1625
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60970A13
 P 8350 1775
 AR Path="/5FCA4661/60970A13" Ref="R?"  Part="1" 
@@ -1485,7 +1418,7 @@ AR Path="/5FFA4931/60970A13" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/60970A13" Ref="R94"  Part="1" 
 F 0 "R94" V 8200 1800 60  0000 L CNN
 F 1 "R_10k_0402" H 8350 1625 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8550 1975 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 8550 1975 60  0001 L CNN
 F 3 "" H 8350 1775 50  0001 C CNN
 F 4 "VISHAY" H 8550 2175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8550 2075 60  0001 L CNN "MPN"
@@ -1498,7 +1431,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 2300 8950 2200
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 60970A1B
 P 8950 2300
 AR Path="/5FCA4661/60970A1B" Ref="#PWR?"  Part="1" 
@@ -1521,7 +1454,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 1550 8300 1550
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:2N7002 Q?
+L ecp5-dc-scm:2N7002 Q?
 U 1 1 60970A28
 P 8875 8850
 AR Path="/5FCA4661/60970A28" Ref="Q?"  Part="1" 
@@ -1529,7 +1462,7 @@ AR Path="/5FFA4931/60970A28" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60970A28" Ref="Q4"  Part="1" 
 F 0 "Q4" H 8983 8903 60  0000 L CNN
 F 1 "2N7002" H 8983 8797 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9075 9050 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 9075 9050 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9075 9150 60  0001 L CNN
 F 4 "2N7002" H 9075 9350 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9075 9950 60  0001 L CNN "Manufacturer"
@@ -1543,7 +1476,7 @@ Wire Wire Line
 Text GLabel 9775 8350 2    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60970A34
 P 9525 8350
 AR Path="/5FCA4661/60970A34" Ref="R?"  Part="1" 
@@ -1551,7 +1484,7 @@ AR Path="/5FFA4931/60970A34" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/60970A34" Ref="R99"  Part="1" 
 F 0 "R99" H 9475 8450 60  0000 C CNN
 F 1 "R_1k_0402" H 9525 8200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9725 8550 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9725 8550 60  0001 L CNN
 F 3 "" H 9525 8350 50  0001 C CNN
 F 4 "BOURNS" H 9725 8750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9725 8650 60  0001 L CNN "MPN"
@@ -1564,7 +1497,7 @@ Wire Wire Line
 Wire Wire Line
 	8875 8350 8975 8350
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60970A3E
 P 9075 8350
 AR Path="/5FCA4661/60970A3E" Ref="D?"  Part="1" 
@@ -1572,7 +1505,7 @@ AR Path="/5FFA4931/60970A3E" Ref="D?"  Part="1"
 AR Path="/5FD86D1B/60970A3E" Ref="D6"  Part="1" 
 F 0 "D6" H 9100 8250 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 8200 8575 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9275 8550 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 9275 8550 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 9275 8650 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 9275 8850 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 9275 9450 60  0001 L CNN "Manufacturer"
@@ -1582,7 +1515,7 @@ $EndComp
 Wire Wire Line
 	8275 8400 8275 8475
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60970A48
 P 8275 8625
 AR Path="/5FCA4661/60970A48" Ref="R?"  Part="1" 
@@ -1590,7 +1523,7 @@ AR Path="/5FFA4931/60970A48" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/60970A48" Ref="R92"  Part="1" 
 F 0 "R92" V 8125 8650 60  0000 L CNN
 F 1 "R_10k_0402" H 8275 8475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8475 8825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 8475 8825 60  0001 L CNN
 F 3 "" H 8275 8625 50  0001 C CNN
 F 4 "VISHAY" H 8475 9025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8475 8925 60  0001 L CNN "MPN"
@@ -1603,7 +1536,7 @@ Wire Wire Line
 Wire Wire Line
 	8875 9150 8875 9050
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 60970A50
 P 8875 9150
 AR Path="/5FCA4661/60970A50" Ref="#PWR?"  Part="1" 
@@ -1637,7 +1570,7 @@ Wire Wire Line
 Wire Wire Line
 	8875 4425 8875 4725
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60970A64
 P 8275 4700
 AR Path="/5FCA4661/60970A64" Ref="R?"  Part="1" 
@@ -1645,7 +1578,7 @@ AR Path="/5FFA4931/60970A64" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/60970A64" Ref="R90"  Part="1" 
 F 0 "R90" V 8125 4725 60  0000 L CNN
 F 1 "R_10k_0402" H 8275 4550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8475 4900 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 8475 4900 60  0001 L CNN
 F 3 "" H 8275 4700 50  0001 C CNN
 F 4 "VISHAY" H 8475 5100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8475 5000 60  0001 L CNN "MPN"
@@ -1656,7 +1589,7 @@ $EndComp
 Wire Wire Line
 	8275 4475 8275 4550
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60970A6D
 P 9075 4425
 AR Path="/5FCA4661/60970A6D" Ref="D?"  Part="1" 
@@ -1664,7 +1597,7 @@ AR Path="/5FFA4931/60970A6D" Ref="D?"  Part="1"
 AR Path="/5FD86D1B/60970A6D" Ref="D4"  Part="1" 
 F 0 "D4" H 9100 4325 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 8200 4650 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9275 4625 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 9275 4625 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 9275 4725 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 9275 4925 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 9275 5525 60  0001 L CNN "Manufacturer"
@@ -1676,7 +1609,7 @@ Wire Wire Line
 Wire Wire Line
 	9275 4425 9375 4425
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60970A78
 P 9525 4425
 AR Path="/5FCA4661/60970A78" Ref="R?"  Part="1" 
@@ -1684,7 +1617,7 @@ AR Path="/5FFA4931/60970A78" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/60970A78" Ref="R97"  Part="1" 
 F 0 "R97" H 9475 4525 60  0000 C CNN
 F 1 "R_1k_0402" H 9525 4275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9725 4625 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9725 4625 60  0001 L CNN
 F 3 "" H 9525 4425 50  0001 C CNN
 F 4 "BOURNS" H 9725 4825 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9725 4725 60  0001 L CNN "MPN"
@@ -1697,7 +1630,7 @@ VCC3V3
 Wire Wire Line
 	9675 4425 9775 4425
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:2N7002 Q?
+L ecp5-dc-scm:2N7002 Q?
 U 1 1 60970A82
 P 8875 4925
 AR Path="/5FCA4661/60970A82" Ref="Q?"  Part="1" 
@@ -1705,7 +1638,7 @@ AR Path="/5FFA4931/60970A82" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60970A82" Ref="Q2"  Part="1" 
 F 0 "Q2" H 8983 4978 60  0000 L CNN
 F 1 "2N7002" H 8983 4872 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9075 5125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 9075 5125 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9075 5225 60  0001 L CNN
 F 4 "2N7002" H 9075 5425 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9075 6025 60  0001 L CNN "Manufacturer"
@@ -1715,7 +1648,7 @@ $EndComp
 Text GLabel 8200 4475 0    50   Input ~ 0
 VCC1V0
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 60970A89
 P 8875 5225
 AR Path="/5FCA4661/60970A89" Ref="#PWR?"  Part="1" 
@@ -1740,7 +1673,7 @@ Wire Wire Line
 Wire Wire Line
 	8875 5625 8875 5925
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60970A98
 P 8275 5900
 AR Path="/5FCA4661/60970A98" Ref="R?"  Part="1" 
@@ -1748,7 +1681,7 @@ AR Path="/5FFA4931/60970A98" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/60970A98" Ref="R91"  Part="1" 
 F 0 "R91" V 8125 5925 60  0000 L CNN
 F 1 "R_10k_0402" H 8275 5750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8475 6100 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 8475 6100 60  0001 L CNN
 F 3 "" H 8275 5900 50  0001 C CNN
 F 4 "VISHAY" H 8475 6300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8475 6200 60  0001 L CNN "MPN"
@@ -1759,7 +1692,7 @@ $EndComp
 Wire Wire Line
 	8275 5675 8275 5750
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D?
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60970AA1
 P 9075 5625
 AR Path="/5FCA4661/60970AA1" Ref="D?"  Part="1" 
@@ -1767,7 +1700,7 @@ AR Path="/5FFA4931/60970AA1" Ref="D?"  Part="1"
 AR Path="/5FD86D1B/60970AA1" Ref="D5"  Part="1" 
 F 0 "D5" H 9100 5525 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 8200 5850 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9275 5825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 9275 5825 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 9275 5925 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 9275 6125 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 9275 6725 60  0001 L CNN "Manufacturer"
@@ -1779,7 +1712,7 @@ Wire Wire Line
 Wire Wire Line
 	9275 5625 9375 5625
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60970AAC
 P 9525 5625
 AR Path="/5FCA4661/60970AAC" Ref="R?"  Part="1" 
@@ -1787,7 +1720,7 @@ AR Path="/5FFA4931/60970AAC" Ref="R?"  Part="1"
 AR Path="/5FD86D1B/60970AAC" Ref="R98"  Part="1" 
 F 0 "R98" H 9475 5725 60  0000 C CNN
 F 1 "R_1k_0402" H 9525 5475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9725 5825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9725 5825 60  0001 L CNN
 F 3 "" H 9525 5625 50  0001 C CNN
 F 4 "BOURNS" H 9725 6025 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9725 5925 60  0001 L CNN "MPN"
@@ -1800,7 +1733,7 @@ VCC3V3
 Wire Wire Line
 	9675 5625 9775 5625
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:2N7002 Q?
+L ecp5-dc-scm:2N7002 Q?
 U 1 1 60970AB6
 P 8875 6125
 AR Path="/5FCA4661/60970AB6" Ref="Q?"  Part="1" 
@@ -1808,7 +1741,7 @@ AR Path="/5FFA4931/60970AB6" Ref="Q?"  Part="1"
 AR Path="/5FD86D1B/60970AB6" Ref="Q3"  Part="1" 
 F 0 "Q3" H 8983 6178 60  0000 L CNN
 F 1 "2N7002" H 8983 6072 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9075 6325 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 9075 6325 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9075 6425 60  0001 L CNN
 F 4 "2N7002" H 9075 6625 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9075 7225 60  0001 L CNN "Manufacturer"
@@ -1816,7 +1749,7 @@ F 5 "ON Semiconductor" H 9075 7225 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 60970ABC
 P 8875 6425
 AR Path="/5FCA4661/60970ABC" Ref="#PWR?"  Part="1" 
@@ -1836,7 +1769,7 @@ PWR_EN
 Wire Wire Line
 	7875 5675 8275 5675
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 60970AC5
 P 8275 6425
 AR Path="/5FCA4661/60970AC5" Ref="#PWR?"  Part="1" 
@@ -1857,4 +1790,62 @@ Text Notes 3325 1975 0    118  ~ 0
 1V2 Supply
 Text Notes 3200 6600 0    118  ~ 0
 2V5 Supply
+$Comp
+L antmicroResistors0402:R_470k_0402 R?
+U 1 1 5FE14490
+P 6025 3425
+F 0 "R?" V 5975 3250 60  0000 L CNN
+F 1 "R_470k_0402" H 6025 3275 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6225 3625 60  0001 L CNN
+F 3 "" H 6025 3425 50  0001 C CNN
+F 4 "YAGEO" H 6225 3825 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07470KL" H 6225 3725 60  0001 L CNN "MPN"
+F 6 "470k" V 6075 3175 50  0000 L CNN "Val"
+	1    6025 3425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6025 3575 6025 3625
+Wire Wire Line
+	5725 3625 6025 3625
+Connection ~ 6025 3625
+Wire Wire Line
+	6025 4075 6025 4150
+Wire Wire Line
+	6025 3625 6025 3775
+$Comp
+L ecp5-dc-scm:R_10k_0402 R?
+U 1 1 6016CCF0
+P 6025 3925
+AR Path="/5FDA6477/6016CCF0" Ref="R?"  Part="1" 
+AR Path="/5FFA4931/6016CCF0" Ref="R?"  Part="1" 
+AR Path="/5FD86D1B/6016CCF0" Ref="R88"  Part="1" 
+F 0 "R88" V 5980 3995 60  0000 L CNN
+F 1 "R_10k_0402" H 6025 3775 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6225 4125 60  0001 L CNN
+F 3 "" H 6025 3925 50  0001 C CNN
+F 4 "VISHAY" H 6225 4325 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 6225 4225 60  0001 L CNN "MPN"
+F 6 "10k" V 6078 3995 50  0000 L CNN "Val"
+	1    6025 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroFixedInductors:IHLP1212AEERR47M11 L?
+U 1 1 5FE61C9B
+P 4525 7375
+F 0 "L?" H 4350 7600 60  0000 C CNN
+F 1 "IHLP1212AEERR47M11" H 4800 7500 60  0000 C CNN
+F 2 "antmicro-footprints:IHLP-1212AE" H 4525 7375 60  0001 C CNN
+F 3 "" H 4525 7375 60  0001 C CNN
+F 4 "Vishay" H 4525 7375 50  0001 C CNN "Manufacturer"
+F 5 "IHLP1212AEERR47M11" H 4525 7375 50  0001 C CNN "MPN"
+	1    4525 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 7825 4225 8175
+Connection ~ 4225 8175
+Wire Wire Line
+	4225 8175 4225 8425
 $EndSCHEMATC

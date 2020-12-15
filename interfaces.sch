@@ -80,7 +80,7 @@ Wire Wire Line
 Wire Wire Line
 	4725 3475 4725 3600
 $Comp
-L power:GND #PWR029
+L ecp5-dc-scm:GND #PWR029
 U 1 1 61437285
 P 4725 3600
 F 0 "#PWR029" H 4725 3350 50  0001 C CNN
@@ -101,7 +101,7 @@ Wire Wire Line
 Wire Wire Line
 	6475 3475 6475 3600
 $Comp
-L power:GND #PWR030
+L ecp5-dc-scm:GND #PWR030
 U 1 1 614CDD94
 P 6475 3600
 F 0 "#PWR030" H 6475 3350 50  0001 C CNN
@@ -114,7 +114,7 @@ $EndComp
 Text GLabel 8825 2925 0    50   Input ~ 0
 VCC1V0
 $Comp
-L power:GND #PWR033
+L ecp5-dc-scm:GND #PWR033
 U 1 1 614EAF09
 P 9300 3050
 F 0 "#PWR033" H 9300 2800 50  0001 C CNN
@@ -131,12 +131,12 @@ Wire Wire Line
 Text Notes 5800 2075 0    118  ~ 24
 Debug UART, I2C, I3C
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:2X05 J6
+L ecp5-dc-scm:2X05 J6
 U 1 1 61510600
 P 2550 2825
 F 0 "J6" H 2550 3114 60  0000 C CNN
 F 1 "2X05" H 2550 3008 60  0000 C CNN
-F 2 "antmicro-footprints:SHF-105-01-X-D-SM" H 3050 2175 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:SHF-105-01-X-D-SM" H 3050 2175 60  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 2550 2825 60  0001 C CNN
 F 4 "SHF-105-01-L-D-SM" H 2350 2075 50  0001 C CNN "MPN"
 F 5 "Samtec" H 2350 1975 50  0001 C CNN "Manufacturer"
@@ -164,7 +164,7 @@ Connection ~ 2025 3225
 Wire Wire Line
 	2025 3225 2025 3450
 $Comp
-L power:GND #PWR028
+L ecp5-dc-scm:GND #PWR028
 U 1 1 61514DD7
 P 2025 3450
 F 0 "#PWR028" H 2025 3200 50  0001 C CNN
@@ -183,12 +183,12 @@ UART0_SCM_TX
 Text GLabel 7075 3175 2    50   Input ~ 0
 UART0_SCM_RX
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301021121 J7
+L ecp5-dc-scm:61301021121 J7
 U 1 1 615EA3A1
 P 5025 2525
 F 0 "J7" H 5120 2700 50  0000 C CNN
 F 1 "61301021121" H 5120 2609 50  0000 C CNN
-F 2 "antmicro-footprints:61301021121" V 4825 1775 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:61301021121" V 4825 1775 60  0001 L CNN
 F 3 "" H 5225 2825 60  0001 L CNN
 F 4 "61301021121" H 5225 3025 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 5225 3625 60  0001 L CNN "Manufacturer"
@@ -196,12 +196,12 @@ F 5 "Wurth Electronics Inc." H 5225 3625 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301021121 J8
+L ecp5-dc-scm:61301021121 J8
 U 1 1 615ECA44
 P 6775 2525
 F 0 "J8" H 6870 2700 50  0000 C CNN
 F 1 "61301021121" H 6870 2609 50  0000 C CNN
-F 2 "antmicro-footprints:61301021121" V 6575 1775 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:61301021121" V 6575 1775 60  0001 L CNN
 F 3 "" H 6975 2825 60  0001 L CNN
 F 4 "61301021121" H 6975 3025 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 6975 3625 60  0001 L CNN "Manufacturer"
@@ -209,12 +209,12 @@ F 5 "Wurth Electronics Inc." H 6975 3625 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61301221121 J9
+L ecp5-dc-scm:61301221121 J9
 U 1 1 61602A77
 P 8925 3075
 F 0 "J9" H 9000 3850 50  0000 C CNN
 F 1 "61301221121" H 9000 3759 50  0000 C CNN
-F 2 "antmicro-footprints:61301221121" V 8775 3325 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:61301221121" V 8775 3325 60  0001 L CNN
 F 3 "" V 8675 3325 60  0001 L CNN
 F 4 "61301221121" H 9125 3575 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 9125 4175 60  0001 L CNN "Manufacturer"
@@ -236,7 +236,7 @@ HPM SPI
 Text GLabel 11325 2575 1    50   Input ~ 0
 VCC
 $Comp
-L power:GND #PWR034
+L ecp5-dc-scm:GND #PWR034
 U 1 1 605F8173
 P 11325 3250
 F 0 "#PWR034" H 11325 3000 50  0001 C CNN
@@ -263,12 +263,12 @@ Wire Wire Line
 Wire Wire Line
 	11325 2675 11325 2575
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300611121 J10
+L ecp5-dc-scm:61300611121 J10
 U 1 1 606F5DB3
 P 11650 2675
 F 0 "J10" V 11849 2597 50  0000 R CNN
 F 1 "61300611121" V 11940 2597 50  0000 R CNN
-F 2 "antmicro-footprints:61300611121" H 11850 2875 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:61300611121" H 11850 2875 60  0001 L CNN
 F 3 "" H 11850 2975 60  0001 L CNN
 F 4 "61300611121" H 11600 3075 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 11850 3775 60  0001 L CNN "Manufacturer"
@@ -276,12 +276,12 @@ F 5 "Wurth Electronics Inc." H 11850 3775 60  0001 L CNN "Manufacturer"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NVT2008DQ,115 U6
+L ecp5-dc-scm:NVT2008DQ,115 U6
 U 1 1 628E0C73
 P 8350 6450
 F 0 "U6" H 8350 6965 50  0000 C CNN
 F 1 "NVT2008DQ,115" H 8350 6874 50  0000 C CNN
-F 2 "antmicro-footprints:QFN50P250X450X100-21N" H 9050 7200 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:QFN50P250X450X100-21N" H 9050 7200 50  0001 C CNN
 F 3 "" H 9000 7200 50  0001 C CNN
 F 4 "NVT2008BQ,115" H 8650 7300 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 8750 7400 50  0001 C CNN "Manufacturer"
@@ -307,7 +307,7 @@ I3C[0]_SCL_3V3
 Text GLabel 9050 6200 2    50   Input ~ 0
 VCC1V0
 $Comp
-L power:GND #PWR031
+L ecp5-dc-scm:GND #PWR031
 U 1 1 628E4783
 P 7825 7675
 F 0 "#PWR031" H 7825 7425 50  0001 C CNN
@@ -380,12 +380,12 @@ Wire Wire Line
 Text Label 9375 7200 2    50   ~ 0
 1V0_EN
 $Comp
-L antmicroResistors0402:R_357k_0402 R46
+L ecp5-dc-scm:R_357k_0402 R46
 U 1 1 629DF3D6
 P 5625 6475
 F 0 "R46" V 5475 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 5625 6325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5825 6675 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5825 6675 60  0001 L CNN
 F 3 "" H 5625 6475 50  0001 C CNN
 F 4 "Vishay" H 5825 6875 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 5825 6775 60  0001 L CNN "MPN"
@@ -442,12 +442,12 @@ Wire Wire Line
 Wire Wire Line
 	6125 7350 5450 7350
 $Comp
-L antmicroResistors0402:R_357k_0402 R45
+L ecp5-dc-scm:R_357k_0402 R45
 U 1 1 62A11F2C
 P 5525 6100
 F 0 "R45" V 5375 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 5525 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5725 6300 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5725 6300 60  0001 L CNN
 F 3 "" H 5525 6100 50  0001 C CNN
 F 4 "Vishay" H 5725 6500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 5725 6400 60  0001 L CNN "MPN"
@@ -460,12 +460,12 @@ Wire Wire Line
 Wire Wire Line
 	5625 6325 5625 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R47
+L ecp5-dc-scm:R_357k_0402 R47
 U 1 1 62A15908
 P 5725 6100
 F 0 "R47" V 5575 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 5725 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5925 6300 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5925 6300 60  0001 L CNN
 F 3 "" H 5725 6100 50  0001 C CNN
 F 4 "Vishay" H 5925 6500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 5925 6400 60  0001 L CNN "MPN"
@@ -476,12 +476,12 @@ $EndComp
 Wire Wire Line
 	5725 5950 5725 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R48
+L ecp5-dc-scm:R_357k_0402 R48
 U 1 1 62A15CCD
 P 5825 6475
 F 0 "R48" V 5675 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 5825 6325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6025 6675 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6025 6675 60  0001 L CNN
 F 3 "" H 5825 6475 50  0001 C CNN
 F 4 "Vishay" H 6025 6875 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 6025 6775 60  0001 L CNN "MPN"
@@ -492,12 +492,12 @@ $EndComp
 Wire Wire Line
 	5825 6325 5825 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R49
+L ecp5-dc-scm:R_357k_0402 R49
 U 1 1 62A15FA6
 P 5925 6100
 F 0 "R49" V 5775 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 5925 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6125 6300 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6125 6300 60  0001 L CNN
 F 3 "" H 5925 6100 50  0001 C CNN
 F 4 "Vishay" H 6125 6500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 6125 6400 60  0001 L CNN "MPN"
@@ -508,12 +508,12 @@ $EndComp
 Wire Wire Line
 	5925 5950 5925 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R50
+L ecp5-dc-scm:R_357k_0402 R50
 U 1 1 62A17B7C
 P 6025 6475
 F 0 "R50" V 5875 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 6025 6325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6225 6675 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6225 6675 60  0001 L CNN
 F 3 "" H 6025 6475 50  0001 C CNN
 F 4 "Vishay" H 6225 6875 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 6225 6775 60  0001 L CNN "MPN"
@@ -524,12 +524,12 @@ $EndComp
 Wire Wire Line
 	6025 6325 6025 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R51
+L ecp5-dc-scm:R_357k_0402 R51
 U 1 1 62A1999F
 P 6125 6100
 F 0 "R51" V 5975 6125 60  0000 L CNN
 F 1 "R_357k_0402" H 6125 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6325 6300 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6325 6300 60  0001 L CNN
 F 3 "" H 6125 6100 50  0001 C CNN
 F 4 "Vishay" H 6325 6500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 6325 6400 60  0001 L CNN "MPN"
@@ -540,12 +540,12 @@ $EndComp
 Wire Wire Line
 	6125 5950 6125 5875
 $Comp
-L antmicroResistors0402:R_357k_0402 R52
+L ecp5-dc-scm:R_357k_0402 R52
 U 1 1 62A19C3C
 P 6225 6475
 F 0 "R52" V 6075 6500 60  0000 L CNN
 F 1 "R_357k_0402" H 6225 6325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6425 6675 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6425 6675 60  0001 L CNN
 F 3 "" H 6225 6475 50  0001 C CNN
 F 4 "Vishay" H 6425 6875 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 6425 6775 60  0001 L CNN "MPN"
@@ -581,12 +581,12 @@ Connection ~ 6125 5875
 Wire Wire Line
 	6125 5875 6225 5875
 $Comp
-L antmicroResistors0402:R_200k_0402 R53
+L ecp5-dc-scm:R_200k_0402 R53
 U 1 1 62A1EC48
 P 7600 6000
 F 0 "R53" V 7555 6070 60  0000 L CNN
 F 1 "R_200k_0402" H 7600 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7800 6200 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 7800 6200 60  0001 L CNN
 F 3 "" H 7600 6000 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 7800 6400 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 7800 6300 60  0001 L CNN "MPN"
@@ -603,12 +603,12 @@ Wire Wire Line
 Text Label 7650 6200 0    50   ~ 0
 1V0_EN
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C39
+L ecp5-dc-scm:C_100n_0402 C39
 U 1 1 62A2E02E
 P 8950 7400
 F 0 "C39" H 8835 7355 60  0000 R CNN
 F 1 "C_100n_0402" H 8950 7250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9150 7600 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 9150 7600 60  0001 L CNN
 F 3 "" H 8950 7400 50  0001 C CNN
 F 4 "Walsin" H 9150 7800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9150 7700 60  0001 L CNN "MPN"
@@ -622,7 +622,7 @@ Connection ~ 8950 7200
 Wire Wire Line
 	8950 7200 8700 7200
 $Comp
-L power:GND #PWR032
+L ecp5-dc-scm:GND #PWR032
 U 1 1 62A34612
 P 8950 7675
 F 0 "#PWR032" H 8950 7425 50  0001 C CNN

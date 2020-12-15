@@ -7,7 +7,7 @@ ECP5 DC-SCM
 Overview
 --------
 
-This repository contains design files of the ECP5 Datacenter Secure Control Module (DC-SCM).
+This repository contains design files of the experimental Data Center Secure Control Module (DC-SCM).
 The main purpose of this platform is to provide open-source DC-SCM with Baseboard Management Controller (BMC) unit based on Lattice ECP5 FPGA family.
 The design files were prepared in KiCad.
 This design is now a Work in Progress.

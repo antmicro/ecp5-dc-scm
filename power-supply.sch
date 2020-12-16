@@ -83,12 +83,10 @@ Text Notes 14625 2300 0    50   ~ 0
 NoConn ~ -625 5725
 Wire Wire Line
 	1725 1200 1950 1200
-Text GLabel 2050 900  2    50   Input ~ 0
+Text GLabel 1950 1025 1    50   Input ~ 0
 VCC12V
 Wire Wire Line
-	1950 900  1950 1200
-Wire Wire Line
-	1950 900  2050 900 
+	1950 1025 1950 1200
 $Comp
 L ecp5-dc-scm:TPS54561 IC1
 U 1 1 60694B04
@@ -459,20 +457,6 @@ Wire Wire Line
 Connection ~ 6600 4300
 Wire Wire Line
 	6600 3950 6600 3825
-$Comp
-L ecp5-dc-scm:R_0R_0402 R69
-U 1 1 614435B5
-P 6600 3050
-F 0 "R69" V 6555 3120 60  0000 L CNN
-F 1 "R_0R_0402" H 6600 2900 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 6800 3250 60  0001 L CNN
-F 3 "" H 6600 3050 50  0001 C CNN
-F 4 "PANASONIC" H 6800 3450 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6800 3350 60  0001 L CNN "MPN"
-F 6 "0R" V 6653 3120 50  0000 L CNN "Val"
-	1    6600 3050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 3200 6600 3475
 Text GLabel 6600 2825 1    50   Input ~ 0
@@ -1190,67 +1174,67 @@ F 6 "2u2" H 3300 3750 50  0000 L CNN "Val"
 	1    3275 3850
 	1    0    0    -1  
 $EndComp
-Text Label 2700 9775 2    50   ~ 0
+Text Label 3225 9725 2    50   ~ 0
 VCCINT_EN
-Text Label 2700 9875 2    50   ~ 0
+Text Label 3225 9825 2    50   ~ 0
 VCCAUX_EN
 Wire Wire Line
-	2075 10500 2075 10075
+	2600 10450 2600 10025
 $Comp
 L ecp5-dc-scm:GND #PWR047
 U 1 1 61620212
-P 2075 10500
-F 0 "#PWR047" H 2075 10250 50  0001 C CNN
-F 1 "GND" H 2080 10327 50  0000 C CNN
-F 2 "" H 2075 10500 50  0001 C CNN
-F 3 "" H 2075 10500 50  0001 C CNN
-	1    2075 10500
+P 2600 10450
+F 0 "#PWR047" H 2600 10200 50  0001 C CNN
+F 1 "GND" H 2605 10277 50  0000 C CNN
+F 2 "" H 2600 10450 50  0001 C CNN
+F 3 "" H 2600 10450 50  0001 C CNN
+	1    2600 10450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2075 10075 2000 10075
-Text GLabel 1025 9175 1    50   Input ~ 0
+	2600 10025 2525 10025
+Text GLabel 1550 9125 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	1200 9775 1025 9775
+	1725 9725 1550 9725
 Wire Wire Line
-	1025 9175 1025 9775
-Text Label 625  9875 0    50   ~ 0
+	1550 9125 1550 9725
+Text Label 900  9825 0    50   ~ 0
 PWR_EN
 Wire Wire Line
-	625  9875 1200 9875
+	900  9825 1325 9825
 $Comp
 L ecp5-dc-scm:C_10n_0402 C64
 U 1 1 6204B4B4
-P 800 10275
-F 0 "C64" H 915 10320 60  0000 L CNN
-F 1 "C_10n_0402" H 800 10125 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-cap" H 1000 10475 60  0001 L CNN
-F 3 "" H 800 10275 50  0001 C CNN
-F 4 "AVX" H 1000 10675 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 1000 10575 60  0001 L CNN "MPN"
-F 6 "10n" H 915 10222 50  0000 L CNN "Val"
-	1    800  10275
+P 1325 10225
+F 0 "C64" H 1440 10270 60  0000 L CNN
+F 1 "C_10n_0402" H 1325 10075 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 1525 10425 60  0001 L CNN
+F 3 "" H 1325 10225 50  0001 C CNN
+F 4 "AVX" H 1525 10625 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 1525 10525 60  0001 L CNN "MPN"
+F 6 "10n" H 1440 10172 50  0000 L CNN "Val"
+	1    1325 10225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  9975 1200 9975
+	1325 9925 1725 9925
 $Comp
 L ecp5-dc-scm:GND #PWR046
 U 1 1 6211AF82
-P 800 10525
-F 0 "#PWR046" H 800 10275 50  0001 C CNN
-F 1 "GND" H 805 10352 50  0000 C CNN
-F 2 "" H 800 10525 50  0001 C CNN
-F 3 "" H 800 10525 50  0001 C CNN
-	1    800  10525
+P 1325 10475
+F 0 "#PWR046" H 1325 10225 50  0001 C CNN
+F 1 "GND" H 1330 10302 50  0000 C CNN
+F 2 "" H 1325 10475 50  0001 C CNN
+F 3 "" H 1325 10475 50  0001 C CNN
+	1    1325 10475
 	1    0    0    -1  
 $EndComp
 Text Notes 9075 975  0    118  ~ 0
 PWR_LED Indicators
 Wire Notes Line
 	475  8400 475  8425
-Text Label 2700 9975 2    50   ~ 0
+Text Label 3225 9925 2    50   ~ 0
 VCCIO_EN
 Text Notes 12875 2350 0    118  ~ 0
 3V3 supply
@@ -1564,104 +1548,104 @@ STEP1: VRs start and RoT boots (HPM_STBY_EN when both are done)\nSTEP2: HPM star
 $Comp
 L ecp5-dc-scm:LM3881MME_NOPB U9
 U 1 1 6113B8AB
-P 1600 9875
-F 0 "U9" H 1350 10200 50  0000 C CNN
-F 1 "LM3881MME_NOPB" H 1675 10150 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 1600 10275 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm3881.pdf" H 1600 10375 50  0001 L CNN
-F 4 "Texas Instruments" H 1600 10475 50  0001 L CNN "Manufacturer"
-F 5 "LM3881MME/NOPB" H 1950 10375 50  0001 C CNN "MPN"
-	1    1600 9875
+P 2125 9825
+F 0 "U9" H 1875 10150 50  0000 C CNN
+F 1 "LM3881MME_NOPB" H 2200 10100 50  0000 C CNN
+F 2 "ecp5-dc-scm-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 2125 10225 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm3881.pdf" H 2125 10325 50  0001 L CNN
+F 4 "Texas Instruments" H 2125 10425 50  0001 L CNN "Manufacturer"
+F 5 "LM3881MME/NOPB" H 2475 10325 50  0001 C CNN "MPN"
+	1    2125 9825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 9975 2275 9975
+	2525 9925 2800 9925
 Wire Wire Line
-	2000 9875 2175 9875
+	2525 9825 2700 9825
 Wire Wire Line
-	2000 9775 2075 9775
+	2525 9725 2600 9725
 Text Notes 6075 11100 0    50   ~ 0
 ^ TODO: decide which DC-SCI pin connected\n    to FPGA does this
 Wire Wire Line
-	800  9975 800  10125
+	1325 9925 1325 10075
 Wire Wire Line
-	800  10425 800  10525
+	1325 10375 1325 10475
 Wire Wire Line
-	1200 10075 1025 10075
+	1725 10025 1550 10025
 Wire Wire Line
-	1025 10075 1025 9775
-Connection ~ 1025 9775
+	1550 10025 1550 9725
+Connection ~ 1550 9725
 $Comp
 L ecp5-dc-scm:R_1k_0402 R63
 U 1 1 5FFECF1E
-P 2075 9450
-F 0 "R63" V 2030 9520 60  0000 L CNN
-F 1 "R_1k_0402" H 2075 9300 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 2275 9650 60  0001 L CNN
-F 3 "" H 2075 9450 50  0001 C CNN
-F 4 "BOURNS" H 2275 9850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 2275 9750 60  0001 L CNN "MPN"
-F 6 "1k" V 2128 9520 50  0000 L CNN "Val"
-	1    2075 9450
+P 2600 9400
+F 0 "R63" V 2555 9470 60  0000 L CNN
+F 1 "R_1k_0402" H 2600 9250 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 2800 9600 60  0001 L CNN
+F 3 "" H 2600 9400 50  0001 C CNN
+F 4 "BOURNS" H 2800 9800 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 2800 9700 60  0001 L CNN "MPN"
+F 6 "1k" V 2653 9470 50  0000 L CNN "Val"
+	1    2600 9400
 	0    1    1    0   
 $EndComp
 $Comp
 L ecp5-dc-scm:R_1k_0402 R64
 U 1 1 5FFED382
-P 2175 9450
-F 0 "R64" V 2130 9520 60  0000 L CNN
-F 1 "R_1k_0402" H 2175 9300 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 2375 9650 60  0001 L CNN
-F 3 "" H 2175 9450 50  0001 C CNN
-F 4 "BOURNS" H 2375 9850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 2375 9750 60  0001 L CNN "MPN"
-F 6 "1k" V 2228 9520 50  0000 L CNN "Val"
-	1    2175 9450
+P 2700 9400
+F 0 "R64" V 2655 9470 60  0000 L CNN
+F 1 "R_1k_0402" H 2700 9250 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 2900 9600 60  0001 L CNN
+F 3 "" H 2700 9400 50  0001 C CNN
+F 4 "BOURNS" H 2900 9800 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 2900 9700 60  0001 L CNN "MPN"
+F 6 "1k" V 2753 9470 50  0000 L CNN "Val"
+	1    2700 9400
 	0    1    1    0   
 $EndComp
 $Comp
 L ecp5-dc-scm:R_1k_0402 R65
 U 1 1 5FFED63B
-P 2275 9450
-F 0 "R65" V 2230 9520 60  0000 L CNN
-F 1 "R_1k_0402" H 2275 9300 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 2475 9650 60  0001 L CNN
-F 3 "" H 2275 9450 50  0001 C CNN
-F 4 "BOURNS" H 2475 9850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 2475 9750 60  0001 L CNN "MPN"
-F 6 "1k" V 2328 9520 50  0000 L CNN "Val"
-	1    2275 9450
+P 2800 9400
+F 0 "R65" V 2755 9470 60  0000 L CNN
+F 1 "R_1k_0402" H 2800 9250 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 3000 9600 60  0001 L CNN
+F 3 "" H 2800 9400 50  0001 C CNN
+F 4 "BOURNS" H 3000 9800 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 3000 9700 60  0001 L CNN "MPN"
+F 6 "1k" V 2853 9470 50  0000 L CNN "Val"
+	1    2800 9400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2075 9600 2075 9775
-Connection ~ 2075 9775
+	2600 9550 2600 9725
+Connection ~ 2600 9725
 Wire Wire Line
-	2075 9775 2700 9775
+	2600 9725 3225 9725
 Wire Wire Line
-	2175 9600 2175 9875
-Connection ~ 2175 9875
+	2700 9550 2700 9825
+Connection ~ 2700 9825
 Wire Wire Line
-	2175 9875 2700 9875
+	2700 9825 3225 9825
 Wire Wire Line
-	2275 9600 2275 9975
-Connection ~ 2275 9975
+	2800 9550 2800 9925
+Connection ~ 2800 9925
 Wire Wire Line
-	2275 9975 2700 9975
+	2800 9925 3225 9925
 Wire Wire Line
-	2075 9300 2075 9225
+	2600 9250 2600 9175
 Wire Wire Line
-	2075 9225 2175 9225
+	2600 9175 2700 9175
 Wire Wire Line
-	2275 9225 2275 9300
+	2800 9175 2800 9250
 Wire Wire Line
-	2175 9300 2175 9225
-Connection ~ 2175 9225
+	2700 9250 2700 9175
+Connection ~ 2700 9175
 Wire Wire Line
-	2175 9225 2275 9225
+	2700 9175 2800 9175
 Wire Wire Line
-	2175 9150 2175 9225
-Text GLabel 2175 9150 1    50   Input ~ 0
+	2700 9100 2700 9175
+Text GLabel 2700 9100 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	12675 2900 12675 2750
@@ -1686,17 +1670,6 @@ Wire Wire Line
 Text Notes 7575 10225 0    79   ~ 0
 Battery connector
 $Comp
-L ecp5-dc-scm:TP_SMD1MM TP3
-U 1 1 5FDCF912
-P 1625 1200
-F 0 "TP3" V 1530 1247 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1625 1100 50  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 1825 1400 60  0001 L CNN
-F 3 "" H 1825 1500 60  0001 L CNN
-	1    1625 1200
-	0    1    1    0   
-$EndComp
-$Comp
 L ecp5-dc-scm:GND #PWR0101
 U 1 1 5FDD39DE
 P 1950 1475
@@ -1707,19 +1680,92 @@ F 3 "" H 1950 1475 50  0001 C CNN
 	1    1950 1475
 	1    0    0    -1  
 $EndComp
-$Comp
-L ecp5-dc-scm:TP_SMD1MM TP4
-U 1 1 5FDE372E
-P 1625 1350
-F 0 "TP4" V 1530 1397 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1625 1250 50  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 1825 1550 60  0001 L CNN
-F 3 "" H 1825 1650 60  0001 L CNN
-	1    1625 1350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1950 1350 1950 1475
 Wire Wire Line
 	1725 1350 1950 1350
+$Comp
+L antmicroResistors0402:R_1k1_0402 R?
+U 1 1 5FF0C1B7
+P 1325 9425
+F 0 "R?" V 1280 9495 60  0000 L CNN
+F 1 "R_1k1_0402" H 1325 9275 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1525 9625 60  0001 L CNN
+F 3 "" H 1325 9425 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 1525 9825 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1101X" H 1525 9725 60  0001 L CNN "MPN"
+F 6 "1k1" V 1378 9495 50  0000 L CNN "Val"
+	1    1325 9425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1325 9575 1325 9825
+Connection ~ 1325 9825
+Wire Wire Line
+	1325 9825 1725 9825
+Text GLabel 1325 9125 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	1325 9275 1325 9125
+$Comp
+L antmicroTestPoints:RCW-0C TP?
+U 1 1 5FF4E33F
+P 1625 1200
+F 0 "TP?" V 1625 1075 50  0000 C CNN
+F 1 "RCW-0C" V 1491 1247 50  0001 C CNN
+F 2 "antmicro-footprints:PROBE_PAD_1206" H 1825 1400 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1825 1500 60  0001 L CNN
+F 4 "RCW-0C" H 1825 1700 60  0001 L CNN "MPN"
+F 5 "TE Connectivity AMP Connectors" H 1825 2300 60  0001 L CNN "Manufacturer"
+	1    1625 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:RCW-0C TP?
+U 1 1 5FF4E667
+P 1625 1350
+F 0 "TP?" V 1625 1225 50  0000 C CNN
+F 1 "RCW-0C" V 1491 1397 50  0001 C CNN
+F 2 "antmicro-footprints:PROBE_PAD_1206" H 1825 1550 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1825 1650 60  0001 L CNN
+F 4 "RCW-0C" H 1825 1850 60  0001 L CNN "MPN"
+F 5 "TE Connectivity AMP Connectors" H 1825 2450 60  0001 L CNN "Manufacturer"
+	1    1625 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroFuses:0466003.NR F?
+U 1 1 5FF6F26B
+P 1525 2100
+F 0 "F?" H 1875 2314 50  0000 C CNN
+F 1 "0466003.NR" H 1875 2223 50  0000 C CNN
+F 2 "antmicro-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1525 2400 50  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 1525 2600 50  0001 L CNN
+F 4 "Littelfuse" H 1525 2600 50  0001 L CNN "Manufacturer"
+F 5 "0466003.NR " H 1775 2500 50  0001 C CNN "MPN"
+	1    1525 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 2100 2    50   Input ~ 0
+VCC12V
+Wire Wire Line
+	2125 2100 2400 2100
+Wire Wire Line
+	1625 2100 1375 2100
+Text GLabel 1375 2100 0    50   Input ~ 0
+P12V_AUX
+$Comp
+L antmicroResistorsmisc:R_0R_1206 R?
+U 1 1 60014E3E
+P 6600 3050
+F 0 "R?" V 6555 3120 60  0000 L CNN
+F 1 "R_0R_1206" H 6600 2900 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 6800 3250 60  0001 L CNN
+F 3 "" H 6600 3050 50  0001 C CNN
+F 4 "MULTICOMP" H 6800 3450 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 6800 3350 60  0001 L CNN "MPN"
+F 6 "0R" V 6653 3120 50  0000 L CNN "Val"
+	1    6600 3050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

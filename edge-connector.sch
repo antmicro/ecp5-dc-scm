@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 11
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -383,22 +383,6 @@ Wire Wire Line
 Connection ~ 6925 1825
 Wire Wire Line
 	6625 1925 7175 1925
-Text GLabel 6625 1925 0    50   Input ~ 0
-I3C[0]_SCL
-Text GLabel 6625 2025 0    50   Input ~ 0
-I3C[0]_SDA
-Text GLabel 6625 2125 0    50   Input ~ 0
-I3C[1]_SCL
-Text GLabel 6625 2225 0    50   Input ~ 0
-I3C[1]_SDA
-Text GLabel 6625 2325 0    50   Input ~ 0
-I3C[2]_SCL
-Text GLabel 6625 2425 0    50   Input ~ 0
-I3C[2]_SDA
-Text GLabel 6625 2525 0    50   Input ~ 0
-I3C[3]_SCL
-Text GLabel 6625 2625 0    50   Input ~ 0
-I3C[3]_SDA
 Text GLabel 6625 2825 0    50   Input ~ 0
 VIRTUAL_RESEAT
 Text GLabel 6625 3125 0    50   Input ~ 0
@@ -747,4 +731,20 @@ F 3 "" H 8825 10625 50  0001 C CNN
 	1    8825 10625
 	1    0    0    -1  
 $EndComp
+Text GLabel 6625 2025 0    50   Input ~ 0
+I3C[0]_SDA_1V0
+Text GLabel 6625 2225 0    50   Input ~ 0
+I3C[1]_SDA_1V0
+Text GLabel 6625 2125 0    50   Input ~ 0
+I3C[1]_SCL_1V0
+Text GLabel 6625 2425 0    50   Input ~ 0
+I3C[2]_SDA_1V0
+Text GLabel 6625 2325 0    50   Input ~ 0
+I3C[2]_SCL_1V0
+Text GLabel 6625 2625 0    50   Input ~ 0
+I3C[3]_SDA_1V0
+Text GLabel 6625 2525 0    50   Input ~ 0
+I3C[3]_SCL_1V0
+Text GLabel 6625 1925 0    50   Input ~ 0
+I3C[0]_SCL_1V0
 $EndSCHEMATC

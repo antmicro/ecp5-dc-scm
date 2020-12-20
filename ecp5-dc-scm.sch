@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -16,64 +16,58 @@ $EndDescr
 Text Notes 3400 975  0    118  ~ 0
 ECP5- Datacenter Secure Control Module (DC-SCM)
 $Sheet
-S 3200 6500 1000 725 
+S 950  5350 1000 725 
 U 60570C04
 F0 "Ethernet" 50
 F1 "ethernet.sch" 50
 $EndSheet
 $Sheet
-S 4400 6500 1125 750 
+S 2300 5350 1125 750 
 U 5FD17EF1
 F0 "PCIe-connector" 50
 F1 "pcie-conn.sch" 50
 $EndSheet
 $Sheet
-S 5700 6500 1100 750 
+S 3725 5350 1100 750 
 U 624C566F
 F0 "RoT" 50
 F1 "rot.sch" 50
 $EndSheet
 $Sheet
-S 9100 5400 1150 725 
+S 5125 5350 1150 725 
 U 625AEC25
 F0 "Edge connector" 50
 F1 "edge-connector.sch" 50
 $EndSheet
 $Sheet
-S 5300 5400 1100 750 
+S 6525 5350 1100 750 
 U 614223A1
 F0 "Interfaces" 50
 F1 "interfaces.sch" 50
 $EndSheet
 $Sheet
-S 6600 5400 1025 725 
+S 7900 5350 1025 725 
 U 5FD8EBC2
 F0 "DDR3" 50
 F1 "ddr3.sch" 50
 $EndSheet
 $Sheet
-S 7800 5400 1125 750 
+S 9175 5350 1125 750 
 U 5FD86BEB
 F0 "Power supply" 50
 F1 "power-supply.sch" 50
 $EndSheet
 $Sheet
-S 900  6500 1875 1025
+S 950  6500 1875 1025
 U 5FD86C51
 F0 "FPGA power supply" 50
 F1 "fpga-power-supply.sch" 50
 $EndSheet
 $Sheet
-S 900  5100 1900 1075
+S 3375 6500 1900 1075
 U 5FD86CE4
 F0 "FPGA banks" 50
 F1 "fpga-banks.sch" 50
-$EndSheet
-$Sheet
-S 3200 5100 1850 1050
-U 5FD86D1B
-F0 "Power supply 2" 50
-F1 "power-supply-diff.sch" 50
 $EndSheet
 $Bitmap
 Pos 6025 2900

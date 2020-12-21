@@ -1248,99 +1248,99 @@ RGMII_TX_CLK
 Text Notes 10800 7900 1    50   ~ 0
 ethernet.sch
 Wire Wire Line
-	8975 2225 9375 2225
-Wire Wire Line
-	8975 2325 9375 2325
-Wire Wire Line
-	8975 2425 9375 2425
-Wire Wire Line
-	8975 2525 9375 2525
-Wire Wire Line
-	8975 2625 9375 2625
-Wire Wire Line
-	8975 2725 9375 2725
-Wire Wire Line
-	8975 2825 9375 2825
-Wire Wire Line
-	8975 2925 9375 2925
-Wire Wire Line
-	8975 3025 9375 3025
-Wire Wire Line
-	8975 3125 9375 3125
-Wire Wire Line
-	8975 3225 9375 3225
-Wire Wire Line
-	8975 3325 9375 3325
-Wire Wire Line
-	8975 3425 9375 3425
+	8975 4825 9375 4825
 Wire Wire Line
 	8975 3525 9375 3525
 Wire Wire Line
 	8975 3625 9375 3625
 Wire Wire Line
-	8975 3825 9375 3825
+	8975 4125 9375 4125
 Wire Wire Line
-	8975 3925 9375 3925
-Wire Wire Line
-	8975 4025 9375 4025
+	8975 5225 9375 5225
 Wire Wire Line
 	8975 4225 9375 4225
 Wire Wire Line
-	8975 4325 9375 4325
+	8975 4925 9375 4925
 Wire Wire Line
-	8975 4425 9375 4425
-Wire Wire Line
-	8975 4625 9375 4625
+	8975 3425 9375 3425
 Wire Wire Line
 	8975 4725 9375 4725
 Wire Wire Line
-	8975 4825 9375 4825
-Wire Wire Line
-	8975 4925 9375 4925
-Wire Wire Line
-	8975 5025 9375 5025
+	8975 4625 9375 4625
 Wire Wire Line
 	8975 5125 9375 5125
 Wire Wire Line
-	9375 7825 8975 7825
+	8975 4525 9375 4525
 Wire Wire Line
-	8975 7725 9375 7725
+	8975 5325 9375 5325
 Wire Wire Line
-	8975 7625 9375 7625
+	8975 4425 9375 4425
 Wire Wire Line
-	8975 7525 9375 7525
+	8975 4325 9375 4325
 Wire Wire Line
-	8975 7425 9375 7425
-Wire Wire Line
-	8975 7325 9375 7325
-Wire Wire Line
-	8975 7225 9375 7225
-Wire Wire Line
-	8975 7125 9375 7125
-Wire Wire Line
-	8975 7025 9375 7025
-Wire Wire Line
-	8975 6925 9375 6925
-Wire Wire Line
-	8975 6825 9375 6825
-Wire Wire Line
-	8975 6725 9375 6725
-Wire Wire Line
-	8975 6625 9375 6625
+	8975 3825 9375 3825
 Wire Wire Line
 	8975 6525 9375 6525
 Wire Wire Line
-	8975 6425 9375 6425
+	8975 4025 9375 4025
+Wire Wire Line
+	8975 7325 9375 7325
+Wire Wire Line
+	8975 7125 9375 7125
 Wire Wire Line
 	8975 6325 9375 6325
 Wire Wire Line
-	8975 6125 9375 6125
+	8975 3925 9375 3925
 Wire Wire Line
-	9375 6025 8975 6025
+	8975 3025 9375 3025
 Wire Wire Line
-	8975 5825 9375 5825
+	8975 3325 9375 3325
+Wire Wire Line
+	8975 6025 9375 6025
+Wire Wire Line
+	8975 5025 9375 5025
+Wire Wire Line
+	8975 2625 9375 2625
+Wire Wire Line
+	9375 2825 8975 2825
 Wire Wire Line
 	8975 5725 9375 5725
+Wire Wire Line
+	8975 2325 9375 2325
+Wire Wire Line
+	8975 8325 9375 8325
+Wire Wire Line
+	8975 2925 9375 2925
+Wire Wire Line
+	8975 6925 9375 6925
+Wire Wire Line
+	8975 3225 9375 3225
+Wire Wire Line
+	8975 6725 9375 6725
+Wire Wire Line
+	8975 6425 9375 6425
+Wire Wire Line
+	8975 3725 9375 3725
+Wire Wire Line
+	8975 6625 9375 6625
+Wire Wire Line
+	8975 2525 9375 2525
+Wire Wire Line
+	8975 6225 9375 6225
+Wire Wire Line
+	8975 2425 9375 2425
+Wire Wire Line
+	8975 7625 9375 7625
+Wire Wire Line
+	8975 2725 9375 2725
+Wire Wire Line
+	8975 5925 9375 5925
+Wire Wire Line
+	9375 5825 8975 5825
+Wire Wire Line
+	8975 3125 9375 3125
+Wire Wire Line
+	8975 5425 9375 5425
 Wire Wire Line
 	8975 5625 9375 5625
 Wire Wire Line
@@ -1351,99 +1351,99 @@ Text GLabel 8975 5525 0    50   BiDi ~ 0
 DDR3_DQS1-
 Text GLabel 8975 5625 0    50   BiDi ~ 0
 DDR3_DQS1+
-Text GLabel 8975 5725 0    50   BiDi ~ 0
+Text GLabel 8975 5425 0    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel 8975 5825 0    50   BiDi ~ 0
+Text GLabel 8975 3125 0    50   BiDi ~ 0
 DDR3_DQS0+
-Text GLabel 8975 6025 0    50   BiDi ~ 0
+Text GLabel 8975 5825 0    50   BiDi ~ 0
 DDR3_DM1
-Text GLabel 8975 6125 0    50   BiDi ~ 0
+Text GLabel 8975 5925 0    50   BiDi ~ 0
 DDR3_DM0
-Text GLabel 8975 6325 0    50   BiDi ~ 0
+Text GLabel 8975 2725 0    50   BiDi ~ 0
 DDR3_DQ15
-Text GLabel 8975 6425 0    50   BiDi ~ 0
-DDR3_DQ14
-Text GLabel 8975 6525 0    50   BiDi ~ 0
-DDR3_DQ13
-Text GLabel 8975 6625 0    50   BiDi ~ 0
-DDR3_DQ12
-Text GLabel 8975 6725 0    50   BiDi ~ 0
-DDR3_DQ11
-Text GLabel 8975 6825 0    50   BiDi ~ 0
-DDR3_DQ10
-Text GLabel 8975 6925 0    50   BiDi ~ 0
-DDR3_DQ9
-Text GLabel 8975 7025 0    50   BiDi ~ 0
-DDR3_DQ8
-Text GLabel 8975 7125 0    50   BiDi ~ 0
-DDR3_DQ7
-Text GLabel 8975 7225 0    50   BiDi ~ 0
-DDR3_DQ6
-Text GLabel 8975 7325 0    50   BiDi ~ 0
-DDR3_DQ5
-Text GLabel 8975 7425 0    50   BiDi ~ 0
-DDR3_DQ4
-Text GLabel 8975 7525 0    50   BiDi ~ 0
-DDR3_DQ3
 Text GLabel 8975 7625 0    50   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 8975 2425 0    50   BiDi ~ 0
+DDR3_DQ13
+Text GLabel 8975 6225 0    50   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 8975 2525 0    50   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 8975 6625 0    50   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 8975 3725 0    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 8975 6425 0    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 8975 6725 0    50   BiDi ~ 0
+DDR3_DQ7
+Text GLabel 8975 3225 0    50   BiDi ~ 0
+DDR3_DQ6
+Text GLabel 8975 6925 0    50   BiDi ~ 0
+DDR3_DQ5
+Text GLabel 8975 2925 0    50   BiDi ~ 0
+DDR3_DQ4
+Text GLabel 8975 8325 0    50   BiDi ~ 0
+DDR3_DQ3
+Text GLabel 8975 2325 0    50   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 8975 7725 0    50   BiDi ~ 0
+Text GLabel 8975 5725 0    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 8975 7825 0    50   BiDi ~ 0
+Text GLabel 8975 2825 0    50   BiDi ~ 0
 DDR3_DQ0
-Text GLabel 8975 5125 0    50   Output ~ 0
+Text GLabel 8975 2625 0    50   Output ~ 0
 DDR3_ODT
 Text GLabel 8975 5025 0    50   Output ~ 0
 DDR3_WE
-Text GLabel 8975 4925 0    50   Output ~ 0
+Text GLabel 8975 6025 0    50   Output ~ 0
 DDR3_RAS
-Text GLabel 8975 4825 0    50   Output ~ 0
+Text GLabel 8975 3325 0    50   Output ~ 0
 DDR3_CAS
-Text GLabel 8975 4725 0    50   Output ~ 0
+Text GLabel 8975 3025 0    50   Output ~ 0
 DDR3_CS
 Text GLabel 8975 4025 0    50   Output ~ 0
 DDR3_BA2
-Text GLabel 8975 3925 0    50   Output ~ 0
+Text GLabel 8975 6525 0    50   Output ~ 0
 DDR3_BA1
 Text GLabel 8975 3825 0    50   Output ~ 0
 DDR3_BA0
-Text GLabel 8975 3625 0    50   Output ~ 0
-DDR3_A14
-Text GLabel 8975 3525 0    50   Output ~ 0
-DDR3_A13
-Text GLabel 8975 3425 0    50   Output ~ 0
-DDR3_A12
-Text GLabel 8975 3325 0    50   Output ~ 0
-DDR3_A11
-Text GLabel 8975 3225 0    50   Output ~ 0
-DDR3_A10
-Text GLabel 8975 3125 0    50   Output ~ 0
-DDR3_A9
-Text GLabel 8975 3025 0    50   Output ~ 0
-DDR3_A8
-Text GLabel 8975 2925 0    50   Output ~ 0
-DDR3_A7
-Text GLabel 8975 2825 0    50   Output ~ 0
-DDR3_A6
-Text GLabel 8975 2725 0    50   Output ~ 0
-DDR3_A5
-Text GLabel 8975 2625 0    50   Output ~ 0
-DDR3_A4
-Text GLabel 8975 2525 0    50   Output ~ 0
-DDR3_A3
-Text GLabel 8975 2425 0    50   Output ~ 0
-DDR3_A2
-Text GLabel 8975 2325 0    50   Output ~ 0
-DDR3_A1
-Text GLabel 8975 2225 0    50   Output ~ 0
-DDR3_A0
-Text GLabel 8975 4225 0    50   Output ~ 0
-DDR3_CLK+
 Text GLabel 8975 4325 0    50   Output ~ 0
-DDR3_CLK-
+DDR3_A14
 Text GLabel 8975 4425 0    50   Output ~ 0
-DDR3_CKE
+DDR3_A13
+Text GLabel 8975 5325 0    50   Output ~ 0
+DDR3_A12
+Text GLabel 8975 4525 0    50   Output ~ 0
+DDR3_A11
+Text GLabel 8975 5125 0    50   Output ~ 0
+DDR3_A10
 Text GLabel 8975 4625 0    50   Output ~ 0
+DDR3_A9
+Text GLabel 8975 4725 0    50   Output ~ 0
+DDR3_A8
+Text GLabel 8975 3425 0    50   Output ~ 0
+DDR3_A7
+Text GLabel 8975 4925 0    50   Output ~ 0
+DDR3_A6
+Text GLabel 8975 4225 0    50   Output ~ 0
+DDR3_A5
+Text GLabel 8975 5225 0    50   Output ~ 0
+DDR3_A4
+Text GLabel 8975 4125 0    50   Output ~ 0
+DDR3_A3
+Text GLabel 8975 3625 0    50   Output ~ 0
+DDR3_A2
+Text GLabel 8975 3525 0    50   Output ~ 0
+DDR3_A1
+Text GLabel 8975 4825 0    50   Output ~ 0
+DDR3_A0
+Text GLabel 8975 7325 0    50   Output ~ 0
+DDR3_CLK+
+Text GLabel 8975 7125 0    50   Output ~ 0
+DDR3_CLK-
+Text GLabel 8975 6325 0    50   Output ~ 0
+DDR3_CKE
+Text GLabel 8975 3925 0    50   Output ~ 0
 DDR3_RESET
 Text GLabel 1575 6625 0    50   Input ~ 0
 USB1_DP

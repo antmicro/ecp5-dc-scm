@@ -710,10 +710,6 @@ Text GLabel 9125 10225 2    50   Input ~ 0
 PCIE_HPM_TXP[3]
 Text GLabel 9125 10325 2    50   Input ~ 0
 PCIE_HPM_TXN[3]
-Text GLabel 9125 9025 2    50   Input ~ 0
-RSVD0
-Text GLabel 9125 9125 2    50   Input ~ 0
-RSVD1
 Wire Wire Line
 	8825 10425 8825 10625
 $Comp
@@ -747,4 +743,8 @@ Text GLabel 9125 8525 2    50   Input ~ 0
 USB2_DN
 Text GLabel 9125 8425 2    50   Input ~ 0
 USB2_DP
+Text GLabel 9125 9125 2    50   Input ~ 0
+CLK_PCIE_x4_DN
+Text GLabel 9125 9025 2    50   Input ~ 0
+CLK_PCIE_x4_DP
 $EndSCHEMATC

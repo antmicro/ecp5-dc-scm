@@ -2117,4 +2117,10 @@ Wire Wire Line
 	1575 7225 1900 7225
 Wire Wire Line
 	1900 7125 1575 7125
+Text GLabel 6650 3425 0    50   Input ~ 0
+PERST0_N
+Wire Wire Line
+	6875 3425 6650 3425
+Text Notes 5675 3450 0    50   ~ 0
+PCIE x4 RST
 $EndSCHEMATC

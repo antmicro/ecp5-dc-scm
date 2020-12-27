@@ -1249,24 +1249,6 @@ Text Notes 10800 7900 1    50   ~ 0
 ethernet.sch
 Text Notes 9450 725  0    118  ~ 0
 DDR3
-Text GLabel 1575 6625 0    50   Input ~ 0
-USB1_DP
-Text GLabel 1575 6725 0    50   Input ~ 0
-USB1_DN
-Text GLabel 1575 4725 0    50   Input ~ 0
-QSPI1_CS_N
-Text GLabel 1575 5025 0    50   Input ~ 0
-QSPI1_CLK
-Text GLabel 1575 4925 0    50   Input ~ 0
-QSPI1_D0
-Text GLabel 1575 4825 0    50   Input ~ 0
-QSPI1_D2
-Text GLabel 1575 5125 0    50   Input ~ 0
-QSPI1_D3
-Text GLabel 1575 5225 0    50   Input ~ 0
-QSPI1_D1
-Text Notes 975  5250 1    50   ~ 0
-QSPI from SCM \nto HPM FPGA
 Text Notes 975  7675 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
 Text GLabel 1575 2225 0    50   Input ~ 0
@@ -1287,7 +1269,7 @@ Text GLabel 1575 2925 0    50   Input ~ 0
 SGPIO_RESET_N
 Text GLabel 1575 3025 0    50   Input ~ 0
 SGPIO_INTR_N
-Text Notes 8150 3425 0    50   ~ 0
+Text Notes 4775 10650 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
 Text GLabel 7700 8950 0    50   Input ~ 0
 JTAG_TCK
@@ -1297,13 +1279,13 @@ Text GLabel 7700 9050 0    50   Input ~ 0
 JTAG_TDI
 Text GLabel 7700 8850 0    50   Input ~ 0
 JTAG_TDO
-Text GLabel 9050 2225 0    50   Input ~ 0
+Text GLabel 1575 4625 0    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 9050 2325 0    50   Input ~ 0
+Text GLabel 1575 4725 0    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 9050 2425 0    50   Input ~ 0
+Text GLabel 1575 4825 0    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 9050 2525 0    50   Input ~ 0
+Text GLabel 1575 4925 0    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 4025 800  0    50   ~ 0
 FPGA connections to be established while preparing layout
@@ -1384,18 +1366,6 @@ Wire Wire Line
 Wire Wire Line
 	1575 7025 1900 7025
 Wire Wire Line
-	1575 4725 1900 4725
-Wire Wire Line
-	1575 4825 1900 4825
-Wire Wire Line
-	1575 4925 1900 4925
-Wire Wire Line
-	1575 5025 1900 5025
-Wire Wire Line
-	1575 5125 1900 5125
-Wire Wire Line
-	1575 5225 1900 5225
-Wire Wire Line
 	1575 2225 1900 2225
 Wire Wire Line
 	1575 2325 1900 2325
@@ -1422,28 +1392,28 @@ Wire Wire Line
 Wire Wire Line
 	7700 8850 8025 8850
 Wire Wire Line
-	9050 2225 9375 2225
+	1575 4625 1900 4625
 Wire Wire Line
-	9050 2325 9375 2325
+	1575 4725 1900 4725
 Wire Wire Line
-	9050 2425 9375 2425
+	1575 4825 1900 4825
 Wire Wire Line
-	9050 2525 9375 2525
+	1575 4925 1900 4925
 Wire Wire Line
-	9050 2625 9375 2625
+	5475 9975 5950 9975
 Wire Wire Line
-	9050 2725 9375 2725
+	5625 9375 5950 9375
 Wire Wire Line
-	9050 2825 9375 2825
+	5625 9275 5950 9275
 Wire Wire Line
-	9050 2925 9375 2925
-Text GLabel 9050 2625 0    50   Input ~ 0
+	5625 9075 5950 9075
+Text GLabel 5475 9975 0    50   Input ~ 0
 SPI_ROT_CLK
-Text GLabel 9050 2725 0    50   Input ~ 0
+Text GLabel 5625 9375 0    50   Input ~ 0
 SPI_ROT_CS_N
-Text GLabel 9050 2825 0    50   Input ~ 0
+Text GLabel 5625 9275 0    50   Input ~ 0
 SPI_ROT_MOSI
-Text GLabel 9050 2925 0    50   Input ~ 0
+Text GLabel 5625 9075 0    50   Input ~ 0
 SPI_ROT_MISO
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756 U?
@@ -2342,29 +2312,29 @@ Text GLabel 5575 3525 1    50   Input ~ 0
 DDR_VREF
 Text GLabel 6425 1000 0    50   Input ~ 0
 VCC1V35_T
-Text GLabel 14450 4475 0    50   Input ~ 0
+Text GLabel 1575 6525 0    50   Input ~ 0
 USB_D0
-Text GLabel 14450 4375 0    50   Input ~ 0
+Text GLabel 1575 6425 0    50   Input ~ 0
 USB_D1
-Text GLabel 14450 4275 0    50   Input ~ 0
+Text GLabel 1575 6325 0    50   Input ~ 0
 USB_D2
-Text GLabel 14450 4175 0    50   Input ~ 0
+Text GLabel 1575 6225 0    50   Input ~ 0
 USB_D3
-Text GLabel 14450 4075 0    50   Input ~ 0
+Text GLabel 1575 6125 0    50   Input ~ 0
 USB_D4
-Text GLabel 14450 3975 0    50   Input ~ 0
+Text GLabel 1575 6025 0    50   Input ~ 0
 USB_D5
-Text GLabel 14450 3875 0    50   Input ~ 0
+Text GLabel 1575 5925 0    50   Input ~ 0
 USB_D6
-Text GLabel 14450 3775 0    50   Input ~ 0
+Text GLabel 1575 5825 0    50   Input ~ 0
 USB_D6
-Text GLabel 14450 3575 0    50   Input ~ 0
+Text GLabel 1575 5725 0    50   Input ~ 0
 USB1_~RXF
-Text GLabel 14450 3475 0    50   Input ~ 0
+Text GLabel 1575 5625 0    50   Input ~ 0
 USB1_~TXE
-Text GLabel 14450 3375 0    50   Input ~ 0
+Text GLabel 1575 5525 0    50   Input ~ 0
 USB1_~RD
-Text GLabel 14450 3275 0    50   Input ~ 0
+Text GLabel 1575 5425 0    50   Input ~ 0
 USB1_WR
 Text GLabel 14450 6375 0    50   Input ~ 0
 MMC_DAT0
@@ -2388,8 +2358,72 @@ Text GLabel 14450 5375 0    50   Input ~ 0
 MMC_CLK
 Text GLabel 14450 5175 0    50   Input ~ 0
 MMC_CLK
-Text GLabel 14450 4575 0    50   Input ~ 0
+Text GLabel 1575 6625 0    50   Input ~ 0
 USB1_DN
-Text GLabel 14450 4675 0    50   Input ~ 0
+Text GLabel 1575 6725 0    50   Input ~ 0
 USB1_DP
+Wire Wire Line
+	1575 6425 1900 6425
+Wire Wire Line
+	1575 6525 1900 6525
+Wire Wire Line
+	1575 6225 1900 6225
+Wire Wire Line
+	1575 6325 1900 6325
+Wire Wire Line
+	1575 6025 1900 6025
+Wire Wire Line
+	1575 6125 1900 6125
+Wire Wire Line
+	1575 5825 1900 5825
+Wire Wire Line
+	1575 5925 1900 5925
+Wire Wire Line
+	1575 5625 1900 5625
+Wire Wire Line
+	1575 5725 1900 5725
+Wire Wire Line
+	1575 5425 1900 5425
+Wire Wire Line
+	1575 5525 1900 5525
+Text Notes 6525 10000 0    30   ~ 0
+D7/IO7\n\nD5/MISO2/IO5\n\nD6/IO6\n\nD4/MOSI2/IO4\n\nD3/IO3\n\nD1/MISO/IO1\n\nD2/IO2\n\nD0/MOSI/IO0\n\nSN/CSN\n\nHOLDN/DI/BUSY/CSSPIN/CEN\n\nCS1N\n\nDOUT/CSON\n\nWRITEN\n\nINITN\n\nCCLK,8,MCLK/SCK
+Wire Notes Line
+	6425 8575 6500 8575
+Wire Notes Line
+	6500 8575 6500 8775
+Wire Notes Line
+	6500 8775 6425 8775
+Wire Notes Line
+	6200 8875 6175 8875
+Wire Notes Line
+	6175 8875 6175 8675
+Wire Notes Line
+	6175 8675 6200 8675
+Wire Notes Line
+	6425 8975 6500 8975
+Wire Notes Line
+	6500 8975 6500 9175
+Wire Notes Line
+	6500 9175 6425 9175
+Wire Notes Line
+	6450 9400 6500 9400
+Wire Notes Line
+	6500 9400 6500 9575
+Wire Notes Line
+	6500 9575 6450 9575
+Wire Notes Line
+	6200 9075 6175 9075
+Wire Notes Line
+	6175 9075 6175 9275
+Wire Notes Line
+	6175 9275 6200 9275
+Wire Notes Line
+	6200 9475 6175 9475
+Wire Notes Line
+	6175 9475 6175 9675
+Wire Notes Line
+	6175 9675 6200 9675
+Text Notes 4725 8475 0    50   ~ 0
+Q: Which SPI Flash pins should go to FPGA and which to edge connector?
 $EndSCHEMATC

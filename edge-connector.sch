@@ -249,9 +249,9 @@ Wire Wire Line
 Wire Wire Line
 	8575 8825 9125 8825
 Wire Wire Line
-	9125 9025 8575 9025
+	9300 9025 9250 9025
 Wire Wire Line
-	9125 9125 8575 9125
+	9300 9125 9250 9125
 Wire Wire Line
 	8575 9325 9125 9325
 Wire Wire Line
@@ -661,8 +661,6 @@ Text GLabel 9125 6425 2    50   Input ~ 0
 SGPIO0_LD
 Text GLabel 9125 6625 2    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 9125 6725 2    50   Input ~ 0
-RSVD2
 Text GLabel 9125 6825 2    50   Input ~ 0
 SGPIO1_DI
 Text GLabel 9125 6925 2    50   Input ~ 0
@@ -743,8 +741,64 @@ Text GLabel 9125 8525 2    50   Input ~ 0
 USB2_DN
 Text GLabel 9125 8425 2    50   Input ~ 0
 USB2_DP
-Text GLabel 9125 9125 2    50   Input ~ 0
+Text GLabel 9300 9125 2    50   Input ~ 0
 CLK_PCIE_x4_DN
-Text GLabel 9125 9025 2    50   Input ~ 0
+Text GLabel 9300 9025 2    50   Input ~ 0
 CLK_PCIE_x4_DP
+Text GLabel 9125 6725 2    50   Input ~ 0
+SGPIO1_CLK
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 6230948A
+P 10675 6725
+F 0 "R?" H 10675 6938 60  0000 C CNN
+F 1 "R_0R_0402" H 10675 6575 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10875 6925 60  0001 L CNN
+F 3 "" H 10675 6725 50  0001 C CNN
+F 4 "PANASONIC" H 10875 7125 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 10875 7025 60  0001 L CNN "MPN"
+F 6 "0R" H 10675 6840 50  0000 C CNN "Val"
+	1    10675 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 6725 10825 6725
+Wire Wire Line
+	10525 6725 10375 6725
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 623648E7
+P 9100 9025
+F 0 "R?" H 8875 9075 60  0000 C CNN
+F 1 "R_0R_0402" H 9100 8875 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9300 9225 60  0001 L CNN
+F 3 "" H 9100 9025 50  0001 C CNN
+F 4 "PANASONIC" H 9300 9425 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9300 9325 60  0001 L CNN "MPN"
+F 6 "0R" H 9100 9025 50  0000 C CNN "Val"
+	1    9100 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 623DA9F9
+P 9100 9125
+F 0 "R?" H 8875 9175 60  0000 C CNN
+F 1 "R_0R_0402" H 9100 8975 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9300 9325 60  0001 L CNN
+F 3 "" H 9100 9125 50  0001 C CNN
+F 4 "PANASONIC" H 9300 9525 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9300 9425 60  0001 L CNN "MPN"
+F 6 "0R" H 9100 9125 50  0000 C CNN "Val"
+	1    9100 9125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 9025 8575 9025
+Wire Wire Line
+	8950 9125 8575 9125
+Text GLabel 10375 6725 0    50   Input ~ 0
+SGPIO1_CLK
+Text GLabel 10950 6725 2    50   Input ~ 0
+SGPIO0_CLK
 $EndSCHEMATC

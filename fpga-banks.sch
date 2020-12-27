@@ -1252,22 +1252,22 @@ DDR3
 Text Notes 975  7675 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
 Text GLabel 1575 2225 0    50   Input ~ 0
-SGPIO_CLK
+SGPIO0_CLK
 Text GLabel 1575 2325 0    50   Input ~ 0
 SGPIO0_DI
 Text GLabel 1575 2425 0    50   Input ~ 0
 SGPIO0_DO
 Text GLabel 1575 2525 0    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 1575 2625 0    50   Input ~ 0
-SGPIO1_DI
-Text GLabel 1575 2725 0    50   Input ~ 0
-SGPIO1_DO
 Text GLabel 1575 2825 0    50   Input ~ 0
-SGPIO1_LD
+SGPIO1_DI
 Text GLabel 1575 2925 0    50   Input ~ 0
-SGPIO_RESET_N
+SGPIO1_DO
 Text GLabel 1575 3025 0    50   Input ~ 0
+SGPIO1_LD
+Text GLabel 1575 3125 0    50   Input ~ 0
+SGPIO_RESET_N
+Text GLabel 1575 3225 0    50   Input ~ 0
 SGPIO_INTR_N
 Text Notes 4775 10650 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
@@ -1374,15 +1374,15 @@ Wire Wire Line
 Wire Wire Line
 	1575 2525 1900 2525
 Wire Wire Line
-	1575 2625 1900 2625
-Wire Wire Line
-	1575 2725 1900 2725
-Wire Wire Line
 	1575 2825 1900 2825
 Wire Wire Line
 	1575 2925 1900 2925
 Wire Wire Line
 	1575 3025 1900 3025
+Wire Wire Line
+	1575 3125 1900 3125
+Wire Wire Line
+	1575 3225 1900 3225
 Wire Wire Line
 	7700 8950 8025 8950
 Wire Wire Line
@@ -2426,4 +2426,8 @@ Wire Notes Line
 	6175 9675 6200 9675
 Text Notes 4725 8475 0    50   ~ 0
 Q: Which SPI Flash pins should go to FPGA and which to edge connector?
+Text GLabel 1575 2725 0    50   Input ~ 0
+SGPIO1_CLK
+Wire Wire Line
+	1575 2725 1900 2725
 $EndSCHEMATC

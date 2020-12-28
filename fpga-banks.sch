@@ -1559,17 +1559,17 @@ Text GLabel 4025 4425 0    50   Input ~ 0
 I2C[11]_SDA
 Text GLabel 4025 4525 0    50   Input ~ 0
 I2C[11]_SCL
-Text GLabel 8650 10825 0    50   Input ~ 0
+Text GLabel 8325 10825 0    50   Input ~ 0
 CLK_100M_PCIE_DP
-Text GLabel 8650 10925 0    50   Input ~ 0
+Text GLabel 8325 10925 0    50   Input ~ 0
 CLK_100M_PCIE_DN
-Text GLabel 8650 10025 0    50   Input ~ 0
+Text GLabel 8325 10025 0    50   Input ~ 0
 PCIE_BMC_TX_DP
-Text GLabel 8650 10125 0    50   Input ~ 0
+Text GLabel 8325 10125 0    50   Input ~ 0
 PCIE_BMC_TX_DN
-Text GLabel 8650 10225 0    50   Input ~ 0
+Text GLabel 8325 10225 0    50   Input ~ 0
 PCIE_BMC_RX_DP
-Text GLabel 8650 10325 0    50   Input ~ 0
+Text GLabel 8325 10325 0    50   Input ~ 0
 PCIE_BMC_RX_DN
 $Comp
 L antmicroResistors0402:R_10k_0402 R103
@@ -1672,7 +1672,7 @@ F 5 "OSRAM Opto Semiconductors Inc." H 1450 11850 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	575  9350 925  9350
+	775  9350 925  9350
 Wire Wire Line
 	925  9075 925  9350
 Connection ~ 925  9350
@@ -1690,8 +1690,6 @@ Text GLabel 1875 8150 2    50   Input ~ 0
 VCC3V3_T
 Wire Wire Line
 	1800 8150 1875 8150
-Text Label 575  9350 0    50   ~ 0
-DONE
 Wire Wire Line
 	925  8775 925  8225
 Wire Wire Line
@@ -1846,9 +1844,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 9875 5950 9875
 Wire Wire Line
-	5500 10175 5950 10175
-Text Label 5500 10175 0    50   ~ 0
-DONE
+	5475 10175 5950 10175
 Text GLabel 1575 7025 0    50   Input ~ 0
 RST_USB2
 Text GLabel 1575 7125 0    50   Input ~ 0
@@ -2411,28 +2407,28 @@ Wire Wire Line
 Text Notes 9900 7150 0    50   ~ 0
 Vref
 Wire Wire Line
-	1350 4225 1900 4225
-Wire Wire Line
-	1350 4125 1900 4125
-Wire Wire Line
-	1900 4025 1350 4025
-Wire Wire Line
 	1350 3925 1900 3925
 Wire Wire Line
 	1350 3825 1900 3825
 Wire Wire Line
 	1900 3725 1350 3725
-Text GLabel 1350 4225 0    50   Input ~ 0
-QSPI1_CLK
-Text GLabel 1350 4125 0    50   Input ~ 0
-QSPI1_CS0_N
-Text GLabel 1350 4025 0    50   Input ~ 0
-QSPI1_D0
+Wire Wire Line
+	1350 3625 1900 3625
+Wire Wire Line
+	1350 3525 1900 3525
+Wire Wire Line
+	1900 3425 1350 3425
 Text GLabel 1350 3925 0    50   Input ~ 0
-QSPI1_D1
+QSPI1_CLK
 Text GLabel 1350 3825 0    50   Input ~ 0
-QSPI1_D2
+QSPI1_CS0_N
 Text GLabel 1350 3725 0    50   Input ~ 0
+QSPI1_D0
+Text GLabel 1350 3625 0    50   Input ~ 0
+QSPI1_D1
+Text GLabel 1350 3525 0    50   Input ~ 0
+QSPI1_D2
+Text GLabel 1350 3425 0    50   Input ~ 0
 QSPI1_D3
 Text GLabel 5475 9975 0    50   Input ~ 0
 ROT_QSPI_SCK
@@ -2470,4 +2466,114 @@ Text GLabel 5475 9875 0    50   Input ~ 0
 INIT_N
 Text GLabel 825  10950 0    50   Input ~ 0
 INIT_N
+Text GLabel 1350 4425 0    50   Input ~ 0
+SPI0_MISO
+Text GLabel 1350 4325 0    50   Input ~ 0
+SPI0_MOSI
+Text GLabel 1350 4225 0    50   Input ~ 0
+SPI0_CS_N
+Text GLabel 1350 4125 0    50   Input ~ 0
+SPI0_CLK
+Wire Wire Line
+	1350 4425 1475 4425
+Wire Wire Line
+	1350 4325 1475 4325
+Wire Wire Line
+	1900 4225 1775 4225
+Wire Wire Line
+	1350 4125 1475 4125
+Wire Wire Line
+	1775 4125 1900 4125
+Wire Wire Line
+	1475 4225 1350 4225
+Wire Wire Line
+	1775 4325 1900 4325
+Wire Wire Line
+	1775 4425 1900 4425
+Text GLabel 5475 10175 0    50   Input ~ 0
+DONE
+Text GLabel 775  9350 0    50   Input ~ 0
+DONE
+Wire Wire Line
+	8325 10125 8650 10125
+Wire Wire Line
+	8325 10325 8650 10325
+Wire Wire Line
+	8325 10225 8650 10225
+Wire Wire Line
+	8325 10025 8650 10025
+Wire Wire Line
+	8325 10925 8650 10925
+Wire Wire Line
+	8325 10825 8650 10825
+Text Notes 8550 9825 0    118  ~ 0
+PCIe x1
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 67F9881E
+P 1625 4225
+F 0 "R?" H 1425 4275 60  0000 C CNN
+F 1 "R_0R_0402" H 1625 4075 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1825 4425 60  0001 L CNN
+F 3 "" H 1625 4225 50  0001 C CNN
+F 4 "PANASONIC" H 1825 4625 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1825 4525 60  0001 L CNN "MPN"
+F 6 "0R" H 1800 4175 50  0000 C CNN "Val"
+F 7 "1" H 1625 4225 50  0001 C CNN "DNP"
+	1    1625 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 67F99643
+P 1625 4325
+F 0 "R?" H 1425 4375 60  0000 C CNN
+F 1 "R_0R_0402" H 1625 4175 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1825 4525 60  0001 L CNN
+F 3 "" H 1625 4325 50  0001 C CNN
+F 4 "PANASONIC" H 1825 4725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1825 4625 60  0001 L CNN "MPN"
+F 6 "0R" H 1800 4275 50  0000 C CNN "Val"
+F 7 "1" H 1625 4325 50  0001 C CNN "DNP"
+	1    1625 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 67F9A405
+P 1625 4425
+F 0 "R?" H 1425 4475 60  0000 C CNN
+F 1 "R_0R_0402" H 1625 4275 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1825 4625 60  0001 L CNN
+F 3 "" H 1625 4425 50  0001 C CNN
+F 4 "PANASONIC" H 1825 4825 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1825 4725 60  0001 L CNN "MPN"
+F 6 "0R" H 1800 4375 50  0000 C CNN "Val"
+F 7 "1" H 1625 4425 50  0001 C CNN "DNP"
+	1    1625 4425
+	1    0    0    -1  
+$EndComp
+Text Notes 1550 4160 0    50   ~ 0
+DNP
+Text Notes 1550 4260 0    50   ~ 0
+DNP
+Text Notes 1550 4360 0    50   ~ 0
+DNP
+Text Notes 1550 4460 0    50   ~ 0
+DNP
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 67A0B804
+P 1625 4125
+F 0 "R?" H 1425 4175 60  0000 C CNN
+F 1 "R_0R_0402" H 1625 3975 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1825 4325 60  0001 L CNN
+F 3 "" H 1625 4125 50  0001 C CNN
+F 4 "PANASONIC" H 1825 4525 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1825 4425 60  0001 L CNN "MPN"
+F 6 "0R" H 1800 4075 50  0000 C CNN "Val"
+F 7 "1" H 1625 4125 50  0001 C CNN "DNP"
+	1    1625 4125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

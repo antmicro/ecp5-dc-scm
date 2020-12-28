@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ecp5-dc-scm:543630489 J3
-U 1 1 6268C044
-P 8925 6775
-F 0 "J3" H 8950 6790 50  0000 C CNN
-F 1 "543630489" H 8950 6699 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:543630489" H 8675 4425 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
-	1    8925 6775
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	8725 6325 8225 6325
 Wire Wire Line
@@ -158,8 +147,8 @@ L ecp5-dc-scm:C_470n_0402 C?
 U 1 1 5FD7A6D3
 P 3050 2000
 AR Path="/5FC6B687/5FD7A6D3" Ref="C?"  Part="1" 
-AR Path="/624C566F/5FD7A6D3" Ref="C38"  Part="1" 
-F 0 "C38" H 3165 2045 60  0000 L CNN
+AR Path="/624C566F/5FD7A6D3" Ref="C42"  Part="1" 
+F 0 "C42" H 3165 2045 60  0000 L CNN
 F 1 "C_470n_0402" H 3050 1850 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 3250 2200 60  0001 L CNN
 F 3 "" H 3050 2000 50  0001 C CNN
@@ -412,8 +401,8 @@ L ecp5-dc-scm:C_470n_0402 C?
 U 1 1 5FD83505
 P 3025 4050
 AR Path="/5FC6B687/5FD83505" Ref="C?"  Part="1" 
-AR Path="/624C566F/5FD83505" Ref="C37"  Part="1" 
-F 0 "C37" H 3140 4095 60  0000 L CNN
+AR Path="/624C566F/5FD83505" Ref="C41"  Part="1" 
+F 0 "C41" H 3140 4095 60  0000 L CNN
 F 1 "C_470n_0402" H 3025 3900 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 3225 4250 60  0001 L CNN
 F 3 "" H 3025 4050 50  0001 C CNN
@@ -666,8 +655,8 @@ L ecp5-dc-scm:C_470n_0402 C?
 U 1 1 5FE2946B
 P 2975 6950
 AR Path="/5FC6B687/5FE2946B" Ref="C?"  Part="1" 
-AR Path="/624C566F/5FE2946B" Ref="C36"  Part="1" 
-F 0 "C36" H 3090 6995 60  0000 L CNN
+AR Path="/624C566F/5FE2946B" Ref="C40"  Part="1" 
+F 0 "C40" H 3090 6995 60  0000 L CNN
 F 1 "C_470n_0402" H 2975 6800 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 3175 7150 60  0001 L CNN
 F 3 "" H 2975 6950 50  0001 C CNN
@@ -920,8 +909,8 @@ L ecp5-dc-scm:C_470n_0402 C?
 U 1 1 5FE294F4
 P 2950 9000
 AR Path="/5FC6B687/5FE294F4" Ref="C?"  Part="1" 
-AR Path="/624C566F/5FE294F4" Ref="C35"  Part="1" 
-F 0 "C35" H 3065 9045 60  0000 L CNN
+AR Path="/624C566F/5FE294F4" Ref="C39"  Part="1" 
+F 0 "C39" H 3065 9045 60  0000 L CNN
 F 1 "C_470n_0402" H 2950 8850 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 3150 9200 60  0001 L CNN
 F 3 "" H 2950 9000 50  0001 C CNN
@@ -1054,73 +1043,69 @@ Text Notes 1650 6400 0    50   ~ 0
 One or typically two flash devices used to contain the BMC firmware image
 Text Notes 1475 1475 0    50   ~ 0
 One or typically two flash devices used to contain the BIOS firmware image
-Text GLabel 8225 5225 0    50   Input ~ 0
-SPI_ROT_CLK
-Text GLabel 8225 5125 0    50   Input ~ 0
-SPI_ROT_CS_N
-Text GLabel 8225 5025 0    50   Input ~ 0
-SPI_ROT_MOSI
+Text GLabel 8225 5325 0    50   Input ~ 0
+ROT_QSPI_SCK
 Text GLabel 8225 4925 0    50   Input ~ 0
-SPI_ROT_MISO
+ROT_QSPI_DQ0
 Wire Wire Line
 	8725 6125 8225 6125
 Wire Wire Line
 	8725 6025 8225 6025
-Text GLabel 8225 6125 0    50   Input ~ 0
-QSPIA1_CS_N
-Text GLabel 9675 5825 2    50   Input ~ 0
-QSPIA_CLK
-Text GLabel 8225 5925 0    50   Input ~ 0
-QSPIA1_D0
-Text GLabel 8225 6325 0    50   Input ~ 0
-QSPIA1_D2
-Text GLabel 8225 6025 0    50   Input ~ 0
-QSPIA1_D3
-Text GLabel 9675 6025 2    50   Input ~ 0
-QSPIA2_CS_N
-Text GLabel 9675 5725 2    50   Input ~ 0
-QSPIA2_D0
-Text GLabel 9675 6225 2    50   Input ~ 0
-QSPIA2_D2
-Text GLabel 9675 5925 2    50   Input ~ 0
-QSPIA2_D3
-Text GLabel 9675 5425 2    50   Input ~ 0
-QSPIB1_CS_N
-Text GLabel 9675 4725 2    50   Input ~ 0
-QSPIB_CLK
-Text GLabel 9675 5225 2    50   Input ~ 0
-QSPIB1_D0
-Text GLabel 9675 5625 2    50   Input ~ 0
-QSPIB1_D2
-Text GLabel 9675 5325 2    50   Input ~ 0
-QSPIB1_D3
-Text GLabel 9675 4925 2    50   Input ~ 0
-QSPIB2_CS_N
-Text GLabel 9675 4625 2    50   Input ~ 0
-QSPIB2_D0
-Text GLabel 9675 5125 2    50   Input ~ 0
-QSPIB2_D2
-Text GLabel 9675 4825 2    50   Input ~ 0
-QSPIB2_D3
 Text GLabel 8225 6225 0    50   Input ~ 0
-QSPIA1_D1
+QSPIA1_CS_N
+Text GLabel 9675 5925 2    50   Input ~ 0
+QSPIA_CLK
+Text GLabel 8225 6025 0    50   Input ~ 0
+QSPIA1_D0
+Text GLabel 8225 6425 0    50   Input ~ 0
+QSPIA1_D2
+Text GLabel 8225 6125 0    50   Input ~ 0
+QSPIA1_D3
 Text GLabel 9675 6125 2    50   Input ~ 0
-QSPIA2_D1
+QSPIA2_CS_N
+Text GLabel 9675 5825 2    50   Input ~ 0
+QSPIA2_D0
+Text GLabel 9675 6325 2    50   Input ~ 0
+QSPIA2_D2
+Text GLabel 9675 6025 2    50   Input ~ 0
+QSPIA2_D3
 Text GLabel 9675 5525 2    50   Input ~ 0
-QSPIB1_D1
+QSPIB1_CS_N
+Text GLabel 9675 4825 2    50   Input ~ 0
+QSPIB_CLK
+Text GLabel 9675 5325 2    50   Input ~ 0
+QSPIB1_D0
+Text GLabel 9675 5725 2    50   Input ~ 0
+QSPIB1_D2
+Text GLabel 9675 5425 2    50   Input ~ 0
+QSPIB1_D3
 Text GLabel 9675 5025 2    50   Input ~ 0
+QSPIB2_CS_N
+Text GLabel 9675 4725 2    50   Input ~ 0
+QSPIB2_D0
+Text GLabel 9675 5225 2    50   Input ~ 0
+QSPIB2_D2
+Text GLabel 9675 4925 2    50   Input ~ 0
+QSPIB2_D3
+Text GLabel 8225 6325 0    50   Input ~ 0
+QSPIA1_D1
+Text GLabel 9675 6225 2    50   Input ~ 0
+QSPIA2_D1
+Text GLabel 9675 5625 2    50   Input ~ 0
+QSPIB1_D1
+Text GLabel 9675 5125 2    50   Input ~ 0
 QSPIB2_D1
-Text GLabel 8225 5825 0    50   Input ~ 0
+Text GLabel 8225 5925 0    50   Input ~ 0
 QSPI0_CLK
-Text GLabel 8225 5725 0    50   Input ~ 0
+Text GLabel 8225 5825 0    50   Input ~ 0
 QSPI0_CS0_N
-Text GLabel 8225 5625 0    50   Input ~ 0
+Text GLabel 8225 5725 0    50   Input ~ 0
 QSPI0_D0
-Text GLabel 8225 5525 0    50   Input ~ 0
+Text GLabel 8225 5625 0    50   Input ~ 0
 QSPI0_D1
-Text GLabel 8225 5425 0    50   Input ~ 0
+Text GLabel 8225 5525 0    50   Input ~ 0
 QSPI0_D2
-Text GLabel 8225 5325 0    50   Input ~ 0
+Text GLabel 8225 5425 0    50   Input ~ 0
 QSPI0_D3
 Wire Wire Line
 	8225 5925 8725 5925
@@ -1234,8 +1219,8 @@ L ecp5-dc-scm:GND #PWR?
 U 1 1 5FD82134
 P 11400 2650
 AR Path="/5FC6B687/5FD82134" Ref="#PWR?"  Part="1" 
-AR Path="/624C566F/5FD82134" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 11400 2400 50  0001 C CNN
+AR Path="/624C566F/5FD82134" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 11400 2400 50  0001 C CNN
 F 1 "GND" H 11405 2477 50  0000 C CNN
 F 2 "" H 11400 2650 50  0001 C CNN
 F 3 "" H 11400 2650 50  0001 C CNN
@@ -1247,8 +1232,8 @@ L ecp5-dc-scm:GND #PWR?
 U 1 1 5FD8331F
 P 12050 2650
 AR Path="/5FC6B687/5FD8331F" Ref="#PWR?"  Part="1" 
-AR Path="/624C566F/5FD8331F" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 12050 2400 50  0001 C CNN
+AR Path="/624C566F/5FD8331F" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 12050 2400 50  0001 C CNN
 F 1 "GND" H 12055 2477 50  0000 C CNN
 F 2 "" H 12050 2650 50  0001 C CNN
 F 3 "" H 12050 2650 50  0001 C CNN
@@ -1271,33 +1256,54 @@ Wire Wire Line
 	8725 4725 8225 4725
 Wire Wire Line
 	8725 4625 8225 4625
-Text GLabel 8225 4825 0    50   Input ~ 0
-PROGRAM
-Text GLabel 8225 4725 0    50   Input ~ 0
-INIT
-Text GLabel 9775 6525 2    50   Input ~ 0
+Text GLabel 9675 6525 2    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	8225 6525 8725 6525
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 626717FC
-P 8225 6525
+P 8225 6625
 AR Path="/5FC6B687/626717FC" Ref="#PWR?"  Part="1" 
-AR Path="/624C566F/626717FC" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 8225 6275 50  0001 C CNN
-F 1 "GND" H 8230 6352 50  0000 C CNN
-F 2 "" H 8225 6525 50  0001 C CNN
-F 3 "" H 8225 6525 50  0001 C CNN
-	1    8225 6525
-	0    1    -1   0   
+AR Path="/624C566F/626717FC" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 8225 6375 50  0001 C CNN
+F 1 "GND" H 8230 6452 50  0000 C CNN
+F 2 "" H 8225 6625 50  0001 C CNN
+F 3 "" H 8225 6625 50  0001 C CNN
+	1    8225 6625
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8725 6425 8725 6525
-Connection ~ 8725 6525
+	9175 6525 9675 6525
+Text GLabel 8225 5025 0    50   Input ~ 0
+ROT_QSPI_DQ1
+Text GLabel 8225 5125 0    50   Input ~ 0
+ROT_QSPI_DQ2
+Text GLabel 8225 5225 0    50   Input ~ 0
+ROT_QSPI_DQ3
+$Comp
+L ecp5-dc-scm:543630489 J3
+U 1 1 6268C044
+P 8925 6775
+F 0 "J3" H 8950 6790 50  0000 C CNN
+F 1 "543630489" H 8950 6699 50  0000 C CNN
+F 2 "ecp5-dc-scm-footprints:543630489" H 8675 4425 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
+	1    8925 6775
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	9175 6525 9775 6525
+	8725 6425 8225 6425
 Wire Wire Line
-	9175 6425 9175 6525
-Connection ~ 9175 6525
+	8225 6525 8225 6625
+Text GLabel 9675 4625 2    50   Input ~ 0
+ROT_QSPI_CS_N
+Text GLabel 9675 6425 2    50   Input ~ 0
+QSPI0_CS1_N
+Wire Wire Line
+	9175 6425 9675 6425
+Text GLabel 8225 4825 0    50   Input ~ 0
+PROGRAM_N
+Text GLabel 8225 4725 0    50   Input ~ 0
+INIT_N
 $EndSCHEMATC

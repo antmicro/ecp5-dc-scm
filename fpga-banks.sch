@@ -1269,15 +1269,15 @@ Text GLabel 1575 3125 0    50   Input ~ 0
 SGPIO_RESET_N
 Text GLabel 1575 3225 0    50   Input ~ 0
 SGPIO_INTR_N
-Text Notes 4775 10650 0    50   ~ 0
+Text Notes 5075 11125 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
-Text GLabel 7700 8950 0    50   Input ~ 0
+Text GLabel 7925 9250 0    50   Input ~ 0
 JTAG_TCK
-Text GLabel 7700 9150 0    50   Input ~ 0
+Text GLabel 7925 9450 0    50   Input ~ 0
 JTAG_TMS
-Text GLabel 7700 9050 0    50   Input ~ 0
+Text GLabel 7925 9350 0    50   Input ~ 0
 JTAG_TDI
-Text GLabel 7700 8850 0    50   Input ~ 0
+Text GLabel 7925 9150 0    50   Input ~ 0
 JTAG_TDO
 Text GLabel 1575 4625 0    50   Input ~ 0
 UART1_SCM_TX
@@ -1287,7 +1287,7 @@ Text GLabel 1575 4825 0    50   Input ~ 0
 UART0_SCM_TX
 Text GLabel 1575 4925 0    50   Input ~ 0
 UART0_SCM_RX
-Text Notes 4025 800  0    50   ~ 0
+Text Notes 6975 -175 0    50   ~ 0
 FPGA connections to be established while preparing layout
 Wire Wire Line
 	4400 2225 4025 2225
@@ -1384,13 +1384,13 @@ Wire Wire Line
 Wire Wire Line
 	1575 3225 1900 3225
 Wire Wire Line
-	7700 8950 8025 8950
+	7925 9250 8250 9250
 Wire Wire Line
-	7700 9150 8025 9150
+	7925 9450 8250 9450
 Wire Wire Line
-	7700 9050 8025 9050
+	7925 9350 8250 9350
 Wire Wire Line
-	7700 8850 8025 8850
+	7925 9150 8250 9150
 Wire Wire Line
 	1575 4625 1900 4625
 Wire Wire Line
@@ -1407,60 +1407,52 @@ Wire Wire Line
 	5625 9275 5950 9275
 Wire Wire Line
 	5625 9075 5950 9075
-Text GLabel 5475 9975 0    50   Input ~ 0
-SPI_ROT_CLK
-Text GLabel 5625 9375 0    50   Input ~ 0
-SPI_ROT_CS_N
-Text GLabel 5625 9275 0    50   Input ~ 0
-SPI_ROT_MOSI
-Text GLabel 5625 9075 0    50   Input ~ 0
-SPI_ROT_MISO
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756 U?
 U 10 1 6100A116
-P 8025 8850
+P 8250 9150
 AR Path="/5FD74EA8/6100A116" Ref="U?"  Part="10" 
 AR Path="/5FC6B687/6100A116" Ref="U?"  Part="10" 
 AR Path="/5FD86CE4/6100A116" Ref="U18"  Part="10" 
-F 0 "U18" H 8555 8753 60  0000 L CNN
-F 1 "ECP5UM5G_85_CABGA756" H 8555 8647 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 7575 11200 50  0001 C CNN
-F 3 "" V 7575 11200 50  0001 C CNN
-F 4 "LFE5UM5G-85F-8BG756C" V 7525 11050 60  0001 R CNN "MPN"
-F 5 "Lattice Semiconductor" V 7575 11200 50  0001 C CNN "Manufacturer"
-	10   8025 8850
+F 0 "U18" H 8780 9053 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 8780 8947 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 7800 11500 50  0001 C CNN
+F 3 "" V 7800 11500 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" V 7750 11350 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" V 7800 11500 50  0001 C CNN "Manufacturer"
+	10   8250 9150
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756 U?
 U 11 1 6103B98E
-P 8225 9900
+P 8650 10025
 AR Path="/5FD74EA8/6103B98E" Ref="U?"  Part="11" 
 AR Path="/5FC6B687/6103B98E" Ref="U?"  Part="11" 
 AR Path="/5FD86CE4/6103B98E" Ref="U18"  Part="11" 
-F 0 "U18" H 9155 9503 60  0000 L CNN
-F 1 "ECP5UM5G_85_CABGA756" H 9155 9397 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 7775 12250 50  0001 C CNN
-F 3 "" V 7775 12250 50  0001 C CNN
-F 4 "LFE5UM5G-85F-8BG756C" V 7725 12100 60  0001 R CNN "MPN"
-F 5 "Lattice Semiconductor" V 7775 12250 50  0001 C CNN "Manufacturer"
-	11   8225 9900
+F 0 "U18" H 9580 9628 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 9580 9522 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 8200 12375 50  0001 C CNN
+F 3 "" V 8200 12375 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" V 8150 12225 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" V 8200 12375 50  0001 C CNN "Manufacturer"
+	11   8650 10025
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756 U?
 U 12 1 61050AD0
-P 10600 9975
+P 10475 9300
 AR Path="/5FD74EA8/61050AD0" Ref="U?"  Part="12" 
 AR Path="/5FC6B687/61050AD0" Ref="U?"  Part="12" 
 AR Path="/5FD86CE4/61050AD0" Ref="U18"  Part="12" 
-F 0 "U18" H 11530 9578 60  0000 L CNN
-F 1 "ECP5UM5G_85_CABGA756" H 11530 9472 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 10150 12325 50  0001 C CNN
-F 3 "" V 10150 12325 50  0001 C CNN
-F 4 "LFE5UM5G-85F-8BG756C" V 10100 12175 60  0001 R CNN "MPN"
-F 5 "Lattice Semiconductor" V 10150 12325 50  0001 C CNN "Manufacturer"
-	12   10600 9975
+F 0 "U18" H 11405 8903 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 11405 8797 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 10025 11650 50  0001 C CNN
+F 3 "" V 10025 11650 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" V 9975 11500 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" V 10025 11650 50  0001 C CNN "Manufacturer"
+	12   10475 9300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1567,17 +1559,17 @@ Text GLabel 4025 4425 0    50   Input ~ 0
 I2C[11]_SDA
 Text GLabel 4025 4525 0    50   Input ~ 0
 I2C[11]_SCL
-Text GLabel 4400 6425 0    50   Input ~ 0
+Text GLabel 8650 10825 0    50   Input ~ 0
 CLK_100M_PCIE_DP
-Text GLabel 4400 6525 0    50   Input ~ 0
+Text GLabel 8650 10925 0    50   Input ~ 0
 CLK_100M_PCIE_DN
-Text GLabel 4400 6625 0    50   Input ~ 0
+Text GLabel 8650 10025 0    50   Input ~ 0
 PCIE_BMC_TX_DP
-Text GLabel 4400 6725 0    50   Input ~ 0
+Text GLabel 8650 10125 0    50   Input ~ 0
 PCIE_BMC_TX_DN
-Text GLabel 4400 6825 0    50   Input ~ 0
+Text GLabel 8650 10225 0    50   Input ~ 0
 PCIE_BMC_RX_DP
-Text GLabel 4400 6925 0    50   Input ~ 0
+Text GLabel 8650 10325 0    50   Input ~ 0
 PCIE_BMC_RX_DN
 $Comp
 L antmicroResistors0402:R_10k_0402 R103
@@ -1758,9 +1750,7 @@ Wire Wire Line
 	1025 9975 1250 9975
 Connection ~ 1250 9975
 Wire Wire Line
-	625  10950 1025 10950
-Text Label 625  10950 0    50   ~ 0
-~INIT
+	825  10950 1025 10950
 $Comp
 L antmicroResistors0402:R_10k_0402 R108
 U 1 1 61D8BCCB
@@ -1810,7 +1800,7 @@ Wire Wire Line
 	2850 10250 2850 10100
 Connection ~ 2850 10100
 Wire Wire Line
-	2850 10100 3300 10100
+	2850 10100 3025 10100
 Wire Wire Line
 	2850 10025 2850 10100
 Wire Wire Line
@@ -1851,16 +1841,10 @@ F 3 "" H 2850 10700 50  0001 C CNN
 	1    2850 10700
 	1    0    0    -1  
 $EndComp
-Text Label 3300 10100 2    50   ~ 0
-~PROGRAM
 Wire Wire Line
-	5950 10075 5500 10075
-Text Label 5500 10075 0    50   ~ 0
-~PROGRAM
+	5950 10075 5475 10075
 Wire Wire Line
-	5500 9875 5950 9875
-Text Label 5500 9875 0    50   ~ 0
-~INIT
+	5475 9875 5950 9875
 Wire Wire Line
 	5500 10175 5950 10175
 Text Label 5500 10175 0    50   ~ 0
@@ -1942,7 +1926,7 @@ Wire Bus Line
 Wire Bus Line
 	9975 2725 9875 2725
 Wire Wire Line
-	5575 3525 5575 3625
+	5700 3525 5700 3625
 Text GLabel 6675 2925 0    50   BiDi ~ 0
 DDR3_DQS1+
 Text GLabel 6675 2725 0    50   BiDi ~ 0
@@ -2098,41 +2082,41 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 617BC001
-P 5575 3750
+P 5700 3775
 AR Path="/5FD86CE4/606A2400/617BC001" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/617BC001" Ref="C209"  Part="1" 
-F 0 "C209" H 5575 3825 50  0000 L CNN
-F 1 "100n" H 5575 3675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5575 3750 50  0001 C CNN
-F 3 "~" H 5575 3750 50  0001 C CNN
-	1    5575 3750
+F 0 "C209" H 5700 3850 50  0000 L CNN
+F 1 "100n" H 5700 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5700 3775 50  0001 C CNN
+F 3 "~" H 5700 3775 50  0001 C CNN
+	1    5700 3775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 3625 6875 3625
+	5900 3625 6875 3625
 Wire Wire Line
-	5575 3625 5575 3650
-Connection ~ 5575 3625
+	5700 3625 5700 3675
+Connection ~ 5700 3625
 Wire Wire Line
-	5575 3850 5575 3900
+	5700 3875 5700 3900
 Wire Wire Line
-	5575 3900 5750 3900
+	5700 3900 5900 3900
 $Comp
 L power:GND #PWR?
 U 1 1 617BC016
-P 5750 3925
+P 5900 3975
 AR Path="/5FD86CE4/606A2400/617BC016" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86CE4/617BC016" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 5750 3675 50  0001 C CNN
-F 1 "GND" H 5755 3752 50  0000 C CNN
-F 2 "" H 5750 3925 50  0001 C CNN
-F 3 "" H 5750 3925 50  0001 C CNN
-	1    5750 3925
+F 0 "#PWR0110" H 5900 3725 50  0001 C CNN
+F 1 "GND" H 5905 3802 50  0000 C CNN
+F 2 "" H 5900 3975 50  0001 C CNN
+F 3 "" H 5900 3975 50  0001 C CNN
+	1    5900 3975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 3900 5750 3925
-Connection ~ 5750 3900
+	5900 3900 5900 3975
+Connection ~ 5900 3900
 NoConn ~ 6875 6925
 NoConn ~ 6875 3425
 NoConn ~ 6875 2525
@@ -2282,33 +2266,29 @@ F 3 "" H 9175 8025 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9375 8025 9175 8025
-NoConn ~ 9375 3825
-NoConn ~ 9375 4125
 NoConn ~ 9375 8325
 NoConn ~ 9375 7325
-NoConn ~ 9375 6825
-NoConn ~ 9375 6725
 Wire Wire Line
-	5750 3900 5750 3850
+	5900 3900 5900 3875
 Wire Wire Line
-	5575 3625 5750 3625
+	5700 3625 5900 3625
 $Comp
 L Device:C_Small C?
 U 1 1 617BC007
-P 5750 3750
+P 5900 3775
 AR Path="/5FD86CE4/606A2400/617BC007" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/617BC007" Ref="C210"  Part="1" 
-F 0 "C210" H 5750 3825 50  0000 L CNN
-F 1 "100n" H 5750 3675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5750 3750 50  0001 C CNN
-F 3 "~" H 5750 3750 50  0001 C CNN
-	1    5750 3750
+F 0 "C210" H 5900 3850 50  0000 L CNN
+F 1 "100n" H 5900 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5900 3775 50  0001 C CNN
+F 3 "~" H 5900 3775 50  0001 C CNN
+	1    5900 3775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 3650 5750 3625
-Connection ~ 5750 3625
-Text GLabel 5575 3525 1    50   Input ~ 0
+	5900 3675 5900 3625
+Connection ~ 5900 3625
+Text GLabel 5700 3525 1    50   Input ~ 0
 DDR_VREF
 Text GLabel 6425 1000 0    50   Input ~ 0
 VCC1V35_T
@@ -2424,10 +2404,70 @@ Wire Notes Line
 	6175 9475 6175 9675
 Wire Notes Line
 	6175 9675 6200 9675
-Text Notes 4725 8475 0    50   ~ 0
-Q: Which SPI Flash pins should go to FPGA and which to edge connector?
 Text GLabel 1575 2725 0    50   Input ~ 0
 SGPIO1_CLK
 Wire Wire Line
 	1575 2725 1900 2725
+Text Notes 9900 7150 0    50   ~ 0
+Vref
+Wire Wire Line
+	1350 4225 1900 4225
+Wire Wire Line
+	1350 4125 1900 4125
+Wire Wire Line
+	1900 4025 1350 4025
+Wire Wire Line
+	1350 3925 1900 3925
+Wire Wire Line
+	1350 3825 1900 3825
+Wire Wire Line
+	1900 3725 1350 3725
+Text GLabel 1350 4225 0    50   Input ~ 0
+QSPI1_CLK
+Text GLabel 1350 4125 0    50   Input ~ 0
+QSPI1_CS0_N
+Text GLabel 1350 4025 0    50   Input ~ 0
+QSPI1_D0
+Text GLabel 1350 3925 0    50   Input ~ 0
+QSPI1_D1
+Text GLabel 1350 3825 0    50   Input ~ 0
+QSPI1_D2
+Text GLabel 1350 3725 0    50   Input ~ 0
+QSPI1_D3
+Text GLabel 5475 9975 0    50   Input ~ 0
+ROT_QSPI_SCK
+Text GLabel 5625 9275 0    50   Input ~ 0
+ROT_QSPI_DQ0
+Text GLabel 5625 9075 0    50   Input ~ 0
+ROT_QSPI_DQ1
+Text GLabel 5625 9175 0    50   Input ~ 0
+ROT_QSPI_DQ2
+Text GLabel 5625 8975 0    50   Input ~ 0
+ROT_QSPI_DQ3
+Wire Wire Line
+	5950 9175 5625 9175
+Wire Wire Line
+	5950 8975 5625 8975
+Text GLabel 5625 9375 0    50   Input ~ 0
+ROT_QSPI_CS_N
+Text Notes 7050 750  0    118  ~ 0
+DDR3
+Text Notes 5150 800  2    118  ~ 0
+I2C , I3C
+Text Notes 8100 8900 0    118  ~ 0
+JTAG
+Text Notes 5500 7425 0    118  ~ 0
+ROT_SPI
+Wire Wire Line
+	-525 1900 -1075 1900
+Text GLabel -1075 1900 0    50   Input ~ 0
+VIRTUAL_RESEAT
+Text GLabel 5475 10075 0    50   Input ~ 0
+PROGRAM_N
+Text GLabel 3025 10100 2    50   Input ~ 0
+PROGRAM_N
+Text GLabel 5475 9875 0    50   Input ~ 0
+INIT_N
+Text GLabel 825  10950 0    50   Input ~ 0
+INIT_N
 $EndSCHEMATC

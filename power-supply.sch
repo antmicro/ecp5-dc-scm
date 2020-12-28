@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 10
-Title ""
+Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1660,12 +1660,12 @@ Wire Wire Line
 Wire Wire Line
 	1725 1350 1950 1350
 $Comp
-L antmicroResistors0402:R_1k1_0402 R63
+L ecp5-dc-scm:R_1k1_0402 R63
 U 1 1 5FF0C1B7
 P 1125 9425
 F 0 "R63" V 1080 9495 60  0000 L CNN
 F 1 "R_1k1_0402" H 1125 9275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1325 9625 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1325 9625 60  0001 L CNN
 F 3 "" H 1125 9425 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 1325 9825 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1101X" H 1325 9725 60  0001 L CNN "MPN"
@@ -1683,12 +1683,12 @@ VCC3V3
 Wire Wire Line
 	1125 9275 1125 9125
 $Comp
-L antmicroTestPoints:RCW-0C TP1
+L ecp5-dc-scm:RCW-0C TP1
 U 1 1 5FF4E33F
 P 1625 1200
 F 0 "TP1" V 1625 1075 50  0000 C CNN
 F 1 "RCW-0C" V 1491 1247 50  0001 C CNN
-F 2 "antmicro-footprints:PROBE_PAD_1206" H 1825 1400 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PROBE_PAD_1206" H 1825 1400 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1825 1500 60  0001 L CNN
 F 4 "RCW-0C" H 1825 1700 60  0001 L CNN "MPN"
 F 5 "TE Connectivity AMP Connectors" H 1825 2300 60  0001 L CNN "Manufacturer"
@@ -1696,12 +1696,12 @@ F 5 "TE Connectivity AMP Connectors" H 1825 2300 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:RCW-0C TP2
+L ecp5-dc-scm:RCW-0C TP2
 U 1 1 5FF4E667
 P 1625 1350
 F 0 "TP2" V 1625 1225 50  0000 C CNN
 F 1 "RCW-0C" V 1491 1397 50  0001 C CNN
-F 2 "antmicro-footprints:PROBE_PAD_1206" H 1825 1550 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PROBE_PAD_1206" H 1825 1550 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1825 1650 60  0001 L CNN
 F 4 "RCW-0C" H 1825 1850 60  0001 L CNN "MPN"
 F 5 "TE Connectivity AMP Connectors" H 1825 2450 60  0001 L CNN "Manufacturer"
@@ -1709,12 +1709,12 @@ F 5 "TE Connectivity AMP Connectors" H 1825 2450 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroFuses:0466003.NR F1
+L ecp5-dc-scm:0466003.NR F1
 U 1 1 5FF6F26B
 P 1525 2100
 F 0 "F1" H 1875 2314 50  0000 C CNN
 F 1 "0466003.NR" H 1875 2223 50  0000 C CNN
-F 2 "antmicro-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1525 2400 50  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1525 2400 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 1525 2600 50  0001 L CNN
 F 4 "Littelfuse" H 1525 2600 50  0001 L CNN "Manufacturer"
 F 5 "0466003.NR " H 1775 2500 50  0001 C CNN "MPN"
@@ -1730,12 +1730,12 @@ Wire Wire Line
 Text GLabel 1375 2100 0    50   Input ~ 0
 P12V_AUX
 $Comp
-L antmicroResistorsmisc:R_0R_1206 R73
+L ecp5-dc-scm:R_0R_1206 R73
 U 1 1 60014E3E
 P 7075 1675
 F 0 "R73" V 7030 1745 60  0000 L CNN
 F 1 "R_0R_1206" H 7075 1525 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 7275 1875 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:1206-res" H 7275 1875 60  0001 L CNN
 F 3 "" H 7075 1675 50  0001 C CNN
 F 4 "MULTICOMP" H 7275 2075 60  0001 L CNN "Manufacturer"
 F 5 "MCMR12X000_PTL" H 7275 1975 60  0001 L CNN "MPN"
@@ -3166,14 +3166,14 @@ Text Notes 4675 4150 0    118  ~ 0
 Text Notes 12775 675  0    118  ~ 0
 2V5 Supply
 $Comp
-L antmicroResistors0402:R_470k_0402 R?
+L ecp5-dc-scm:R_470k_0402 R?
 U 1 1 60050B90
 P 7375 5600
 AR Path="/5FD86D1B/60050B90" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/60050B90" Ref="R78"  Part="1" 
 F 0 "R78" V 7325 5425 60  0000 L CNN
 F 1 "R_470k_0402" H 7375 5450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7575 5800 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 7575 5800 60  0001 L CNN
 F 3 "" H 7375 5600 50  0001 C CNN
 F 4 "YAGEO" H 7575 6000 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07470KL" H 7575 5900 60  0001 L CNN "MPN"
@@ -3209,14 +3209,14 @@ F 6 "10k" V 7428 6170 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroFixedInductors:IHLP1212AEERR47M11 L?
+L ecp5-dc-scm:IHLP1212AEERR47M11 L?
 U 1 1 60050BA6
 P 14100 1450
 AR Path="/5FD86D1B/60050BA6" Ref="L?"  Part="1" 
 AR Path="/5FD86BEB/60050BA6" Ref="L7"  Part="1" 
 F 0 "L7" H 13925 1675 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 14375 1575 60  0000 C CNN
-F 2 "antmicro-footprints:IHLP-1212AE" H 14100 1450 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:IHLP-1212AE" H 14100 1450 60  0001 C CNN
 F 3 "" H 14100 1450 60  0001 C CNN
 F 4 "Vishay" H 14100 1450 50  0001 C CNN "Manufacturer"
 F 5 "IHLP1212AEERR47M11" H 14100 1450 50  0001 C CNN "MPN"
@@ -3523,12 +3523,12 @@ HPM_STBY_EN
 Text GLabel 6650 8975 0    50   Input ~ 0
 ROT_RDY
 $Comp
-L antmicroCapacitorsmisc:C_47u_1210 C82
+L ecp5-dc-scm:C_47u_1210 C82
 U 1 1 60B8CD07
 P 7650 5675
 F 0 "C82" H 7765 5720 60  0000 L CNN
 F 1 "C_47u_1210" H 7650 5525 60  0001 C CNN
-F 2 "antmicro-footprints:1210-cap" H 7850 5875 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:1210-cap" H 7850 5875 60  0001 L CNN
 F 3 "" H 7650 5675 50  0001 C CNN
 F 4 "KEMET" H 7850 6075 60  0001 L CNN "Manufacturer"
 F 5 "C1210C476K8RACTU" H 7850 5975 60  0001 L CNN "MPN"
@@ -3541,12 +3541,12 @@ Wire Wire Line
 Wire Wire Line
 	7650 5825 7650 6325
 $Comp
-L antmicroCapacitorsmisc:C_10u_0805 C70
+L ecp5-dc-scm:C_10u_0805 C70
 U 1 1 60BE26A2
 P 3125 5200
 F 0 "C70" H 3150 5300 60  0000 L CNN
 F 1 "C_10u_0805" H 3125 5050 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 3325 5400 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0805-cap" H 3325 5400 60  0001 L CNN
 F 3 "" H 3125 5200 50  0001 C CNN
 F 4 "JOHANSON_DIELECTRICS" H 3325 5600 60  0001 L CNN "Manufacturer"
 F 5 "160R15X106KV4E" H 3325 5500 60  0001 L CNN "MPN"
@@ -3559,12 +3559,12 @@ Wire Wire Line
 Wire Wire Line
 	3125 5000 3125 5050
 $Comp
-L antmicroCapacitorsmisc:C_10u_0805 C69
+L ecp5-dc-scm:C_10u_0805 C69
 U 1 1 60CE5B15
 P 2875 5200
 F 0 "C69" H 2900 5300 60  0000 L CNN
 F 1 "C_10u_0805" H 2875 5050 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 3075 5400 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0805-cap" H 3075 5400 60  0001 L CNN
 F 3 "" H 2875 5200 50  0001 C CNN
 F 4 "JOHANSON_DIELECTRICS" H 3075 5600 60  0001 L CNN "Manufacturer"
 F 5 "160R15X106KV4E" H 3075 5500 60  0001 L CNN "MPN"
@@ -3589,12 +3589,12 @@ Text Label 6175 1900 0    50   ~ 0
 Text Label 8950 8850 0    50   ~ 0
 3V3_PG
 $Comp
-L antmicroResistors0603:R_66k5_0603 R?
+L ecp5-dc-scm:R_66k5_0603 R?
 U 1 1 656B59D3
 P 14650 9000
 F 0 "R?" V 14695 8930 60  0000 R CNN
 F 1 "R_66k5_0603" H 14650 8850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 14850 9200 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0603-res" H 14850 9200 60  0001 L CNN
 F 3 "" H 14650 9000 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 14850 9400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ3EKF6652V" H 14850 9300 60  0001 L CNN "MPN"

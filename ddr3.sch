@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 10
-Title ""
+Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1550,12 +1550,12 @@ Wire Wire Line
 Text Label 5725 7025 2    50   ~ 0
 DDR3_VTT
 $Comp
-L antmicroResistors0402:R_51R_0402 R61
+L ecp5-dc-scm:R_51R_0402 R61
 U 1 1 5FDB1089
 P 13325 7625
 F 0 "R61" V 13280 7695 60  0000 L CNN
 F 1 "R_51R_0402" H 13325 7475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13525 7825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 13525 7825 60  0001 L CNN
 F 3 "" H 13325 7625 50  0001 C CNN
 F 4 "YAGEO" H 13525 8025 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-0751RL" H 13525 7925 60  0001 L CNN "MPN"
@@ -1564,12 +1564,12 @@ F 6 "51R" V 13378 7695 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_51R_0402 R62
+L ecp5-dc-scm:R_51R_0402 R62
 U 1 1 5FDB1711
 P 13325 8025
 F 0 "R62" V 13280 8095 60  0000 L CNN
 F 1 "R_51R_0402" H 13325 7875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13525 8225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 13525 8225 60  0001 L CNN
 F 3 "" H 13325 8025 50  0001 C CNN
 F 4 "YAGEO" H 13525 8425 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-0751RL" H 13525 8325 60  0001 L CNN "MPN"

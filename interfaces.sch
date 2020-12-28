@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 10
-Title ""
+Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -654,12 +654,12 @@ Wire Wire Line
 	11550 3575 10800 3575
 Connection ~ 10800 3575
 $Comp
-L antmicroInterfaceControllers:MAX3421EEHJ U?
+L ecp5-dc-scm:MAX3421EEHJ U?
 U 1 1 5FEF6DC0
 P 13100 4075
 F 0 "U?" H 13050 5438 50  0000 C CNN
 F 1 "MAX3421EEHJ" H 13050 5347 50  0000 C CNN
-F 2 "antmicro-footprints:TQFP-32_5x5mm" H 13150 2575 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:TQFP-32_5x5mm" H 13150 2575 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MAX3421EEHJ%2BT-Maxim-Integrated-datasheet-62055038.pdf" H 13150 2725 50  0001 C CNN
 F 4 "MAX3421EEHJ" H 13050 5256 50  0001 C CNN "MPN"
 F 5 "Maxim integrated" H 13050 5165 50  0001 C CNN "Manufacturer"
@@ -667,12 +667,12 @@ F 5 "Maxim integrated" H 13050 5165 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:PGB1010603MR D?
+L ecp5-dc-scm:PGB1010603MR D?
 U 1 1 5FF20169
 P 10800 3925
 F 0 "D?" V 10950 3925 60  0000 L CNN
 F 1 "PGB1010603MR" H 10500 3825 60  0000 L CNN
-F 2 "antmicro-footprints:PGB1010603MR" H 11000 4125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PGB1010603MR" H 11000 4125 60  0001 L CNN
 F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 11000 4225 60  0001 L CNN
 F 4 "Littelfuse Inc." H 11000 5025 60  0001 L CNN "Manufacturer"
 F 5 "PGB1010603MR" H 11000 4425 60  0001 L CNN "MPN"
@@ -680,12 +680,12 @@ F 5 "PGB1010603MR" H 11000 4425 60  0001 L CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:PGB1010603MR D?
+L ecp5-dc-scm:PGB1010603MR D?
 U 1 1 5FF20CE5
 P 11100 3925
 F 0 "D?" V 11250 3925 60  0000 L CNN
 F 1 "PGB1010603MR" H 10800 3825 60  0000 L CNN
-F 2 "antmicro-footprints:PGB1010603MR" H 11300 4125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PGB1010603MR" H 11300 4125 60  0001 L CNN
 F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 11300 4225 60  0001 L CNN
 F 4 "Littelfuse Inc." H 11300 5025 60  0001 L CNN "Manufacturer"
 F 5 "PGB1010603MR" H 11300 4425 60  0001 L CNN "MPN"
@@ -693,12 +693,12 @@ F 5 "PGB1010603MR" H 11300 4425 60  0001 L CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 5FF24E9C
 P 12250 4975
 F 0 "C?" H 12275 5075 60  0000 L CNN
 F 1 "C_100n_0402" H 12250 4825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 12450 5175 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 12450 5175 60  0001 L CNN
 F 3 "" H 12250 4975 50  0001 C CNN
 F 4 "Walsin" H 12450 5375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 12450 5275 60  0001 L CNN "MPN"
@@ -707,12 +707,12 @@ F 6 "100n" H 12275 4875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22p_0402 C?
+L ecp5-dc-scm:C_22p_0402 C?
 U 1 1 5FF2737D
 P 14150 5125
 F 0 "C?" H 14150 5225 60  0000 L CNN
 F 1 "C_22p_0402" H 14150 4975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14350 5325 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 14350 5325 60  0001 L CNN
 F 3 "" H 14150 5125 50  0001 C CNN
 F 4 "YAGEO" H 14350 5525 60  0001 L CNN "Manufacturer"
 F 5 "CC0402JRNPO9BN220" H 14350 5425 60  0001 L CNN "MPN"
@@ -721,12 +721,12 @@ F 6 "22p" H 14150 5025 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22p_0402 C?
+L ecp5-dc-scm:C_22p_0402 C?
 U 1 1 5FF28DDD
 P 14750 5125
 F 0 "C?" H 14750 5225 60  0000 L CNN
 F 1 "C_22p_0402" H 14750 4975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14950 5325 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 14950 5325 60  0001 L CNN
 F 3 "" H 14750 5125 50  0001 C CNN
 F 4 "YAGEO" H 14950 5525 60  0001 L CNN "Manufacturer"
 F 5 "CC0402JRNPO9BN220" H 14950 5425 60  0001 L CNN "MPN"
@@ -735,12 +735,12 @@ F 6 "22p" H 14750 5025 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCrystals:ABM8G-12.000MHZ-18-D2Y-T Y?
+L ecp5-dc-scm:ABM8G-12.000MHZ-18-D2Y-T Y?
 U 1 1 5FF2941B
 P 14350 4725
 F 0 "Y?" H 14544 4756 31  0000 L CNN
 F 1 "ABM8G-12.000MHZ-18-D2Y-T" H 14544 4694 31  0000 L CNN
-F 2 "antmicro-footprints:KX-7" H 16450 4725 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:KX-7" H 16450 4725 50  0001 C CNN
 F 3 "" H 16550 4825 50  0001 C CNN
 F 4 "ABM8G-12.000MHZ-18-D2Y-T " H 14544 4694 31  0001 L CNN "MPN"
 F 5 "Abracon" H 14544 4632 31  0001 L CNN "Manufacturer"
@@ -748,12 +748,12 @@ F 5 "Abracon" H 14544 4632 31  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 5FF2DD6C
 P 14150 2925
 F 0 "C?" H 14175 3025 60  0000 L CNN
 F 1 "C_100n_0402" H 14150 2775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14350 3125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 14350 3125 60  0001 L CNN
 F 3 "" H 14150 2925 50  0001 C CNN
 F 4 "Walsin" H 14350 3325 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14350 3225 60  0001 L CNN "MPN"
@@ -774,12 +774,12 @@ Wire Wire Line
 Wire Wire Line
 	14650 2550 14650 2775
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 5FF4878A
 P 14650 2925
 F 0 "C?" H 14675 3025 60  0000 L CNN
 F 1 "C_100n_0402" H 14650 2775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14850 3125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 14850 3125 60  0001 L CNN
 F 3 "" H 14650 2925 50  0001 C CNN
 F 4 "Walsin" H 14850 3325 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14850 3225 60  0001 L CNN "MPN"
@@ -800,12 +800,12 @@ Wire Wire Line
 Wire Wire Line
 	12350 2375 12350 2675
 $Comp
-L antmicroResistors0402:R_22R_0402 R?
+L ecp5-dc-scm:R_22R_0402 R?
 U 1 1 5FF57197
 P 11700 3475
 F 0 "R?" H 11500 3525 60  0000 C CNN
 F 1 "R_22R_0402" H 11700 3325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11900 3675 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 11900 3675 60  0001 L CNN
 F 3 "" H 11700 3475 50  0001 C CNN
 F 4 "VISHAY" H 11900 3875 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 11900 3775 60  0001 L CNN "MPN"
@@ -814,12 +814,12 @@ F 6 "22R" H 11875 3425 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R?
+L ecp5-dc-scm:R_22R_0402 R?
 U 1 1 5FF5785A
 P 11700 3575
 F 0 "R?" H 11500 3625 60  0000 C CNN
 F 1 "R_22R_0402" H 11700 3425 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11900 3775 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 11900 3775 60  0001 L CNN
 F 3 "" H 11700 3575 50  0001 C CNN
 F 4 "VISHAY" H 11900 3975 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 11900 3875 60  0001 L CNN "MPN"
@@ -828,12 +828,12 @@ F 6 "22R" H 11875 3525 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 5FF5B835
 P 12350 2975
 F 0 "R?" V 12305 3045 60  0000 L CNN
 F 1 "R_10k_0402" H 12350 2825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12550 3175 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 12550 3175 60  0001 L CNN
 F 3 "" H 12350 2975 50  0001 C CNN
 F 4 "VISHAY" H 12550 3375 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 12550 3275 60  0001 L CNN "MPN"
@@ -842,12 +842,12 @@ F 6 "10k" V 12403 3045 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L ecp5-dc-scm:R_0R_0402 R?
 U 1 1 5FF5C2F6
 P 12100 2975
 F 0 "R?" V 12055 3045 60  0000 L CNN
 F 1 "R_0R_0402" H 12100 2825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12300 3175 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 12300 3175 60  0001 L CNN
 F 3 "" H 12100 2975 50  0001 C CNN
 F 4 "PANASONIC" H 12300 3375 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12300 3275 60  0001 L CNN "MPN"
@@ -902,12 +902,12 @@ JTAG_TCK
 Text GLabel 3400 2350 2    50   Input ~ 0
 JTAG_TDO
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:0878311420 J?
+L ecp5-dc-scm:0878311420 J?
 U 1 1 5FE78988
 P 2350 2350
 F 0 "J?" H 2350 2875 50  0000 C CNN
 F 1 "0878311420" H 2350 2784 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x7_P2mm_Drill1mm" H 2550 2550 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PinHeader_2x7_P2mm_Drill1mm" H 2550 2550 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 2550 2650 60  0001 L CNN
 F 4 "0878311420" H 2550 2850 60  0001 L CNN "MPN"
 F 5 "Molex" H 2550 3450 60  0001 L CNN "Manufacturer"
@@ -957,12 +957,12 @@ Wire Wire Line
 NoConn ~ 2550 2550
 NoConn ~ 2550 2650
 $Comp
-L antmicroTVSDiodes:TPD6E05U06 D?
+L ecp5-dc-scm:TPD6E05U06 D?
 U 1 1 5FEE4C8C
 P 2850 2875
 F 0 "D?" V 2979 2197 50  0000 R CNN
 F 1 "TPD6E05U06" V 2888 2197 50  0000 R CNN
-F 2 "antmicro-footprints:TPD6E05U06" H 4050 3125 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:TPD6E05U06" H 4050 3125 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 4350 3225 50  0001 C CNN
 F 4 "TPD6E05U06RVZR" V 2888 2197 50  0001 R CNN "MPN"
 F 5 "Texas Instruments" V 2797 2197 50  0001 R CNN "Manufacturer"
@@ -1082,14 +1082,14 @@ $EndComp
 Wire Wire Line
 	12600 9225 12600 9475
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L ecp5-dc-scm:C_4u7_0402 C?
 U 1 1 60B7B203
 P 10500 8925
 AR Path="/5FD8EBC2/60B7B203" Ref="C?"  Part="1" 
 AR Path="/614223A1/60B7B203" Ref="C?"  Part="1" 
 F 0 "C?" H 10500 9025 60  0000 L CNN
 F 1 "C_4u7_0402" H 10500 8775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10700 9125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 10700 9125 60  0001 L CNN
 F 3 "" H 10500 8925 50  0001 C CNN
 F 4 "MURATA" H 10700 9325 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 10700 9225 60  0001 L CNN "MPN"
@@ -1098,14 +1098,14 @@ F 6 "4u7" H 10500 8825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 60B7B20C
 P 10725 8925
 AR Path="/5FD8EBC2/60B7B20C" Ref="C?"  Part="1" 
 AR Path="/614223A1/60B7B20C" Ref="C?"  Part="1" 
 F 0 "C?" H 10725 9050 60  0000 L CNN
 F 1 "C_100n_0402" H 10725 8775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10925 9125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 10925 9125 60  0001 L CNN
 F 3 "" H 10725 8925 50  0001 C CNN
 F 4 "Walsin" H 10925 9325 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10925 9225 60  0001 L CNN "MPN"
@@ -1114,14 +1114,14 @@ F 6 "100n" H 10725 8825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 60B7B215
 P 10950 8925
 AR Path="/5FD8EBC2/60B7B215" Ref="C?"  Part="1" 
 AR Path="/614223A1/60B7B215" Ref="C?"  Part="1" 
 F 0 "C?" H 10950 9050 60  0000 L CNN
 F 1 "C_100n_0402" H 10950 8775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11150 9125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 11150 9125 60  0001 L CNN
 F 3 "" H 10950 8925 50  0001 C CNN
 F 4 "Walsin" H 11150 9325 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 11150 9225 60  0001 L CNN "MPN"
@@ -1130,14 +1130,14 @@ F 6 "100n" H 10950 8825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L ecp5-dc-scm:C_10u_0402 C?
 U 1 1 60B7B21E
 P 10275 8925
 AR Path="/5FD8EBC2/60B7B21E" Ref="C?"  Part="1" 
 AR Path="/614223A1/60B7B21E" Ref="C?"  Part="1" 
 F 0 "C?" H 10275 9025 60  0000 L CNN
 F 1 "C_10u_0402" H 10275 8775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10475 9125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 10475 9125 60  0001 L CNN
 F 3 "" H 10275 8925 50  0001 C CNN
 F 4 "MURATA" H 10475 9325 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 10475 9225 60  0001 L CNN "MPN"
@@ -1177,14 +1177,14 @@ Wire Wire Line
 	11700 8850 11700 8125
 Connection ~ 11700 8125
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60B7B237
 P 13700 8625
 AR Path="/5FD8EBC2/60B7B237" Ref="R?"  Part="1" 
 AR Path="/614223A1/60B7B237" Ref="R?"  Part="1" 
 F 0 "R?" V 13655 8695 60  0000 L CNN
 F 1 "R_10k_0402" H 13700 8475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13900 8825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 13900 8825 60  0001 L CNN
 F 3 "" H 13700 8625 50  0001 C CNN
 F 4 "VISHAY" H 13900 9025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 13900 8925 60  0001 L CNN "MPN"
@@ -1195,14 +1195,14 @@ $EndComp
 Wire Wire Line
 	13700 8775 13700 8850
 $Comp
-L antmicroInterfaceControllers:FT245RQ U?
+L ecp5-dc-scm:FT245RQ U?
 U 1 1 60B7B23E
 P 12700 7725
 AR Path="/5FD8EBC2/60B7B23E" Ref="U?"  Part="1" 
 AR Path="/614223A1/60B7B23E" Ref="U?"  Part="1" 
 F 0 "U?" H 12700 8978 60  0000 C CNN
 F 1 "FT245RQ" H 12700 8872 60  0000 C CNN
-F 2 "antmicro-footprints:QFN-32-1EP_5x5mm" H 12700 7725 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:QFN-32-1EP_5x5mm" H 12700 7725 50  0001 C CNN
 F 3 "" H 12700 7725 50  0001 C CNN
 	1    12700 7725
 	1    0    0    -1  
@@ -1221,12 +1221,12 @@ Wire Wire Line
 Wire Wire Line
 	11550 7325 11900 7325
 $Comp
-L antmicroMemory:EMMC04G-S100-B08U U?
+L ecp5-dc-scm:EMMC04G-S100-B08U U?
 U 1 1 60B9BB75
 P 4425 9400
 F 0 "U?" H 4425 10567 50  0000 C CNN
 F 1 "EMMC04G-S100-B08U" H 4425 10476 50  0000 C CNN
-F 2 "antmicro-footprints:MICRON_EMMC_153" H 4425 9400 50  0001 L BNN
+F 2 "ecp5-dc-scm-footprints:MICRON_EMMC_153" H 4425 9400 50  0001 L BNN
 F 3 "" H 4425 9400 50  0001 L BNN
 	1    4425 9400
 	1    0    0    -1  
@@ -1297,12 +1297,12 @@ Wire Wire Line
 	3475 10200 3625 10200
 Connection ~ 3475 10300
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L ecp5-dc-scm:C_4u7_0402 C?
 U 1 1 60C3C32A
 P 3100 9150
 F 0 "C?" H 3100 9250 60  0000 L CNN
 F 1 "C_4u7_0402" H 3100 9000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3300 9350 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 3300 9350 60  0001 L CNN
 F 3 "" H 3100 9150 50  0001 C CNN
 F 4 "MURATA" H 3300 9550 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 3300 9450 60  0001 L CNN "MPN"
@@ -1311,12 +1311,12 @@ F 6 "4u7" H 3100 9050 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 60C41306
 P 3350 9150
 F 0 "C?" H 3375 9250 60  0000 L CNN
 F 1 "C_100n_0402" H 3350 9000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3550 9350 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 3550 9350 60  0001 L CNN
 F 3 "" H 3350 9150 50  0001 C CNN
 F 4 "Walsin" H 3550 9550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3550 9450 60  0001 L CNN "MPN"
@@ -1367,12 +1367,12 @@ Connection ~ 3550 8500
 Wire Wire Line
 	3550 8500 3550 8700
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L ecp5-dc-scm:C_22u_0603 C?
 U 1 1 60D13B84
 P 1125 9025
 F 0 "C?" H 1150 9125 60  0000 L CNN
 F 1 "C_22u_0603" H 1125 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1325 9225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0603-cap" H 1325 9225 60  0001 L CNN
 F 3 "" H 1125 9025 50  0001 C CNN
 F 4 "MURATA" H 1325 9425 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 1325 9325 60  0001 L CNN "MPN"
@@ -1381,12 +1381,12 @@ F 6 "22u" H 1150 8925 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L ecp5-dc-scm:C_22u_0603 C?
 U 1 1 60D141F4
 P 1375 9025
 F 0 "C?" H 1400 9125 60  0000 L CNN
 F 1 "C_22u_0603" H 1375 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1575 9225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0603-cap" H 1575 9225 60  0001 L CNN
 F 3 "" H 1375 9025 50  0001 C CNN
 F 4 "MURATA" H 1575 9425 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 1575 9325 60  0001 L CNN "MPN"
@@ -1395,12 +1395,12 @@ F 6 "22u" H 1400 8925 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C?
+L ecp5-dc-scm:C_22u_0603 C?
 U 1 1 60D14599
 P 1625 9025
 F 0 "C?" H 1650 9125 60  0000 L CNN
 F 1 "C_22u_0603" H 1625 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1825 9225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0603-cap" H 1825 9225 60  0001 L CNN
 F 3 "" H 1625 9025 50  0001 C CNN
 F 4 "MURATA" H 1825 9425 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 1825 9325 60  0001 L CNN "MPN"
@@ -1409,12 +1409,12 @@ F 6 "22u" H 1650 8925 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 60D1521C
 P 1875 9025
 F 0 "C?" H 1900 9125 60  0000 L CNN
 F 1 "C_100n_0402" H 1875 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2075 9225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 2075 9225 60  0001 L CNN
 F 3 "" H 1875 9025 50  0001 C CNN
 F 4 "Walsin" H 2075 9425 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2075 9325 60  0001 L CNN "MPN"
@@ -1423,12 +1423,12 @@ F 6 "100n" H 1900 8925 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 60D1562D
 P 2125 9025
 F 0 "C?" H 2150 9125 60  0000 L CNN
 F 1 "C_100n_0402" H 2125 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2325 9225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 2325 9225 60  0001 L CNN
 F 3 "" H 2125 9025 50  0001 C CNN
 F 4 "Walsin" H 2325 9425 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2325 9325 60  0001 L CNN "MPN"
@@ -1500,12 +1500,12 @@ VCC3V3
 Wire Wire Line
 	7150 7500 7150 7750
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60ECFCA6
 P 5400 8175
 F 0 "R?" V 5250 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 5400 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5600 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5600 8375 60  0001 L CNN
 F 3 "" H 5400 8175 50  0001 C CNN
 F 4 "VISHAY" H 5600 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5600 8475 60  0001 L CNN "MPN"
@@ -1514,12 +1514,12 @@ F 6 "10k" V 5550 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60ED1498
 P 5575 8175
 F 0 "R?" V 5425 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 5575 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5775 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5775 8375 60  0001 L CNN
 F 3 "" H 5575 8175 50  0001 C CNN
 F 4 "VISHAY" H 5775 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5775 8475 60  0001 L CNN "MPN"
@@ -1528,12 +1528,12 @@ F 6 "10k" V 5725 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60ED2979
 P 5750 8175
 F 0 "R?" V 5600 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 5750 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5950 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5950 8375 60  0001 L CNN
 F 3 "" H 5750 8175 50  0001 C CNN
 F 4 "VISHAY" H 5950 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5950 8475 60  0001 L CNN "MPN"
@@ -1542,12 +1542,12 @@ F 6 "10k" V 5900 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60ED4C66
 P 5925 8175
 F 0 "R?" V 5775 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 5925 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6125 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6125 8375 60  0001 L CNN
 F 3 "" H 5925 8175 50  0001 C CNN
 F 4 "VISHAY" H 6125 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6125 8475 60  0001 L CNN "MPN"
@@ -1556,12 +1556,12 @@ F 6 "10k" V 6075 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60ED4C6F
 P 6100 8175
 F 0 "R?" V 5950 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 6100 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6300 8375 60  0001 L CNN
 F 3 "" H 6100 8175 50  0001 C CNN
 F 4 "VISHAY" H 6300 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6300 8475 60  0001 L CNN "MPN"
@@ -1570,12 +1570,12 @@ F 6 "10k" V 6250 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60ED4C78
 P 6275 8175
 F 0 "R?" V 6125 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 6275 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6475 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6475 8375 60  0001 L CNN
 F 3 "" H 6275 8175 50  0001 C CNN
 F 4 "VISHAY" H 6475 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6475 8475 60  0001 L CNN "MPN"
@@ -1584,12 +1584,12 @@ F 6 "10k" V 6425 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60EFB11F
 P 6450 8175
 F 0 "R?" V 6300 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 6450 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6650 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6650 8375 60  0001 L CNN
 F 3 "" H 6450 8175 50  0001 C CNN
 F 4 "VISHAY" H 6650 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6650 8475 60  0001 L CNN "MPN"
@@ -1598,12 +1598,12 @@ F 6 "10k" V 6600 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60EFB128
 P 6625 8175
 F 0 "R?" V 6475 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 6625 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6825 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 6825 8375 60  0001 L CNN
 F 3 "" H 6625 8175 50  0001 C CNN
 F 4 "VISHAY" H 6825 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6825 8475 60  0001 L CNN "MPN"
@@ -1612,12 +1612,12 @@ F 6 "10k" V 6775 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60EFB131
 P 6800 8175
 F 0 "R?" V 6650 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 6800 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7000 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 7000 8375 60  0001 L CNN
 F 3 "" H 6800 8175 50  0001 C CNN
 F 4 "VISHAY" H 7000 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7000 8475 60  0001 L CNN "MPN"
@@ -1626,12 +1626,12 @@ F 6 "10k" V 6950 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60EFB13A
 P 6975 8175
 F 0 "R?" V 6825 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 6975 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7175 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 7175 8375 60  0001 L CNN
 F 3 "" H 6975 8175 50  0001 C CNN
 F 4 "VISHAY" H 7175 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7175 8475 60  0001 L CNN "MPN"
@@ -1640,12 +1640,12 @@ F 6 "10k" V 7125 8200 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L ecp5-dc-scm:R_10k_0402 R?
 U 1 1 60EFB143
 P 7150 8175
 F 0 "R?" V 7000 8200 60  0000 L CNN
 F 1 "R_10k_0402" H 7150 8025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7350 8375 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 7350 8375 60  0001 L CNN
 F 3 "" H 7150 8175 50  0001 C CNN
 F 4 "VISHAY" H 7350 8575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7350 8475 60  0001 L CNN "MPN"

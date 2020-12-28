@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
-Title ""
+Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -598,12 +598,12 @@ Wire Wire Line
 Wire Wire Line
 	6775 4950 6250 4950
 $Comp
-L antmicroMechanicalParts:9774030151 SP?
+L ecp5-dc-scm:9774030151 SP?
 U 1 1 600E4B8D
 P 7075 5500
 F 0 "SP?" H 7205 5553 60  0000 L CNN
 F 1 "9774030151" H 7205 5447 60  0000 L CNN
-F 2 "antmicro-footprints:9774030151" H 7075 5500 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:9774030151" H 7075 5500 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 7075 5500 60  0001 C CNN
 F 4 "Wurth Elektronik" H 7075 5500 50  0001 C CNN "Manufacturer"
 F 5 "9774030151" H 7075 5500 50  0001 C CNN "MPN"
@@ -612,34 +612,34 @@ F 5 "9774030151" H 7075 5500 50  0001 C CNN "MPN"
 $EndComp
 NoConn ~ 6875 5500
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP?
 U 1 1 600EF41D
 P 3550 2550
 F 0 "TP?" V 3550 2450 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3550 2450 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 3750 2750 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 3750 2750 60  0001 L CNN
 F 3 "" H 3750 2850 60  0001 L CNN
 	1    3550 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP?
 U 1 1 600F1E59
 P 3575 2650
 F 0 "TP?" V 3575 2550 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3575 2550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 3775 2850 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 3775 2850 60  0001 L CNN
 F 3 "" H 3775 2950 60  0001 L CNN
 	1    3575 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP?
 U 1 1 600F202B
 P 3750 2850
 F 0 "TP?" V 3750 2750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3750 2750 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 3950 3050 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 3950 3050 60  0001 L CNN
 F 3 "" H 3950 3150 60  0001 L CNN
 	1    3750 2850
 	1    0    0    -1  

@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 10
-Title ""
+Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1572,12 +1572,12 @@ PCIE_BMC_RX_DP
 Text GLabel 8325 10325 0    50   Input ~ 0
 PCIE_BMC_RX_DN
 $Comp
-L antmicroResistors0402:R_10k_0402 R103
+L ecp5-dc-scm:R_10k_0402 R103
 U 1 1 615C40DE
 P 925 8925
 F 0 "R103" H 925 9138 60  0000 C CNN
 F 1 "R_10k_0402" H 925 8775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1125 9125 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1125 9125 60  0001 L CNN
 F 3 "" H 925 8925 50  0001 C CNN
 F 4 "VISHAY" H 1125 9325 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 1125 9225 60  0001 L CNN "MPN"
@@ -1586,12 +1586,12 @@ F 6 "10k" H 925 9040 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R105
+L ecp5-dc-scm:R_22R_0402 R105
 U 1 1 615C7E2E
 P 1175 9350
 F 0 "R105" H 1175 9563 60  0000 C CNN
 F 1 "R_22R_0402" H 1175 9200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1375 9550 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1375 9550 60  0001 L CNN
 F 3 "" H 1175 9350 50  0001 C CNN
 F 4 "VISHAY" H 1375 9750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 1375 9650 60  0001 L CNN "MPN"
@@ -1600,12 +1600,12 @@ F 6 "22R" H 1175 9465 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D11
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D11
 U 1 1 61639E33
 P 1800 8875
 F 0 "D11" V 1697 9053 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 1803 9053 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 2000 9075 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 2000 9075 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2000 9175 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 2000 9375 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 2000 9975 60  0001 L CNN "Manufacturer"
@@ -1613,12 +1613,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 2000 9975 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_1k_0402 R107
+L ecp5-dc-scm:R_1k_0402 R107
 U 1 1 6163D2B7
 P 1800 8450
 F 0 "R107" V 1755 8520 60  0000 L CNN
 F 1 "R_1k_0402" H 1800 8300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2000 8650 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 2000 8650 60  0001 L CNN
 F 3 "" H 1800 8450 50  0001 C CNN
 F 4 "BOURNS" H 2000 8850 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 2000 8750 60  0001 L CNN "MPN"
@@ -1645,12 +1645,12 @@ F 5 "ON Semiconductor" H 2000 10350 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R104
+L ecp5-dc-scm:R_10k_0402 R104
 U 1 1 617196ED
 P 1025 10700
 F 0 "R104" H 1025 10913 60  0000 C CNN
 F 1 "R_10k_0402" H 1025 10550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1225 10900 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1225 10900 60  0001 L CNN
 F 3 "" H 1025 10700 50  0001 C CNN
 F 4 "VISHAY" H 1225 11100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 1225 11000 60  0001 L CNN "MPN"
@@ -1659,12 +1659,12 @@ F 6 "10k" H 1025 10815 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D10
+L ecp5-dc-scm:LG_L29K-G2J1-24-Z D10
 U 1 1 617196F5
 P 1250 10750
 F 0 "D10" V 1147 10928 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 1253 10928 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 1450 10950 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 1450 10950 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 1450 11050 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 1450 11250 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 1450 11850 60  0001 L CNN "Manufacturer"
@@ -1714,12 +1714,12 @@ F 3 "" H 1800 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_1k_0402 R106
+L ecp5-dc-scm:R_1k_0402 R106
 U 1 1 61B3D1CE
 P 1250 10275
 F 0 "R106" V 1205 10345 60  0000 L CNN
 F 1 "R_1k_0402" H 1250 10125 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1450 10475 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1450 10475 60  0001 L CNN
 F 3 "" H 1250 10275 50  0001 C CNN
 F 4 "BOURNS" H 1450 10675 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 1450 10575 60  0001 L CNN "MPN"
@@ -1750,12 +1750,12 @@ Connection ~ 1250 9975
 Wire Wire Line
 	825  10950 1025 10950
 $Comp
-L antmicroResistors0402:R_10k_0402 R108
+L ecp5-dc-scm:R_10k_0402 R108
 U 1 1 61D8BCCB
 P 2850 9875
 F 0 "R108" H 2850 10088 60  0000 C CNN
 F 1 "R_10k_0402" H 2850 9725 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3050 10075 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 3050 10075 60  0001 L CNN
 F 3 "" H 2850 9875 50  0001 C CNN
 F 4 "VISHAY" H 3050 10275 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3050 10175 60  0001 L CNN "MPN"
@@ -1764,12 +1764,12 @@ F 6 "10k" H 2850 9990 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C174
+L ecp5-dc-scm:C_100n_0402 C174
 U 1 1 61DCD78B
 P 2450 10325
 F 0 "C174" H 2565 10370 60  0000 L CNN
 F 1 "C_100n_0402" H 2450 10175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2650 10525 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 2650 10525 60  0001 L CNN
 F 3 "" H 2450 10325 50  0001 C CNN
 F 4 "Walsin" H 2650 10725 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2650 10625 60  0001 L CNN "MPN"
@@ -1778,12 +1778,12 @@ F 6 "100n" H 2565 10272 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTactileSwitches:B3U-1000P S1
+L ecp5-dc-scm:B3U-1000P S1
 U 1 1 61DD037E
 P 2850 10450
 F 0 "S1" V 2797 10588 60  0000 L CNN
 F 1 "B3U-1000P" V 2903 10588 60  0000 L CNN
-F 2 "antmicro-footprints:Switch_Tactile_SMD_B3U-1000P" H 3050 10650 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:Switch_Tactile_SMD_B3U-1000P" H 3050 10650 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 3050 10750 60  0001 L CNN
 F 4 "B3U-1000P" H 3050 10950 60  0001 L CNN "MPN"
 F 5 "Omron Electronics Inc-EMC Div" H 3050 11550 60  0001 L CNN "Manufacturer"
@@ -2076,14 +2076,14 @@ Wire Wire Line
 Wire Wire Line
 	6875 4125 6675 4125
 $Comp
-L Device:C_Small C?
+L ecp5-dc-scm:C_Small C?
 U 1 1 617BC001
 P 5700 3775
 AR Path="/5FD86CE4/606A2400/617BC001" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/617BC001" Ref="C209"  Part="1" 
 F 0 "C209" H 5700 3850 50  0000 L CNN
 F 1 "100n" H 5700 3700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5700 3775 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:C_0402_1005Metric" H 5700 3775 50  0001 C CNN
 F 3 "~" H 5700 3775 50  0001 C CNN
 	1    5700 3775
 	1    0    0    -1  
@@ -2098,7 +2098,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3900 5900 3900
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 617BC016
 P 5900 3975
 AR Path="/5FD86CE4/606A2400/617BC016" Ref="#PWR?"  Part="1" 
@@ -2117,7 +2117,7 @@ NoConn ~ 6875 6925
 NoConn ~ 6875 3425
 NoConn ~ 6875 2525
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 617BC02D
 P 6675 6625
 AR Path="/5FD86CE4/606A2400/617BC02D" Ref="#PWR?"  Part="1" 
@@ -2132,7 +2132,7 @@ $EndComp
 Wire Wire Line
 	6675 6625 6875 6625
 $Comp
-L power:+1V35 #PWR?
+L ecp5-dc-scm:+1V35 #PWR?
 U 1 1 617BC034
 P 6675 6725
 AR Path="/5FD86CE4/606A2400/617BC034" Ref="#PWR?"  Part="1" 
@@ -2154,7 +2154,7 @@ Connection ~ 6775 6725
 Wire Wire Line
 	6775 6725 6875 6725
 $Comp
-L power:+1V35 #PWR?
+L ecp5-dc-scm:+1V35 #PWR?
 U 1 1 617BC046
 P 6675 3725
 AR Path="/5FD86CE4/606A2400/617BC046" Ref="#PWR?"  Part="1" 
@@ -2169,7 +2169,7 @@ $EndComp
 Wire Wire Line
 	6675 3725 6875 3725
 $Comp
-L power:+1V35 #PWR?
+L ecp5-dc-scm:+1V35 #PWR?
 U 1 1 617BC04D
 P 6675 3525
 AR Path="/5FD86CE4/606A2400/617BC04D" Ref="#PWR?"  Part="1" 
@@ -2233,7 +2233,7 @@ Wire Wire Line
 Wire Wire Line
 	9175 8425 9375 8425
 $Comp
-L power:GND #PWR?
+L ecp5-dc-scm:GND #PWR?
 U 1 1 618B8AFF
 P 9175 8525
 AR Path="/5FD86CE4/606A2400/618B8AFF" Ref="#PWR?"  Part="1" 
@@ -2248,7 +2248,7 @@ $EndComp
 Wire Wire Line
 	9375 8525 9175 8525
 $Comp
-L power:+1V35 #PWR?
+L ecp5-dc-scm:+1V35 #PWR?
 U 1 1 618B8B06
 P 9175 8025
 AR Path="/5FD86CE4/606A2400/618B8B06" Ref="#PWR?"  Part="1" 
@@ -2269,14 +2269,14 @@ Wire Wire Line
 Wire Wire Line
 	5700 3625 5900 3625
 $Comp
-L Device:C_Small C?
+L ecp5-dc-scm:C_Small C?
 U 1 1 617BC007
 P 5900 3775
 AR Path="/5FD86CE4/606A2400/617BC007" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/617BC007" Ref="C210"  Part="1" 
 F 0 "C210" H 5900 3850 50  0000 L CNN
 F 1 "100n" H 5900 3700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5900 3775 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:C_0402_1005Metric" H 5900 3775 50  0001 C CNN
 F 3 "~" H 5900 3775 50  0001 C CNN
 	1    5900 3775
 	1    0    0    -1  
@@ -2505,12 +2505,12 @@ Wire Wire Line
 Text Notes 8550 9825 0    118  ~ 0
 PCIe x1
 $Comp
-L antmicroResistors0402:R_0R_0402 R129
+L ecp5-dc-scm:R_0R_0402 R129
 U 1 1 67F9881E
 P 1625 4225
 F 0 "R129" H 1425 4275 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 4075 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1825 4425 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4425 60  0001 L CNN
 F 3 "" H 1625 4225 50  0001 C CNN
 F 4 "PANASONIC" H 1825 4625 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1825 4525 60  0001 L CNN "MPN"
@@ -2520,12 +2520,12 @@ F 7 "1" H 1625 4225 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R130
+L ecp5-dc-scm:R_0R_0402 R130
 U 1 1 67F99643
 P 1625 4325
 F 0 "R130" H 1425 4375 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 4175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1825 4525 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4525 60  0001 L CNN
 F 3 "" H 1625 4325 50  0001 C CNN
 F 4 "PANASONIC" H 1825 4725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1825 4625 60  0001 L CNN "MPN"
@@ -2535,12 +2535,12 @@ F 7 "1" H 1625 4325 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R131
+L ecp5-dc-scm:R_0R_0402 R131
 U 1 1 67F9A405
 P 1625 4425
 F 0 "R131" H 1425 4475 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 4275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1825 4625 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4625 60  0001 L CNN
 F 3 "" H 1625 4425 50  0001 C CNN
 F 4 "PANASONIC" H 1825 4825 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1825 4725 60  0001 L CNN "MPN"
@@ -2556,12 +2556,12 @@ DNP
 Text Notes 1550 4360 0    50   ~ 0
 DNP
 $Comp
-L antmicroResistors0402:R_0R_0402 R128
+L ecp5-dc-scm:R_0R_0402 R128
 U 1 1 67A0B804
 P 1625 4125
 F 0 "R128" H 1425 4175 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 3975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1825 4325 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4325 60  0001 L CNN
 F 3 "" H 1625 4125 50  0001 C CNN
 F 4 "PANASONIC" H 1825 4525 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1825 4425 60  0001 L CNN "MPN"

@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title ""
+Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
 Rev "1.0.0"
 Comp ""
@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3400 975  0    118  ~ 0
+Text Notes 3400 975  0    118  ~ 24
 ECP5- Datacenter Secure Control Module (DC-SCM)
 $Sheet
 S 950  5350 1000 725 

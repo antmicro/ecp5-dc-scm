@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 10
-Title ""
+Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -746,12 +746,12 @@ CLK_PCIE_x4_DP
 Text GLabel 9125 6725 2    50   Input ~ 0
 SGPIO1_CLK
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L ecp5-dc-scm:R_0R_0402 R?
 U 1 1 6230948A
 P 10675 6725
 F 0 "R?" H 10675 6938 60  0000 C CNN
 F 1 "R_0R_0402" H 10675 6575 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10875 6925 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10875 6925 60  0001 L CNN
 F 3 "" H 10675 6725 50  0001 C CNN
 F 4 "PANASONIC" H 10875 7125 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10875 7025 60  0001 L CNN "MPN"
@@ -764,12 +764,12 @@ Wire Wire Line
 Wire Wire Line
 	10525 6725 10375 6725
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L ecp5-dc-scm:R_0R_0402 R?
 U 1 1 623648E7
 P 9100 9025
 F 0 "R?" H 8875 9075 60  0000 C CNN
 F 1 "R_0R_0402" H 9100 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9300 9225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 9225 60  0001 L CNN
 F 3 "" H 9100 9025 50  0001 C CNN
 F 4 "PANASONIC" H 9300 9425 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9300 9325 60  0001 L CNN "MPN"
@@ -778,12 +778,12 @@ F 6 "0R" H 9100 9025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L ecp5-dc-scm:R_0R_0402 R?
 U 1 1 623DA9F9
 P 9100 9125
 F 0 "R?" H 8875 9175 60  0000 C CNN
 F 1 "R_0R_0402" H 9100 8975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9300 9325 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 9325 60  0001 L CNN
 F 3 "" H 9100 9125 50  0001 C CNN
 F 4 "PANASONIC" H 9300 9525 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9300 9425 60  0001 L CNN "MPN"

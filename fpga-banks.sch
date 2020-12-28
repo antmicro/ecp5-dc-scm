@@ -1358,13 +1358,13 @@ Wire Wire Line
 Wire Wire Line
 	4075 5525 4400 5525
 Wire Wire Line
-	1575 6625 1900 6625
-Wire Wire Line
-	1575 6725 1900 6725
+	1575 6825 1900 6825
 Wire Wire Line
 	1575 6925 1900 6925
 Wire Wire Line
-	1575 7025 1900 7025
+	1575 7125 1900 7125
+Wire Wire Line
+	1575 7225 1900 7225
 Wire Wire Line
 	1575 2225 1900 2225
 Wire Wire Line
@@ -1477,13 +1477,13 @@ Text GLabel 14125 2975 0    50   Input ~ 0
 ESPI_RESET_N
 Text GLabel 14125 2875 0    50   Input ~ 0
 ESPI_ALERT_N
-Text GLabel 14150 2775 0    50   Input ~ 0
+Text GLabel 14125 2775 0    50   Input ~ 0
 ESPI_IO3
-Text GLabel 14150 2675 0    50   Input ~ 0
+Text GLabel 14125 2675 0    50   Input ~ 0
 ESPI_IO2
-Text GLabel 14150 2575 0    50   Input ~ 0
+Text GLabel 14125 2575 0    50   Input ~ 0
 ESPI_IO1
-Text GLabel 14150 2475 0    50   Input ~ 0
+Text GLabel 14125 2475 0    50   Input ~ 0
 ESPI_IO0
 Text GLabel 14125 2375 0    50   Input ~ 0
 ESPI_CS1_N
@@ -1845,30 +1845,30 @@ Wire Wire Line
 	5475 9875 5950 9875
 Wire Wire Line
 	5475 10175 5950 10175
-Text GLabel 1575 7025 0    50   Input ~ 0
-RST_USB2
-Text GLabel 1575 7125 0    50   Input ~ 0
-SCK_USB2
 Text GLabel 1575 7225 0    50   Input ~ 0
-SS_USB2
+RST_USB2
 Text GLabel 1575 7325 0    50   Input ~ 0
-MISO_USB2
+SCK_USB2
 Text GLabel 1575 7425 0    50   Input ~ 0
-MOSI_USB2
+SS_USB2
 Text GLabel 1575 7525 0    50   Input ~ 0
+MISO_USB2
+Text GLabel 1575 7625 0    50   Input ~ 0
+MOSI_USB2
+Text GLabel 1575 7725 0    50   Input ~ 0
 GPX_USB2
-Text GLabel 1575 6925 0    50   Input ~ 0
+Text GLabel 1575 7125 0    50   Input ~ 0
 INT_USB2
+Wire Wire Line
+	1575 7725 1900 7725
+Wire Wire Line
+	1900 7625 1575 7625
 Wire Wire Line
 	1575 7525 1900 7525
 Wire Wire Line
-	1900 7425 1575 7425
+	1575 7425 1900 7425
 Wire Wire Line
-	1575 7325 1900 7325
-Wire Wire Line
-	1575 7225 1900 7225
-Wire Wire Line
-	1900 7125 1575 7125
+	1900 7325 1575 7325
 Wire Bus Line
 	7525 5925 7375 5925
 Wire Bus Line
@@ -2288,56 +2288,60 @@ Text GLabel 5700 3525 1    50   Input ~ 0
 DDR_VREF
 Text GLabel 6425 1000 0    50   Input ~ 0
 VCC1V35_T
-Text GLabel 1575 6525 0    50   Input ~ 0
-USB_D0
-Text GLabel 1575 6425 0    50   Input ~ 0
-USB_D1
-Text GLabel 1575 6325 0    50   Input ~ 0
-USB_D2
-Text GLabel 1575 6225 0    50   Input ~ 0
-USB_D3
-Text GLabel 1575 6125 0    50   Input ~ 0
-USB_D4
-Text GLabel 1575 6025 0    50   Input ~ 0
-USB_D5
-Text GLabel 1575 5925 0    50   Input ~ 0
-USB_D6
-Text GLabel 1575 5825 0    50   Input ~ 0
-USB_D6
-Text GLabel 1575 5725 0    50   Input ~ 0
-USB1_~RXF
-Text GLabel 1575 5625 0    50   Input ~ 0
-USB1_~TXE
-Text GLabel 1575 5525 0    50   Input ~ 0
-USB1_~RD
-Text GLabel 1575 5425 0    50   Input ~ 0
-USB1_WR
-Text GLabel 14450 6375 0    50   Input ~ 0
-MMC_DAT0
-Text GLabel 14450 6275 0    50   Input ~ 0
-MMC_DAT1
-Text GLabel 14450 6175 0    50   Input ~ 0
-MMC_DAT2
-Text GLabel 14450 6075 0    50   Input ~ 0
-MMC_DAT3
-Text GLabel 14450 5975 0    50   Input ~ 0
-MMC_DAT4
-Text GLabel 14450 5875 0    50   Input ~ 0
-MMC_DAT5
-Text GLabel 14450 5775 0    50   Input ~ 0
-MMC_DAT6
-Text GLabel 14450 5675 0    50   Input ~ 0
-MMC_DAT7
-Text GLabel 14450 5475 0    50   Input ~ 0
-MMC_CMD
-Text GLabel 14450 5375 0    50   Input ~ 0
-MMC_CLK
-Text GLabel 14450 5175 0    50   Input ~ 0
-MMC_CLK
-Text GLabel 1575 6625 0    50   Input ~ 0
-USB1_DN
 Text GLabel 1575 6725 0    50   Input ~ 0
+USB_D0
+Text GLabel 1575 6625 0    50   Input ~ 0
+USB_D1
+Text GLabel 1575 6525 0    50   Input ~ 0
+USB_D2
+Text GLabel 1575 6425 0    50   Input ~ 0
+USB_D3
+Text GLabel 1575 6325 0    50   Input ~ 0
+USB_D4
+Text GLabel 1575 6225 0    50   Input ~ 0
+USB_D5
+Text GLabel 1575 6125 0    50   Input ~ 0
+USB_D6
+Text GLabel 1575 6025 0    50   Input ~ 0
+USB_D7
+Text GLabel 1575 5925 0    50   Input ~ 0
+USB1_RXF_N
+Text GLabel 1575 5825 0    50   Input ~ 0
+USB1_TXE_N
+Text GLabel 1575 5725 0    50   Input ~ 0
+USB1_RD_N
+Text GLabel 1575 5625 0    50   Input ~ 0
+USB1_WR
+Text GLabel 13900 6375 0    50   Input ~ 0
+MMC_DAT0
+Text GLabel 13900 6275 0    50   Input ~ 0
+MMC_DAT1
+Text GLabel 13900 6175 0    50   Input ~ 0
+MMC_DAT2
+Text GLabel 13900 6075 0    50   Input ~ 0
+MMC_DAT3
+Text GLabel 13900 5975 0    50   Input ~ 0
+MMC_DAT4
+Text GLabel 13900 5875 0    50   Input ~ 0
+MMC_DAT5
+Text GLabel 13900 5775 0    50   Input ~ 0
+MMC_DAT6
+Text GLabel 13900 5675 0    50   Input ~ 0
+MMC_DAT7
+Text GLabel 13900 5475 0    50   Input ~ 0
+MMC_CMD
+Text GLabel 13900 5375 0    50   Input ~ 0
+MMC_CLK
+Text GLabel 13900 5175 0    50   Input ~ 0
+MMC_CLK
+Text GLabel 1575 6825 0    50   Input ~ 0
+USB1_DN
+Text GLabel 1575 6925 0    50   Input ~ 0
 USB1_DP
+Wire Wire Line
+	1575 6625 1900 6625
+Wire Wire Line
+	1575 6725 1900 6725
 Wire Wire Line
 	1575 6425 1900 6425
 Wire Wire Line
@@ -2358,10 +2362,6 @@ Wire Wire Line
 	1575 5625 1900 5625
 Wire Wire Line
 	1575 5725 1900 5725
-Wire Wire Line
-	1575 5425 1900 5425
-Wire Wire Line
-	1575 5525 1900 5525
 Text Notes 6525 10000 0    30   ~ 0
 D7/IO7\n\nD5/MISO2/IO5\n\nD6/IO6\n\nD4/MOSI2/IO4\n\nD3/IO3\n\nD1/MISO/IO1\n\nD2/IO2\n\nD0/MOSI/IO0\n\nSN/CSN\n\nHOLDN/DI/BUSY/CSSPIN/CEN\n\nCS1N\n\nDOUT/CSON\n\nWRITEN\n\nINITN\n\nCCLK,8,MCLK/SCK
 Wire Notes Line
@@ -2454,10 +2454,6 @@ Text Notes 8100 8900 0    118  ~ 0
 JTAG
 Text Notes 5500 7425 0    118  ~ 0
 ROT_SPI
-Wire Wire Line
-	-525 1900 -1075 1900
-Text GLabel -1075 1900 0    50   Input ~ 0
-VIRTUAL_RESEAT
 Text GLabel 5475 10075 0    50   Input ~ 0
 PROGRAM_N
 Text GLabel 3025 10100 2    50   Input ~ 0
@@ -2509,10 +2505,10 @@ Wire Wire Line
 Text Notes 8550 9825 0    118  ~ 0
 PCIe x1
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R129
 U 1 1 67F9881E
 P 1625 4225
-F 0 "R?" H 1425 4275 60  0000 C CNN
+F 0 "R129" H 1425 4275 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 4075 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 1825 4425 60  0001 L CNN
 F 3 "" H 1625 4225 50  0001 C CNN
@@ -2524,10 +2520,10 @@ F 7 "1" H 1625 4225 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R130
 U 1 1 67F99643
 P 1625 4325
-F 0 "R?" H 1425 4375 60  0000 C CNN
+F 0 "R130" H 1425 4375 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 4175 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 1825 4525 60  0001 L CNN
 F 3 "" H 1625 4325 50  0001 C CNN
@@ -2539,10 +2535,10 @@ F 7 "1" H 1625 4325 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R131
 U 1 1 67F9A405
 P 1625 4425
-F 0 "R?" H 1425 4475 60  0000 C CNN
+F 0 "R131" H 1425 4475 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 4275 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 1825 4625 60  0001 L CNN
 F 3 "" H 1625 4425 50  0001 C CNN
@@ -2559,13 +2555,11 @@ Text Notes 1550 4260 0    50   ~ 0
 DNP
 Text Notes 1550 4360 0    50   ~ 0
 DNP
-Text Notes 1550 4460 0    50   ~ 0
-DNP
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R128
 U 1 1 67A0B804
 P 1625 4125
-F 0 "R?" H 1425 4175 60  0000 C CNN
+F 0 "R128" H 1425 4175 60  0000 C CNN
 F 1 "R_0R_0402" H 1625 3975 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 1825 4325 60  0001 L CNN
 F 3 "" H 1625 4125 50  0001 C CNN
@@ -2576,4 +2570,270 @@ F 7 "1" H 1625 4125 50  0001 C CNN "DNP"
 	1    1625 4125
 	1    0    0    -1  
 $EndComp
+Text Notes 1550 4460 0    50   ~ 0
+DNP
+Text Notes 17250 5325 0    118  ~ 0
+DDR3
+Text Notes 17550 5550 2    118  ~ 0
+I2C
+Text Notes 17550 5775 2    118  ~ 0
+I3C
+Text Notes 17250 6000 0    118  ~ 0
+ROT_SPI
+Text Notes 17225 6675 0    118  ~ 0
+PCIe x1
+Text Notes 17225 6900 0    118  ~ 0
+JTAG
+Text Notes 17250 5075 0    118  ~ 0
+Interface
+Text Notes 18150 5075 0    118  ~ 0
+Reference
+Text Notes 17225 7125 0    118  ~ 0
+eMMC
+Text Notes 17225 7375 0    118  ~ 0
+ESPI
+Text Notes 17250 6225 0    118  ~ 0
+QSPI1
+Text Notes 19525 5300 0    118  ~ 0
+Y
+Text Notes 20425 5075 0    118  ~ 0
+Status
+Text Notes 20450 5300 0    118  ~ 0
+DONE
+Text Notes 19525 6925 0    118  ~ 0
+Y
+Text Notes 19525 6700 0    118  ~ 0
+Y
+Text Notes 20450 5525 0    118  ~ 0
+DONE
+Text Notes 20450 5975 0    118  ~ 0
+DONE
+Text Notes 20450 6200 0    118  ~ 0
+DONE
+Text Notes 17250 6450 0    118  ~ 0
+SPI0
+Text Notes 20450 6450 0    118  ~ 0
+DONE
+Text Notes 18250 5300 0    79   ~ 0
+Trellis board
+Text Notes 18225 6675 0    79   ~ 0
+ECP5_VERSA\n
+Text Notes 18425 6200 0    79   ~ 0
+OCP
+Text Notes 19500 6200 0    118  ~ 0
+N\n
+Text Notes 18425 6425 0    79   ~ 0
+OCP
+Text Notes 19500 6450 0    118  ~ 0
+N\n
+Text Notes 18500 5950 0    79   ~ 0
+-
+Text Notes 17225 7600 0    118  ~ 0
+SGPIO
+Text Notes 17225 7825 0    118  ~ 0
+UART
+Text Notes 17225 8025 0    118  ~ 0
+2xUSB 2.0
+Wire Notes Line
+	18150 4875 18150 8525
+Wire Notes Line
+	19025 4875 19025 8525
+Wire Notes Line
+	17200 4875 17200 8525
+Wire Notes Line
+	20125 4875 20125 8525
+Text Notes 17225 8275 0    118  ~ 0
+NCSI
+Text Notes 17225 8475 0    118  ~ 0
+ETH
+Text Notes 19075 5050 0    79   ~ 0
+DEDICATED_PINS?
+Wire Notes Line
+	21250 4875 21250 8525
+Wire Notes Line
+	17200 4875 21250 4875
+Wire Notes Line
+	17200 6250 21250 6250
+Wire Notes Line
+	17200 5125 21250 5125
+Wire Notes Line
+	17200 5350 21250 5350
+Wire Notes Line
+	17200 5575 21250 5575
+Wire Notes Line
+	17200 5800 21250 5800
+Wire Notes Line
+	17200 6025 21250 6025
+Wire Notes Line
+	17200 7625 21250 7625
+Wire Notes Line
+	17200 6500 21250 6500
+Wire Notes Line
+	17200 6725 21250 6725
+Wire Notes Line
+	17200 6950 21250 6950
+Wire Notes Line
+	17200 7175 21250 7175
+Wire Notes Line
+	17200 7400 21250 7400
+Wire Notes Line
+	17200 8525 21250 8525
+Wire Notes Line
+	17200 7850 21250 7850
+Wire Notes Line
+	17200 8075 21250 8075
+Wire Notes Line
+	17200 8300 21250 8300
+Text Notes 19500 8050 0    118  ~ 0
+N\n
+Text Notes 19500 5750 0    118  ~ 0
+N\n
+Text Notes 19500 5525 0    118  ~ 0
+N\n
+Text Notes 19525 6000 0    118  ~ 0
+Y
+Text Notes 18500 5750 0    79   ~ 0
+-
+Text Notes 18425 6900 0    79   ~ 0
+ECP5
+Text Notes 20450 6900 0    118  ~ 0
+DONE
+Wire Wire Line
+	17875 3075 17325 3075
+Wire Wire Line
+	17875 2975 17325 2975
+Wire Wire Line
+	13900 3275 14450 3275
+Wire Wire Line
+	13900 3375 14450 3375
+Wire Wire Line
+	14450 3475 13900 3475
+Wire Wire Line
+	13900 3575 14450 3575
+Wire Wire Line
+	13900 3675 14450 3675
+Wire Wire Line
+	14450 3775 13900 3775
+Wire Wire Line
+	13900 3875 14450 3875
+Wire Wire Line
+	13900 3975 14450 3975
+Wire Wire Line
+	17325 2750 17875 2750
+Wire Wire Line
+	17325 2850 17875 2850
+Wire Wire Line
+	17875 3200 17325 3200
+Wire Wire Line
+	17875 3300 17325 3300
+Wire Wire Line
+	17325 3400 17875 3400
+Wire Wire Line
+	17875 3500 17325 3500
+Wire Wire Line
+	17875 3600 17325 3600
+Wire Wire Line
+	17325 3700 17875 3700
+Wire Wire Line
+	17875 3800 17325 3800
+Wire Wire Line
+	17875 3900 17325 3900
+Wire Wire Line
+	17325 4000 17875 4000
+Wire Wire Line
+	17875 4100 17325 4100
+Wire Wire Line
+	17875 4200 17325 4200
+Wire Wire Line
+	17325 4300 17875 4300
+Wire Wire Line
+	17875 4400 17325 4400
+Wire Wire Line
+	17875 4500 17325 4500
+Wire Wire Line
+	17875 4600 17325 4600
+Text GLabel 17325 3075 0    50   Input ~ 0
+VIRTUAL_RESEAT
+Text GLabel 17325 3200 0    50   Input ~ 0
+HPM_FW_RECOVERY
+Text GLabel 17325 3300 0    50   Input ~ 0
+HPM_STBY_RDY
+Text GLabel 17325 3400 0    50   Input ~ 0
+HPM_STBY_EN
+Text GLabel 17325 3500 0    50   Input ~ 0
+HPM_STBY_RST_N
+Text GLabel 17325 3600 0    50   Input ~ 0
+SYS_PWRBTN_N
+Text GLabel 17325 3700 0    50   Input ~ 0
+SYS_PWROK
+Text GLabel 17325 3800 0    50   Input ~ 0
+DBP_PREQ_N
+Text GLabel 17325 3900 0    50   Input ~ 0
+DBP_PRDY_N
+Text GLabel 17325 4000 0    50   Input ~ 0
+RST_PLTRST_BUF_N
+Text GLabel 17325 4100 0    50   Input ~ 0
+SPARE1
+Text GLabel 17325 4200 0    50   Input ~ 0
+RoT_CPU_RST_N
+Text GLabel 17325 4300 0    50   Input ~ 0
+CHASI#
+Text GLabel 17325 4400 0    50   Input ~ 0
+SPARE0
+Text GLabel 17325 4500 0    50   Input ~ 0
+IRQ_N
+Text GLabel 17325 4600 0    50   Input ~ 0
+PRSNT1_N
+Text GLabel 17325 2975 0    50   Input ~ 0
+PRSNT0_N
+Text GLabel 13900 3275 0    50   Input ~ 0
+NCSI_CLK
+Text GLabel 13900 3375 0    50   Input ~ 0
+NCSI_CRS_DV
+Text GLabel 13900 3475 0    50   Input ~ 0
+NCSI_TXEN
+Text GLabel 13900 3575 0    50   Input ~ 0
+NCSI_TXD0
+Text GLabel 13900 3675 0    50   Input ~ 0
+NCSI_TXD1
+Text GLabel 13900 3775 0    50   Input ~ 0
+NCSI_RXER
+Text GLabel 13900 3875 0    50   Input ~ 0
+NCSI_RXD0
+Text GLabel 13900 3975 0    50   Input ~ 0
+NCSI_RXD1
+Text GLabel 17325 2750 0    50   Input ~ 0
+PECI_BMC
+Text GLabel 17325 2850 0    50   Input ~ 0
+PVCCIO_PECI
+Text Notes 19500 7150 0    118  ~ 0
+N\n
+Text Notes 19500 8500 0    118  ~ 0
+N\n
+Text Notes 20450 5750 0    118  ~ 0
+DONE
+Text Notes 16975 2575 0    118  ~ 0
+Misc_PINS
+Wire Wire Line
+	13900 5675 14450 5675
+Wire Wire Line
+	13900 5775 14450 5775
+Wire Wire Line
+	14450 5875 13900 5875
+Wire Wire Line
+	13900 5975 14450 5975
+Wire Wire Line
+	13900 6075 14450 6075
+Wire Wire Line
+	14450 6175 13900 6175
+Wire Wire Line
+	13900 6275 14450 6275
+Wire Wire Line
+	13900 6375 14450 6375
+Wire Wire Line
+	13900 5375 14450 5375
+Wire Wire Line
+	13900 5475 14450 5475
+Wire Wire Line
+	13900 5175 14450 5175
 $EndSCHEMATC

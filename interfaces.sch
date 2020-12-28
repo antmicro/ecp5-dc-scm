@@ -1160,13 +1160,13 @@ USB_D5
 Text GLabel 13700 7675 2    50   Input ~ 0
 USB_D6
 Text GLabel 13700 7775 2    50   Input ~ 0
-USB_D6
+USB_D7
 Text GLabel 13700 7975 2    50   Input ~ 0
-USB1_~RXF
+USB1_RXF_N
 Text GLabel 13700 8075 2    50   Input ~ 0
-USB1_~TXE
+USB1_TXE_N
 Text GLabel 13700 8175 2    50   Input ~ 0
-USB1_~RD
+USB1_RD_N
 Text GLabel 13700 8275 2    50   Input ~ 0
 USB1_WR
 Wire Wire Line

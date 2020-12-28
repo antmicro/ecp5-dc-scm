@@ -593,14 +593,12 @@ Text GLabel 9125 2225 2    50   Input ~ 0
 UART0_SCM_TX
 Text GLabel 9125 2325 2    50   Input ~ 0
 UART0_SCM_RX
-Text GLabel 9125 2525 2    50   Input ~ 0
-SPIO_CLK
 Text GLabel 9125 2625 2    50   Input ~ 0
-SPIO_CS_N
+SPI0_CS_N
 Text GLabel 9125 2725 2    50   Input ~ 0
-SPIO_MOSI
+SPI0_MOSI
 Text GLabel 9125 2825 2    50   Input ~ 0
-SPIO_MISO
+SPI0_MISO
 Text GLabel 9125 3125 2    50   Input ~ 0
 ESPI_CLK
 Text GLabel 9125 3225 2    50   Input ~ 0
@@ -801,4 +799,6 @@ Text GLabel 10375 6725 0    50   Input ~ 0
 SGPIO1_CLK
 Text GLabel 10950 6725 2    50   Input ~ 0
 SGPIO0_CLK
+Text GLabel 9125 2525 2    50   Input ~ 0
+SPI0_CLK
 $EndSCHEMATC

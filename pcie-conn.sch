@@ -85,7 +85,7 @@ F 5 "1-2199230-6" H 5450 6376 50  0000 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 3675 2750 0    50   Input ~ 0
-PERST0_N
+PRSNT0_N
 Wire Wire Line
 	3675 2650 3825 2650
 Wire Wire Line

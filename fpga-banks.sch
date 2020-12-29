@@ -2703,21 +2703,21 @@ Wire Wire Line
 Wire Wire Line
 	17875 2975 17325 2975
 Wire Wire Line
-	13900 3275 14450 3275
+	3850 5825 4400 5825
 Wire Wire Line
-	13900 3375 14450 3375
+	3850 5925 4400 5925
 Wire Wire Line
-	14450 3475 13900 3475
+	4400 6025 3850 6025
 Wire Wire Line
-	13900 3575 14450 3575
+	3850 6225 4400 6225
 Wire Wire Line
-	13900 3675 14450 3675
+	3850 6325 4400 6325
 Wire Wire Line
-	14450 3775 13900 3775
+	4400 6125 3850 6125
 Wire Wire Line
-	13900 3875 14450 3875
+	3850 6425 4400 6425
 Wire Wire Line
-	13900 3975 14450 3975
+	3850 6525 4400 6525
 Wire Wire Line
 	17325 2750 17875 2750
 Wire Wire Line
@@ -2786,21 +2786,21 @@ Text GLabel 17325 4600 0    50   Input ~ 0
 PRSNT1_N
 Text GLabel 17325 2975 0    50   Input ~ 0
 PRSNT0_N
-Text GLabel 13900 3275 0    50   Input ~ 0
+Text GLabel 3850 5825 0    50   Input ~ 0
 NCSI_CLK
-Text GLabel 13900 3375 0    50   Input ~ 0
+Text GLabel 3850 5925 0    50   Input ~ 0
 NCSI_CRS_DV
-Text GLabel 13900 3475 0    50   Input ~ 0
+Text GLabel 3850 6025 0    50   Input ~ 0
 NCSI_TXEN
-Text GLabel 13900 3575 0    50   Input ~ 0
+Text GLabel 3850 6225 0    50   Input ~ 0
 NCSI_TXD0
-Text GLabel 13900 3675 0    50   Input ~ 0
+Text GLabel 3850 6325 0    50   Input ~ 0
 NCSI_TXD1
-Text GLabel 13900 3775 0    50   Input ~ 0
+Text GLabel 3850 6125 0    50   Input ~ 0
 NCSI_RXER
-Text GLabel 13900 3875 0    50   Input ~ 0
+Text GLabel 3850 6425 0    50   Input ~ 0
 NCSI_RXD0
-Text GLabel 13900 3975 0    50   Input ~ 0
+Text GLabel 3850 6525 0    50   Input ~ 0
 NCSI_RXD1
 Text GLabel 17325 2750 0    50   Input ~ 0
 PECI_BMC
@@ -2836,4 +2836,24 @@ Wire Wire Line
 	13900 5475 14450 5475
 Wire Wire Line
 	13900 5175 14450 5175
+Text Notes 20450 6675 0    118  ~ 0
+DONE
+Text Notes 20425 8475 0    118  ~ 0
+DONE
+Text Notes 20425 8025 0    118  ~ 0
+DONE
+Text Notes 20425 8250 0    118  ~ 0
+DONE
+Text GLabel 11550 5500 0    50   Input ~ 0
+USR_LED0
+Text GLabel 11550 5600 0    50   Input ~ 0
+USR_LED1
+Text GLabel 11550 5700 0    50   Input ~ 0
+USR_LED2
+Wire Wire Line
+	11925 5500 11550 5500
+Wire Wire Line
+	11925 5700 11550 5700
+Wire Wire Line
+	11925 5600 11550 5600
 $EndSCHEMATC

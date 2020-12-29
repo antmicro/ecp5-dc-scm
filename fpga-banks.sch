@@ -1169,101 +1169,31 @@ F 3 "" H 14000 1525 50  0001 C CNN
 $EndComp
 Text GLabel 8925 1000 0    50   Input ~ 0
 VCC1V35_T
-Text GLabel 11550 6900 0    50   Input ~ 0
-RGMII_RX_DV
-Text GLabel 11550 6600 0    50   Output ~ 0
-ETH_MDC
-Text GLabel 11550 8200 0    50   BiDi ~ 0
-ETH_MDIO
-Text GLabel 11550 7900 0    50   Output ~ 0
-RGMII_TX_DV
-Text GLabel 11550 8000 0    50   Output ~ 0
-RGMII_TXD0
-Text GLabel 11550 8100 0    50   Output ~ 0
-RGMII_TXD1
-Text GLabel 11550 7800 0    50   Output ~ 0
-RGMII_TXD2
-Text GLabel 11550 8300 0    50   Input ~ 0
-RGMII_TXD3
-Text GLabel 11550 8400 0    50   Input ~ 0
-RGMII_TX_CLK
-Text GLabel 11550 7000 0    50   Input ~ 0
-RGMII_RXD0
-Text GLabel 11550 7100 0    50   Input ~ 0
-RGMII_RXD1
-Text GLabel 11550 8500 0    50   Input ~ 0
-RGMII_RXD2
-Text GLabel 11550 7700 0    50   Input ~ 0
-RGMII_RXD3
-Text GLabel 11550 6700 0    50   Input ~ 0
-RGMII_RX_CLK
 Wire Wire Line
-	11925 6600 11550 6600
-Wire Wire Line
-	11925 6800 11550 6800
-Wire Wire Line
-	11925 6700 11550 6700
-Wire Wire Line
-	11925 6900 11550 6900
-Wire Wire Line
-	11925 7100 11550 7100
-Wire Wire Line
-	11925 7000 11550 7000
-Wire Wire Line
-	11925 7500 11550 7500
-Wire Wire Line
-	11925 7300 11550 7300
-Wire Wire Line
-	11925 7700 11550 7700
-Wire Wire Line
-	11925 7900 11550 7900
-Wire Wire Line
-	11925 7800 11550 7800
-Wire Wire Line
-	11925 8000 11550 8000
-Wire Wire Line
-	11925 8200 11550 8200
-Wire Wire Line
-	11925 8100 11550 8100
-Wire Wire Line
-	11925 8300 11550 8300
-Wire Wire Line
-	11925 8500 11550 8500
-Wire Wire Line
-	11925 8400 11550 8400
-Text GLabel 11550 7300 0    50   Input ~ 0
-ETH_INT_N
-Text GLabel 11550 6800 0    50   Input ~ 0
-RGMII_REF_CLK
-Wire Wire Line
-	11925 7200 11550 7200
-Text GLabel 11550 7200 0    50   Output ~ 0
-ETH_~RESET
-Text GLabel 11550 7500 0    50   Output ~ 0
-RGMII_TX_CLK
+	1900 2325 1525 2325
 Text Notes 10800 7900 1    50   ~ 0
 ethernet.sch
 Text Notes 9450 725  0    118  ~ 0
 DDR3
 Text Notes 975  7675 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
-Text GLabel 1575 2225 0    50   Input ~ 0
+Text GLabel 11600 2200 0    50   Input ~ 0
 SGPIO0_CLK
-Text GLabel 1575 2325 0    50   Input ~ 0
+Text GLabel 11600 2300 0    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 1575 2425 0    50   Input ~ 0
+Text GLabel 11600 2400 0    50   Input ~ 0
 SGPIO0_DO
-Text GLabel 1575 2525 0    50   Input ~ 0
+Text GLabel 11600 2500 0    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 1575 2825 0    50   Input ~ 0
+Text GLabel 11600 2800 0    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 1575 2925 0    50   Input ~ 0
+Text GLabel 11600 2900 0    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 1575 3025 0    50   Input ~ 0
+Text GLabel 11600 3000 0    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 1575 3125 0    50   Input ~ 0
+Text GLabel 11600 3100 0    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 1575 3225 0    50   Input ~ 0
+Text GLabel 11600 3200 0    50   Input ~ 0
 SGPIO_INTR_N
 Text Notes 5075 11125 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
@@ -1275,13 +1205,13 @@ Text GLabel 7925 9350 0    50   Input ~ 0
 JTAG_TDI
 Text GLabel 7925 9150 0    50   Input ~ 0
 JTAG_TDO
-Text GLabel 1575 4625 0    50   Input ~ 0
+Text GLabel 11600 5000 0    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 1575 4725 0    50   Input ~ 0
+Text GLabel 11600 5100 0    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 1575 4825 0    50   Input ~ 0
+Text GLabel 11600 5200 0    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 1575 4925 0    50   Input ~ 0
+Text GLabel 11600 5300 0    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 675  750  0    50   ~ 0
 FPGA connections to be established while preparing layout
@@ -1354,31 +1284,31 @@ Wire Wire Line
 Wire Wire Line
 	4075 5525 4400 5525
 Wire Wire Line
-	1575 6825 1900 6825
+	11600 7600 11925 7600
 Wire Wire Line
-	1575 6925 1900 6925
+	11600 7700 11925 7700
 Wire Wire Line
-	1575 7125 1900 7125
+	11600 7900 11925 7900
 Wire Wire Line
-	1575 7225 1900 7225
+	11600 8000 11925 8000
 Wire Wire Line
-	1575 2225 1900 2225
+	11600 2200 11925 2200
 Wire Wire Line
-	1575 2325 1900 2325
+	11600 2300 11925 2300
 Wire Wire Line
-	1575 2425 1900 2425
+	11600 2400 11925 2400
 Wire Wire Line
-	1575 2525 1900 2525
+	11600 2500 11925 2500
 Wire Wire Line
-	1575 2825 1900 2825
+	11600 2800 11925 2800
 Wire Wire Line
-	1575 2925 1900 2925
+	11600 2900 11925 2900
 Wire Wire Line
-	1575 3025 1900 3025
+	11600 3000 11925 3000
 Wire Wire Line
-	1575 3125 1900 3125
+	11600 3100 11925 3100
 Wire Wire Line
-	1575 3225 1900 3225
+	11600 3200 11925 3200
 Wire Wire Line
 	7925 9250 8250 9250
 Wire Wire Line
@@ -1388,13 +1318,13 @@ Wire Wire Line
 Wire Wire Line
 	7925 9150 8250 9150
 Wire Wire Line
-	1575 4625 1900 4625
+	11600 5000 11925 5000
 Wire Wire Line
-	1575 4725 1900 4725
+	11600 5100 11925 5100
 Wire Wire Line
-	1575 4825 1900 4825
+	11600 5200 11925 5200
 Wire Wire Line
-	1575 4925 1900 4925
+	11600 5300 11925 5300
 Wire Wire Line
 	5475 9975 5950 9975
 Wire Wire Line
@@ -1805,30 +1735,30 @@ Wire Wire Line
 	5475 9875 5950 9875
 Wire Wire Line
 	5475 10175 5950 10175
-Text GLabel 1575 7225 0    50   Input ~ 0
+Text GLabel 11600 8000 0    50   Input ~ 0
 RST_USB2
-Text GLabel 1575 7325 0    50   Input ~ 0
+Text GLabel 11600 8100 0    50   Input ~ 0
 SCK_USB2
-Text GLabel 1575 7425 0    50   Input ~ 0
+Text GLabel 11600 8200 0    50   Input ~ 0
 SS_USB2
-Text GLabel 1575 7525 0    50   Input ~ 0
+Text GLabel 11600 8300 0    50   Input ~ 0
 MISO_USB2
-Text GLabel 1575 7625 0    50   Input ~ 0
+Text GLabel 11600 8400 0    50   Input ~ 0
 MOSI_USB2
-Text GLabel 1575 7725 0    50   Input ~ 0
+Text GLabel 11600 8500 0    50   Input ~ 0
 GPX_USB2
-Text GLabel 1575 7125 0    50   Input ~ 0
+Text GLabel 11600 7900 0    50   Input ~ 0
 INT_USB2
 Wire Wire Line
-	1575 7725 1900 7725
+	11600 8500 11925 8500
 Wire Wire Line
-	1900 7625 1575 7625
+	11925 8400 11600 8400
 Wire Wire Line
-	1575 7525 1900 7525
+	11600 8300 11925 8300
 Wire Wire Line
-	1575 7425 1900 7425
+	11600 8200 11925 8200
 Wire Wire Line
-	1900 7325 1575 7325
+	11925 8100 11600 8100
 Wire Bus Line
 	7525 5925 7375 5925
 Wire Bus Line
@@ -2248,29 +2178,29 @@ Text GLabel 5700 3525 1    50   Input ~ 0
 DDR_VREF
 Text GLabel 6425 1000 0    50   Input ~ 0
 VCC1V35_T
-Text GLabel 1575 6725 0    50   Input ~ 0
+Text GLabel 11600 7500 0    50   Input ~ 0
 USB_D0
-Text GLabel 1575 6625 0    50   Input ~ 0
+Text GLabel 11600 7400 0    50   Input ~ 0
 USB_D1
-Text GLabel 1575 6525 0    50   Input ~ 0
+Text GLabel 11600 7300 0    50   Input ~ 0
 USB_D2
-Text GLabel 1575 6425 0    50   Input ~ 0
+Text GLabel 11600 7200 0    50   Input ~ 0
 USB_D3
-Text GLabel 1575 6325 0    50   Input ~ 0
+Text GLabel 11600 7100 0    50   Input ~ 0
 USB_D4
-Text GLabel 1575 6225 0    50   Input ~ 0
+Text GLabel 11600 7000 0    50   Input ~ 0
 USB_D5
-Text GLabel 1575 6125 0    50   Input ~ 0
+Text GLabel 11600 6900 0    50   Input ~ 0
 USB_D6
-Text GLabel 1575 6025 0    50   Input ~ 0
+Text GLabel 11600 6800 0    50   Input ~ 0
 USB_D7
-Text GLabel 1575 5925 0    50   Input ~ 0
+Text GLabel 11600 6700 0    50   Input ~ 0
 USB1_RXF_N
-Text GLabel 1575 5825 0    50   Input ~ 0
+Text GLabel 11600 6600 0    50   Input ~ 0
 USB1_TXE_N
-Text GLabel 1575 5725 0    50   Input ~ 0
+Text GLabel 11600 6500 0    50   Input ~ 0
 USB1_RD_N
-Text GLabel 1575 5625 0    50   Input ~ 0
+Text GLabel 11600 6400 0    50   Input ~ 0
 USB1_WR
 Text GLabel 13900 6375 0    50   Input ~ 0
 MMC_DAT0
@@ -2294,34 +2224,34 @@ Text GLabel 13900 5375 0    50   Input ~ 0
 MMC_CLK
 Text GLabel 13900 5175 0    50   Input ~ 0
 MMC_CLK
-Text GLabel 1575 6825 0    50   Input ~ 0
+Text GLabel 11600 7600 0    50   Input ~ 0
 USB1_DN
-Text GLabel 1575 6925 0    50   Input ~ 0
+Text GLabel 11600 7700 0    50   Input ~ 0
 USB1_DP
 Wire Wire Line
-	1575 6625 1900 6625
+	11600 7400 11925 7400
 Wire Wire Line
-	1575 6725 1900 6725
+	11600 7500 11925 7500
 Wire Wire Line
-	1575 6425 1900 6425
+	11600 7200 11925 7200
 Wire Wire Line
-	1575 6525 1900 6525
+	11600 7300 11925 7300
 Wire Wire Line
-	1575 6225 1900 6225
+	11600 7000 11925 7000
 Wire Wire Line
-	1575 6325 1900 6325
+	11600 7100 11925 7100
 Wire Wire Line
-	1575 6025 1900 6025
+	11600 6800 11925 6800
 Wire Wire Line
-	1575 6125 1900 6125
+	11600 6900 11925 6900
 Wire Wire Line
-	1575 5825 1900 5825
+	11600 6600 11925 6600
 Wire Wire Line
-	1575 5925 1900 5925
+	11600 6700 11925 6700
 Wire Wire Line
-	1575 5625 1900 5625
+	11600 6400 11925 6400
 Wire Wire Line
-	1575 5725 1900 5725
+	11600 6500 11925 6500
 Text Notes 6525 10000 0    30   ~ 0
 D7/IO7\n\nD5/MISO2/IO5\n\nD6/IO6\n\nD4/MOSI2/IO4\n\nD3/IO3\n\nD1/MISO/IO1\n\nD2/IO2\n\nD0/MOSI/IO0\n\nSN/CSN\n\nHOLDN/DI/BUSY/CSSPIN/CEN\n\nCS1N\n\nDOUT/CSON\n\nWRITEN\n\nINITN\n\nCCLK,8,MCLK/SCK
 Wire Notes Line
@@ -2360,35 +2290,35 @@ Wire Notes Line
 	6175 9475 6175 9675
 Wire Notes Line
 	6175 9675 6200 9675
-Text GLabel 1575 2725 0    50   Input ~ 0
+Text GLabel 11600 2700 0    50   Input ~ 0
 SGPIO1_CLK
 Wire Wire Line
-	1575 2725 1900 2725
+	11600 2700 11925 2700
 Text Notes 9900 7150 0    50   ~ 0
 Vref
 Wire Wire Line
-	1350 3925 1900 3925
+	11375 3900 11925 3900
 Wire Wire Line
-	1350 3825 1900 3825
+	11375 3800 11925 3800
 Wire Wire Line
-	1900 3725 1350 3725
+	11925 3700 11375 3700
 Wire Wire Line
-	1350 3625 1900 3625
+	11375 3600 11925 3600
 Wire Wire Line
-	1350 3525 1900 3525
+	11375 3500 11925 3500
 Wire Wire Line
-	1900 3425 1350 3425
-Text GLabel 1350 3925 0    50   Input ~ 0
+	11925 3400 11375 3400
+Text GLabel 11375 3900 0    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 1350 3825 0    50   Input ~ 0
+Text GLabel 11375 3800 0    50   Input ~ 0
 QSPI1_CS0_N
-Text GLabel 1350 3725 0    50   Input ~ 0
+Text GLabel 11375 3700 0    50   Input ~ 0
 QSPI1_D0
-Text GLabel 1350 3625 0    50   Input ~ 0
+Text GLabel 11375 3600 0    50   Input ~ 0
 QSPI1_D1
-Text GLabel 1350 3525 0    50   Input ~ 0
+Text GLabel 11375 3500 0    50   Input ~ 0
 QSPI1_D2
-Text GLabel 1350 3425 0    50   Input ~ 0
+Text GLabel 11375 3400 0    50   Input ~ 0
 QSPI1_D3
 Text GLabel 5475 9975 0    50   Input ~ 0
 ROT_QSPI_SCK
@@ -2422,30 +2352,30 @@ Text GLabel 5475 9875 0    50   Input ~ 0
 INIT_N
 Text GLabel 825  10950 0    50   Input ~ 0
 INIT_N
-Text GLabel 1350 4425 0    50   Input ~ 0
+Text GLabel 11375 6200 0    50   Input ~ 0
 SPI0_MISO
-Text GLabel 1350 4325 0    50   Input ~ 0
+Text GLabel 11375 6100 0    50   Input ~ 0
 SPI0_MOSI
-Text GLabel 1350 4225 0    50   Input ~ 0
+Text GLabel 11375 6000 0    50   Input ~ 0
 SPI0_CS_N
-Text GLabel 1350 4125 0    50   Input ~ 0
+Text GLabel 11375 5900 0    50   Input ~ 0
 SPI0_CLK
 Wire Wire Line
-	1350 4425 1475 4425
+	11375 6200 11500 6200
 Wire Wire Line
-	1350 4325 1475 4325
+	11375 6100 11500 6100
 Wire Wire Line
-	1900 4225 1775 4225
+	11925 6000 11800 6000
 Wire Wire Line
-	1350 4125 1475 4125
+	11375 5900 11500 5900
 Wire Wire Line
-	1775 4125 1900 4125
+	11800 5900 11925 5900
 Wire Wire Line
-	1475 4225 1350 4225
+	11500 6000 11375 6000
 Wire Wire Line
-	1775 4325 1900 4325
+	11800 6100 11925 6100
 Wire Wire Line
-	1775 4425 1900 4425
+	11800 6200 11925 6200
 Text GLabel 5475 10175 0    50   Input ~ 0
 DONE
 Text GLabel 775  9350 0    50   Input ~ 0
@@ -2467,70 +2397,70 @@ PCIe x1
 $Comp
 L ecp5-dc-scm:R_0R_0402 R129
 U 1 1 67F9881E
-P 1625 4225
-F 0 "R129" H 1425 4275 60  0000 C CNN
-F 1 "R_0R_0402" H 1625 4075 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4425 60  0001 L CNN
-F 3 "" H 1625 4225 50  0001 C CNN
-F 4 "PANASONIC" H 1825 4625 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1825 4525 60  0001 L CNN "MPN"
-F 6 "0R" H 1800 4175 50  0000 C CNN "Val"
-F 7 "1" H 1625 4225 50  0001 C CNN "DNP"
-	1    1625 4225
+P 11650 6000
+F 0 "R129" H 11450 6050 60  0000 C CNN
+F 1 "R_0R_0402" H 11650 5850 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 6200 60  0001 L CNN
+F 3 "" H 11650 6000 50  0001 C CNN
+F 4 "PANASONIC" H 11850 6400 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 11850 6300 60  0001 L CNN "MPN"
+F 6 "0R" H 11825 5950 50  0000 C CNN "Val"
+F 7 "1" H 11650 6000 50  0001 C CNN "DNP"
+	1    11650 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:R_0R_0402 R130
 U 1 1 67F99643
-P 1625 4325
-F 0 "R130" H 1425 4375 60  0000 C CNN
-F 1 "R_0R_0402" H 1625 4175 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4525 60  0001 L CNN
-F 3 "" H 1625 4325 50  0001 C CNN
-F 4 "PANASONIC" H 1825 4725 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1825 4625 60  0001 L CNN "MPN"
-F 6 "0R" H 1800 4275 50  0000 C CNN "Val"
-F 7 "1" H 1625 4325 50  0001 C CNN "DNP"
-	1    1625 4325
+P 11650 6100
+F 0 "R130" H 11450 6150 60  0000 C CNN
+F 1 "R_0R_0402" H 11650 5950 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 6300 60  0001 L CNN
+F 3 "" H 11650 6100 50  0001 C CNN
+F 4 "PANASONIC" H 11850 6500 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 11850 6400 60  0001 L CNN "MPN"
+F 6 "0R" H 11825 6050 50  0000 C CNN "Val"
+F 7 "1" H 11650 6100 50  0001 C CNN "DNP"
+	1    11650 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:R_0R_0402 R131
 U 1 1 67F9A405
-P 1625 4425
-F 0 "R131" H 1425 4475 60  0000 C CNN
-F 1 "R_0R_0402" H 1625 4275 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4625 60  0001 L CNN
-F 3 "" H 1625 4425 50  0001 C CNN
-F 4 "PANASONIC" H 1825 4825 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1825 4725 60  0001 L CNN "MPN"
-F 6 "0R" H 1800 4375 50  0000 C CNN "Val"
-F 7 "1" H 1625 4425 50  0001 C CNN "DNP"
-	1    1625 4425
+P 11650 6200
+F 0 "R131" H 11450 6250 60  0000 C CNN
+F 1 "R_0R_0402" H 11650 6050 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 6400 60  0001 L CNN
+F 3 "" H 11650 6200 50  0001 C CNN
+F 4 "PANASONIC" H 11850 6600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 11850 6500 60  0001 L CNN "MPN"
+F 6 "0R" H 11825 6150 50  0000 C CNN "Val"
+F 7 "1" H 11650 6200 50  0001 C CNN "DNP"
+	1    11650 6200
 	1    0    0    -1  
 $EndComp
-Text Notes 1550 4160 0    50   ~ 0
+Text Notes 11575 5935 0    50   ~ 0
 DNP
-Text Notes 1550 4260 0    50   ~ 0
+Text Notes 11575 6035 0    50   ~ 0
 DNP
-Text Notes 1550 4360 0    50   ~ 0
+Text Notes 11575 6135 0    50   ~ 0
 DNP
 $Comp
 L ecp5-dc-scm:R_0R_0402 R128
 U 1 1 67A0B804
-P 1625 4125
-F 0 "R128" H 1425 4175 60  0000 C CNN
-F 1 "R_0R_0402" H 1625 3975 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 1825 4325 60  0001 L CNN
-F 3 "" H 1625 4125 50  0001 C CNN
-F 4 "PANASONIC" H 1825 4525 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 1825 4425 60  0001 L CNN "MPN"
-F 6 "0R" H 1800 4075 50  0000 C CNN "Val"
-F 7 "1" H 1625 4125 50  0001 C CNN "DNP"
-	1    1625 4125
+P 11650 5900
+F 0 "R128" H 11450 5950 60  0000 C CNN
+F 1 "R_0R_0402" H 11650 5750 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 6100 60  0001 L CNN
+F 3 "" H 11650 5900 50  0001 C CNN
+F 4 "PANASONIC" H 11850 6300 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 11850 6200 60  0001 L CNN "MPN"
+F 6 "0R" H 11825 5850 50  0000 C CNN "Val"
+F 7 "1" H 11650 5900 50  0001 C CNN "DNP"
+	1    11650 5900
 	1    0    0    -1  
 $EndComp
-Text Notes 1550 4460 0    50   ~ 0
+Text Notes 11575 6235 0    50   ~ 0
 DNP
 Text Notes 17250 5325 0    118  ~ 0
 DDR3
@@ -2862,4 +2792,70 @@ Wire Wire Line
 	17875 3075 17325 3075
 Text GLabel 14000 950  0    50   Input ~ 0
 VCC3V3_T
+Text GLabel 1525 3125 0    50   Output ~ 0
+RGMII_TX_CLK
+Text GLabel 1525 2925 0    50   Output ~ 0
+ETH_~RESET
+Wire Wire Line
+	1900 2925 1525 2925
+Text GLabel 1525 2525 0    50   Input ~ 0
+RGMII_REF_CLK
+Text GLabel 1525 3025 0    50   Input ~ 0
+ETH_INT_N
+Wire Wire Line
+	1900 3725 1525 3725
+Wire Wire Line
+	1900 3825 1525 3825
+Wire Wire Line
+	1900 3625 1525 3625
+Wire Wire Line
+	4400 6925 4025 6925
+Wire Wire Line
+	1900 3525 1525 3525
+Wire Wire Line
+	1900 3325 1525 3325
+Wire Wire Line
+	1900 3225 1525 3225
+Wire Wire Line
+	1900 3025 1525 3025
+Wire Wire Line
+	1900 3125 1525 3125
+Wire Wire Line
+	1900 2725 1525 2725
+Wire Wire Line
+	1900 2825 1525 2825
+Wire Wire Line
+	1900 2625 1525 2625
+Wire Wire Line
+	1900 2425 1525 2425
+Wire Wire Line
+	1900 2525 1525 2525
+Text GLabel 1525 2425 0    50   Input ~ 0
+RGMII_RX_CLK
+Text GLabel 1525 3225 0    50   Input ~ 0
+RGMII_RXD3
+Text GLabel 1525 3725 0    50   Input ~ 0
+RGMII_RXD2
+Text GLabel 1525 2825 0    50   Input ~ 0
+RGMII_RXD1
+Text GLabel 1525 2725 0    50   Input ~ 0
+RGMII_RXD0
+Text GLabel 1525 3825 0    50   Input ~ 0
+RGMII_TXD3
+Text GLabel 1525 3325 0    50   Output ~ 0
+RGMII_TXD2
+Text GLabel 1525 3625 0    50   Output ~ 0
+RGMII_TXD1
+Text GLabel 1525 3525 0    50   Output ~ 0
+RGMII_TXD0
+Text GLabel 4025 6925 0    50   BiDi ~ 0
+ETH_MDIO
+Text GLabel 1525 2325 0    50   Output ~ 0
+ETH_MDC
+Text GLabel 1525 2625 0    50   Input ~ 0
+RGMII_RX_DV
+Text GLabel 1525 3425 0    50   Output ~ 0
+RGMII_TX_EN
+Wire Wire Line
+	1900 3425 1525 3425
 $EndSCHEMATC

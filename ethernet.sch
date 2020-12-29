@@ -605,7 +605,7 @@ RGMII_TXD1
 Text GLabel 4400 4550 0    50   Input ~ 0
 RGMII_TXD0
 Text GLabel 4400 4450 0    50   Input ~ 0
-RGMII_TX_DV
+RGMII_TX_EN
 Wire Wire Line
 	4400 4850 5200 4850
 Wire Wire Line
@@ -1544,4 +1544,6 @@ F 6 "12k1" H 6775 6925 50  0000 C CNN "Val"
 	1    6750 7000
 	1    0    0    -1  
 $EndComp
+Text GLabel 4400 4450 0    50   Input ~ 0
+RGMII_TX_EN
 $EndSCHEMATC

@@ -119,51 +119,51 @@ F 3 "" H 4700 2400 60  0001 L CNN
 $EndComp
 Wire Wire Line
 	4900 2100 4600 2100
-Text GLabel 3500 2325 1    50   Input ~ 0
+Text GLabel 3675 2325 1    50   Input ~ 0
 VCC12V
 $Comp
 L ecp5-dc-scm:GND #PWR049
 U 1 1 6078B1C9
-P 3500 2725
-F 0 "#PWR049" H 3500 2475 50  0001 C CNN
-F 1 "GND" H 3505 2552 50  0000 C CNN
-F 2 "" H 3500 2725 50  0001 C CNN
-F 3 "" H 3500 2725 50  0001 C CNN
-	1    3500 2725
+P 3675 2725
+F 0 "#PWR049" H 3675 2475 50  0001 C CNN
+F 1 "GND" H 3680 2552 50  0000 C CNN
+F 2 "" H 3675 2725 50  0001 C CNN
+F 3 "" H 3675 2725 50  0001 C CNN
+	1    3675 2725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2625 3500 2725
-Text GLabel 3250 2325 1    50   Input ~ 0
+	3675 2625 3675 2725
+Text GLabel 3425 2325 1    50   Input ~ 0
 VCC12V
 $Comp
 L ecp5-dc-scm:GND #PWR048
 U 1 1 607C69A2
-P 3250 2725
-F 0 "#PWR048" H 3250 2475 50  0001 C CNN
-F 1 "GND" H 3255 2552 50  0000 C CNN
-F 2 "" H 3250 2725 50  0001 C CNN
-F 3 "" H 3250 2725 50  0001 C CNN
-	1    3250 2725
+P 3425 2725
+F 0 "#PWR048" H 3425 2475 50  0001 C CNN
+F 1 "GND" H 3430 2552 50  0000 C CNN
+F 2 "" H 3425 2725 50  0001 C CNN
+F 3 "" H 3425 2725 50  0001 C CNN
+	1    3425 2725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 2625 3250 2725
-Text GLabel 3750 2325 1    50   Input ~ 0
+	3425 2625 3425 2725
+Text GLabel 3925 2325 1    50   Input ~ 0
 VCC12V
 $Comp
 L ecp5-dc-scm:GND #PWR050
 U 1 1 60802656
-P 3750 2725
-F 0 "#PWR050" H 3750 2475 50  0001 C CNN
-F 1 "GND" H 3755 2552 50  0000 C CNN
-F 2 "" H 3750 2725 50  0001 C CNN
-F 3 "" H 3750 2725 50  0001 C CNN
-	1    3750 2725
+P 3925 2725
+F 0 "#PWR050" H 3925 2475 50  0001 C CNN
+F 1 "GND" H 3930 2552 50  0000 C CNN
+F 2 "" H 3925 2725 50  0001 C CNN
+F 3 "" H 3925 2725 50  0001 C CNN
+	1    3925 2725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 2625 3750 2725
+	3925 2625 3925 2725
 $Comp
 L ecp5-dc-scm:R_243k_0402 R70
 U 1 1 60884C52
@@ -695,8 +695,6 @@ Wire Wire Line
 	14975 2925 14925 2925
 Wire Wire Line
 	14975 2925 14975 3300
-Text Notes 5200 1350 0    50   ~ 0
-SOURCE:LPDDR4 board
 Text Notes 12725 4050 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
@@ -1126,43 +1124,43 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:C_2u2_0603_25V C71
 U 1 1 606A5476
-P 3250 2475
-F 0 "C71" H 3275 2575 60  0000 L CNN
-F 1 "C_2u2_0603_25V" H 3250 2325 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0603_25V-res" H 3450 2675 60  0001 L CNN
-F 3 "" H 3250 2475 50  0001 C CNN
-F 4 "MURATA" H 3450 2875 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R61E225KA12D" H 3450 2775 60  0001 L CNN "MPN"
-F 6 "2u2" H 3275 2375 50  0000 L CNN "Val"
-	1    3250 2475
+P 3425 2475
+F 0 "C71" H 3450 2575 60  0000 L CNN
+F 1 "C_2u2_0603_25V" H 3425 2325 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0603_25V-res" H 3625 2675 60  0001 L CNN
+F 3 "" H 3425 2475 50  0001 C CNN
+F 4 "MURATA" H 3625 2875 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R61E225KA12D" H 3625 2775 60  0001 L CNN "MPN"
+F 6 "2u2" H 3450 2375 50  0000 L CNN "Val"
+	1    3425 2475
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:C_2u2_0603_25V C72
 U 1 1 606A5C82
-P 3500 2475
-F 0 "C72" H 3525 2575 60  0000 L CNN
-F 1 "C_2u2_0603_25V" H 3500 2325 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0603_25V-res" H 3700 2675 60  0001 L CNN
-F 3 "" H 3500 2475 50  0001 C CNN
-F 4 "MURATA" H 3700 2875 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R61E225KA12D" H 3700 2775 60  0001 L CNN "MPN"
-F 6 "2u2" H 3525 2375 50  0000 L CNN "Val"
-	1    3500 2475
+P 3675 2475
+F 0 "C72" H 3700 2575 60  0000 L CNN
+F 1 "C_2u2_0603_25V" H 3675 2325 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0603_25V-res" H 3875 2675 60  0001 L CNN
+F 3 "" H 3675 2475 50  0001 C CNN
+F 4 "MURATA" H 3875 2875 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R61E225KA12D" H 3875 2775 60  0001 L CNN "MPN"
+F 6 "2u2" H 3700 2375 50  0000 L CNN "Val"
+	1    3675 2475
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:C_2u2_0603_25V C73
 U 1 1 606A5ED9
-P 3750 2475
-F 0 "C73" H 3775 2575 60  0000 L CNN
-F 1 "C_2u2_0603_25V" H 3750 2325 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0603_25V-res" H 3950 2675 60  0001 L CNN
-F 3 "" H 3750 2475 50  0001 C CNN
-F 4 "MURATA" H 3950 2875 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R61E225KA12D" H 3950 2775 60  0001 L CNN "MPN"
-F 6 "2u2" H 3775 2375 50  0000 L CNN "Val"
-	1    3750 2475
+P 3925 2475
+F 0 "C73" H 3950 2575 60  0000 L CNN
+F 1 "C_2u2_0603_25V" H 3925 2325 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0603_25V-res" H 4125 2675 60  0001 L CNN
+F 3 "" H 3925 2475 50  0001 C CNN
+F 4 "MURATA" H 4125 2875 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R61E225KA12D" H 4125 2775 60  0001 L CNN "MPN"
+F 6 "2u2" H 3950 2375 50  0000 L CNN "Val"
+	1    3925 2475
 	1    0    0    -1  
 $EndComp
 Text Label 3025 9725 2    50   ~ 0
@@ -1745,10 +1743,8 @@ F 6 "0R" V 7128 1745 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	12900 1600 12600 1600
-Text Label 12600 1600 0    50   ~ 0
-2V5_EN
 Wire Wire Line
-	12300 1450 12900 1450
+	12300 1450 12600 1450
 Connection ~ 12300 1450
 $Comp
 L ecp5-dc-scm:GND #PWR?
@@ -3277,82 +3273,12 @@ F 5 "Texas Instruments" H 6825 8950 60  0001 L CNN "Manufacturer"
 	1    6625 7850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4425 10150 4425 10225
-Wire Wire Line
-	4425 10225 4625 10225
-Text GLabel 4625 10225 2    50   Input ~ 0
-VCC1V2_T
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050887
-P 4425 9950
-AR Path="/5FCA4661/60050887" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050887" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050887" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050887" Ref="Q5"  Part="1" 
-F 0 "Q5" H 4533 10003 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4533 9897 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4625 10150 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4625 10250 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4625 10450 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4625 11050 60  0001 L CNN "Manufacturer"
-	1    4425 9950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3675 10050 4125 10050
-Text Label 3950 10050 2    50   ~ 0
-1V8_EN
-Text GLabel 4200 9750 0    50   Input ~ 0
-VCC1V2
-Wire Wire Line
-	4200 9750 4425 9750
-Text Label 3950 7675 2    50   ~ 0
-1V8_EN
-Wire Wire Line
-	3675 7675 4125 7675
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050879
-P 4425 7575
-AR Path="/5FCA4661/60050879" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050879" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050879" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050879" Ref="Q1"  Part="1" 
-F 0 "Q1" H 4533 7628 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4533 7522 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4625 7775 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4625 7875 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4625 8075 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4625 8675 60  0001 L CNN "Manufacturer"
-	1    4425 7575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 7375 4425 7375
-Text GLabel 4625 7850 2    50   Input ~ 0
-VCC2V5_T
-Wire Wire Line
-	4425 7850 4625 7850
-Wire Wire Line
-	4425 7775 4425 7850
-Text GLabel 4200 7375 0    50   Input ~ 0
-VCC2V5
-Text Label 4000 8850 2    50   ~ 0
-1V35_EN
-Text Label 3950 9450 2    50   ~ 0
-1V8_EN
-Text Label 4025 8250 2    50   ~ 0
-VCCIO_EN
 Text Notes 700  7025 0    118  ~ 0
 Power sequencer
 Wire Wire Line
 	6950 9975 6950 10050
 Wire Wire Line
 	6650 9175 6600 9175
-Wire Wire Line
-	3675 8250 4125 8250
 Text Label 5725 9675 0    50   ~ 0
 3V3_PG
 Text Label 5725 9575 0    50   ~ 0
@@ -3361,91 +3287,6 @@ Text Label 5725 9475 0    50   ~ 0
 1V35_PG
 Text Label 5725 9375 0    50   ~ 0
 1V8_PG
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050860
-P 4425 9350
-AR Path="/5FCA4661/60050860" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050860" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050860" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050860" Ref="Q4"  Part="1" 
-F 0 "Q4" H 4533 9403 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4533 9297 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4625 9550 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4625 9650 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4625 9850 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4625 10450 60  0001 L CNN "Manufacturer"
-	1    4425 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050858
-P 4425 8750
-AR Path="/5FCA4661/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050858" Ref="Q3"  Part="1" 
-F 0 "Q3" H 4533 8803 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4533 8697 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4625 8950 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4625 9050 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4625 9250 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4625 9850 60  0001 L CNN "Manufacturer"
-	1    4425 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050850
-P 4425 8150
-AR Path="/5FCA4661/60050850" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050850" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050850" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050850" Ref="Q2"  Part="1" 
-F 0 "Q2" H 4533 8203 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4533 8097 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4625 8350 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4625 8450 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4625 8650 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4625 9250 60  0001 L CNN "Manufacturer"
-	1    4425 8150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3675 8850 4125 8850
-Wire Wire Line
-	3675 9450 4125 9450
-Wire Wire Line
-	4425 9150 4200 9150
-Text GLabel 4625 9625 2    50   Input ~ 0
-VCC1V8_T
-Wire Wire Line
-	4425 9625 4625 9625
-Wire Wire Line
-	4425 9550 4425 9625
-Text GLabel 4200 9150 0    50   Input ~ 0
-VCC1V8
-Wire Wire Line
-	4200 7950 4425 7950
-Wire Wire Line
-	4425 8550 4200 8550
-Text GLabel 4625 9025 2    50   Input ~ 0
-VCC1V35_T
-Wire Wire Line
-	4425 9025 4625 9025
-Wire Wire Line
-	4425 8950 4425 9025
-Text GLabel 4200 8550 0    50   Input ~ 0
-VCC1V35
-Text GLabel 4625 8425 2    50   Input ~ 0
-VCC3V3_T
-Wire Wire Line
-	4425 8425 4625 8425
-Wire Wire Line
-	4425 8350 4425 8425
-Text GLabel 4200 7950 0    50   Input ~ 0
-VCC3V3
 Text Label 7250 9275 0    50   ~ 0
 PWR_EN
 Text Label 5875 7750 0    50   ~ 0
@@ -3589,10 +3430,10 @@ Text Label 6175 1900 0    50   ~ 0
 Text Label 8950 8850 0    50   ~ 0
 3V3_PG
 $Comp
-L ecp5-dc-scm:R_66k5_0603 R?
+L ecp5-dc-scm:R_66k5_0603 R134
 U 1 1 656B59D3
 P 14650 9000
-F 0 "R?" V 14695 8930 60  0000 R CNN
+F 0 "R134" V 14695 8930 60  0000 R CNN
 F 1 "R_66k5_0603" H 14650 8850 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0603-res" H 14850 9200 60  0001 L CNN
 F 3 "" H 14650 9000 50  0001 C CNN
@@ -3602,4 +3443,197 @@ F 6 "66k5" V 14597 8930 50  0000 R CNN "Val"
 	1    14650 9000
 	0    -1   -1   0   
 $EndComp
+Text GLabel 6925 11175 0    50   Input ~ 0
+HPM_STBY_RST_N
+Wire Wire Line
+	4175 7025 4400 7025
+Text Label 3650 7325 0    50   ~ 0
+VCCINT_EN
+Wire Wire Line
+	4400 7425 4400 7500
+Wire Wire Line
+	4400 7500 4600 7500
+Text GLabel 4600 7500 2    50   Input ~ 0
+VCC1V0_T
+$Comp
+L ecp5-dc-scm:IRLML6402TRPBF Q?
+U 1 1 6E9240E8
+P 4400 7225
+AR Path="/5FCA4661/6E9240E8" Ref="Q?"  Part="1" 
+AR Path="/5FFA4931/6E9240E8" Ref="Q?"  Part="1" 
+AR Path="/5FD86D1B/6E9240E8" Ref="Q?"  Part="1" 
+AR Path="/5FD86BEB/6E9240E8" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4508 7278 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 4508 7172 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4600 7425 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4600 7525 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 4600 7725 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 4600 8325 60  0001 L CNN "Manufacturer"
+	1    4400 7225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 7325 4100 7325
+Text Label 3625 8450 0    50   ~ 0
+VCCIO_EN
+Text GLabel 4150 8150 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	4375 8550 4375 8625
+Wire Wire Line
+	4375 8625 4575 8625
+Text GLabel 4575 8625 2    50   Input ~ 0
+VCC3V3_T
+Text GLabel 4150 8750 0    50   Input ~ 0
+VCC1V35
+Wire Wire Line
+	4375 9150 4375 9225
+Wire Wire Line
+	4375 9225 4575 9225
+Text GLabel 4575 9225 2    50   Input ~ 0
+VCC1V35_T
+Wire Wire Line
+	4375 8750 4150 8750
+Wire Wire Line
+	4150 8150 4375 8150
+Text GLabel 4150 9350 0    50   Input ~ 0
+VCC1V8
+Wire Wire Line
+	4375 9750 4375 9825
+Wire Wire Line
+	4375 9825 4575 9825
+Text GLabel 4575 9825 2    50   Input ~ 0
+VCC1V8_T
+Wire Wire Line
+	4375 9350 4150 9350
+Wire Wire Line
+	3625 9650 4075 9650
+Wire Wire Line
+	3625 9050 4075 9050
+$Comp
+L ecp5-dc-scm:IRLML6402TRPBF Q?
+U 1 1 60050850
+P 4375 8350
+AR Path="/5FCA4661/60050850" Ref="Q?"  Part="1" 
+AR Path="/5FFA4931/60050850" Ref="Q?"  Part="1" 
+AR Path="/5FD86D1B/60050850" Ref="Q?"  Part="1" 
+AR Path="/5FD86BEB/60050850" Ref="Q2"  Part="1" 
+F 0 "Q2" H 4483 8403 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 4483 8297 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 8550 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 8650 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 4575 8850 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 4575 9450 60  0001 L CNN "Manufacturer"
+	1    4375 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5-dc-scm:IRLML6402TRPBF Q?
+U 1 1 60050858
+P 4375 8950
+AR Path="/5FCA4661/60050858" Ref="Q?"  Part="1" 
+AR Path="/5FFA4931/60050858" Ref="Q?"  Part="1" 
+AR Path="/5FD86D1B/60050858" Ref="Q?"  Part="1" 
+AR Path="/5FD86BEB/60050858" Ref="Q3"  Part="1" 
+F 0 "Q3" H 4483 9003 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 4483 8897 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 9150 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 9250 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 4575 9450 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 4575 10050 60  0001 L CNN "Manufacturer"
+	1    4375 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5-dc-scm:IRLML6402TRPBF Q?
+U 1 1 60050860
+P 4375 9550
+AR Path="/5FCA4661/60050860" Ref="Q?"  Part="1" 
+AR Path="/5FFA4931/60050860" Ref="Q?"  Part="1" 
+AR Path="/5FD86D1B/60050860" Ref="Q?"  Part="1" 
+AR Path="/5FD86BEB/60050860" Ref="Q4"  Part="1" 
+F 0 "Q4" H 4483 9603 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 4483 9497 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 9750 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 9850 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 4575 10050 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 4575 10650 60  0001 L CNN "Manufacturer"
+	1    4375 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 8450 4075 8450
+Text GLabel 4150 7575 0    50   Input ~ 0
+VCC2V5
+Wire Wire Line
+	4375 7975 4375 8050
+Wire Wire Line
+	4375 8050 4575 8050
+Text GLabel 4575 8050 2    50   Input ~ 0
+VCC2V5_T
+Wire Wire Line
+	4150 7575 4375 7575
+$Comp
+L ecp5-dc-scm:IRLML6402TRPBF Q?
+U 1 1 60050879
+P 4375 7775
+AR Path="/5FCA4661/60050879" Ref="Q?"  Part="1" 
+AR Path="/5FFA4931/60050879" Ref="Q?"  Part="1" 
+AR Path="/5FD86D1B/60050879" Ref="Q?"  Part="1" 
+AR Path="/5FD86BEB/60050879" Ref="Q1"  Part="1" 
+F 0 "Q1" H 4483 7828 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 4483 7722 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 7975 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 8075 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 4575 8275 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 4575 8875 60  0001 L CNN "Manufacturer"
+	1    4375 7775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 7875 4075 7875
+Wire Wire Line
+	4150 9950 4375 9950
+Text GLabel 4150 9950 0    50   Input ~ 0
+VCC1V2
+Wire Wire Line
+	3625 10250 4075 10250
+$Comp
+L ecp5-dc-scm:IRLML6402TRPBF Q?
+U 1 1 60050887
+P 4375 10150
+AR Path="/5FCA4661/60050887" Ref="Q?"  Part="1" 
+AR Path="/5FFA4931/60050887" Ref="Q?"  Part="1" 
+AR Path="/5FD86D1B/60050887" Ref="Q?"  Part="1" 
+AR Path="/5FD86BEB/60050887" Ref="Q5"  Part="1" 
+F 0 "Q5" H 4483 10203 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 4483 10097 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 10350 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 10450 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 4575 10650 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 4575 11250 60  0001 L CNN "Manufacturer"
+	1    4375 10150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4575 10425 2    50   Input ~ 0
+VCC1V2_T
+Wire Wire Line
+	4375 10425 4575 10425
+Wire Wire Line
+	4375 10350 4375 10425
+Text GLabel 4175 7025 0    50   Input ~ 0
+VCC1V0
+Text Label 3625 9650 0    50   ~ 0
+VCCAUX_EN
+Text Label 3625 9050 0    50   ~ 0
+VCCAUX_EN
+Text Label 3625 10250 0    50   ~ 0
+VCCIO_EN
+Text Label 3625 7875 0    50   ~ 0
+VCCAUX_EN
+Wire Wire Line
+	12600 1600 12600 1450
+Connection ~ 12600 1450
+Wire Wire Line
+	12600 1450 12900 1450
 $EndSCHEMATC

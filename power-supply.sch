@@ -3445,15 +3445,13 @@ F 6 "66k5" V 14597 8930 50  0000 R CNN "Val"
 $EndComp
 Text GLabel 6925 11175 0    50   Input ~ 0
 HPM_STBY_RST_N
-Wire Wire Line
-	4175 7025 4400 7025
-Text Label 3650 7325 0    50   ~ 0
+Text Label 3650 7125 0    50   ~ 0
 VCCINT_EN
 Wire Wire Line
-	4400 7425 4400 7500
+	4400 7425 4400 7450
 Wire Wire Line
-	4400 7500 4600 7500
-Text GLabel 4600 7500 2    50   Input ~ 0
+	4400 7450 4600 7450
+Text GLabel 4600 7450 2    50   Input ~ 0
 VCC1V0_T
 $Comp
 L ecp5-dc-scm:IRLML6402TRPBF Q?
@@ -3470,33 +3468,25 @@ F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535
 F 4 "IRLML6402TRPBF" H 4600 7725 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 4600 8325 60  0001 L CNN "Manufacturer"
 	1    4400 7225
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3650 7325 4100 7325
-Text Label 3625 8450 0    50   ~ 0
+	3650 7125 4100 7125
+Text Label 3625 8250 0    50   ~ 0
 VCCIO_EN
-Text GLabel 4150 8150 0    50   Input ~ 0
+Text GLabel 4175 8075 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	4375 8550 4375 8625
+	4375 8550 4375 8575
 Wire Wire Line
-	4375 8625 4575 8625
-Text GLabel 4575 8625 2    50   Input ~ 0
+	4375 8575 4575 8575
+Text GLabel 4575 8575 2    50   Input ~ 0
 VCC3V3_T
-Text GLabel 4150 8750 0    50   Input ~ 0
-VCC1V35
-Wire Wire Line
-	4375 9150 4375 9225
 Wire Wire Line
 	4375 9225 4575 9225
 Text GLabel 4575 9225 2    50   Input ~ 0
 VCC1V35_T
-Wire Wire Line
-	4375 8750 4150 8750
-Wire Wire Line
-	4150 8150 4375 8150
-Text GLabel 4150 9350 0    50   Input ~ 0
+Text GLabel 4175 9275 0    50   Input ~ 0
 VCC1V8
 Wire Wire Line
 	4375 9750 4375 9825
@@ -3505,11 +3495,7 @@ Wire Wire Line
 Text GLabel 4575 9825 2    50   Input ~ 0
 VCC1V8_T
 Wire Wire Line
-	4375 9350 4150 9350
-Wire Wire Line
-	3625 9650 4075 9650
-Wire Wire Line
-	3625 9050 4075 9050
+	3625 9450 4075 9450
 $Comp
 L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60050850
@@ -3525,24 +3511,7 @@ F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535
 F 4 "IRLML6402TRPBF" H 4575 8850 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 4575 9450 60  0001 L CNN "Manufacturer"
 	1    4375 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050858
-P 4375 8950
-AR Path="/5FCA4661/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050858" Ref="Q3"  Part="1" 
-F 0 "Q3" H 4483 9003 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4483 8897 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 9150 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 9250 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4575 9450 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4575 10050 60  0001 L CNN "Manufacturer"
-	1    4375 8950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L ecp5-dc-scm:IRLML6402TRPBF Q?
@@ -3559,20 +3528,18 @@ F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535
 F 4 "IRLML6402TRPBF" H 4575 10050 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 4575 10650 60  0001 L CNN "Manufacturer"
 	1    4375 9550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3625 8450 4075 8450
-Text GLabel 4150 7575 0    50   Input ~ 0
+	3625 8250 4075 8250
+Text GLabel 4175 7500 0    50   Input ~ 0
 VCC2V5
 Wire Wire Line
-	4375 7975 4375 8050
+	4375 7975 4375 8000
 Wire Wire Line
-	4375 8050 4575 8050
-Text GLabel 4575 8050 2    50   Input ~ 0
+	4375 8000 4575 8000
+Text GLabel 4575 8000 2    50   Input ~ 0
 VCC2V5_T
-Wire Wire Line
-	4150 7575 4375 7575
 $Comp
 L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60050879
@@ -3588,16 +3555,33 @@ F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535
 F 4 "IRLML6402TRPBF" H 4575 8275 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 4575 8875 60  0001 L CNN "Manufacturer"
 	1    4375 7775
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3625 7875 4075 7875
-Wire Wire Line
-	4150 9950 4375 9950
-Text GLabel 4150 9950 0    50   Input ~ 0
+	3625 7675 4075 7675
+Text GLabel 4175 9875 0    50   Input ~ 0
 VCC1V2
 Wire Wire Line
-	3625 10250 4075 10250
+	3625 10050 4075 10050
+Text GLabel 4575 10425 2    50   Input ~ 0
+VCC1V2_T
+Wire Wire Line
+	4375 10425 4575 10425
+Wire Wire Line
+	4375 10350 4375 10425
+Text GLabel 4200 6975 0    50   Input ~ 0
+VCC1V0
+Text Label 3625 9450 0    50   ~ 0
+VCCAUX_EN
+Text Label 3625 10050 0    50   ~ 0
+VCCIO_EN
+Text Label 3625 7675 0    50   ~ 0
+VCCAUX_EN
+Wire Wire Line
+	12600 1600 12600 1450
+Connection ~ 12600 1450
+Wire Wire Line
+	12600 1450 12900 1450
 $Comp
 L ecp5-dc-scm:IRLML6402TRPBF Q?
 U 1 1 60050887
@@ -3613,27 +3597,55 @@ F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535
 F 4 "IRLML6402TRPBF" H 4575 10650 60  0001 L CNN "MPN"
 F 5 "Infineon Technologies" H 4575 11250 60  0001 L CNN "Manufacturer"
 	1    4375 10150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-Text GLabel 4575 10425 2    50   Input ~ 0
-VCC1V2_T
 Wire Wire Line
-	4375 10425 4575 10425
+	4400 7025 4400 6975
 Wire Wire Line
-	4375 10350 4375 10425
-Text GLabel 4175 7025 0    50   Input ~ 0
-VCC1V0
-Text Label 3625 9650 0    50   ~ 0
+	4400 6975 4200 6975
+Wire Wire Line
+	4375 7575 4375 7500
+Wire Wire Line
+	4375 7500 4175 7500
+Wire Wire Line
+	4375 8150 4375 8075
+Wire Wire Line
+	4375 8075 4175 8075
+Wire Wire Line
+	4375 8675 4175 8675
+Wire Wire Line
+	4375 9350 4375 9275
+Wire Wire Line
+	4375 9275 4175 9275
+Wire Wire Line
+	4375 9950 4375 9875
+Wire Wire Line
+	4375 9875 4175 9875
+Wire Wire Line
+	4375 8750 4375 8675
+Text Label 3625 8850 0    50   ~ 0
 VCCAUX_EN
-Text Label 3625 9050 0    50   ~ 0
-VCCAUX_EN
-Text Label 3625 10250 0    50   ~ 0
-VCCIO_EN
-Text Label 3625 7875 0    50   ~ 0
-VCCAUX_EN
+$Comp
+L ecp5-dc-scm:IRLML6402TRPBF Q?
+U 1 1 60050858
+P 4375 8950
+AR Path="/5FCA4661/60050858" Ref="Q?"  Part="1" 
+AR Path="/5FFA4931/60050858" Ref="Q?"  Part="1" 
+AR Path="/5FD86D1B/60050858" Ref="Q?"  Part="1" 
+AR Path="/5FD86BEB/60050858" Ref="Q3"  Part="1" 
+F 0 "Q3" H 4483 9003 60  0000 L CNN
+F 1 "IRLML6402TRPBF" H 4483 8897 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 9150 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 9250 60  0001 L CNN
+F 4 "IRLML6402TRPBF" H 4575 9450 60  0001 L CNN "MPN"
+F 5 "Infineon Technologies" H 4575 10050 60  0001 L CNN "Manufacturer"
+	1    4375 8950
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	12600 1600 12600 1450
-Connection ~ 12600 1450
+	3625 8850 4075 8850
 Wire Wire Line
-	12600 1450 12900 1450
+	4375 9150 4375 9225
+Text GLabel 4175 8675 0    50   Input ~ 0
+VCC1V35
 $EndSCHEMATC

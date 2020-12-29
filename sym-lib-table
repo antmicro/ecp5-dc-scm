@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ecp5-dc-scm)(type Legacy)(uri ${KIPRJMOD}/lib/ecp5-dc-scm.lib)(options "")(descr ""))
+  (lib (name ecp5-dc-scm-rescue)(type Legacy)(uri ${KIPRJMOD}/ecp5-dc-scm-rescue.lib)(options "")(descr ""))
 )

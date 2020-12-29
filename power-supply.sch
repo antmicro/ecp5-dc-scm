@@ -3460,8 +3460,8 @@ P 4400 7225
 AR Path="/5FCA4661/6E9240E8" Ref="Q?"  Part="1" 
 AR Path="/5FFA4931/6E9240E8" Ref="Q?"  Part="1" 
 AR Path="/5FD86D1B/6E9240E8" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/6E9240E8" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4508 7278 60  0000 L CNN
+AR Path="/5FD86BEB/6E9240E8" Ref="Q17"  Part="1" 
+F 0 "Q17" H 4508 7278 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 4508 7172 60  0000 L CNN
 F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4600 7425 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4600 7525 60  0001 L CNN

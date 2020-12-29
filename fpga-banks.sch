@@ -941,94 +941,90 @@ Connection ~ 14000 1400
 Wire Wire Line
 	14000 1100 14000 950 
 Connection ~ 14000 1100
-Text GLabel 14000 950  0    50   Input ~ 0
-VCC1V8_T
 Wire Wire Line
 	15150 1100 15150 1475
-Connection ~ 4275 7500
+Connection ~ 4250 7325
 Wire Wire Line
-	4275 7500 4025 7500
+	4250 7325 4000 7325
 Wire Wire Line
-	4525 7875 4525 7500
+	4500 7700 4500 7325
 Wire Wire Line
-	4525 7500 4425 7500
-Connection ~ 4425 7500
+	4500 7325 4400 7325
+Connection ~ 4400 7325
 Wire Wire Line
-	4275 7800 4025 7800
+	4250 7625 4000 7625
 Wire Wire Line
-	4425 7500 4275 7500
+	4400 7325 4250 7325
 $Comp
 L ecp5-dc-scm:C_470n_0402 C?
 U 1 1 60F2CD92
-P 4275 7650
+P 4250 7475
 AR Path="/5FD74EA8/60F2CD92" Ref="C?"  Part="1" 
 AR Path="/5FC6B687/60F2CD92" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/60F2CD92" Ref="C178"  Part="1" 
-F 0 "C178" H 4300 7750 60  0000 L CNN
-F 1 "C_470n_0402" H 4275 7500 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-cap" H 4475 7850 60  0001 L CNN
-F 3 "" H 4275 7650 50  0001 C CNN
-F 4 "TDK" H 4475 8050 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1E474M050BB" H 4475 7950 60  0001 L CNN "MPN"
-F 6 "470n" H 4300 7550 50  0000 L CNN "Val"
-	1    4275 7650
+F 0 "C178" H 4275 7575 60  0000 L CNN
+F 1 "C_470n_0402" H 4250 7325 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 4450 7675 60  0001 L CNN
+F 3 "" H 4250 7475 50  0001 C CNN
+F 4 "TDK" H 4450 7875 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4450 7775 60  0001 L CNN "MPN"
+F 6 "470n" H 4275 7375 50  0000 L CNN "Val"
+	1    4250 7475
 	-1   0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:C_470n_0402 C?
 U 1 1 623303EF
-P 4025 7650
+P 4000 7475
 AR Path="/5FD74EA8/623303EF" Ref="C?"  Part="1" 
 AR Path="/5FC6B687/623303EF" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/623303EF" Ref="C176"  Part="1" 
-F 0 "C176" H 4050 7750 60  0000 L CNN
-F 1 "C_470n_0402" H 4025 7500 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-cap" H 4225 7850 60  0001 L CNN
-F 3 "" H 4025 7650 50  0001 C CNN
-F 4 "TDK" H 4225 8050 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1E474M050BB" H 4225 7950 60  0001 L CNN "MPN"
-F 6 "470n" H 4050 7550 50  0000 L CNN "Val"
-	1    4025 7650
+F 0 "C176" H 4025 7575 60  0000 L CNN
+F 1 "C_470n_0402" H 4000 7325 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 4200 7675 60  0001 L CNN
+F 3 "" H 4000 7475 50  0001 C CNN
+F 4 "TDK" H 4200 7875 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4200 7775 60  0001 L CNN "MPN"
+F 6 "470n" H 4025 7375 50  0000 L CNN "Val"
+	1    4000 7475
 	-1   0    0    -1  
 $EndComp
-Connection ~ 4025 7500
-Connection ~ 4025 7800
+Connection ~ 4000 7325
+Connection ~ 4000 7625
 Wire Wire Line
-	4025 7800 3750 7800
+	4000 7625 3725 7625
 Wire Wire Line
-	4025 7500 3775 7500
-Text GLabel 3775 7500 0    50   Input ~ 0
-VCC3V3_T
+	4000 7325 3750 7325
 Wire Wire Line
-	4425 7500 4425 7875
+	4400 7325 4400 7700
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756 U?
 U 6 1 5FDF751C
-P 3725 8575
+P 3700 8400
 AR Path="/5FD74EA8/5FDF751C" Ref="U?"  Part="6" 
 AR Path="/5FC6B687/5FDF751C" Ref="U?"  Part="6" 
 AR Path="/5FD86CE4/5FDF751C" Ref="U18"  Part="6" 
-F 0 "U18" H 3925 9125 60  0000 L CNN
-F 1 "ECP5UM5G_85_CABGA756" H 3800 6075 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" H 3725 8575 50  0001 C CNN
-F 3 "" H 3725 8575 50  0001 C CNN
-F 4 "LFE5UM5G-85F-8BG756C" H 3875 8525 60  0001 R CNN "MPN"
-F 5 "Lattice Semiconductor" H 4655 7626 50  0001 L CNN "Manufacturer"
-	6    3725 8575
+F 0 "U18" H 3900 8950 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 3775 5900 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" H 3700 8400 50  0001 C CNN
+F 3 "" H 3700 8400 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" H 3850 8350 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" H 4630 7451 50  0001 L CNN "Manufacturer"
+	6    3700 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 60F2CD94
-P 3750 7800
+P 3725 7625
 AR Path="/5FD74EA8/60F2CD94" Ref="#PWR?"  Part="1" 
 AR Path="/5FC6B687/60F2CD94" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86CE4/60F2CD94" Ref="#PWR093"  Part="1" 
-F 0 "#PWR093" H 3750 7550 50  0001 C CNN
-F 1 "GND" H 3755 7627 50  0000 C CNN
-F 2 "" H 3750 7800 50  0001 C CNN
-F 3 "" H 3750 7800 50  0001 C CNN
-	1    3750 7800
+F 0 "#PWR093" H 3725 7375 50  0001 C CNN
+F 1 "GND" H 3730 7452 50  0000 C CNN
+F 2 "" H 3725 7625 50  0001 C CNN
+F 3 "" H 3725 7625 50  0001 C CNN
+	1    3725 7625
 	1    0    0    -1  
 $EndComp
 Connection ~ 6600 7500
@@ -1287,7 +1283,7 @@ Text GLabel 1575 4825 0    50   Input ~ 0
 UART0_SCM_TX
 Text GLabel 1575 4925 0    50   Input ~ 0
 UART0_SCM_RX
-Text Notes 6975 -175 0    50   ~ 0
+Text Notes 675  750  0    50   ~ 0
 FPGA connections to be established while preparing layout
 Wire Wire Line
 	4400 2225 4025 2225
@@ -1455,42 +1451,6 @@ F 5 "Lattice Semiconductor" V 10025 11650 50  0001 C CNN "Manufacturer"
 	12   10475 9300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14125 2975 14450 2975
-Wire Wire Line
-	14125 2875 14450 2875
-Wire Wire Line
-	14125 2775 14450 2775
-Wire Wire Line
-	14125 2675 14450 2675
-Wire Wire Line
-	14125 2575 14450 2575
-Wire Wire Line
-	14125 2475 14450 2475
-Wire Wire Line
-	14125 2375 14450 2375
-Wire Wire Line
-	14125 2275 14450 2275
-Wire Wire Line
-	14125 2175 14450 2175
-Text GLabel 14125 2975 0    50   Input ~ 0
-ESPI_RESET_N
-Text GLabel 14125 2875 0    50   Input ~ 0
-ESPI_ALERT_N
-Text GLabel 14125 2775 0    50   Input ~ 0
-ESPI_IO3
-Text GLabel 14125 2675 0    50   Input ~ 0
-ESPI_IO2
-Text GLabel 14125 2575 0    50   Input ~ 0
-ESPI_IO1
-Text GLabel 14125 2475 0    50   Input ~ 0
-ESPI_IO0
-Text GLabel 14125 2375 0    50   Input ~ 0
-ESPI_CS1_N
-Text GLabel 14125 2275 0    50   Input ~ 0
-ESPI_CS0_N
-Text GLabel 14125 2175 0    50   Input ~ 0
-ESPI_CLK
 Text GLabel 4075 4825 0    50   Input ~ 0
 I3C[0]_SDA_3V3
 Text GLabel 4075 5025 0    50   Input ~ 0
@@ -1604,7 +1564,7 @@ L ecp5-dc-scm:LG_L29K-G2J1-24-Z D11
 U 1 1 61639E33
 P 1800 8875
 F 0 "D11" V 1697 9053 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 1803 9053 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 1150 8625 60  0000 L CNN
 F 2 "ecp5-dc-scm-footprints:LED_0603" H 2000 9075 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2000 9175 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 2000 9375 60  0001 L CNN "MPN"
@@ -2699,10 +2659,6 @@ ECP5
 Text Notes 20450 6900 0    118  ~ 0
 DONE
 Wire Wire Line
-	17875 3075 17325 3075
-Wire Wire Line
-	17875 2975 17325 2975
-Wire Wire Line
 	3850 5825 4400 5825
 Wire Wire Line
 	3850 5925 4400 5925
@@ -2718,71 +2674,31 @@ Wire Wire Line
 	3850 6425 4400 6425
 Wire Wire Line
 	3850 6525 4400 6525
-Wire Wire Line
-	17325 2750 17875 2750
-Wire Wire Line
-	17325 2850 17875 2850
-Wire Wire Line
-	17875 3200 17325 3200
-Wire Wire Line
-	17875 3300 17325 3300
-Wire Wire Line
-	17325 3400 17875 3400
-Wire Wire Line
-	17875 3500 17325 3500
-Wire Wire Line
-	17875 3600 17325 3600
-Wire Wire Line
-	17325 3700 17875 3700
-Wire Wire Line
-	17875 3800 17325 3800
-Wire Wire Line
-	17875 3900 17325 3900
-Wire Wire Line
-	17325 4000 17875 4000
-Wire Wire Line
-	17875 4100 17325 4100
-Wire Wire Line
-	17875 4200 17325 4200
-Wire Wire Line
-	17325 4300 17875 4300
-Wire Wire Line
-	17875 4400 17325 4400
-Wire Wire Line
-	17875 4500 17325 4500
-Wire Wire Line
-	17875 4600 17325 4600
 Text GLabel 17325 3075 0    50   Input ~ 0
 VIRTUAL_RESEAT
 Text GLabel 17325 3200 0    50   Input ~ 0
 HPM_FW_RECOVERY
 Text GLabel 17325 3300 0    50   Input ~ 0
-HPM_STBY_RDY
-Text GLabel 17325 3400 0    50   Input ~ 0
-HPM_STBY_EN
-Text GLabel 17325 3500 0    50   Input ~ 0
-HPM_STBY_RST_N
-Text GLabel 17325 3600 0    50   Input ~ 0
 SYS_PWRBTN_N
-Text GLabel 17325 3700 0    50   Input ~ 0
+Text GLabel 17325 3400 0    50   Input ~ 0
 SYS_PWROK
-Text GLabel 17325 3800 0    50   Input ~ 0
+Text GLabel 17325 3500 0    50   Input ~ 0
 DBP_PREQ_N
-Text GLabel 17325 3900 0    50   Input ~ 0
+Text GLabel 17325 3600 0    50   Input ~ 0
 DBP_PRDY_N
-Text GLabel 17325 4000 0    50   Input ~ 0
+Text GLabel 17325 3700 0    50   Input ~ 0
 RST_PLTRST_BUF_N
-Text GLabel 17325 4100 0    50   Input ~ 0
+Text GLabel 17325 3800 0    50   Input ~ 0
 SPARE1
-Text GLabel 17325 4200 0    50   Input ~ 0
+Text GLabel 17325 3900 0    50   Input ~ 0
 RoT_CPU_RST_N
-Text GLabel 17325 4300 0    50   Input ~ 0
+Text GLabel 17325 4000 0    50   Input ~ 0
 CHASI#
-Text GLabel 17325 4400 0    50   Input ~ 0
+Text GLabel 17325 4100 0    50   Input ~ 0
 SPARE0
-Text GLabel 17325 4500 0    50   Input ~ 0
+Text GLabel 17325 4200 0    50   Input ~ 0
 IRQ_N
-Text GLabel 17325 4600 0    50   Input ~ 0
+Text GLabel 17325 4300 0    50   Input ~ 0
 PRSNT1_N
 Text GLabel 17325 2975 0    50   Input ~ 0
 PRSNT0_N
@@ -2806,10 +2722,6 @@ Text GLabel 17325 2750 0    50   Input ~ 0
 PECI_BMC
 Text GLabel 17325 2850 0    50   Input ~ 0
 PVCCIO_PECI
-Text Notes 19500 7150 0    118  ~ 0
-N\n
-Text Notes 19500 8500 0    118  ~ 0
-N\n
 Text Notes 20450 5750 0    118  ~ 0
 DONE
 Text Notes 16975 2575 0    118  ~ 0
@@ -2838,11 +2750,11 @@ Wire Wire Line
 	13900 5175 14450 5175
 Text Notes 20450 6675 0    118  ~ 0
 DONE
-Text Notes 20425 8475 0    118  ~ 0
+Text Notes 20450 8475 0    118  ~ 0
 DONE
-Text Notes 20425 8025 0    118  ~ 0
+Text Notes 20450 8025 0    118  ~ 0
 DONE
-Text Notes 20425 8250 0    118  ~ 0
+Text Notes 20450 8250 0    118  ~ 0
 DONE
 Text GLabel 11550 5500 0    50   Input ~ 0
 USR_LED0
@@ -2856,4 +2768,98 @@ Wire Wire Line
 	11925 5700 11550 5700
 Wire Wire Line
 	11925 5600 11550 5600
+Text GLabel 3375 8400 0    50   Input ~ 0
+ESPI_CLK
+Text GLabel 3375 8500 0    50   Input ~ 0
+ESPI_CS0_N
+Text GLabel 3375 8600 0    50   Input ~ 0
+ESPI_CS1_N
+Text GLabel 3375 8700 0    50   Input ~ 0
+ESPI_IO0
+Text GLabel 3375 8800 0    50   Input ~ 0
+ESPI_IO1
+Text GLabel 3375 8900 0    50   Input ~ 0
+ESPI_IO2
+Text GLabel 3375 9000 0    50   Input ~ 0
+ESPI_IO3
+Text GLabel 3375 9100 0    50   Input ~ 0
+ESPI_ALERT_N
+Text GLabel 3375 9200 0    50   Input ~ 0
+ESPI_RESET_N
+Wire Wire Line
+	3375 8400 3700 8400
+Wire Wire Line
+	3375 8500 3700 8500
+Wire Wire Line
+	3375 8600 3700 8600
+Wire Wire Line
+	3375 8700 3700 8700
+Wire Wire Line
+	3375 8800 3700 8800
+Wire Wire Line
+	3375 8900 3700 8900
+Wire Wire Line
+	3375 9000 3700 9000
+Wire Wire Line
+	3375 9100 3700 9100
+Wire Wire Line
+	3375 9200 3700 9200
+Text GLabel 3750 7325 0    50   Input ~ 0
+VCC1V8_T
+Text Notes 20450 7125 0    118  ~ 0
+DONE
+Text Notes 20450 7350 0    118  ~ 0
+DONE
+Text Notes 20450 7575 0    118  ~ 0
+DONE
+Text Notes 20450 7800 0    118  ~ 0
+DONE
+Text Notes 19500 7325 0    118  ~ 0
+?\n\n
+Text Notes 19500 7375 0    118  ~ 0
+N\n
+Text Notes 19500 7600 0    118  ~ 0
+N\n
+Text Notes 19500 7825 0    118  ~ 0
+N\n
+Text Notes 19500 8450 0    118  ~ 0
+?\n\n
+Text Notes 19500 8675 0    118  ~ 0
+?\n\n
+Text Notes 18100 3175 0    50   ~ 0
+TODO: Check and connect these misc signalls
+Wire Wire Line
+	17875 4300 17325 4300
+Wire Wire Line
+	17875 4200 17325 4200
+Wire Wire Line
+	17875 4100 17325 4100
+Wire Wire Line
+	17325 4000 17875 4000
+Wire Wire Line
+	17875 3900 17325 3900
+Wire Wire Line
+	17875 3800 17325 3800
+Wire Wire Line
+	17325 3700 17875 3700
+Wire Wire Line
+	17875 3600 17325 3600
+Wire Wire Line
+	17875 3500 17325 3500
+Wire Wire Line
+	17325 3400 17875 3400
+Wire Wire Line
+	17875 3300 17325 3300
+Wire Wire Line
+	17875 3200 17325 3200
+Wire Wire Line
+	17325 2850 17875 2850
+Wire Wire Line
+	17325 2750 17875 2750
+Wire Wire Line
+	17875 2975 17325 2975
+Wire Wire Line
+	17875 3075 17325 3075
+Text GLabel 14000 950  0    50   Input ~ 0
+VCC3V3_T
 $EndSCHEMATC

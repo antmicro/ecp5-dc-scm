@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 1 1 626D08BC
 P 7750 5550
 AR Path="/626D078D/626D08BC" Ref="U?"  Part="1" 

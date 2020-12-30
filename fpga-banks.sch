@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 9 1 60F2CD6F
 P 5950 8575
 AR Path="/5FD74EA8/60F2CD6F" Ref="U?"  Part="9" 
@@ -31,7 +31,7 @@ F 5 "Lattice Semiconductor" H 6980 7826 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 8 1 60F2CD72
 P 14450 2175
 AR Path="/5FD74EA8/60F2CD72" Ref="U?"  Part="8" 
@@ -48,7 +48,7 @@ F 5 "Lattice Semiconductor" H 15580 26  50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 7 1 5FDECAB9
 P 11925 2200
 AR Path="/5FD74EA8/5FDECAB9" Ref="U?"  Part="7" 
@@ -65,7 +65,7 @@ F 5 "Lattice Semiconductor" H 13055 -749 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 5 1 5FC7B4D6
 P 9375 2225
 AR Path="/5FD74EA8/5FC7B4D6" Ref="U?"  Part="5" 
@@ -82,7 +82,7 @@ F 5 "Lattice Semiconductor" H 10505 -724 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 4 1 5FC6BB1C
 P 6875 2225
 AR Path="/5FD74EA8/5FC6BB1C" Ref="U?"  Part="4" 
@@ -99,7 +99,7 @@ F 5 "Lattice Semiconductor" H 8005 76  50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 2 1 5FC8A8B1
 P 1900 2225
 AR Path="/5FD74EA8/5FC8A8B1" Ref="U?"  Part="2" 
@@ -116,7 +116,7 @@ F 5 "Lattice Semiconductor" H 3030 -324 50  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 3 1 5FCBC7B0
 P 4400 2225
 AR Path="/5FD74EA8/5FCBC7B0" Ref="U?"  Part="3" 
@@ -1005,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 7325 4400 7700
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 6 1 5FDF751C
 P 3700 8400
 AR Path="/5FD74EA8/5FDF751C" Ref="U?"  Part="6" 
@@ -1334,7 +1334,7 @@ Wire Wire Line
 Wire Wire Line
 	5625 9075 5950 9075
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 10 1 6100A116
 P 8250 9150
 AR Path="/5FD74EA8/6100A116" Ref="U?"  Part="10" 
@@ -1351,7 +1351,7 @@ F 5 "Lattice Semiconductor" V 7800 11500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 11 1 6103B98E
 P 8650 10025
 AR Path="/5FD74EA8/6103B98E" Ref="U?"  Part="11" 
@@ -1368,7 +1368,7 @@ F 5 "Lattice Semiconductor" V 8200 12375 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm-rescue:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
+L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 12 1 61050AD0
 P 10475 9300
 AR Path="/5FD74EA8/61050AD0" Ref="U?"  Part="12" 

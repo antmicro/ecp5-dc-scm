@@ -1,4 +1,4 @@
-update=Wed 30 Dec 2020 02:57:58 CET
+update=Wed 30 Dec 2020 17:20:27 CET
 version=1
 last_client=kicad
 [general]
@@ -38,12 +38,13 @@ MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.1
+TrackWidth1=0.25
 TrackWidth2=0.1
+TrackWidth3=0.15
 ViaDiameter1=0.5
 ViaDrill1=0.2
-dPairWidth1=0.1
-dPairGap1=0.2
+dPairWidth1=0.2
+dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -239,13 +240,13 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1
-TrackWidth=0.1
+TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.1
-dPairGap=0.2
+dPairWidth=0.2
+dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=PCIe
@@ -260,7 +261,7 @@ dPairGap=0.11
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=USB
-Clearance=0.1
+Clearance=0.15
 TrackWidth=0.16
 ViaDiameter=0.5
 ViaDrill=0.2

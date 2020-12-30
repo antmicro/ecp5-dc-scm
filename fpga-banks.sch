@@ -260,20 +260,6 @@ $EndComp
 Wire Wire Line
 	1450 1450 1450 1575
 Connection ~ 1450 1450
-$Comp
-L ecp5-dc-scm:GND #PWR?
-U 1 1 621442CD
-P 1450 1575
-AR Path="/5FD74EA8/621442CD" Ref="#PWR?"  Part="1" 
-AR Path="/5FC6B687/621442CD" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86CE4/621442CD" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 1450 1325 50  0001 C CNN
-F 1 "GND" H 1455 1402 50  0000 C CNN
-F 2 "" H 1450 1575 50  0001 C CNN
-F 3 "" H 1450 1575 50  0001 C CNN
-	1    1450 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 1150 1450 1000
 Connection ~ 1450 1150
@@ -1177,8 +1163,6 @@ F 3 "" H 14000 1525 50  0001 C CNN
 $EndComp
 Text GLabel 8925 1000 0    50   Input ~ 0
 VCC1V35_T
-Wire Wire Line
-	1900 2325 1525 2325
 Text Notes 800  3225 1    50   ~ 0
 ethernet.sch
 Text Notes 9450 725  0    118  ~ 0
@@ -2505,22 +2489,6 @@ Text Notes 18425 6900 0    79   ~ 0
 ECP5
 Text Notes 20450 6900 0    118  ~ 0
 DONE
-Wire Wire Line
-	3850 5825 4400 5825
-Wire Wire Line
-	3850 5925 4400 5925
-Wire Wire Line
-	4400 6025 3850 6025
-Wire Wire Line
-	3850 6225 4400 6225
-Wire Wire Line
-	3850 6325 4400 6325
-Wire Wire Line
-	4400 6125 3850 6125
-Wire Wire Line
-	3850 6425 4400 6425
-Wire Wire Line
-	3850 6525 4400 6525
 Text GLabel 17325 3075 0    50   Input ~ 0
 VIRTUAL_RESEAT
 Text GLabel 17325 3200 0    50   Input ~ 0
@@ -2549,22 +2517,6 @@ Text GLabel 17325 4300 0    50   Input ~ 0
 PRSNT1_N
 Text GLabel 17325 2975 0    50   Input ~ 0
 PRSNT0_N
-Text GLabel 3850 5825 0    50   Input ~ 0
-NCSI_CLK
-Text GLabel 3850 5925 0    50   Input ~ 0
-NCSI_CRS_DV
-Text GLabel 3850 6025 0    50   Input ~ 0
-NCSI_TXEN
-Text GLabel 3850 6225 0    50   Input ~ 0
-NCSI_TXD0
-Text GLabel 3850 6325 0    50   Input ~ 0
-NCSI_TXD1
-Text GLabel 3850 6125 0    50   Input ~ 0
-NCSI_RXER
-Text GLabel 3850 6425 0    50   Input ~ 0
-NCSI_RXD0
-Text GLabel 3850 6525 0    50   Input ~ 0
-NCSI_RXD1
 Text GLabel 17325 2750 0    50   Input ~ 0
 PECI_BMC
 Text GLabel 17325 2850 0    50   Input ~ 0
@@ -2695,72 +2647,6 @@ Wire Wire Line
 	17875 3075 17325 3075
 Text GLabel 14000 950  0    50   Input ~ 0
 VCC3V3_T
-Text GLabel 1525 3125 0    50   Output ~ 0
-RGMII_TX_CLK
-Text GLabel 1525 2925 0    50   Output ~ 0
-ETH_~RESET
-Wire Wire Line
-	1900 2925 1525 2925
-Text GLabel 1525 2525 0    50   Input ~ 0
-RGMII_REF_CLK
-Text GLabel 1525 3025 0    50   Input ~ 0
-ETH_INT_N
-Wire Wire Line
-	1900 3725 1525 3725
-Wire Wire Line
-	1900 3825 1525 3825
-Wire Wire Line
-	1900 3625 1525 3625
-Wire Wire Line
-	4400 6925 4025 6925
-Wire Wire Line
-	1900 3525 1525 3525
-Wire Wire Line
-	1900 3325 1525 3325
-Wire Wire Line
-	1900 3225 1525 3225
-Wire Wire Line
-	1900 3025 1525 3025
-Wire Wire Line
-	1900 3125 1525 3125
-Wire Wire Line
-	1900 2725 1525 2725
-Wire Wire Line
-	1900 2825 1525 2825
-Wire Wire Line
-	1900 2625 1525 2625
-Wire Wire Line
-	1900 2425 1525 2425
-Wire Wire Line
-	1900 2525 1525 2525
-Text GLabel 1525 2425 0    50   Input ~ 0
-RGMII_RX_CLK
-Text GLabel 1525 3225 0    50   Input ~ 0
-RGMII_RXD3
-Text GLabel 1525 3725 0    50   Input ~ 0
-RGMII_RXD2
-Text GLabel 1525 2825 0    50   Input ~ 0
-RGMII_RXD1
-Text GLabel 1525 2725 0    50   Input ~ 0
-RGMII_RXD0
-Text GLabel 1525 3825 0    50   Input ~ 0
-RGMII_TXD3
-Text GLabel 1525 3325 0    50   Output ~ 0
-RGMII_TXD2
-Text GLabel 1525 3625 0    50   Output ~ 0
-RGMII_TXD1
-Text GLabel 1525 3525 0    50   Output ~ 0
-RGMII_TXD0
-Text GLabel 4025 6925 0    50   BiDi ~ 0
-ETH_MDIO
-Text GLabel 1525 2325 0    50   Output ~ 0
-ETH_MDC
-Text GLabel 1525 2625 0    50   Input ~ 0
-RGMII_RX_DV
-Text GLabel 1525 3425 0    50   Output ~ 0
-RGMII_TX_EN
-Wire Wire Line
-	1900 3425 1525 3425
 Text Notes 10475 17000 0    118  ~ 24
 USB Client
 Text GLabel 11725 7900 0    50   Input ~ 0
@@ -2874,5 +2760,122 @@ RGMII
 Text Notes 18200 8000 0    79   ~ 0
 Trellis board
 Text Notes 18175 8450 0    79   ~ 0
-Trellis board
+ECPIX5
+$Comp
+L ecp5-dc-scm:GND #PWR?
+U 1 1 5FFD2291
+P 1450 1575
+AR Path="/5FD74EA8/5FFD2291" Ref="#PWR?"  Part="1" 
+AR Path="/5FC6B687/5FFD2291" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/5FFD2291" Ref="#PWR?"  Part="1" 
+AR Path="/5FEC9080/5FFD2291" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1450 1325 50  0001 C CNN
+F 1 "GND" H 1455 1402 50  0000 C CNN
+F 2 "" H 1450 1575 50  0001 C CNN
+F 3 "" H 1450 1575 50  0001 C CNN
+	1    1450 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2325 1525 2325
+Text GLabel 1525 2425 0    50   Output ~ 0
+RGMII_TX_CLK
+Wire Wire Line
+	1900 2925 1525 2925
+Text GLabel 1525 2325 0    50   Input ~ 0
+RGMII_REF_CLK
+Wire Wire Line
+	1900 3525 1525 3525
+Wire Wire Line
+	1900 3025 1525 3025
+Wire Wire Line
+	1900 2725 1525 2725
+Wire Wire Line
+	1900 2825 1525 2825
+Wire Wire Line
+	1900 2625 1525 2625
+Wire Wire Line
+	1900 2425 1525 2425
+Wire Wire Line
+	1900 2525 1525 2525
+Text GLabel 1525 2525 0    50   Input ~ 0
+RGMII_RX_CLK
+Text GLabel 1525 6325 0    50   Input ~ 0
+RGMII_RXD3
+Text GLabel 1525 3025 0    50   Input ~ 0
+RGMII_RXD2
+Text GLabel 1525 2925 0    50   Input ~ 0
+RGMII_RXD1
+Text GLabel 1525 2625 0    50   Input ~ 0
+RGMII_RXD0
+Text GLabel 1525 6525 0    50   Input ~ 0
+RGMII_TXD3
+Text GLabel 1525 6425 0    50   Output ~ 0
+RGMII_TXD2
+Text GLabel 1525 6225 0    50   Output ~ 0
+RGMII_TXD1
+Text GLabel 1525 3525 0    50   Output ~ 0
+RGMII_TXD0
+Text GLabel 1525 2225 0    50   BiDi ~ 0
+ETH_MDIO
+Text GLabel 1525 2825 0    50   Output ~ 0
+ETH_MDC
+Text GLabel 1525 2725 0    50   Input ~ 0
+RGMII_RX_DV
+Text GLabel 1525 3425 0    50   Output ~ 0
+RGMII_TX_EN
+Wire Wire Line
+	1900 3425 1525 3425
+Wire Wire Line
+	1900 2225 1525 2225
+Wire Wire Line
+	1900 6425 1525 6425
+Wire Wire Line
+	1900 6525 1525 6525
+Wire Wire Line
+	1900 6325 1525 6325
+Wire Wire Line
+	1900 6225 1525 6225
+Text Notes 650  2025 0    50   ~ 0
+RGMII_REFCLK is movable:\nnot used in Ref
+Wire Wire Line
+	3850 5825 4400 5825
+Wire Wire Line
+	3850 5925 4400 5925
+Wire Wire Line
+	4400 6025 3850 6025
+Wire Wire Line
+	3850 6225 4400 6225
+Wire Wire Line
+	3850 6325 4400 6325
+Wire Wire Line
+	4400 6125 3850 6125
+Wire Wire Line
+	3850 6425 4400 6425
+Wire Wire Line
+	3850 6525 4400 6525
+Text GLabel 3850 5825 0    50   Input ~ 0
+NCSI_CLK
+Text GLabel 3850 5925 0    50   Input ~ 0
+NCSI_CRS_DV
+Text GLabel 3850 6025 0    50   Input ~ 0
+NCSI_TXEN
+Text GLabel 3850 6225 0    50   Input ~ 0
+NCSI_TXD0
+Text GLabel 3850 6325 0    50   Input ~ 0
+NCSI_TXD1
+Text GLabel 3850 6125 0    50   Input ~ 0
+NCSI_RXER
+Text GLabel 3875 6625 0    50   Input ~ 0
+NCSI_RXD0
+Text GLabel 3875 6725 0    50   Input ~ 0
+NCSI_RXD1
+Text GLabel 3850 6525 0    50   Output ~ 0
+ETH_~RESET
+Text GLabel 3850 6425 0    50   Input ~ 0
+ETH_INT_N
+Wire Wire Line
+	3875 6625 4400 6625
+Wire Wire Line
+	3875 6725 4400 6725
 $EndSCHEMATC

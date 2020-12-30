@@ -503,14 +503,12 @@ Wire Wire Line
 Wire Wire Line
 	6900 6750 6900 7000
 NoConn ~ 7800 4350
-Text GLabel 4375 6400 0    50   Input ~ 0
+Text GLabel 3150 6425 0    50   Input ~ 0
 ETH_~RESET
 Text GLabel 9275 3050 2    50   Input ~ 0
 VCC1V2
 Wire Wire Line
 	5200 6350 4950 6350
-Wire Wire Line
-	4375 6250 5200 6250
 Wire Wire Line
 	5200 6050 4375 6050
 Text GLabel 4375 6050 0    50   Output ~ 0
@@ -518,9 +516,7 @@ ETH_INT_N
 Text GLabel 4375 6250 0    50   Output ~ 0
 RGMII_REF_CLK
 Wire Wire Line
-	4950 6350 4950 6400
-Wire Wire Line
-	4950 6400 4375 6400
+	4950 6350 4950 6425
 Text GLabel 4400 5650 0    50   Output ~ 0
 RGMII_RX_CLK
 Text GLabel 4400 5550 0    50   Output ~ 0
@@ -674,8 +670,6 @@ Wire Wire Line
 Connection ~ 2900 8750
 Wire Wire Line
 	2350 8750 2350 8875
-Text GLabel 1800 10100 0    50   UnSpc ~ 0
-RGMII_RX_CLK
 Wire Wire Line
 	3450 8750 3450 8875
 Wire Wire Line
@@ -725,20 +719,6 @@ F 6 "10k2" V 3575 8975 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ecp5-dc-scm:R_10k2_0402 R6
-U 1 1 609328A0
-P 3450 9025
-F 0 "R6" V 3575 8975 60  0000 R CNN
-F 1 "R_10k2_0402" H 3450 8875 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 3650 9225 60  0001 L CNN
-F 3 "" H 3450 9025 50  0001 C CNN
-F 4 "MULTICOMP PRO" H 3650 9425 60  0001 L CNN "Manufacturer"
-F 5 "MCWR04X1022FTL" H 3650 9325 60  0001 L CNN "MPN"
-F 6 "10k2" V 3300 8975 50  0000 R CNN "Val"
-	1    3450 9025
-	0    -1   -1   0   
-$EndComp
-$Comp
 L ecp5-dc-scm:R_10k2_0402 R5
 U 1 1 60932897
 P 3175 9025
@@ -762,8 +742,6 @@ Wire Wire Line
 Wire Wire Line
 	3175 9175 3175 10000
 Wire Wire Line
-	3450 10100 1800 10100
-Wire Wire Line
 	3450 9175 3450 10100
 Text GLabel 1800 10200 0    50   UnSpc ~ 0
 RGMII_REF_CLK
@@ -775,8 +753,6 @@ Text GLabel 1825 10450 0    50   UnSpc ~ 0
 ETH_MDIO
 Text GLabel 1825 10350 0    50   UnSpc ~ 0
 ETH_MDC
-Text GLabel 1825 10575 0    50   UnSpc ~ 0
-ETH_~RESET
 Text Label 1475 10775 0    50   ~ 0
 ETH_LED1
 Text Label 1475 10925 0    50   ~ 0
@@ -1638,4 +1614,85 @@ F 5 "Bel Magnetic Solutions" H 13850 3375 50  0001 L BNN "Manufacturer"
 	1    13850 3375
 	1    0    0    -1  
 $EndComp
+$Comp
+L ecp5-dc-scm:C_100n_0402 C?
+U 1 1 60F539B7
+P 3350 6725
+AR Path="/626D078D/60F539B7" Ref="C?"  Part="1" 
+AR Path="/60570C04/60F539B7" Ref="C31"  Part="1" 
+AR Path="/60F539B7" Ref="C?"  Part="1" 
+F 0 "C31" H 3375 6825 60  0000 L CNN
+F 1 "C_100n_0402" H 3350 6575 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 3550 6925 60  0001 L CNN
+F 3 "" H 3350 6725 50  0001 C CNN
+F 4 "Walsin" H 3550 7125 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3550 7025 60  0001 L CNN "MPN"
+F 6 "100n" H 3375 6625 50  0000 L CNN "Val"
+	1    3350 6725
+	1    0    0    -1  
+$EndComp
+Text GLabel 1825 10575 0    50   Output ~ 0
+ETH_INT_N
+Wire Wire Line
+	3350 6300 3350 6425
+Text GLabel 3350 5950 1    50   Input ~ 0
+VCC3V3
+$Comp
+L ecp5-dc-scm:GND #PWR010
+U 1 1 610CFA0B
+P 3350 6875
+F 0 "#PWR010" H 3350 6625 50  0001 C CNN
+F 1 "GND" H 3355 6702 50  0000 C CNN
+F 2 "" H 3350 6875 50  0001 C CNN
+F 3 "" H 3350 6875 50  0001 C CNN
+	1    3350 6875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6425 3350 6425
+Connection ~ 3350 6425
+Wire Wire Line
+	3350 6425 3350 6575
+Wire Wire Line
+	3350 6425 4950 6425
+$Comp
+L ecp5-dc-scm:R_4k7_0402 R?
+U 1 1 61194AB7
+P 3350 6150
+AR Path="/5FCFE2A8/61194AB7" Ref="R?"  Part="1" 
+AR Path="/5FC6B687/61194AB7" Ref="R?"  Part="1" 
+AR Path="/624C566F/61194AB7" Ref="R?"  Part="1" 
+AR Path="/60570C04/61194AB7" Ref="R17"  Part="1" 
+F 0 "R17" V 3305 6220 60  0000 L CNN
+F 1 "R_4k7_0402" H 3350 6000 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 3550 6350 60  0001 L CNN
+F 3 "" H 3350 6150 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 3550 6550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 3550 6450 60  0001 L CNN "MPN"
+F 6 "4k7" V 3403 6220 50  0000 L CNN "Val"
+	1    3350 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L ecp5-dc-scm:R_10k2_0402 R6
+U 1 1 609328A0
+P 3450 9025
+F 0 "R6" V 3575 8975 60  0000 R CNN
+F 1 "R_10k2_0402" H 3450 8875 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 3650 9225 60  0001 L CNN
+F 3 "" H 3450 9025 50  0001 C CNN
+F 4 "MULTICOMP PRO" H 3650 9425 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04X1022FTL" H 3650 9325 60  0001 L CNN "MPN"
+F 6 "10k2" V 3300 8975 50  0000 R CNN "Val"
+	1    3450 9025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 10100 1800 10100
+Text GLabel 1800 10100 0    50   UnSpc ~ 0
+RGMII_RX_CLK
+Wire Wire Line
+	5200 6250 4375 6250
+Wire Wire Line
+	3350 5950 3350 6000
 $EndSCHEMATC

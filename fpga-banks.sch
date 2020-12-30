@@ -398,7 +398,7 @@ Connection ~ 3950 1450
 Wire Wire Line
 	3950 1150 3950 1000
 Connection ~ 3950 1150
-Text GLabel 3950 1000 0    50   Input ~ 0
+Text GLabel 8925 1000 0    50   Input ~ 0
 VCC3V3_T
 Wire Wire Line
 	5100 1150 5100 1525
@@ -799,8 +799,6 @@ Connection ~ 11475 1425
 Wire Wire Line
 	11475 1125 11475 975 
 Connection ~ 11475 1125
-Text GLabel 11475 975  0    50   Input ~ 0
-VCC3V3_T
 Wire Wire Line
 	12625 1125 12625 1500
 Wire Wire Line
@@ -1161,31 +1159,29 @@ F 3 "" H 14000 1525 50  0001 C CNN
 	1    14000 1525
 	1    0    0    -1  
 $EndComp
-Text GLabel 8925 1000 0    50   Input ~ 0
-VCC1V35_T
 Text Notes 800  3225 1    50   ~ 0
 ethernet.sch
-Text Notes 9450 725  0    118  ~ 0
+Text Notes 11900 775  0    118  ~ 0
 DDR3
 Text Notes 975  7675 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
-Text GLabel 11600 2200 0    50   Input ~ 0
+Text GLabel 9050 2225 0    50   Input ~ 0
 SGPIO0_CLK
-Text GLabel 11600 2300 0    50   Input ~ 0
+Text GLabel 9050 2325 0    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 11600 2400 0    50   Input ~ 0
+Text GLabel 9050 2425 0    50   Input ~ 0
 SGPIO0_DO
-Text GLabel 11600 2500 0    50   Input ~ 0
+Text GLabel 9050 2525 0    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 11600 2800 0    50   Input ~ 0
+Text GLabel 9050 2825 0    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 11600 2900 0    50   Input ~ 0
+Text GLabel 9050 2925 0    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 11600 3000 0    50   Input ~ 0
+Text GLabel 9050 3025 0    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 11600 3100 0    50   Input ~ 0
+Text GLabel 9050 3125 0    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 11600 3200 0    50   Input ~ 0
+Text GLabel 9050 3225 0    50   Input ~ 0
 SGPIO_INTR_N
 Text Notes 5075 11125 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
@@ -1197,13 +1193,13 @@ Text GLabel 7925 9350 0    50   Input ~ 0
 JTAG_TDI
 Text GLabel 7925 9150 0    50   Input ~ 0
 JTAG_TDO
-Text GLabel 11600 4100 0    50   Input ~ 0
+Text GLabel 9050 4125 0    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 11600 4200 0    50   Input ~ 0
+Text GLabel 9050 4225 0    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 11600 4300 0    50   Input ~ 0
+Text GLabel 9050 4325 0    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 11600 4400 0    50   Input ~ 0
+Text GLabel 9050 4425 0    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 675  750  0    50   ~ 0
 FPGA connections to be established while preparing layout
@@ -1276,23 +1272,23 @@ Wire Wire Line
 Wire Wire Line
 	4075 5525 4400 5525
 Wire Wire Line
-	11600 2200 11925 2200
+	9050 2225 9375 2225
 Wire Wire Line
-	11600 2300 11925 2300
+	9050 2325 9375 2325
 Wire Wire Line
-	11600 2400 11925 2400
+	9050 2425 9375 2425
 Wire Wire Line
-	11600 2500 11925 2500
+	9050 2525 9375 2525
 Wire Wire Line
-	11600 2800 11925 2800
+	9050 2825 9375 2825
 Wire Wire Line
-	11600 2900 11925 2900
+	9050 2925 9375 2925
 Wire Wire Line
-	11600 3000 11925 3000
+	9050 3025 9375 3025
 Wire Wire Line
-	11600 3100 11925 3100
+	9050 3125 9375 3125
 Wire Wire Line
-	11600 3200 11925 3200
+	9050 3225 9375 3225
 Wire Wire Line
 	7925 9250 8250 9250
 Wire Wire Line
@@ -1302,13 +1298,13 @@ Wire Wire Line
 Wire Wire Line
 	7925 9150 8250 9150
 Wire Wire Line
-	11600 4100 11925 4100
+	9050 4125 9375 4125
 Wire Wire Line
-	11600 4200 11925 4200
+	9050 4225 9375 4225
 Wire Wire Line
-	11600 4300 11925 4300
+	9050 4325 9375 4325
 Wire Wire Line
-	11600 4400 11925 4400
+	9050 4425 9375 4425
 Wire Wire Line
 	5475 9975 5950 9975
 Wire Wire Line
@@ -1775,197 +1771,123 @@ Wire Bus Line
 Wire Bus Line
 	9975 2725 9875 2725
 Wire Wire Line
-	5700 3525 5700 3625
-Text GLabel 6675 2925 0    50   BiDi ~ 0
+	10750 3500 10750 3600
+Text GLabel 11600 7800 0    50   BiDi ~ 0
 DDR3_DQS1+
-Text GLabel 6675 2725 0    50   BiDi ~ 0
+Text GLabel 11600 8000 0    50   BiDi ~ 0
 DDR3_DQS1-
-Text GLabel 6675 2425 0    50   BiDi ~ 0
+Text GLabel 11600 7700 0    50   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 6675 3225 0    50   BiDi ~ 0
+Text GLabel 11600 8500 0    50   BiDi ~ 0
 DDR3_DQ9
-Text GLabel 6675 2225 0    50   BiDi ~ 0
+Text GLabel 11600 7500 0    50   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 6675 2825 0    50   BiDi ~ 0
+Text GLabel 11600 8200 0    50   BiDi ~ 0
 DDR3_DQ11
-Text GLabel 6675 3325 0    50   BiDi ~ 0
+Text GLabel 11600 7200 0    50   BiDi ~ 0
 DDR3_DQ12
-Text GLabel 6675 2325 0    50   BiDi ~ 0
+Text GLabel 11600 8300 0    50   BiDi ~ 0
 DDR3_DQ13
-Text GLabel 6675 3025 0    50   BiDi ~ 0
+Text GLabel 11600 8100 0    50   BiDi ~ 0
 DDR3_DQ14
-Text GLabel 6675 3125 0    50   BiDi ~ 0
+Text GLabel 11600 8400 0    50   BiDi ~ 0
 DDR3_DQ15
-Text GLabel 6675 2625 0    50   BiDi ~ 0
+Text GLabel 11600 7900 0    50   BiDi ~ 0
 DDR3_DM1
-Wire Wire Line
-	6675 2425 6875 2425
 Wire Wire Line
 	6675 3225 6875 3225
 Wire Wire Line
-	6675 2225 6875 2225
-Wire Wire Line
-	6675 2825 6875 2825
-Wire Wire Line
-	6675 3325 6875 3325
-Wire Wire Line
 	6675 2725 6875 2725
-Wire Wire Line
-	6675 2325 6875 2325
-Wire Wire Line
-	6675 2925 6875 2925
-Wire Wire Line
-	6675 3025 6875 3025
-Wire Wire Line
-	6675 3125 6875 3125
-Wire Wire Line
-	6675 2625 6875 2625
-Text GLabel 6675 5525 0    50   Output ~ 0
+Text GLabel 11600 6000 0    50   Output ~ 0
 DDR3_A0
-Text GLabel 6675 6225 0    50   Output ~ 0
+Text GLabel 11600 3700 0    50   Output ~ 0
 DDR3_A1
-Text GLabel 6675 5625 0    50   Output ~ 0
+Text GLabel 11600 2900 0    50   Output ~ 0
 DDR3_A2
-Text GLabel 6675 6325 0    50   Output ~ 0
+Text GLabel 11600 6800 0    50   Output ~ 0
 DDR3_A3
-Text GLabel 6675 5225 0    50   Output ~ 0
+Text GLabel 11600 2600 0    50   Output ~ 0
 DDR3_A4
-Text GLabel 6675 6025 0    50   Output ~ 0
+Text GLabel 11600 6900 0    50   Output ~ 0
 DDR3_A5
-Text GLabel 6675 5125 0    50   Output ~ 0
+Text GLabel 11600 2700 0    50   Output ~ 0
 DDR3_A6
-Text GLabel 6675 6525 0    50   Output ~ 0
+Text GLabel 11600 3300 0    50   Output ~ 0
 DDR3_A7
-Text GLabel 6675 5425 0    50   Output ~ 0
+Text GLabel 11600 2300 0    50   Output ~ 0
 DDR3_A8
-Text GLabel 6675 5925 0    50   Output ~ 0
+Text GLabel 11600 3000 0    50   Output ~ 0
 DDR3_A9
-Text GLabel 6675 5025 0    50   Output ~ 0
+Text GLabel 11600 3400 0    50   Output ~ 0
 DDR3_A10
-Text GLabel 6675 5325 0    50   Output ~ 0
+Text GLabel 11600 2800 0    50   Output ~ 0
 DDR3_A11
-Text GLabel 6675 6425 0    50   Output ~ 0
+Text GLabel 11600 3200 0    50   Output ~ 0
 DDR3_A12
-Text GLabel 6675 6125 0    50   Output ~ 0
+Text GLabel 11600 3100 0    50   Output ~ 0
 DDR3_A13
-Text GLabel 6675 5825 0    50   Output ~ 0
+Text GLabel 11600 2500 0    50   Output ~ 0
 DDR3_A14
 Wire Wire Line
-	6675 5525 6875 5525
-Wire Wire Line
-	6675 6225 6875 6225
-Wire Wire Line
 	6675 5625 6875 5625
-Wire Wire Line
-	6675 6325 6875 6325
-Wire Wire Line
-	6675 5225 6875 5225
-Wire Wire Line
-	6675 6025 6875 6025
-Wire Wire Line
-	6675 5125 6875 5125
-Wire Wire Line
-	6675 6525 6875 6525
-Wire Wire Line
-	6675 5425 6875 5425
-Wire Wire Line
-	6675 5925 6875 5925
-Wire Wire Line
-	6675 5025 6875 5025
-Wire Wire Line
-	6675 5325 6875 5325
-Wire Wire Line
-	6675 6425 6875 6425
-Wire Wire Line
-	6675 6125 6875 6125
-Wire Wire Line
-	6675 5825 6875 5825
-Text GLabel 6675 4925 0    50   Output ~ 0
+Text GLabel 11600 6300 0    50   Output ~ 0
 DDR3_BA0
-Text GLabel 6675 4725 0    50   Output ~ 0
-DDR3_BA1
-Text GLabel 6675 4825 0    50   Output ~ 0
-DDR3_BA2
-Text GLabel 6675 4625 0    50   Output ~ 0
+Text GLabel 11600 7000 0    50   Output ~ 0
 DDR3_RAS
-Text GLabel 6675 4525 0    50   Output ~ 0
+Text GLabel 11600 7400 0    50   Output ~ 0
 DDR3_CAS
-Text GLabel 6675 4425 0    50   Output ~ 0
+Text GLabel 11600 7600 0    50   Output ~ 0
 DDR3_CKE
-Text GLabel 6675 4325 0    50   Output ~ 0
+Text GLabel 11600 7100 0    50   Output ~ 0
 DDR3_WE
-Text GLabel 6675 4025 0    50   Output ~ 0
+Text GLabel 11600 7300 0    50   Output ~ 0
 DDR3_ODT
-Text GLabel 6675 4225 0    50   Output ~ 0
+Text GLabel 11625 4800 0    50   Output ~ 0
 DDR3_RESET
-Text GLabel 6675 3825 0    50   Output ~ 0
+Text GLabel 11600 4600 0    50   Output ~ 0
 DDR3_CS
-Wire Wire Line
-	6675 4225 6875 4225
-Wire Wire Line
-	6675 4025 6875 4025
-Wire Wire Line
-	6675 4325 6875 4325
-Wire Wire Line
-	6675 4425 6875 4425
-Wire Wire Line
-	6675 3825 6875 3825
-Wire Wire Line
-	6675 4525 6875 4525
-Wire Wire Line
-	6675 4625 6875 4625
-Wire Wire Line
-	6675 4825 6875 4825
-Wire Wire Line
-	6675 4725 6875 4725
-Wire Wire Line
-	6675 4925 6875 4925
-Text GLabel 6675 4125 0    50   Output ~ 0
+Text GLabel 11600 2200 0    50   Output ~ 0
 DDR3_CLK+
-Text GLabel 6675 3925 0    50   Output ~ 0
+Text GLabel 11600 2400 0    50   Output ~ 0
 DDR3_CLK-
-Wire Wire Line
-	6675 3925 6875 3925
-Wire Wire Line
-	6875 4125 6675 4125
 $Comp
 L ecp5-dc-scm:C_Small C?
 U 1 1 617BC001
-P 5700 3775
+P 10750 3750
 AR Path="/5FD86CE4/606A2400/617BC001" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/617BC001" Ref="C216"  Part="1" 
-F 0 "C216" H 5700 3850 50  0000 L CNN
-F 1 "100n" H 5700 3700 50  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:C_0402_1005Metric" H 5700 3775 50  0001 C CNN
-F 3 "~" H 5700 3775 50  0001 C CNN
-	1    5700 3775
+F 0 "C216" H 10750 3825 50  0000 L CNN
+F 1 "100n" H 10750 3675 50  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:C_0402_1005Metric" H 10750 3750 50  0001 C CNN
+F 3 "~" H 10750 3750 50  0001 C CNN
+	1    10750 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 3625 6875 3625
+	10950 3600 11925 3600
 Wire Wire Line
-	5700 3625 5700 3675
-Connection ~ 5700 3625
+	10750 3600 10750 3650
+Connection ~ 10750 3600
 Wire Wire Line
-	5700 3875 5700 3900
+	10750 3850 10750 3875
 Wire Wire Line
-	5700 3900 5900 3900
+	10750 3875 10950 3875
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 617BC016
-P 5900 3975
+P 10950 3950
 AR Path="/5FD86CE4/606A2400/617BC016" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86CE4/617BC016" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 5900 3725 50  0001 C CNN
-F 1 "GND" H 5905 3802 50  0000 C CNN
-F 2 "" H 5900 3975 50  0001 C CNN
-F 3 "" H 5900 3975 50  0001 C CNN
-	1    5900 3975
+F 0 "#PWR0112" H 10950 3700 50  0001 C CNN
+F 1 "GND" H 10955 3777 50  0000 C CNN
+F 2 "" H 10950 3950 50  0001 C CNN
+F 3 "" H 10950 3950 50  0001 C CNN
+	1    10950 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 3900 5900 3975
-Connection ~ 5900 3900
+	10950 3875 10950 3950
+Connection ~ 10950 3875
 NoConn ~ 6875 6925
 NoConn ~ 6875 3425
 NoConn ~ 6875 2525
@@ -1984,163 +1906,69 @@ F 3 "" H 6675 6625 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6675 6625 6875 6625
-$Comp
-L ecp5-dc-scm:+1V35 #PWR?
-U 1 1 617BC034
-P 6675 6725
-AR Path="/5FD86CE4/606A2400/617BC034" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86CE4/617BC034" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 6675 6575 50  0001 C CNN
-F 1 "+1V35" V 6690 6853 50  0000 L CNN
-F 2 "" H 6675 6725 50  0001 C CNN
-F 3 "" H 6675 6725 50  0001 C CNN
-	1    6675 6725
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6675 6725 6775 6725
-Wire Wire Line
-	6875 6825 6775 6825
-Wire Wire Line
-	6775 6825 6775 6725
-Connection ~ 6775 6725
-Wire Wire Line
-	6775 6725 6875 6725
-$Comp
-L ecp5-dc-scm:+1V35 #PWR?
-U 1 1 617BC046
-P 6675 3725
-AR Path="/5FD86CE4/606A2400/617BC046" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86CE4/617BC046" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 6675 3575 50  0001 C CNN
-F 1 "+1V35" V 6690 3853 50  0000 L CNN
-F 2 "" H 6675 3725 50  0001 C CNN
-F 3 "" H 6675 3725 50  0001 C CNN
-	1    6675 3725
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6675 3725 6875 3725
-$Comp
-L ecp5-dc-scm:+1V35 #PWR?
-U 1 1 617BC04D
-P 6675 3525
-AR Path="/5FD86CE4/606A2400/617BC04D" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86CE4/617BC04D" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 6675 3375 50  0001 C CNN
-F 1 "+1V35" V 6690 3653 50  0000 L CNN
-F 2 "" H 6675 3525 50  0001 C CNN
-F 3 "" H 6675 3525 50  0001 C CNN
-	1    6675 3525
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6675 3525 6875 3525
 NoConn ~ 6875 5725
-Text GLabel 9175 7125 0    50   Input ~ 0
-DDR3_Vref
-Wire Wire Line
-	9175 7125 9375 7125
-Text GLabel 9175 7725 0    50   BiDi ~ 0
+Text GLabel 11600 6200 0    50   BiDi ~ 0
 DDR3_DQS0+
-Text GLabel 9175 7525 0    50   BiDi ~ 0
+Text GLabel 11600 6400 0    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel 9175 7025 0    50   BiDi ~ 0
+Text GLabel 11600 6100 0    50   BiDi ~ 0
 DDR3_DQ0
-Text GLabel 9175 8125 0    50   BiDi ~ 0
+Text GLabel 11600 6600 0    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 9175 7225 0    50   BiDi ~ 0
+Text GLabel 11600 5800 0    50   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 9175 8225 0    50   BiDi ~ 0
+Text GLabel 11600 6700 0    50   BiDi ~ 0
 DDR3_DQ3
-Text GLabel 9175 7425 0    50   BiDi ~ 0
+Text GLabel 11600 5900 0    50   BiDi ~ 0
 DDR3_DQ4
-Text GLabel 9175 7925 0    50   BiDi ~ 0
+Text GLabel 11600 5500 0    50   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 9175 7625 0    50   BiDi ~ 0
+Text GLabel 11600 5600 0    50   BiDi ~ 0
 DDR3_DQ6
-Text GLabel 9175 7825 0    50   BiDi ~ 0
+Text GLabel 11600 5400 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 9175 8425 0    50   BiDi ~ 0
+Text GLabel 11600 6500 0    50   BiDi ~ 0
 DDR3_DM0
-Wire Wire Line
-	9175 7025 9375 7025
-Wire Wire Line
-	9175 8125 9375 8125
-Wire Wire Line
-	9175 7225 9375 7225
-Wire Wire Line
-	9175 8225 9375 8225
-Wire Wire Line
-	9175 7425 9375 7425
-Wire Wire Line
-	9175 7525 9375 7525
-Wire Wire Line
-	9175 7925 9375 7925
-Wire Wire Line
-	9175 7725 9375 7725
-Wire Wire Line
-	9175 7625 9375 7625
-Wire Wire Line
-	9175 7825 9375 7825
-Wire Wire Line
-	9175 8425 9375 8425
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 618B8AFF
-P 9175 8525
+P 8375 8625
 AR Path="/5FD86CE4/606A2400/618B8AFF" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86CE4/618B8AFF" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 9175 8275 50  0001 C CNN
-F 1 "GND" V 9180 8397 50  0000 R CNN
-F 2 "" H 9175 8525 50  0001 C CNN
-F 3 "" H 9175 8525 50  0001 C CNN
-	1    9175 8525
+F 0 "#PWR0121" H 8375 8375 50  0001 C CNN
+F 1 "GND" V 8380 8497 50  0000 R CNN
+F 2 "" H 8375 8625 50  0001 C CNN
+F 3 "" H 8375 8625 50  0001 C CNN
+	1    8375 8625
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9375 8525 9175 8525
-$Comp
-L ecp5-dc-scm:+1V35 #PWR?
-U 1 1 618B8B06
-P 9175 8025
-AR Path="/5FD86CE4/606A2400/618B8B06" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86CE4/618B8B06" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 9175 7875 50  0001 C CNN
-F 1 "+1V35" V 9190 8153 50  0000 L CNN
-F 2 "" H 9175 8025 50  0001 C CNN
-F 3 "" H 9175 8025 50  0001 C CNN
-	1    9175 8025
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	9375 8025 9175 8025
-NoConn ~ 9375 8325
-NoConn ~ 9375 7325
+	10950 3875 10950 3850
 Wire Wire Line
-	5900 3900 5900 3875
-Wire Wire Line
-	5700 3625 5900 3625
+	10750 3600 10950 3600
 $Comp
 L ecp5-dc-scm:C_Small C?
 U 1 1 617BC007
-P 5900 3775
+P 10950 3750
 AR Path="/5FD86CE4/606A2400/617BC007" Ref="C?"  Part="1" 
 AR Path="/5FD86CE4/617BC007" Ref="C217"  Part="1" 
-F 0 "C217" H 5900 3850 50  0000 L CNN
-F 1 "100n" H 5900 3700 50  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:C_0402_1005Metric" H 5900 3775 50  0001 C CNN
-F 3 "~" H 5900 3775 50  0001 C CNN
-	1    5900 3775
+F 0 "C217" H 10950 3825 50  0000 L CNN
+F 1 "100n" H 10950 3675 50  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:C_0402_1005Metric" H 10950 3750 50  0001 C CNN
+F 3 "~" H 10950 3750 50  0001 C CNN
+	1    10950 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 3675 5900 3625
-Connection ~ 5900 3625
-Text GLabel 5700 3525 1    50   Input ~ 0
+	10950 3650 10950 3600
+Text GLabel 10750 3500 1    50   Input ~ 0
 DDR_VREF
-Text GLabel 6425 1000 0    50   Input ~ 0
-VCC1V35_T
 Text GLabel 13900 6375 0    50   Input ~ 0
 MMC_DAT0
 Text GLabel 13900 6275 0    50   Input ~ 0
@@ -2201,35 +2029,35 @@ Wire Notes Line
 	6175 9475 6175 9675
 Wire Notes Line
 	6175 9675 6200 9675
-Text GLabel 11600 2700 0    50   Input ~ 0
+Text GLabel 9050 2725 0    50   Input ~ 0
 SGPIO1_CLK
 Wire Wire Line
-	11600 2700 11925 2700
+	9050 2725 9375 2725
 Text Notes 9900 7150 0    50   ~ 0
 Vref
 Wire Wire Line
-	11375 3900 11925 3900
+	8825 3925 9375 3925
 Wire Wire Line
-	11375 3800 11925 3800
+	8825 3825 9375 3825
 Wire Wire Line
-	11925 3700 11375 3700
+	9375 3725 8825 3725
 Wire Wire Line
-	11375 3600 11925 3600
+	8825 3625 9375 3625
 Wire Wire Line
-	11375 3500 11925 3500
+	8825 3525 9375 3525
 Wire Wire Line
-	11925 3400 11375 3400
-Text GLabel 11375 3900 0    50   Input ~ 0
+	9375 3425 8825 3425
+Text GLabel 8825 3925 0    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 11375 3800 0    50   Input ~ 0
+Text GLabel 8825 3825 0    50   Input ~ 0
 QSPI1_CS0_N
-Text GLabel 11375 3700 0    50   Input ~ 0
+Text GLabel 8825 3725 0    50   Input ~ 0
 QSPI1_D0
-Text GLabel 11375 3600 0    50   Input ~ 0
+Text GLabel 8825 3625 0    50   Input ~ 0
 QSPI1_D1
-Text GLabel 11375 3500 0    50   Input ~ 0
+Text GLabel 8825 3525 0    50   Input ~ 0
 QSPI1_D2
-Text GLabel 11375 3400 0    50   Input ~ 0
+Text GLabel 8825 3425 0    50   Input ~ 0
 QSPI1_D3
 Text GLabel 5475 9975 0    50   Input ~ 0
 ROT_QSPI_SCK
@@ -2247,8 +2075,6 @@ Wire Wire Line
 	5950 8975 5625 8975
 Text GLabel 5625 9375 0    50   Input ~ 0
 ROT_QSPI_CS_N
-Text Notes 7050 750  0    118  ~ 0
-DDR3
 Text Notes 8100 8900 0    118  ~ 0
 JTAG
 Text Notes 5500 7425 0    118  ~ 0
@@ -2261,30 +2087,22 @@ Text GLabel 5475 9875 0    50   Input ~ 0
 INIT_N
 Text GLabel 825  10950 0    50   Input ~ 0
 INIT_N
-Text GLabel 11375 5300 0    50   Input ~ 0
+Text GLabel 8825 5325 0    50   Input ~ 0
 SPI0_MISO
-Text GLabel 11375 5200 0    50   Input ~ 0
+Text GLabel 8825 5225 0    50   Input ~ 0
 SPI0_MOSI
-Text GLabel 11375 5100 0    50   Input ~ 0
+Text GLabel 8825 5125 0    50   Input ~ 0
 SPI0_CS_N
-Text GLabel 11375 5000 0    50   Input ~ 0
+Text GLabel 8825 5025 0    50   Input ~ 0
 SPI0_CLK
 Wire Wire Line
-	11375 5300 11500 5300
+	8825 5325 8950 5325
 Wire Wire Line
-	11375 5200 11500 5200
+	8825 5225 8950 5225
 Wire Wire Line
-	11925 5100 11800 5100
+	8825 5025 8950 5025
 Wire Wire Line
-	11375 5000 11500 5000
-Wire Wire Line
-	11800 5000 11925 5000
-Wire Wire Line
-	11500 5100 11375 5100
-Wire Wire Line
-	11800 5200 11925 5200
-Wire Wire Line
-	11800 5300 11925 5300
+	8950 5125 8825 5125
 Text GLabel 5475 10175 0    50   Input ~ 0
 DONE
 Text GLabel 775  9350 0    50   Input ~ 0
@@ -2306,70 +2124,70 @@ PCIe x1
 $Comp
 L ecp5-dc-scm:R_0R_0402 R133
 U 1 1 67F9881E
-P 11650 5100
-F 0 "R133" H 11450 5150 60  0000 C CNN
-F 1 "R_0R_0402" H 11650 4950 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 5300 60  0001 L CNN
-F 3 "" H 11650 5100 50  0001 C CNN
-F 4 "PANASONIC" H 11850 5500 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11850 5400 60  0001 L CNN "MPN"
-F 6 "0R" H 11825 5050 50  0000 C CNN "Val"
-F 7 "1" H 11650 5100 50  0001 C CNN "DNP"
-	1    11650 5100
+P 9100 5125
+F 0 "R133" H 8900 5175 60  0000 C CNN
+F 1 "R_0R_0402" H 9100 4975 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 5325 60  0001 L CNN
+F 3 "" H 9100 5125 50  0001 C CNN
+F 4 "PANASONIC" H 9300 5525 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9300 5425 60  0001 L CNN "MPN"
+F 6 "0R" H 9275 5075 50  0000 C CNN "Val"
+F 7 "1" H 9100 5125 50  0001 C CNN "DNP"
+	1    9100 5125
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:R_0R_0402 R134
 U 1 1 67F99643
-P 11650 5200
-F 0 "R134" H 11450 5250 60  0000 C CNN
-F 1 "R_0R_0402" H 11650 5050 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 5400 60  0001 L CNN
-F 3 "" H 11650 5200 50  0001 C CNN
-F 4 "PANASONIC" H 11850 5600 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11850 5500 60  0001 L CNN "MPN"
-F 6 "0R" H 11825 5150 50  0000 C CNN "Val"
-F 7 "1" H 11650 5200 50  0001 C CNN "DNP"
-	1    11650 5200
+P 9100 5225
+F 0 "R134" H 8900 5275 60  0000 C CNN
+F 1 "R_0R_0402" H 9100 5075 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 5425 60  0001 L CNN
+F 3 "" H 9100 5225 50  0001 C CNN
+F 4 "PANASONIC" H 9300 5625 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9300 5525 60  0001 L CNN "MPN"
+F 6 "0R" H 9275 5175 50  0000 C CNN "Val"
+F 7 "1" H 9100 5225 50  0001 C CNN "DNP"
+	1    9100 5225
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:R_0R_0402 R135
 U 1 1 67F9A405
-P 11650 5300
-F 0 "R135" H 11450 5350 60  0000 C CNN
-F 1 "R_0R_0402" H 11650 5150 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 5500 60  0001 L CNN
-F 3 "" H 11650 5300 50  0001 C CNN
-F 4 "PANASONIC" H 11850 5700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11850 5600 60  0001 L CNN "MPN"
-F 6 "0R" H 11825 5250 50  0000 C CNN "Val"
-F 7 "1" H 11650 5300 50  0001 C CNN "DNP"
-	1    11650 5300
+P 9100 5325
+F 0 "R135" H 8900 5375 60  0000 C CNN
+F 1 "R_0R_0402" H 9100 5175 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 5525 60  0001 L CNN
+F 3 "" H 9100 5325 50  0001 C CNN
+F 4 "PANASONIC" H 9300 5725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9300 5625 60  0001 L CNN "MPN"
+F 6 "0R" H 9275 5275 50  0000 C CNN "Val"
+F 7 "1" H 9100 5325 50  0001 C CNN "DNP"
+	1    9100 5325
 	1    0    0    -1  
 $EndComp
-Text Notes 11575 5035 0    50   ~ 0
+Text Notes 9025 5060 0    50   ~ 0
 DNP
-Text Notes 11575 5135 0    50   ~ 0
+Text Notes 9025 5160 0    50   ~ 0
 DNP
-Text Notes 11575 5235 0    50   ~ 0
+Text Notes 9025 5260 0    50   ~ 0
 DNP
 $Comp
 L ecp5-dc-scm:R_0R_0402 R132
 U 1 1 67A0B804
-P 11650 5000
-F 0 "R132" H 11450 5050 60  0000 C CNN
-F 1 "R_0R_0402" H 11650 4850 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11850 5200 60  0001 L CNN
-F 3 "" H 11650 5000 50  0001 C CNN
-F 4 "PANASONIC" H 11850 5400 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11850 5300 60  0001 L CNN "MPN"
-F 6 "0R" H 11825 4950 50  0000 C CNN "Val"
-F 7 "1" H 11650 5000 50  0001 C CNN "DNP"
-	1    11650 5000
+P 9100 5025
+F 0 "R132" H 8900 5075 60  0000 C CNN
+F 1 "R_0R_0402" H 9100 4875 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 5225 60  0001 L CNN
+F 3 "" H 9100 5025 50  0001 C CNN
+F 4 "PANASONIC" H 9300 5425 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9300 5325 60  0001 L CNN "MPN"
+F 6 "0R" H 9275 4975 50  0000 C CNN "Val"
+F 7 "1" H 9100 5025 50  0001 C CNN "DNP"
+	1    9100 5025
 	1    0    0    -1  
 $EndComp
-Text Notes 11575 5335 0    50   ~ 0
+Text Notes 9025 5360 0    50   ~ 0
 DNP
 Text Notes 17250 5325 0    118  ~ 0
 DDR3
@@ -2408,15 +2226,13 @@ DONE
 Text Notes 17250 6450 0    118  ~ 0
 SPI0
 Text Notes 18250 5300 0    79   ~ 0
-Trellis board
+ECPIX5
 Text Notes 18225 6675 0    79   ~ 0
 ECP5_VERSA\n
 Text Notes 18425 6200 0    79   ~ 0
 OCP
 Text Notes 19500 6200 0    118  ~ 0
 N\n
-Text Notes 18425 6425 0    79   ~ 0
-OCP
 Text Notes 19500 6450 0    118  ~ 0
 N\n
 Text Notes 18500 5950 0    79   ~ 0
@@ -2428,19 +2244,19 @@ UART
 Text Notes 17225 8025 0    118  ~ 0
 2xUSB 2.0
 Wire Notes Line
-	18150 4875 18150 8525
+	18175 5150 18175 8975
 Wire Notes Line
-	19025 4875 19025 8525
+	19050 5125 19050 8975
 Wire Notes Line
-	17200 4875 17200 8525
+	17200 5400 17200 9050
 Wire Notes Line
-	20125 4875 20125 8525
+	20125 5125 20125 9025
 Text Notes 17225 8275 0    118  ~ 0
 NCSI
 Text Notes 19075 5050 0    79   ~ 0
 DEDICATED_PINS?
 Wire Notes Line
-	21250 4875 21250 8525
+	21250 5400 21250 9050
 Wire Notes Line
 	17200 4875 21250 4875
 Wire Notes Line
@@ -2549,18 +2365,18 @@ Text Notes 20125 6675 0    118  ~ 0
 DONE/check
 Text Notes 20450 8475 0    118  ~ 0
 DONE
-Text GLabel 11550 4600 0    50   Input ~ 0
+Text GLabel 9000 4625 0    50   Input ~ 0
 USR_LED0
-Text GLabel 11550 4700 0    50   Input ~ 0
+Text GLabel 9000 4725 0    50   Input ~ 0
 USR_LED1
-Text GLabel 11550 4800 0    50   Input ~ 0
+Text GLabel 9000 4825 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
-	11925 4600 11550 4600
+	9375 4625 9000 4625
 Wire Wire Line
-	11925 4800 11550 4800
+	9375 4825 9000 4825
 Wire Wire Line
-	11925 4700 11550 4700
+	9375 4725 9000 4725
 Text GLabel 3375 8400 0    50   Input ~ 0
 ESPI_CLK
 Text GLabel 3375 8500 0    50   Input ~ 0
@@ -2649,117 +2465,103 @@ Text GLabel 14000 950  0    50   Input ~ 0
 VCC3V3_T
 Text Notes 10475 17000 0    118  ~ 24
 USB Client
-Text GLabel 11725 7900 0    50   Input ~ 0
+Text GLabel 9175 7525 0    50   Input ~ 0
 ULPI1_D0
-Wire Wire Line
-	11725 7900 11925 7900
-Text GLabel 11725 7800 0    50   Input ~ 0
+Text GLabel 9175 7725 0    50   Input ~ 0
 ULPI1_D1
-Wire Wire Line
-	11725 7800 11925 7800
-Text GLabel 11725 7700 0    50   Input ~ 0
+Text GLabel 9175 7425 0    50   Input ~ 0
 ULPI1_D2
 Wire Wire Line
-	11725 7700 11925 7700
-Text GLabel 11725 7600 0    50   Input ~ 0
+	9175 7725 9375 7725
+Text GLabel 9175 8125 0    50   Input ~ 0
 ULPI1_D3
 Wire Wire Line
-	11725 7600 11925 7600
-Text GLabel 11725 7500 0    50   Input ~ 0
+	9175 7625 9375 7625
+Text GLabel 9175 7625 0    50   Input ~ 0
 ULPI1_D4
 Wire Wire Line
-	11725 7500 11925 7500
-Text GLabel 11725 7400 0    50   Input ~ 0
+	9175 7525 9375 7525
+Text GLabel 6675 2725 0    50   Input ~ 0
 ULPI1_D5
 Wire Wire Line
-	11725 7400 11925 7400
-Text GLabel 11725 7300 0    50   Input ~ 0
+	9175 7425 9375 7425
+Text GLabel 9050 3325 0    50   Input ~ 0
 ULPI1_D6
-Wire Wire Line
-	11725 7300 11925 7300
-Text GLabel 11725 7200 0    50   Input ~ 0
+Text GLabel 9175 8425 0    50   Input ~ 0
 ULPI1_D7
-Wire Wire Line
-	11725 7200 11925 7200
-Text GLabel 11725 8100 0    50   Input ~ 0
+Text GLabel 6675 3725 0    50   Input ~ 0
 ULPI1_DIR
-Text GLabel 11725 8000 0    50   Input ~ 0
+Text GLabel 6675 3525 0    50   Input ~ 0
 ULPI1_NXT
-Text GLabel 11725 8300 0    50   Input ~ 0
+Text GLabel 9175 8525 0    50   Input ~ 0
 ULPI1_CLKO
 Wire Wire Line
-	11925 8100 11725 8100
-Wire Wire Line
-	11925 8300 11725 8300
-Wire Wire Line
-	11925 8000 11725 8000
-Text GLabel 11725 8200 0    50   Input ~ 0
+	9375 8125 9175 8125
+Text GLabel 6675 3225 0    50   Input ~ 0
 ULPI1_STP
-Wire Wire Line
-	11925 8200 11725 8200
-Text GLabel 11725 8400 0    50   Input ~ 0
+Text GLabel 6675 5625 0    50   Input ~ 0
 ULPI1_RESET
 Wire Wire Line
-	11925 8400 11725 8400
+	9375 8425 9175 8425
 Text Notes 10350 12875 0    118  ~ 24
 USB HOST
-Text GLabel 11725 6500 0    50   Input ~ 0
+Text GLabel 9175 6525 0    50   Input ~ 0
 ULPI2_D0
 Wire Wire Line
-	11725 6500 11925 6500
-Text GLabel 11725 6400 0    50   Input ~ 0
+	9175 6525 9375 6525
+Text GLabel 9175 6425 0    50   Input ~ 0
 ULPI2_D1
 Wire Wire Line
-	11725 6400 11925 6400
-Text GLabel 11725 6300 0    50   Input ~ 0
+	9175 6425 9375 6425
+Text GLabel 9175 6325 0    50   Input ~ 0
 ULPI2_D2
 Wire Wire Line
-	11725 6300 11925 6300
-Text GLabel 11725 6200 0    50   Input ~ 0
+	9175 6325 9375 6325
+Text GLabel 9175 6225 0    50   Input ~ 0
 ULPI2_D3
 Wire Wire Line
-	11725 6200 11925 6200
-Text GLabel 11725 6100 0    50   Input ~ 0
+	9175 6225 9375 6225
+Text GLabel 9175 6125 0    50   Input ~ 0
 ULPI2_D4
 Wire Wire Line
-	11725 6100 11925 6100
-Text GLabel 11725 6000 0    50   Input ~ 0
+	9175 6125 9375 6125
+Text GLabel 9175 6025 0    50   Input ~ 0
 ULPI2_D5
 Wire Wire Line
-	11725 6000 11925 6000
-Text GLabel 11725 5900 0    50   Input ~ 0
+	9175 6025 9375 6025
+Text GLabel 9175 5925 0    50   Input ~ 0
 ULPI2_D6
 Wire Wire Line
-	11725 5900 11925 5900
-Text GLabel 11725 5800 0    50   Input ~ 0
+	9175 5925 9375 5925
+Text GLabel 9175 5825 0    50   Input ~ 0
 ULPI2_D7
 Wire Wire Line
-	11725 5800 11925 5800
-Text GLabel 11725 6700 0    50   Input ~ 0
+	9175 5825 9375 5825
+Text GLabel 9175 6725 0    50   Input ~ 0
 ULPI_DIR
-Text GLabel 11725 6600 0    50   Input ~ 0
+Text GLabel 9175 6625 0    50   Input ~ 0
 ULPI2_NXT
-Text GLabel 11725 6900 0    50   Input ~ 0
+Text GLabel 9175 6925 0    50   Input ~ 0
 ULPI2_CLKO
 Wire Wire Line
-	11925 6700 11725 6700
+	9375 6725 9175 6725
 Wire Wire Line
-	11925 6900 11725 6900
+	9375 6925 9175 6925
 Wire Wire Line
-	11925 6600 11725 6600
-Text GLabel 11725 6800 0    50   Input ~ 0
+	9375 6625 9175 6625
+Text GLabel 9175 6825 0    50   Input ~ 0
 ULPI2_STP
 Wire Wire Line
-	11925 6800 11725 6800
-Text GLabel 11725 7000 0    50   Input ~ 0
+	9375 6825 9175 6825
+Text GLabel 9175 7025 0    50   Input ~ 0
 ULPI2_RESET
 Wire Wire Line
-	11925 7000 11725 7000
+	9375 7025 9175 7025
 Text Notes 17225 8475 0    118  ~ 0
 RGMII
 Text Notes 18200 8000 0    79   ~ 0
 Trellis board
-Text Notes 18175 8450 0    79   ~ 0
+Text Notes 18350 8450 0    79   ~ 0
 ECPIX5
 $Comp
 L ecp5-dc-scm:GND #PWR?
@@ -2878,4 +2680,137 @@ Wire Wire Line
 	3875 6625 4400 6625
 Wire Wire Line
 	3875 6725 4400 6725
+Wire Wire Line
+	11600 2200 11925 2200
+Wire Wire Line
+	11600 2300 11925 2300
+Wire Wire Line
+	11600 2400 11925 2400
+Wire Wire Line
+	11600 2500 11925 2500
+Wire Wire Line
+	11600 2600 11925 2600
+Wire Wire Line
+	11600 2700 11925 2700
+Wire Wire Line
+	11600 2800 11925 2800
+Wire Wire Line
+	11600 2900 11925 2900
+Wire Wire Line
+	11600 3000 11925 3000
+Wire Wire Line
+	11600 3100 11925 3100
+Wire Wire Line
+	11600 3200 11925 3200
+Wire Wire Line
+	11600 3300 11925 3300
+Wire Wire Line
+	11600 3400 11925 3400
+Wire Wire Line
+	11600 3500 11925 3500
+Wire Wire Line
+	11600 3700 11925 3700
+Text GLabel 11600 3500 0    50   Output ~ 0
+DDR3_BA1
+Connection ~ 10950 3600
+Wire Wire Line
+	9250 5325 9375 5325
+Wire Wire Line
+	9250 5225 9375 5225
+Wire Wire Line
+	9250 5025 9375 5025
+Wire Wire Line
+	9375 5125 9250 5125
+Wire Wire Line
+	11600 5400 11925 5400
+Wire Wire Line
+	11600 5500 11925 5500
+Wire Wire Line
+	11600 5600 11925 5600
+Wire Wire Line
+	11600 5700 11925 5700
+Wire Wire Line
+	11600 5800 11925 5800
+Wire Wire Line
+	11600 5900 11925 5900
+Wire Wire Line
+	11600 6000 11925 6000
+Wire Wire Line
+	11600 6100 11925 6100
+Wire Wire Line
+	11600 6300 11925 6300
+Wire Wire Line
+	11600 6200 11925 6200
+Text GLabel 11600 5700 0    50   Output ~ 0
+DDR3_BA2
+Wire Wire Line
+	11600 6400 11925 6400
+Wire Wire Line
+	11600 6500 11925 6500
+Wire Wire Line
+	11600 6600 11925 6600
+Wire Wire Line
+	11600 6700 11925 6700
+Wire Wire Line
+	11600 6800 11925 6800
+Wire Wire Line
+	11600 7000 11925 7000
+Wire Wire Line
+	11600 6900 11925 6900
+Wire Wire Line
+	11600 7100 11925 7100
+Wire Wire Line
+	11600 7200 11925 7200
+Wire Wire Line
+	11600 7300 11925 7300
+Wire Wire Line
+	11600 7500 11925 7500
+Wire Wire Line
+	11600 7400 11925 7400
+Wire Wire Line
+	11600 7600 11925 7600
+Wire Wire Line
+	11600 7700 11925 7700
+Wire Wire Line
+	11600 7800 11925 7800
+Wire Wire Line
+	11600 7900 11925 7900
+Wire Wire Line
+	11600 8000 11925 8000
+Wire Wire Line
+	11600 8200 11925 8200
+Wire Wire Line
+	11600 8100 11925 8100
+Wire Wire Line
+	11600 8300 11925 8300
+Wire Wire Line
+	11600 8500 11925 8500
+Wire Wire Line
+	11600 8400 11925 8400
+Wire Wire Line
+	11600 4600 11925 4600
+Wire Wire Line
+	11625 4800 11925 4800
+Text Notes 10775 4475 0    50   ~ 0
+DDR3_CS and DDR3_RESET\nnot used in Ref
+Wire Notes Line
+	17200 8750 21250 8750
+Wire Notes Line
+	17200 8975 21250 8975
+Text GLabel 11475 975  0    50   Input ~ 0
+VCC1V35_T
+Wire Wire Line
+	9050 3325 9375 3325
+Text GLabel 6425 1000 0    50   Input ~ 0
+VCC3V3_T
+Text Notes 17250 8725 0    118  ~ 0
+ULPI1
+Text Notes 17250 8925 0    118  ~ 0
+ULPI2
+Text Notes 18350 8675 0    79   ~ 0
+ECPIX5
+Text Notes 19500 8700 0    118  ~ 0
+Y
+Text Notes 19500 8925 0    118  ~ 0
+N\n
 $EndSCHEMATC

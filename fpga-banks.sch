@@ -1952,7 +1952,7 @@ $EndComp
 Wire Wire Line
 	10950 3650 10950 3600
 Text GLabel 10750 3500 1    50   Input ~ 0
-DDR_VREF
+DDR3_VREF
 Text GLabel 13900 6375 0    50   Input ~ 0
 MMC_DAT0
 Text GLabel 13900 6275 0    50   Input ~ 0

@@ -935,35 +935,33 @@ Wire Wire Line
 	11700 2375 11775 2375
 Wire Wire Line
 	11775 2375 11775 2700
-Text GLabel 4425 7875 0    50   UnSpc ~ 0
+Text GLabel 4425 10175 0    50   UnSpc ~ 0
 DDR3_A0
-Text GLabel 4425 9175 0    50   UnSpc ~ 0
+Text GLabel 4425 9075 0    50   UnSpc ~ 0
 DDR3_A1
 Text GLabel 4425 7575 0    50   UnSpc ~ 0
 DDR3_A2
-Text GLabel 4425 10175 0    50   UnSpc ~ 0
-DDR3_A3
 Text GLabel 4425 8975 0    50   UnSpc ~ 0
 DDR3_A4
-Text GLabel 4425 7975 0    50   UnSpc ~ 0
-DDR3_A5
-Text GLabel 4425 9075 0    50   UnSpc ~ 0
-DDR3_A6
-Text GLabel 4425 8075 0    50   UnSpc ~ 0
-DDR3_A7
-Text GLabel 4425 9275 0    50   UnSpc ~ 0
-DDR3_A8
 Text GLabel 4425 7675 0    50   UnSpc ~ 0
-DDR3_A9
-Text GLabel 4425 7475 0    50   UnSpc ~ 0
-DDR3_A10
-Text GLabel 4425 9375 0    50   UnSpc ~ 0
-DDR3_A11
+DDR3_A5
+Text GLabel 4425 8875 0    50   UnSpc ~ 0
+DDR3_A6
 Text GLabel 4425 7375 0    50   UnSpc ~ 0
-DDR3_A12
+DDR3_A7
+Text GLabel 4425 8775 0    50   UnSpc ~ 0
+DDR3_A8
 Text GLabel 4425 7775 0    50   UnSpc ~ 0
+DDR3_A9
+Text GLabel 4425 9375 0    50   UnSpc ~ 0
+DDR3_A10
+Text GLabel 4425 7975 0    50   UnSpc ~ 0
+DDR3_A11
+Text GLabel 4425 9175 0    50   UnSpc ~ 0
+DDR3_A12
+Text GLabel 4425 7875 0    50   UnSpc ~ 0
 DDR3_A13
-Text GLabel 4425 9475 0    50   UnSpc ~ 0
+Text GLabel 4425 8075 0    50   UnSpc ~ 0
 DDR3_A14
 Wire Wire Line
 	4425 7875 4625 7875
@@ -995,9 +993,9 @@ Wire Wire Line
 	4425 7775 4625 7775
 Wire Wire Line
 	4425 9475 4625 9475
-Text GLabel 4425 10375 0    50   UnSpc ~ 0
+Text GLabel 4425 10775 0    50   UnSpc ~ 0
 DDR3_BA0
-Text GLabel 4425 8875 0    50   UnSpc ~ 0
+Text GLabel 4425 9275 0    50   UnSpc ~ 0
 DDR3_BA1
 Text GLabel 4425 10275 0    50   UnSpc ~ 0
 DDR3_BA2
@@ -1007,25 +1005,25 @@ Wire Wire Line
 	4625 8875 4425 8875
 Wire Wire Line
 	4425 10275 4625 10275
-Text GLabel 4425 10775 0    50   UnSpc ~ 0
+Text GLabel 4425 10475 0    50   UnSpc ~ 0
 DDR3_RAS
-Text GLabel 4425 10875 0    50   UnSpc ~ 0
+Text GLabel 4425 10575 0    50   UnSpc ~ 0
 DDR3_CAS
 Wire Wire Line
 	4425 10875 4625 10875
 Wire Wire Line
 	4625 10775 4425 10775
-Text GLabel 4425 10475 0    50   UnSpc ~ 0
+Text GLabel 4425 10375 0    50   UnSpc ~ 0
 DDR3_WE
-Text GLabel 4425 10575 0    50   UnSpc ~ 0
+Text GLabel 4425 10675 0    50   UnSpc ~ 0
 DDR3_CS
 Wire Wire Line
 	4625 10475 4425 10475
 Wire Wire Line
 	4425 10575 4625 10575
-Text GLabel 4425 8775 0    50   UnSpc ~ 0
+Text GLabel 4425 9475 0    50   UnSpc ~ 0
 DDR3_CKE
-Text GLabel 4425 10675 0    50   UnSpc ~ 0
+Text GLabel 4425 10875 0    50   UnSpc ~ 0
 DDR3_ODT
 Wire Wire Line
 	4425 10675 4625 10675
@@ -1610,4 +1608,6 @@ Wire Wire Line
 	6275 8900 6275 8850
 Wire Wire Line
 	6275 8850 7350 8850
+Text GLabel 4425 7475 0    50   UnSpc ~ 0
+DDR3_A3
 $EndSCHEMATC

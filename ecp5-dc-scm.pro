@@ -1,4 +1,4 @@
-update=Wed 30 Dec 2020 17:20:27 CET
+update=Thu 31 Dec 2020 04:01:18 CET
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1
+Clearance=0.15
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.2
@@ -260,6 +260,17 @@ dPairWidth=0.11
 dPairGap=0.11
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=ULPI
+Clearance=0.1
+TrackWidth=0.15
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.16
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=USB
 Clearance=0.15
 TrackWidth=0.16

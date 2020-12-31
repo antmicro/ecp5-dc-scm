@@ -1779,9 +1779,9 @@ DDR3_DQ15
 Text GLabel 11600 7900 0    50   BiDi ~ 0
 DDR3_DM1
 Wire Wire Line
-	6675 3225 6875 3225
+	9175 6325 9375 6325
 Wire Wire Line
-	6675 2725 6875 2725
+	9175 5925 9375 5925
 Text GLabel 11600 6000 0    50   Output ~ 0
 DDR3_A0
 Text GLabel 11600 3700 0    50   Output ~ 0
@@ -1813,7 +1813,7 @@ DDR3_A13
 Text GLabel 11600 2500 0    50   Output ~ 0
 DDR3_A14
 Wire Wire Line
-	6675 5625 6875 5625
+	9175 6725 9375 6725
 Text GLabel 11600 6300 0    50   Output ~ 0
 DDR3_BA0
 Text GLabel 11600 7000 0    50   Output ~ 0
@@ -1891,9 +1891,9 @@ $EndComp
 Wire Wire Line
 	6675 6625 6875 6625
 Wire Wire Line
-	6675 3725 6875 3725
+	9175 6925 9375 6925
 Wire Wire Line
-	6675 3525 6875 3525
+	9175 6525 9375 6525
 NoConn ~ 6875 5725
 Text GLabel 11600 6200 0    50   BiDi ~ 0
 DDR3_DQS0+
@@ -2020,28 +2020,28 @@ Wire Wire Line
 Text Notes 9900 7150 0    50   ~ 0
 Vref
 Wire Wire Line
-	8825 3925 9375 3925
+	8375 -250 8925 -250
 Wire Wire Line
-	8825 3825 9375 3825
+	8375 -350 8925 -350
 Wire Wire Line
-	9375 3725 8825 3725
+	8925 -450 8375 -450
 Wire Wire Line
-	8825 3625 9375 3625
+	8375 -550 8925 -550
 Wire Wire Line
-	8825 3525 9375 3525
+	8375 -650 8925 -650
 Wire Wire Line
-	9375 3425 8825 3425
-Text GLabel 8825 3925 0    50   Input ~ 0
+	8925 -750 8375 -750
+Text GLabel 8375 -250 0    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 8825 3825 0    50   Input ~ 0
+Text GLabel 8375 -350 0    50   Input ~ 0
 QSPI1_CS0_N
-Text GLabel 8825 3725 0    50   Input ~ 0
+Text GLabel 8375 -450 0    50   Input ~ 0
 QSPI1_D0
-Text GLabel 8825 3625 0    50   Input ~ 0
+Text GLabel 8375 -550 0    50   Input ~ 0
 QSPI1_D1
-Text GLabel 8825 3525 0    50   Input ~ 0
+Text GLabel 8375 -650 0    50   Input ~ 0
 QSPI1_D2
-Text GLabel 8825 3425 0    50   Input ~ 0
+Text GLabel 8375 -750 0    50   Input ~ 0
 QSPI1_D3
 Text GLabel 5475 9975 0    50   Input ~ 0
 ROT_QSPI_SCK
@@ -2449,98 +2449,98 @@ Text GLabel 14000 950  0    50   Input ~ 0
 VCC3V3_T
 Text Notes 10475 17000 0    118  ~ 24
 USB Client
-Text GLabel 9175 7525 0    50   Input ~ 0
+Text GLabel 9175 3325 0    50   Input ~ 0
 ULPI1_D0
-Text GLabel 9175 7725 0    50   Input ~ 0
+Text GLabel 9175 5425 0    50   Input ~ 0
 ULPI1_D1
-Text GLabel 9175 7425 0    50   Input ~ 0
+Text GLabel 9175 5625 0    50   Input ~ 0
 ULPI1_D2
 Wire Wire Line
-	9175 7725 9375 7725
-Text GLabel 9175 8125 0    50   Input ~ 0
+	9175 5425 9375 5425
+Text GLabel 9175 6425 0    50   Input ~ 0
 ULPI1_D3
 Wire Wire Line
-	9175 7625 9375 7625
-Text GLabel 9175 7625 0    50   Input ~ 0
+	9175 5525 9375 5525
+Text GLabel 9175 5525 0    50   Input ~ 0
 ULPI1_D4
 Wire Wire Line
-	9175 7525 9375 7525
-Text GLabel 6675 2725 0    50   Input ~ 0
+	9175 3325 9375 3325
+Text GLabel 9175 5925 0    50   Input ~ 0
 ULPI1_D5
 Wire Wire Line
-	9175 7425 9375 7425
-Text GLabel 9050 3325 0    50   Input ~ 0
+	9175 5625 9375 5625
+Text GLabel 9175 5725 0    50   Input ~ 0
 ULPI1_D6
-Text GLabel 9175 8425 0    50   Input ~ 0
+Text GLabel 9175 6125 0    50   Input ~ 0
 ULPI1_D7
-Text GLabel 6675 3725 0    50   Input ~ 0
+Text GLabel 9175 6925 0    50   Input ~ 0
 ULPI1_DIR
-Text GLabel 6675 3525 0    50   Input ~ 0
+Text GLabel 9175 6525 0    50   Input ~ 0
 ULPI1_NXT
 Text GLabel 9175 8525 0    50   Input ~ 0
 ULPI1_CLKO
 Wire Wire Line
-	9375 8125 9175 8125
-Text GLabel 6675 3225 0    50   Input ~ 0
+	9375 6425 9175 6425
+Text GLabel 9175 6325 0    50   Input ~ 0
 ULPI1_STP
-Text GLabel 6675 5625 0    50   Input ~ 0
+Text GLabel 9175 6725 0    50   Input ~ 0
 ULPI1_RESET
 Wire Wire Line
-	9375 8425 9175 8425
+	9375 6125 9175 6125
 Text Notes 10350 12875 0    118  ~ 24
 USB HOST
-Text GLabel 3500 9100 0    50   Input ~ 0
+Text GLabel 9175 2225 0    50   Input ~ 0
 ULPI2_D0
 Wire Wire Line
-	3500 9100 3700 9100
-Text GLabel 3500 9000 0    50   Input ~ 0
+	9175 2225 9375 2225
+Text GLabel 9175 2625 0    50   Input ~ 0
 ULPI2_D1
 Wire Wire Line
-	3500 9000 3700 9000
-Text GLabel 3500 8900 0    50   Input ~ 0
+	9175 2625 9375 2625
+Text GLabel 9175 2325 0    50   Input ~ 0
 ULPI2_D2
 Wire Wire Line
-	3500 8900 3700 8900
-Text GLabel 3500 8800 0    50   Input ~ 0
+	9175 2325 9375 2325
+Text GLabel 9175 2825 0    50   Input ~ 0
 ULPI2_D3
 Wire Wire Line
-	3500 8800 3700 8800
-Text GLabel 3500 8700 0    50   Input ~ 0
+	9175 2825 9375 2825
+Text GLabel 9175 2425 0    50   Input ~ 0
 ULPI2_D4
 Wire Wire Line
-	3500 8700 3700 8700
-Text GLabel 3500 8600 0    50   Input ~ 0
+	9175 2425 9375 2425
+Text GLabel 9175 2725 0    50   Input ~ 0
 ULPI2_D5
 Wire Wire Line
-	3500 8600 3700 8600
-Text GLabel 3500 8500 0    50   Input ~ 0
+	9175 2725 9375 2725
+Text GLabel 9175 2525 0    50   Input ~ 0
 ULPI2_D6
 Wire Wire Line
-	3500 8500 3700 8500
-Text GLabel 3500 8400 0    50   Input ~ 0
+	9175 2525 9375 2525
+Text GLabel 9175 3725 0    50   Input ~ 0
 ULPI2_D7
 Wire Wire Line
-	3500 8400 3700 8400
-Text GLabel 3500 9300 0    50   Input ~ 0
+	9175 3725 9375 3725
+Text GLabel 9175 4925 0    50   Input ~ 0
 ULPI_DIR
-Text GLabel 3500 9200 0    50   Input ~ 0
+Text GLabel 9175 5825 0    50   Input ~ 0
 ULPI2_NXT
-Text GLabel 3500 9500 0    50   Input ~ 0
+Text GLabel 6675 2325 0    50   Input ~ 0
 ULPI2_CLKO
 Wire Wire Line
-	3700 9300 3500 9300
+	9375 4925 9175 4925
 Wire Wire Line
-	3700 9500 3500 9500
+	6875 2325 6675 2325
 Wire Wire Line
-	3700 9200 3500 9200
-Text GLabel 3500 9400 0    50   Input ~ 0
+	9375 5825 9175 5825
+Text GLabel 9175 5225 0    50   Input ~ 0
 ULPI2_STP
 Wire Wire Line
-	3700 9400 3500 9400
-Text GLabel 3500 9600 0    50   Input ~ 0
+	9375 5225 9175 5225
+Text GLabel 9175 3125 0    50   Input ~ 0
 ULPI2_RESET
 Wire Wire Line
-	3700 9600 3500 9600
+	9375 3125 9175 3125
 Text Notes 17225 8475 0    118  ~ 0
 RGMII
 Text Notes 18200 8000 0    79   ~ 0
@@ -2698,14 +2698,6 @@ Text GLabel 11600 3500 0    50   Output ~ 0
 DDR3_BA1
 Connection ~ 10950 3600
 Wire Wire Line
-	9250 5325 9375 5325
-Wire Wire Line
-	9250 5225 9375 5225
-Wire Wire Line
-	9250 5025 9375 5025
-Wire Wire Line
-	9375 5125 9250 5125
-Wire Wire Line
 	11600 5400 11925 5400
 Wire Wire Line
 	11600 5500 11925 5500
@@ -2784,19 +2776,15 @@ Wire Notes Line
 Text GLabel 11475 975  0    50   Input ~ 0
 VCC1V35_T
 Wire Wire Line
-	9050 3325 9375 3325
+	9175 5725 9375 5725
 Text GLabel 6425 1000 0    50   Input ~ 0
 VCC3V3_T
 Text Notes 17250 8725 0    118  ~ 0
 ULPI1
 Text Notes 17250 8925 0    118  ~ 0
 ULPI2
-Text Notes 18350 8675 0    79   ~ 0
-ECPIX5
-Text Notes 19500 8700 0    118  ~ 0
-Y
-Text Notes 19500 8925 0    118  ~ 0
-N\n
+Text Notes 19075 8700 0    118  ~ 0
+CLK->P28
 Text Notes 6425 -1125 0    50   ~ 0
 1V8
 Wire Wire Line
@@ -2815,4 +2803,10 @@ F 3 "" H 2650 10825 50  0001 C CNN
 	1    2650 10825
 	1    0    0    -1  
 $EndComp
+Text Notes 20450 8700 0    118  ~ 0
+DONE
+Text Notes 20450 8925 0    118  ~ 0
+DONE
+Text Notes 19075 8925 0    118  ~ 0
+CLK->N26
 $EndSCHEMATC

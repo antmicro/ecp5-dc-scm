@@ -1165,23 +1165,23 @@ Text Notes 11900 775  0    118  ~ 0
 DDR3
 Text Notes 975  7675 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
-Text GLabel 9900 -1100 0    50   Input ~ 0
+Text GLabel 3375 9800 0    50   Input ~ 0
 SGPIO0_CLK
-Text GLabel 9900 -1000 0    50   Input ~ 0
+Text GLabel 3375 9900 0    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 9900 -900 0    50   Input ~ 0
+Text GLabel 3375 10000 0    50   Input ~ 0
 SGPIO0_DO
-Text GLabel 9900 -800 0    50   Input ~ 0
+Text GLabel 3375 10100 0    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 9900 -500 0    50   Input ~ 0
+Text GLabel 3375 10300 0    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 9900 -400 0    50   Input ~ 0
+Text GLabel 3375 10400 0    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 9900 -300 0    50   Input ~ 0
+Text GLabel 3375 10500 0    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 9900 -200 0    50   Input ~ 0
+Text GLabel 3375 10600 0    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 9900 -100 0    50   Input ~ 0
+Text GLabel 3375 10700 0    50   Input ~ 0
 SGPIO_INTR_N
 Text Notes 5075 11125 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
@@ -1272,23 +1272,23 @@ Wire Wire Line
 Wire Wire Line
 	4075 5525 4400 5525
 Wire Wire Line
-	9900 -1100 10225 -1100
+	3375 9800 3700 9800
 Wire Wire Line
-	9900 -1000 10225 -1000
+	3375 9900 3700 9900
 Wire Wire Line
-	9900 -900 10225 -900
+	3375 10000 3700 10000
 Wire Wire Line
-	9900 -800 10225 -800
+	3375 10100 3700 10100
 Wire Wire Line
-	9900 -500 10225 -500
+	3375 10300 3700 10300
 Wire Wire Line
-	9900 -400 10225 -400
+	3375 10400 3700 10400
 Wire Wire Line
-	9900 -300 10225 -300
+	3375 10500 3700 10500
 Wire Wire Line
-	9900 -200 10225 -200
+	3375 10600 3700 10600
 Wire Wire Line
-	9900 -100 10225 -100
+	3375 10700 3700 10700
 Wire Wire Line
 	7925 9250 8250 9250
 Wire Wire Line
@@ -1625,75 +1625,75 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:R_10k_0402 R131
 U 1 1 61D8BCCB
-P 2650 10150
-F 0 "R131" H 2650 10363 60  0000 C CNN
-F 1 "R_10k_0402" H 2650 10000 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 2850 10350 60  0001 L CNN
-F 3 "" H 2650 10150 50  0001 C CNN
-F 4 "VISHAY" H 2850 10550 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 2850 10450 60  0001 L CNN "MPN"
-F 6 "10k" H 2650 10265 50  0000 C CNN "Val"
-	1    2650 10150
+P 2300 10200
+F 0 "R131" H 2300 10413 60  0000 C CNN
+F 1 "R_10k_0402" H 2300 10050 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 2500 10400 60  0001 L CNN
+F 3 "" H 2300 10200 50  0001 C CNN
+F 4 "VISHAY" H 2500 10600 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2500 10500 60  0001 L CNN "MPN"
+F 6 "10k" H 2300 10315 50  0000 C CNN "Val"
+	1    2300 10200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L ecp5-dc-scm:C_100n_0402 C208
 U 1 1 61DCD78B
-P 2275 10600
-F 0 "C208" H 2390 10645 60  0000 L CNN
-F 1 "C_100n_0402" H 2275 10450 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-cap" H 2475 10800 60  0001 L CNN
-F 3 "" H 2275 10600 50  0001 C CNN
-F 4 "Walsin" H 2475 11000 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 2475 10900 60  0001 L CNN "MPN"
-F 6 "100n" H 2390 10547 50  0000 L CNN "Val"
-	1    2275 10600
+P 1925 10650
+F 0 "C208" H 2040 10695 60  0000 L CNN
+F 1 "C_100n_0402" H 1925 10500 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 2125 10850 60  0001 L CNN
+F 3 "" H 1925 10650 50  0001 C CNN
+F 4 "Walsin" H 2125 11050 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2125 10950 60  0001 L CNN "MPN"
+F 6 "100n" H 2040 10597 50  0000 L CNN "Val"
+	1    1925 10650
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:B3U-1000P S1
 U 1 1 61DD037E
-P 2650 10600
-F 0 "S1" V 2597 10738 60  0000 L CNN
-F 1 "B3U-1000P" V 2703 10738 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:Switch_Tactile_SMD_B3U-1000P" H 2850 10800 60  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 2850 10900 60  0001 L CNN
-F 4 "B3U-1000P" H 2850 11100 60  0001 L CNN "MPN"
-F 5 "Omron Electronics Inc-EMC Div" H 2850 11700 60  0001 L CNN "Manufacturer"
-	1    2650 10600
+P 2300 10650
+F 0 "S1" V 2247 10788 60  0000 L CNN
+F 1 "B3U-1000P" V 2353 10788 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:Switch_Tactile_SMD_B3U-1000P" H 2500 10850 60  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 2500 10950 60  0001 L CNN
+F 4 "B3U-1000P" H 2500 11150 60  0001 L CNN "MPN"
+F 5 "Omron Electronics Inc-EMC Div" H 2500 11750 60  0001 L CNN "Manufacturer"
+	1    2300 10650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2275 10450 2275 10375
+	1925 10500 1925 10425
 Wire Wire Line
-	2275 10375 2650 10375
+	1925 10425 2300 10425
 Wire Wire Line
-	2650 10400 2650 10375
-Connection ~ 2650 10375
+	2300 10450 2300 10425
+Connection ~ 2300 10425
 Wire Wire Line
-	2650 10375 2750 10375
+	2300 10425 2400 10425
 Wire Wire Line
-	2650 10300 2650 10375
+	2300 10350 2300 10425
 Wire Wire Line
-	2650 10000 2650 9950
-Text GLabel 2725 9950 2    50   Input ~ 0
+	2300 10050 2300 10000
+Text GLabel 2375 10000 1    50   Input ~ 0
 VCC3V3_T
 Wire Wire Line
-	2650 9950 2725 9950
+	2300 10000 2375 10000
 Wire Wire Line
-	2275 10750 2275 10825
+	1925 10800 1925 10875
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 61EE07A4
-P 2275 10825
+P 1925 10875
 AR Path="/5FD74EA8/61EE07A4" Ref="#PWR?"  Part="1" 
 AR Path="/5FC6B687/61EE07A4" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86CE4/61EE07A4" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 2275 10575 50  0001 C CNN
-F 1 "GND" H 2280 10652 50  0000 C CNN
-F 2 "" H 2275 10825 50  0001 C CNN
-F 3 "" H 2275 10825 50  0001 C CNN
-	1    2275 10825
+F 0 "#PWR0108" H 1925 10625 50  0001 C CNN
+F 1 "GND" H 1930 10702 50  0000 C CNN
+F 2 "" H 1925 10875 50  0001 C CNN
+F 3 "" H 1925 10875 50  0001 C CNN
+	1    1925 10875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2013,35 +2013,35 @@ Wire Notes Line
 	6175 9475 6175 9675
 Wire Notes Line
 	6175 9675 6200 9675
-Text GLabel 9900 -600 0    50   Input ~ 0
+Text GLabel 3375 10200 0    50   Input ~ 0
 SGPIO1_CLK
 Wire Wire Line
-	9900 -600 10225 -600
+	3375 10200 3700 10200
 Text Notes 9900 7150 0    50   ~ 0
 Vref
 Wire Wire Line
-	8375 -250 8925 -250
+	3150 9700 3700 9700
 Wire Wire Line
-	8375 -350 8925 -350
+	3150 9600 3700 9600
 Wire Wire Line
-	8925 -450 8375 -450
+	3700 9500 3150 9500
 Wire Wire Line
-	8375 -550 8925 -550
+	3150 9400 3700 9400
 Wire Wire Line
-	8375 -650 8925 -650
+	3150 9300 3700 9300
 Wire Wire Line
-	8925 -750 8375 -750
-Text GLabel 8375 -250 0    50   Input ~ 0
+	3700 9200 3150 9200
+Text GLabel 3150 9700 0    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 8375 -350 0    50   Input ~ 0
+Text GLabel 3150 9600 0    50   Input ~ 0
 QSPI1_CS0_N
-Text GLabel 8375 -450 0    50   Input ~ 0
+Text GLabel 3150 9500 0    50   Input ~ 0
 QSPI1_D0
-Text GLabel 8375 -550 0    50   Input ~ 0
+Text GLabel 3150 9400 0    50   Input ~ 0
 QSPI1_D1
-Text GLabel 8375 -650 0    50   Input ~ 0
+Text GLabel 3150 9300 0    50   Input ~ 0
 QSPI1_D2
-Text GLabel 8375 -750 0    50   Input ~ 0
+Text GLabel 3150 9200 0    50   Input ~ 0
 QSPI1_D3
 Text GLabel 5475 9975 0    50   Input ~ 0
 ROT_QSPI_SCK
@@ -2065,28 +2065,24 @@ Text Notes 5500 7425 0    118  ~ 0
 ROT_SPI
 Text GLabel 5475 10075 0    50   Input ~ 0
 PROGRAM_N
-Text GLabel 2750 10375 2    50   Input ~ 0
+Text GLabel 2400 10425 1    50   Input ~ 0
 PROGRAM_N
 Text GLabel 5475 9875 0    50   Input ~ 0
 INIT_N
 Text GLabel 825  10950 0    50   Input ~ 0
 INIT_N
-Text GLabel 11000 -75  0    50   Input ~ 0
-SPI0_MISO
-Text GLabel 11000 -175 0    50   Input ~ 0
+Text GLabel 5275 8875 0    50   Input ~ 0
 SPI0_MOSI
-Text GLabel 11000 -275 0    50   Input ~ 0
+Text GLabel 5275 8775 0    50   Input ~ 0
 SPI0_CS_N
-Text GLabel 11000 -375 0    50   Input ~ 0
+Text GLabel 5275 8575 0    50   Input ~ 0
 SPI0_CLK
 Wire Wire Line
-	11000 -75  11125 -75 
+	5275 8875 5400 8875
 Wire Wire Line
-	11000 -175 11125 -175
+	5275 8575 5400 8575
 Wire Wire Line
-	11000 -375 11125 -375
-Wire Wire Line
-	11125 -275 11000 -275
+	5400 8775 5275 8775
 Text GLabel 5475 10175 0    50   Input ~ 0
 DONE
 Text GLabel 775  9350 0    50   Input ~ 0
@@ -2108,71 +2104,52 @@ PCIe x1
 $Comp
 L ecp5-dc-scm:R_0R_0402 R133
 U 1 1 67F9881E
-P 11275 -275
-F 0 "R133" H 11075 -225 60  0000 C CNN
-F 1 "R_0R_0402" H 11275 -425 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11475 -75 60  0001 L CNN
-F 3 "" H 11275 -275 50  0001 C CNN
-F 4 "PANASONIC" H 11475 125 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11475 25  60  0001 L CNN "MPN"
-F 6 "0R" H 11450 -325 50  0000 C CNN "Val"
-F 7 "1" H 11275 -275 50  0001 C CNN "DNP"
-	1    11275 -275
+P 5550 8775
+F 0 "R133" H 5350 8825 60  0000 C CNN
+F 1 "R_0R_0402" H 5550 8625 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5750 8975 60  0001 L CNN
+F 3 "" H 5550 8775 50  0001 C CNN
+F 4 "PANASONIC" H 5750 9175 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5750 9075 60  0001 L CNN "MPN"
+F 6 "0R" H 5725 8725 50  0000 C CNN "Val"
+F 7 "1" H 5550 8775 50  0001 C CNN "DNP"
+	1    5550 8775
 	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:R_0R_0402 R134
 U 1 1 67F99643
-P 11275 -175
-F 0 "R134" H 11075 -125 60  0000 C CNN
-F 1 "R_0R_0402" H 11275 -325 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11475 25  60  0001 L CNN
-F 3 "" H 11275 -175 50  0001 C CNN
-F 4 "PANASONIC" H 11475 225 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11475 125 60  0001 L CNN "MPN"
-F 6 "0R" H 11450 -225 50  0000 C CNN "Val"
-F 7 "1" H 11275 -175 50  0001 C CNN "DNP"
-	1    11275 -175
+P 5550 8875
+F 0 "R134" H 5350 8925 60  0000 C CNN
+F 1 "R_0R_0402" H 5550 8725 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5750 9075 60  0001 L CNN
+F 3 "" H 5550 8875 50  0001 C CNN
+F 4 "PANASONIC" H 5750 9275 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5750 9175 60  0001 L CNN "MPN"
+F 6 "0R" H 5725 8825 50  0000 C CNN "Val"
+F 7 "1" H 5550 8875 50  0001 C CNN "DNP"
+	1    5550 8875
 	1    0    0    -1  
 $EndComp
-$Comp
-L ecp5-dc-scm:R_0R_0402 R135
-U 1 1 67F9A405
-P 11275 -75
-F 0 "R135" H 11075 -25 60  0000 C CNN
-F 1 "R_0R_0402" H 11275 -225 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11475 125 60  0001 L CNN
-F 3 "" H 11275 -75 50  0001 C CNN
-F 4 "PANASONIC" H 11475 325 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11475 225 60  0001 L CNN "MPN"
-F 6 "0R" H 11450 -125 50  0000 C CNN "Val"
-F 7 "1" H 11275 -75 50  0001 C CNN "DNP"
-	1    11275 -75 
-	1    0    0    -1  
-$EndComp
-Text Notes 11200 -340 0    50   ~ 0
+Text Notes 5475 8610 0    50   ~ 0
 DNP
-Text Notes 11200 -240 0    50   ~ 0
-DNP
-Text Notes 11200 -140 0    50   ~ 0
+Text Notes 5475 8810 0    50   ~ 0
 DNP
 $Comp
 L ecp5-dc-scm:R_0R_0402 R132
 U 1 1 67A0B804
-P 11275 -375
-F 0 "R132" H 11075 -325 60  0000 C CNN
-F 1 "R_0R_0402" H 11275 -525 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 11475 -175 60  0001 L CNN
-F 3 "" H 11275 -375 50  0001 C CNN
-F 4 "PANASONIC" H 11475 25  60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 11475 -75 60  0001 L CNN "MPN"
-F 6 "0R" H 11450 -425 50  0000 C CNN "Val"
-F 7 "1" H 11275 -375 50  0001 C CNN "DNP"
-	1    11275 -375
+P 5550 8575
+F 0 "R132" H 5350 8625 60  0000 C CNN
+F 1 "R_0R_0402" H 5550 8425 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5750 8775 60  0001 L CNN
+F 3 "" H 5550 8575 50  0001 C CNN
+F 4 "PANASONIC" H 5750 8975 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5750 8875 60  0001 L CNN "MPN"
+F 6 "0R" H 5725 8525 50  0000 C CNN "Val"
+F 7 "1" H 5550 8575 50  0001 C CNN "DNP"
+	1    5550 8575
 	1    0    0    -1  
 $EndComp
-Text Notes 11200 -40  0    50   ~ 0
-DNP
 Text Notes 17250 5325 0    118  ~ 0
 DDR3
 Text Notes 17550 5550 2    118  ~ 0
@@ -2289,7 +2266,7 @@ Text Notes 18425 6900 0    79   ~ 0
 ECP5
 Text Notes 20450 6900 0    118  ~ 0
 DONE
-Text GLabel 17325 3075 0    50   Input ~ 0
+Text GLabel 5400 9675 0    50   Input ~ 0
 VIRTUAL_RESEAT
 Text GLabel 17325 3200 0    50   Input ~ 0
 HPM_FW_RECOVERY
@@ -2315,7 +2292,7 @@ Text GLabel 17325 4200 0    50   Input ~ 0
 IRQ_N
 Text GLabel 17325 4300 0    50   Input ~ 0
 PRSNT1_N
-Text GLabel 17325 2975 0    50   Input ~ 0
+Text GLabel 5400 9775 0    50   Input ~ 0
 PRSNT0_N
 Text GLabel 17325 2750 0    50   Input ~ 0
 PECI_BMC
@@ -2361,44 +2338,42 @@ Wire Wire Line
 	11550 -575 11175 -575
 Wire Wire Line
 	11550 -675 11175 -675
-Text GLabel 6700 -950 0    50   Input ~ 0
+Text GLabel 6550 4625 0    50   Input ~ 0
 ESPI_CLK
-Text GLabel 6700 -850 0    50   Input ~ 0
+Text GLabel 6550 4725 0    50   Input ~ 0
 ESPI_CS0_N
-Text GLabel 6700 -750 0    50   Input ~ 0
+Text GLabel 6550 4825 0    50   Input ~ 0
 ESPI_CS1_N
-Text GLabel 6700 -650 0    50   Input ~ 0
+Text GLabel 6550 4925 0    50   Input ~ 0
 ESPI_IO0
-Text GLabel 6700 -550 0    50   Input ~ 0
+Text GLabel 6550 5025 0    50   Input ~ 0
 ESPI_IO1
-Text GLabel 6700 -450 0    50   Input ~ 0
+Text GLabel 6550 5125 0    50   Input ~ 0
 ESPI_IO2
-Text GLabel 6700 -350 0    50   Input ~ 0
+Text GLabel 6550 5225 0    50   Input ~ 0
 ESPI_IO3
-Text GLabel 6700 -250 0    50   Input ~ 0
+Text GLabel 6550 5325 0    50   Input ~ 0
 ESPI_ALERT_N
-Text GLabel 6700 -150 0    50   Input ~ 0
+Text GLabel 6550 5425 0    50   Input ~ 0
 ESPI_RESET_N
 Wire Wire Line
-	6700 -950 7025 -950
+	6550 4625 6875 4625
 Wire Wire Line
-	6700 -850 7025 -850
+	6550 4725 6875 4725
 Wire Wire Line
-	6700 -750 7025 -750
+	6550 4825 6875 4825
 Wire Wire Line
-	6700 -650 7025 -650
+	6550 4925 6875 4925
 Wire Wire Line
-	6700 -550 7025 -550
+	6550 5025 6875 5025
 Wire Wire Line
-	6700 -450 7025 -450
+	6550 5125 6875 5125
 Wire Wire Line
-	6700 -350 7025 -350
+	6550 5225 6875 5225
 Wire Wire Line
-	6700 -250 7025 -250
+	6550 5325 6875 5325
 Wire Wire Line
-	6700 -150 7025 -150
-Text GLabel 3750 7325 0    50   Input ~ 0
-VCC1V8_T
+	6550 5425 6875 5425
 Text Notes 19500 7325 0    118  ~ 0
 ?\n\n
 Text Notes 19500 7375 0    118  ~ 0
@@ -2442,9 +2417,9 @@ Wire Wire Line
 Wire Wire Line
 	17325 2750 17875 2750
 Wire Wire Line
-	17875 2975 17325 2975
+	5950 9775 5400 9775
 Wire Wire Line
-	17875 3075 17325 3075
+	5950 9675 5400 9675
 Text GLabel 14000 950  0    50   Input ~ 0
 VCC3V3_T
 Text Notes 10475 17000 0    118  ~ 24
@@ -2525,12 +2500,12 @@ Text GLabel 9175 4925 0    50   Input ~ 0
 ULPI_DIR
 Text GLabel 9175 5825 0    50   Input ~ 0
 ULPI2_NXT
-Text GLabel 6675 2325 0    50   Input ~ 0
+Text GLabel 9175 8425 0    50   Input ~ 0
 ULPI2_CLKO
 Wire Wire Line
 	9375 4925 9175 4925
 Wire Wire Line
-	6875 2325 6675 2325
+	9375 8425 9175 8425
 Wire Wire Line
 	9375 5825 9175 5825
 Text GLabel 9175 5225 0    50   Input ~ 0
@@ -2625,45 +2600,45 @@ Wire Wire Line
 Text Notes 650  2025 0    50   ~ 0
 RGMII_REFCLK is movable:\nnot used in Ref
 Wire Wire Line
-	3850 5825 4400 5825
+	3150 8600 3700 8600
 Wire Wire Line
-	3850 5925 4400 5925
+	3150 8700 3700 8700
 Wire Wire Line
-	4400 6025 3850 6025
+	3700 8800 3150 8800
 Wire Wire Line
-	3850 6225 4400 6225
+	3150 9000 3700 9000
 Wire Wire Line
-	3850 6325 4400 6325
+	3150 9100 3700 9100
 Wire Wire Line
-	4400 6125 3850 6125
+	3700 8900 3150 8900
 Wire Wire Line
 	3850 6425 4400 6425
 Wire Wire Line
 	3850 6525 4400 6525
-Text GLabel 3850 5825 0    50   Input ~ 0
+Text GLabel 3150 8600 0    50   Input ~ 0
 NCSI_CLK
-Text GLabel 3850 5925 0    50   Input ~ 0
+Text GLabel 3150 8700 0    50   Input ~ 0
 NCSI_CRS_DV
-Text GLabel 3850 6025 0    50   Input ~ 0
+Text GLabel 3150 8800 0    50   Input ~ 0
 NCSI_TXEN
-Text GLabel 3850 6225 0    50   Input ~ 0
+Text GLabel 3150 9000 0    50   Input ~ 0
 NCSI_TXD0
-Text GLabel 3850 6325 0    50   Input ~ 0
+Text GLabel 3150 9100 0    50   Input ~ 0
 NCSI_TXD1
-Text GLabel 3850 6125 0    50   Input ~ 0
+Text GLabel 3150 8900 0    50   Input ~ 0
 NCSI_RXER
-Text GLabel 3875 6625 0    50   Input ~ 0
+Text GLabel 3175 8400 0    50   Input ~ 0
 NCSI_RXD0
-Text GLabel 3875 6725 0    50   Input ~ 0
+Text GLabel 3175 8500 0    50   Input ~ 0
 NCSI_RXD1
 Text GLabel 3850 6525 0    50   Output ~ 0
 ETH_~RESET
 Text GLabel 3850 6425 0    50   Input ~ 0
 ETH_INT_N
 Wire Wire Line
-	3875 6625 4400 6625
+	3175 8400 3700 8400
 Wire Wire Line
-	3875 6725 4400 6725
+	3175 8500 3700 8500
 Wire Wire Line
 	11600 2200 11925 2200
 Wire Wire Line
@@ -2777,30 +2752,28 @@ Text GLabel 11475 975  0    50   Input ~ 0
 VCC1V35_T
 Wire Wire Line
 	9175 5725 9375 5725
-Text GLabel 6425 1000 0    50   Input ~ 0
-VCC3V3_T
 Text Notes 17250 8725 0    118  ~ 0
 ULPI1
 Text Notes 17250 8925 0    118  ~ 0
 ULPI2
 Text Notes 19075 8700 0    118  ~ 0
 CLK->P28
-Text Notes 6425 -1125 0    50   ~ 0
+Text Notes 6275 4450 0    50   ~ 0
 1V8
 Wire Wire Line
-	2650 10800 2650 10825
+	2300 10850 2300 10875
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 61F03A5E
-P 2650 10825
+P 2300 10875
 AR Path="/5FD74EA8/61F03A5E" Ref="#PWR?"  Part="1" 
 AR Path="/5FC6B687/61F03A5E" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86CE4/61F03A5E" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 2650 10575 50  0001 C CNN
-F 1 "GND" H 2655 10652 50  0000 C CNN
-F 2 "" H 2650 10825 50  0001 C CNN
-F 3 "" H 2650 10825 50  0001 C CNN
-	1    2650 10825
+F 0 "#PWR0109" H 2300 10625 50  0001 C CNN
+F 1 "GND" H 2305 10702 50  0000 C CNN
+F 2 "" H 2300 10875 50  0001 C CNN
+F 3 "" H 2300 10875 50  0001 C CNN
+	1    2300 10875
 	1    0    0    -1  
 $EndComp
 Text Notes 20450 8700 0    118  ~ 0
@@ -2809,4 +2782,41 @@ Text Notes 20450 8925 0    118  ~ 0
 DONE
 Text Notes 19075 8925 0    118  ~ 0
 CLK->N26
+Text GLabel 3950 1000 0    50   Input ~ 0
+VCC3V3_T
+Text GLabel 3750 7325 0    50   Input ~ 0
+VCC3V3_T
+Text GLabel 6425 1000 0    50   Input ~ 0
+VCC1V8_T
+Text Notes 5475 8710 0    50   ~ 0
+DNP
+Text Notes 5475 8910 0    50   ~ 0
+DNP
+$Comp
+L ecp5-dc-scm:R_0R_0402 R135
+U 1 1 67F9A405
+P 5550 8675
+F 0 "R135" H 5350 8725 60  0000 C CNN
+F 1 "R_0R_0402" H 5550 8525 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 5750 8875 60  0001 L CNN
+F 3 "" H 5550 8675 50  0001 C CNN
+F 4 "PANASONIC" H 5750 9075 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5750 8975 60  0001 L CNN "MPN"
+F 6 "0R" H 5725 8625 50  0000 C CNN "Val"
+F 7 "1" H 5550 8675 50  0001 C CNN "DNP"
+	1    5550 8675
+	1    0    0    -1  
+$EndComp
+Text GLabel 5275 8675 0    50   Input ~ 0
+SPI0_MISO
+Wire Wire Line
+	5700 8575 5950 8575
+Wire Wire Line
+	5950 8675 5700 8675
+Wire Wire Line
+	5700 8775 5950 8775
+Wire Wire Line
+	5700 8875 5950 8875
+Wire Wire Line
+	5275 8675 5400 8675
 $EndSCHEMATC

@@ -27,11 +27,12 @@ Key Features
 * DC-SCI standard 168-pin 4C+ edge connector
 * On-board DDR3 DRAM and eMMC
 * QSPI FLASH memory
-* Ethernet RJ45 connector with KSZ9031RNXCA GbE transciever
+* Gigabit Ethernet interface with KSZ9031RNXCA transciever
 * JTAG connector
 * M.2 (key M) connector with PCIe x4 interface
 * 13 I2C buses, 4 I3C buses
 * dual UART 
+* 2x USB 2.0 host/device PHY (USB3300)
 * SPI connector
 * RoT module connector
 * TPM SPI connector

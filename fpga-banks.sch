@@ -113,7 +113,7 @@ F 3 "" H 1900 2225 50  0001 C CNN
 F 4 "LFE5UM5G-85F-8BG756C" H 2050 2175 60  0001 R CNN "MPN"
 F 5 "Lattice Semiconductor" H 3030 -324 50  0001 L CNN "Manufacturer"
 	2    1900 2225
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
@@ -1165,23 +1165,17 @@ Text Notes 11900 775  0    118  ~ 0
 DDR3
 Text Notes 975  7675 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
-Text GLabel 3375 9800 0    50   Input ~ 0
-SGPIO0_CLK
-Text GLabel 3375 9900 0    50   Input ~ 0
-SGPIO0_DI
-Text GLabel 3375 10000 0    50   Input ~ 0
-SGPIO0_DO
-Text GLabel 3375 10100 0    50   Input ~ 0
-SGPIO0_LD
 Text GLabel 3375 10300 0    50   Input ~ 0
+SGPIO0_CLK
+Text GLabel 3150 8600 0    50   Input ~ 0
+SGPIO0_DO
+Text GLabel 3150 9200 0    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 3375 10400 0    50   Input ~ 0
-SGPIO1_DO
-Text GLabel 3375 10500 0    50   Input ~ 0
+Text GLabel 3150 9500 0    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 3375 10600 0    50   Input ~ 0
+Text GLabel 3150 9000 0    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 3375 10700 0    50   Input ~ 0
+Text GLabel 3375 10400 0    50   Input ~ 0
 SGPIO_INTR_N
 Text Notes 5075 11125 0    50   ~ 0
 TBD: should additional GPIO\npin be considered as\nBootStrap pin\n(OCP mentions 50k pulldown)
@@ -2013,8 +2007,6 @@ Wire Notes Line
 	6175 9475 6175 9675
 Wire Notes Line
 	6175 9675 6200 9675
-Text GLabel 3375 10200 0    50   Input ~ 0
-SGPIO1_CLK
 Wire Wire Line
 	3375 10200 3700 10200
 Text Notes 9900 7150 0    50   ~ 0
@@ -2031,17 +2023,17 @@ Wire Wire Line
 	3150 9300 3700 9300
 Wire Wire Line
 	3700 9200 3150 9200
-Text GLabel 3150 9700 0    50   Input ~ 0
-QSPI1_CLK
-Text GLabel 3150 9600 0    50   Input ~ 0
-QSPI1_CS0_N
-Text GLabel 3150 9500 0    50   Input ~ 0
-QSPI1_D0
 Text GLabel 3150 9400 0    50   Input ~ 0
+QSPI1_CLK
+Text GLabel 3150 8800 0    50   Input ~ 0
+QSPI1_CS0_N
+Text GLabel 3150 9600 0    50   Input ~ 0
+QSPI1_D0
+Text GLabel 3375 9800 0    50   Input ~ 0
 QSPI1_D1
-Text GLabel 3150 9300 0    50   Input ~ 0
+Text GLabel 3375 10200 0    50   Input ~ 0
 QSPI1_D2
-Text GLabel 3150 9200 0    50   Input ~ 0
+Text GLabel 3375 10600 0    50   Input ~ 0
 QSPI1_D3
 Text GLabel 5475 9975 0    50   Input ~ 0
 ROT_QSPI_SCK
@@ -2615,21 +2607,21 @@ Wire Wire Line
 	3850 6425 4400 6425
 Wire Wire Line
 	3850 6525 4400 6525
-Text GLabel 3150 8600 0    50   Input ~ 0
+Text GLabel 3150 9700 0    50   Input ~ 0
 NCSI_CLK
 Text GLabel 3150 8700 0    50   Input ~ 0
 NCSI_CRS_DV
-Text GLabel 3150 8800 0    50   Input ~ 0
-NCSI_TXEN
-Text GLabel 3150 9000 0    50   Input ~ 0
-NCSI_TXD0
-Text GLabel 3150 9100 0    50   Input ~ 0
-NCSI_TXD1
-Text GLabel 3150 8900 0    50   Input ~ 0
-NCSI_RXER
-Text GLabel 3175 8400 0    50   Input ~ 0
-NCSI_RXD0
 Text GLabel 3175 8500 0    50   Input ~ 0
+NCSI_TXEN
+Text GLabel 3175 8400 0    50   Input ~ 0
+NCSI_TXD0
+Text GLabel 3375 9900 0    50   Input ~ 0
+NCSI_TXD1
+Text GLabel 3375 10000 0    50   Input ~ 0
+NCSI_RXER
+Text GLabel 3375 10500 0    50   Input ~ 0
+NCSI_RXD0
+Text GLabel 3375 10100 0    50   Input ~ 0
 NCSI_RXD1
 Text GLabel 3850 6525 0    50   Output ~ 0
 ETH_~RESET
@@ -2819,4 +2811,12 @@ Wire Wire Line
 	5700 8875 5950 8875
 Wire Wire Line
 	5275 8675 5400 8675
+Text GLabel 3150 9300 0    50   Input ~ 0
+SGPIO1_CLK
+Text GLabel 3150 8900 0    50   Input ~ 0
+SGPIO0_DI
+Text GLabel 3150 9100 0    50   Input ~ 0
+SGPIO0_LD
+Text GLabel 3375 10700 0    50   Input ~ 0
+SGPIO1_DO
 $EndSCHEMATC

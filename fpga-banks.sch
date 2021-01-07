@@ -2932,4 +2932,6 @@ Text GLabel 4025 5125 0    50   Input ~ 0
 I2C[10]_SDA
 Text GLabel 4025 4825 0    50   Input ~ 0
 I2C[12]_SDA
+Text Notes 13150 5000 0    50   ~ 0
+MMC_CLK duplicated - why?\n
 $EndSCHEMATC

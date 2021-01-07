@@ -1292,13 +1292,13 @@ Wire Wire Line
 Wire Wire Line
 	7925 9150 8250 9150
 Wire Wire Line
-	4075 4825 4400 4825
+	4025 4825 4400 4825
 Wire Wire Line
-	4075 4925 4400 4925
+	4025 4925 4400 4925
 Wire Wire Line
-	4075 5025 4400 5025
+	4025 5025 4400 5025
 Wire Wire Line
-	4075 5125 4400 5125
+	4025 5125 4400 5125
 Wire Wire Line
 	5475 9975 5950 9975
 Wire Wire Line
@@ -1374,57 +1374,51 @@ Text GLabel 4075 5625 0    50   Input ~ 0
 I3C[3]_SCL_3V3
 Text GLabel 4075 5725 0    50   Input ~ 0
 I3C[0]_SCL_3V3
-Text GLabel 4025 2225 0    50   Input ~ 0
-I2C[0]_SDA
-Text GLabel 4025 2625 0    50   Input ~ 0
-I2C[2]_SDA
 Text GLabel 4025 2725 0    50   Input ~ 0
+I2C[0]_SDA
+Text GLabel 4025 4325 0    50   Input ~ 0
+I2C[2]_SDA
+Text GLabel 4025 5025 0    50   Input ~ 0
 I2C[2]_SCL
-Text GLabel 4025 3025 0    50   Input ~ 0
-I2C[4]_SDA
-Text GLabel 4075 5025 0    50   Input ~ 0
-I2C[4]_SCL
-Text GLabel 4025 3425 0    50   Input ~ 0
-I2C[6]_SDA
-Text GLabel 4025 3525 0    50   Input ~ 0
-I2C[6]_SCL
-Text GLabel 4025 2325 0    50   Input ~ 0
-I2C[0]_SCL
 Text GLabel 4025 2425 0    50   Input ~ 0
-I2C[1]_SDA
-Text GLabel 4025 2525 0    50   Input ~ 0
-I2C[1]_SCL
-Text GLabel 4025 2825 0    50   Input ~ 0
-I2C[3]_SDA
+I2C[4]_SDA
 Text GLabel 4025 2925 0    50   Input ~ 0
-I2C[3]_SCL
-Text GLabel 4025 3225 0    50   Input ~ 0
-I2C[5]_SDA
+I2C[4]_SCL
+Text GLabel 4025 2625 0    50   Input ~ 0
+I2C[6]_SDA
+Text GLabel 4025 2525 0    50   Input ~ 0
+I2C[6]_SCL
 Text GLabel 4025 3325 0    50   Input ~ 0
+I2C[0]_SCL
+Text GLabel 4025 4925 0    50   Input ~ 0
+I2C[1]_SCL
+Text GLabel 4025 4025 0    50   Input ~ 0
+I2C[3]_SDA
+Text GLabel 4025 3425 0    50   Input ~ 0
+I2C[3]_SCL
+Text GLabel 4025 2225 0    50   Input ~ 0
+I2C[5]_SDA
+Text GLabel 4025 2325 0    50   Input ~ 0
 I2C[5]_SCL
 Text GLabel 4025 3625 0    50   Input ~ 0
 I2C[7]_SDA
-Text GLabel 4025 3725 0    50   Input ~ 0
+Text GLabel 4025 2825 0    50   Input ~ 0
 I2C[7]_SCL
-Text GLabel 4075 5125 0    50   Input ~ 0
+Text GLabel 4025 3025 0    50   Input ~ 0
 I2C[8]_SDA
-Text GLabel 4025 3925 0    50   Input ~ 0
+Text GLabel 4025 3525 0    50   Input ~ 0
 I2C[8]_SCL
-Text GLabel 4075 4825 0    50   Input ~ 0
-I2C[10]_SDA
-Text GLabel 4025 4325 0    50   Input ~ 0
-I2C[10]_SCL
 Text GLabel 4025 4625 0    50   Input ~ 0
-I2C[12]_SDA
-Text GLabel 4075 4925 0    50   Input ~ 0
-I2C[12]_SCL
-Text GLabel 4025 4025 0    50   Input ~ 0
-I2C[9]_SDA
+I2C[10]_SCL
 Text GLabel 4025 4125 0    50   Input ~ 0
-I2C[9]_SCL
-Text GLabel 4025 4425 0    50   Input ~ 0
-I2C[11]_SDA
+I2C[12]_SCL
+Text GLabel 4025 3925 0    50   Input ~ 0
+I2C[9]_SDA
 Text GLabel 4025 4525 0    50   Input ~ 0
+I2C[9]_SCL
+Text GLabel 4025 3725 0    50   Input ~ 0
+I2C[11]_SDA
+Text GLabel 4025 3225 0    50   Input ~ 0
 I2C[11]_SCL
 Text GLabel 8325 10825 0    50   Input ~ 0
 CLK_100M_PCIE_DP
@@ -2932,4 +2926,10 @@ Text Notes 15000 6600 0    50   ~ 0
 PCLKT7_1
 Text GLabel 6550 5025 0    50   Input ~ 0
 ESPI_CS1_N
+Text GLabel 4025 4425 0    50   Input ~ 0
+I2C[1]_SDA
+Text GLabel 4025 5125 0    50   Input ~ 0
+I2C[10]_SDA
+Text GLabel 4025 4825 0    50   Input ~ 0
+I2C[12]_SDA
 $EndSCHEMATC

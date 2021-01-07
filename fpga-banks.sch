@@ -2330,42 +2330,42 @@ Wire Wire Line
 	11550 -575 11175 -575
 Wire Wire Line
 	11550 -675 11175 -675
-Text GLabel 6550 4125 0    50   Input ~ 0
-ESPI_CLK
-Text GLabel 6550 4225 0    50   Input ~ 0
-ESPI_CS0_N
-Text GLabel 6550 5025 0    50   Input ~ 0
-ESPI_CS1_N
-Text GLabel 6550 4425 0    50   Input ~ 0
-ESPI_IO0
-Text GLabel 6550 4525 0    50   Input ~ 0
-ESPI_IO1
-Text GLabel 6550 4325 0    50   Input ~ 0
-ESPI_IO2
-Text GLabel 6550 4925 0    50   Input ~ 0
-ESPI_IO3
 Text GLabel 6550 4625 0    50   Input ~ 0
-ESPI_ALERT_N
+ESPI_CLK
 Text GLabel 6550 4725 0    50   Input ~ 0
+ESPI_CS0_N
+Text GLabel 6550 4825 0    50   Input ~ 0
+ESPI_CS1_N
+Text GLabel 6550 4925 0    50   Input ~ 0
+ESPI_IO0
+Text GLabel 6550 5025 0    50   Input ~ 0
+ESPI_IO1
+Text GLabel 6550 5125 0    50   Input ~ 0
+ESPI_IO2
+Text GLabel 6550 5225 0    50   Input ~ 0
+ESPI_IO3
+Text GLabel 6550 5325 0    50   Input ~ 0
+ESPI_ALERT_N
+Text GLabel 6550 5425 0    50   Input ~ 0
 ESPI_RESET_N
-Wire Wire Line
-	6550 4125 6875 4125
-Wire Wire Line
-	6550 4225 6875 4225
-Wire Wire Line
-	6550 4325 6875 4325
-Wire Wire Line
-	6550 4425 6875 4425
-Wire Wire Line
-	6550 4525 6875 4525
-Wire Wire Line
-	6550 5025 6875 5025
-Wire Wire Line
-	6550 4725 6875 4725
 Wire Wire Line
 	6550 4625 6875 4625
 Wire Wire Line
+	6550 4725 6875 4725
+Wire Wire Line
+	6550 4825 6875 4825
+Wire Wire Line
 	6550 4925 6875 4925
+Wire Wire Line
+	6550 5025 6875 5025
+Wire Wire Line
+	6550 5125 6875 5125
+Wire Wire Line
+	6550 5225 6875 5225
+Wire Wire Line
+	6550 5325 6875 5325
+Wire Wire Line
+	6550 5425 6875 5425
 Text Notes 19500 7325 0    118  ~ 0
 ?\n\n
 Text Notes 19500 7375 0    118  ~ 0
@@ -2750,7 +2750,7 @@ Text Notes 17250 8925 0    118  ~ 0
 ULPI2
 Text Notes 19075 8700 0    118  ~ 0
 CLK->P28
-Text Notes 6275 3950 0    50   ~ 0
+Text Notes 6275 4450 0    50   ~ 0
 1V8
 Wire Wire Line
 	2300 10850 2300 10875
@@ -2819,4 +2819,117 @@ Text GLabel 3150 9100 0    50   Input ~ 0
 SGPIO0_LD
 Text GLabel 3375 10700 0    50   Input ~ 0
 SGPIO1_DO
+$Comp
+L antmicroOscillators:AMJMEFB-100.0000T U?
+U 1 1 600AA715
+P 13725 8600
+F 0 "U?" H 14350 8887 60  0000 C CNN
+F 1 "AMJMEFB-100.0000T" H 14350 8781 60  0000 C CNN
+F 2 "antmicro-footprints:AMJMEFB" H 14525 8840 60  0001 C CNN
+F 3 "" H 13725 8600 60  0000 C CNN
+F 4 "AMJMEFB-100.0000T" H 13725 8600 50  0001 C CNN "MPN"
+F 5 "Abracon" H 13725 8600 50  0001 C CNN "Field5"
+	1    13725 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13725 8700 13725 8825
+$Comp
+L ecp5-dc-scm:GND #PWR?
+U 1 1 601758B7
+P 13725 8825
+AR Path="/5FD74EA8/601758B7" Ref="#PWR?"  Part="1" 
+AR Path="/5FC6B687/601758B7" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/601758B7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13725 8575 50  0001 C CNN
+F 1 "GND" H 13730 8652 50  0000 C CNN
+F 2 "" H 13725 8825 50  0001 C CNN
+F 3 "" H 13725 8825 50  0001 C CNN
+	1    13725 8825
+	1    0    0    -1  
+$EndComp
+Text GLabel 13725 8600 0    50   Input ~ 0
+VCC3V3_T
+Text GLabel 14975 8600 2    50   Input ~ 0
+VCC3V3_T
+Text GLabel 14975 8700 2    50   Input ~ 0
+GCLK100
+Text GLabel 15650 8525 1    50   Input ~ 0
+VCC3V3_T
+$Comp
+L ecp5-dc-scm:C_100n_0402 C?
+U 1 1 602CC257
+P 15650 8675
+F 0 "C?" H 15765 8720 60  0000 L CNN
+F 1 "C_100n_0402" H 15650 8525 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 15850 8875 60  0001 L CNN
+F 3 "" H 15650 8675 50  0001 C CNN
+F 4 "Walsin" H 15850 9075 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15850 8975 60  0001 L CNN "MPN"
+F 6 "100n" H 15765 8622 50  0000 L CNN "Val"
+	1    15650 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5-dc-scm:GND #PWR?
+U 1 1 6035417D
+P 15650 8825
+AR Path="/5FD74EA8/6035417D" Ref="#PWR?"  Part="1" 
+AR Path="/5FC6B687/6035417D" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/6035417D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 15650 8575 50  0001 C CNN
+F 1 "GND" H 15655 8652 50  0000 C CNN
+F 2 "" H 15650 8825 50  0001 C CNN
+F 3 "" H 15650 8825 50  0001 C CNN
+	1    15650 8825
+	1    0    0    -1  
+$EndComp
+Text Notes 2450 2250 0    50   ~ 0
+PCLKC0_0
+Text Notes 2450 2350 0    50   ~ 0
+PCLKC0_1
+Text Notes 4975 6650 0    50   ~ 0
+PCLKC1_0
+Text Notes 4975 6750 0    50   ~ 0
+PCLKC1_1
+Text Notes 7450 2350 0    50   ~ 0
+PCLKC2_1
+Text Notes 7450 2250 0    50   ~ 0
+PCLKC2_0
+Text Notes 9975 8250 0    50   ~ 0
+PCLKC3_0
+Text Notes 9975 8350 0    50   ~ 0
+PCLKC3_1
+Text Notes 12450 2525 0    50   ~ 0
+PCLKC6_0
+Text Notes 12450 2425 0    50   ~ 0
+PCLKC6_1
+Text Notes 15000 6900 0    50   ~ 0
+PCLKC7_0
+Text Notes 15000 6800 0    50   ~ 0
+PCLKC7_1
+Text Notes 2450 2450 0    50   ~ 0
+PCLKT0_0
+Text Notes 2450 2550 0    50   ~ 0
+PCLKT0_1
+Text Notes 4975 6850 0    50   ~ 0
+PCLKT1_0
+Text Notes 4975 6950 0    50   ~ 0
+PCLKT1_1
+Text Notes 7450 2550 0    50   ~ 0
+PCLKT2_1
+Text Notes 7450 2450 0    50   ~ 0
+PCLKT2_0
+Text Notes 9975 8450 0    50   ~ 0
+PCLKT3_0
+Text Notes 9975 8550 0    50   ~ 0
+PCLKT3_1
+Text Notes 12450 2325 0    50   ~ 0
+PCLKT6_0
+Text Notes 12450 2225 0    50   ~ 0
+PCLKT6_1
+Text Notes 15000 6700 0    50   ~ 0
+PCLKT7_0
+Text Notes 15000 6600 0    50   ~ 0
+PCLKT7_1
 $EndSCHEMATC

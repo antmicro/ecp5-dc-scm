@@ -1187,13 +1187,13 @@ Text GLabel 7925 9350 0    50   Input ~ 0
 JTAG_TDI
 Text GLabel 7925 9150 0    50   Input ~ 0
 JTAG_TDO
-Text GLabel 11225 -1275 0    50   Input ~ 0
+Text GLabel 4025 4725 0    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 11225 -1175 0    50   Input ~ 0
+Text GLabel 4025 4225 0    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 11225 -1075 0    50   Input ~ 0
+Text GLabel 4025 3825 0    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 11225 -975 0    50   Input ~ 0
+Text GLabel 4025 3125 0    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 675  750  0    50   ~ 0
 FPGA connections to be established while preparing layout
@@ -1292,13 +1292,13 @@ Wire Wire Line
 Wire Wire Line
 	7925 9150 8250 9150
 Wire Wire Line
-	11225 -1275 11550 -1275
+	4075 4825 4400 4825
 Wire Wire Line
-	11225 -1175 11550 -1175
+	4075 4925 4400 4925
 Wire Wire Line
-	11225 -1075 11550 -1075
+	4075 5025 4400 5025
 Wire Wire Line
-	11225 -975 11550 -975
+	4075 5125 4400 5125
 Wire Wire Line
 	5475 9975 5950 9975
 Wire Wire Line
@@ -1382,7 +1382,7 @@ Text GLabel 4025 2725 0    50   Input ~ 0
 I2C[2]_SCL
 Text GLabel 4025 3025 0    50   Input ~ 0
 I2C[4]_SDA
-Text GLabel 4025 3125 0    50   Input ~ 0
+Text GLabel 4075 5025 0    50   Input ~ 0
 I2C[4]_SCL
 Text GLabel 4025 3425 0    50   Input ~ 0
 I2C[6]_SDA
@@ -1406,17 +1406,17 @@ Text GLabel 4025 3625 0    50   Input ~ 0
 I2C[7]_SDA
 Text GLabel 4025 3725 0    50   Input ~ 0
 I2C[7]_SCL
-Text GLabel 4025 3825 0    50   Input ~ 0
+Text GLabel 4075 5125 0    50   Input ~ 0
 I2C[8]_SDA
 Text GLabel 4025 3925 0    50   Input ~ 0
 I2C[8]_SCL
-Text GLabel 4025 4225 0    50   Input ~ 0
+Text GLabel 4075 4825 0    50   Input ~ 0
 I2C[10]_SDA
 Text GLabel 4025 4325 0    50   Input ~ 0
 I2C[10]_SCL
 Text GLabel 4025 4625 0    50   Input ~ 0
 I2C[12]_SDA
-Text GLabel 4025 4725 0    50   Input ~ 0
+Text GLabel 4075 4925 0    50   Input ~ 0
 I2C[12]_SCL
 Text GLabel 4025 4025 0    50   Input ~ 0
 I2C[9]_SDA
@@ -2330,42 +2330,40 @@ Wire Wire Line
 	11550 -575 11175 -575
 Wire Wire Line
 	11550 -675 11175 -675
-Text GLabel 6550 4625 0    50   Input ~ 0
+Text GLabel 6550 4125 0    50   Input ~ 0
 ESPI_CLK
-Text GLabel 6550 4725 0    50   Input ~ 0
+Text GLabel 6550 4225 0    50   Input ~ 0
 ESPI_CS0_N
-Text GLabel 6550 4825 0    50   Input ~ 0
-ESPI_CS1_N
-Text GLabel 6550 4925 0    50   Input ~ 0
+Text GLabel 6550 4425 0    50   Input ~ 0
 ESPI_IO0
-Text GLabel 6550 5025 0    50   Input ~ 0
+Text GLabel 6550 4525 0    50   Input ~ 0
 ESPI_IO1
-Text GLabel 6550 5125 0    50   Input ~ 0
+Text GLabel 6550 4325 0    50   Input ~ 0
 ESPI_IO2
-Text GLabel 6550 5225 0    50   Input ~ 0
+Text GLabel 6550 4925 0    50   Input ~ 0
 ESPI_IO3
-Text GLabel 6550 5325 0    50   Input ~ 0
+Text GLabel 6550 4625 0    50   Input ~ 0
 ESPI_ALERT_N
-Text GLabel 6550 5425 0    50   Input ~ 0
+Text GLabel 6550 4725 0    50   Input ~ 0
 ESPI_RESET_N
 Wire Wire Line
-	6550 4625 6875 4625
+	6550 4125 6875 4125
 Wire Wire Line
 	6550 4725 6875 4725
 Wire Wire Line
-	6550 4825 6875 4825
+	6550 4225 6875 4225
 Wire Wire Line
 	6550 4925 6875 4925
 Wire Wire Line
 	6550 5025 6875 5025
 Wire Wire Line
-	6550 5125 6875 5125
+	6550 4325 6875 4325
 Wire Wire Line
-	6550 5225 6875 5225
+	6550 4425 6875 4425
 Wire Wire Line
-	6550 5325 6875 5325
+	6550 4625 6875 4625
 Wire Wire Line
-	6550 5425 6875 5425
+	6550 4525 6875 4525
 Text Notes 19500 7325 0    118  ~ 0
 ?\n\n
 Text Notes 19500 7375 0    118  ~ 0
@@ -2750,7 +2748,7 @@ Text Notes 17250 8925 0    118  ~ 0
 ULPI2
 Text Notes 19075 8700 0    118  ~ 0
 CLK->P28
-Text Notes 6275 4450 0    50   ~ 0
+Text Notes 6300 4050 0    50   ~ 0
 1V8
 Wire Wire Line
 	2300 10850 2300 10875
@@ -2932,4 +2930,6 @@ Text Notes 15000 6700 0    50   ~ 0
 PCLKT7_0
 Text Notes 15000 6600 0    50   ~ 0
 PCLKT7_1
+Text GLabel 6550 5025 0    50   Input ~ 0
+ESPI_CS1_N
 $EndSCHEMATC

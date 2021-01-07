@@ -113,7 +113,7 @@ F 3 "" H 1900 2225 50  0001 C CNN
 F 4 "LFE5UM5G-85F-8BG756C" H 2050 2175 60  0001 R CNN "MPN"
 F 5 "Lattice Semiconductor" H 3030 -324 50  0001 L CNN "Manufacturer"
 	2    1900 2225
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?

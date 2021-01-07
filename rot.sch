@@ -1281,17 +1281,6 @@ Text GLabel 8225 5125 0    50   Input ~ 0
 ROT_QSPI_DQ2
 Text GLabel 8225 5225 0    50   Input ~ 0
 ROT_QSPI_DQ3
-$Comp
-L ecp5-dc-scm:543630489 J3
-U 1 1 6268C044
-P 8925 6775
-F 0 "J3" H 8950 6790 50  0000 C CNN
-F 1 "543630489" H 8950 6699 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:543630489" H 8675 4425 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
-	1    8925 6775
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	8725 6425 8225 6425
 Wire Wire Line
@@ -1306,4 +1295,15 @@ Text GLabel 8225 4825 0    50   Input ~ 0
 PROGRAM_N
 Text GLabel 8225 4725 0    50   Input ~ 0
 INIT_N
+$Comp
+L ecp5-dc-scm:529910408 J3
+U 1 1 5FF77C4B
+P 8925 6775
+F 0 "J3" H 8850 6775 50  0000 C CNN
+F 1 "529910408" H 8950 6675 50  0000 C CNN
+F 2 "ecp5-dc-scm-footprints:529910408" H 8675 4425 50  0001 C CNN
+F 3 "" H 9175 4475 50  0001 C CNN
+	1    8925 6775
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

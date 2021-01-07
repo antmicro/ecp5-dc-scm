@@ -597,19 +597,6 @@ Wire Wire Line
 	6775 4850 6250 4850
 Wire Wire Line
 	6775 4950 6250 4950
-$Comp
-L ecp5-dc-scm:9774030151 SP1
-U 1 1 600E4B8D
-P 7075 5500
-F 0 "SP1" H 7205 5553 60  0000 L CNN
-F 1 "9774030151" H 7205 5447 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:9774030151" H 7075 5500 60  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 7075 5500 60  0001 C CNN
-F 4 "Wurth Elektronik" H 7075 5500 50  0001 C CNN "Manufacturer"
-F 5 "9774030151" H 7075 5500 50  0001 C CNN "MPN"
-	1    7075 5500
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6875 5500
 $Comp
 L ecp5-dc-scm:TP_SMD1MM TP1
@@ -667,4 +654,17 @@ Text GLabel 6775 2550 2    50   Input ~ 0
 CLK_PCIE_x4_DN
 Text GLabel 6775 2450 2    50   Input ~ 0
 CLK_PCIE_x4_DP
+$Comp
+L antmicroMechanicalParts:9774025151 SP1
+U 1 1 63330A66
+P 7075 5500
+F 0 "SP1" H 7205 5553 60  0000 L CNN
+F 1 "9774025151" H 7205 5447 60  0000 L CNN
+F 2 "antmicro-footprints:9774025151" H 7075 5500 60  0001 C CNN
+F 3 "" H 7075 5500 60  0001 C CNN
+F 4 "Wurth Elektronik" H 7075 5500 50  0001 C CNN "Manufacturer"
+F 5 "9774025151" H 7075 5500 50  0001 C CNN "MPN"
+	1    7075 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

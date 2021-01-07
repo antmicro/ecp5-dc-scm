@@ -1306,4 +1306,20 @@ F 3 "" H 9175 4475 50  0001 C CNN
 	1    8925 6775
 	1    0    0    1   
 $EndComp
+$Comp
+L ecp5-dc-scm:9774030151 SP?
+U 1 1 63326701
+P 9775 6900
+AR Path="/5FD17EF1/63326701" Ref="SP?"  Part="1" 
+AR Path="/624C566F/63326701" Ref="SP?"  Part="1" 
+F 0 "SP?" H 9905 6953 60  0000 L CNN
+F 1 "9774030151" H 9905 6847 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:9774030151" H 9775 6900 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 9775 6900 60  0001 C CNN
+F 4 "Wurth Elektronik" H 9775 6900 50  0001 C CNN "Manufacturer"
+F 5 "9774030151" H 9775 6900 50  0001 C CNN "MPN"
+	1    9775 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9575 6900
 $EndSCHEMATC

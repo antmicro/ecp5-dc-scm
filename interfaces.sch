@@ -28,7 +28,7 @@ reserved for future use (as  of DC-SCI OPC specification)
 Text Notes 5025 1325 0    118  ~ 24
 HPM SPI
 Text GLabel 5525 1900 1    50   Input ~ 0
-VCC
+VCC3V3
 $Comp
 L ecp5-dc-scm:GND #PWR037
 U 1 1 605F8173

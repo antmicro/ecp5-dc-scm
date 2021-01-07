@@ -264,7 +264,7 @@ Wire Wire Line
 	1450 1150 1450 1000
 Connection ~ 1450 1150
 Text GLabel 1450 1000 0    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Wire Wire Line
 	2600 1150 2600 1525
 Wire Wire Line
@@ -399,7 +399,7 @@ Wire Wire Line
 	3950 1150 3950 1000
 Connection ~ 3950 1150
 Text GLabel 8925 1000 0    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Wire Wire Line
 	5100 1150 5100 1525
 Wire Wire Line
@@ -1072,7 +1072,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 7500 6100 7500
 Text GLabel 6100 7500 0    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Wire Wire Line
 	6750 7500 6750 7875
 $Comp
@@ -1554,7 +1554,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 8675 1800 8600
 Text GLabel 1875 8150 2    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Wire Wire Line
 	1800 8150 1875 8150
 Wire Wire Line
@@ -1595,7 +1595,7 @@ F 6 "1k" V 1303 10345 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text GLabel 1325 9975 2    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Wire Wire Line
 	1250 9975 1325 9975
 Wire Wire Line
@@ -1671,7 +1671,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 10050 2300 10000
 Text GLabel 2375 10000 1    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Wire Wire Line
 	2300 10000 2375 10000
 Wire Wire Line
@@ -2413,7 +2413,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 9675 5400 9675
 Text GLabel 14000 950  0    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Text Notes 10475 17000 0    118  ~ 24
 USB Client
 Text GLabel 9175 3325 0    50   Input ~ 0
@@ -2741,7 +2741,7 @@ Wire Notes Line
 Wire Notes Line
 	17200 8975 21250 8975
 Text GLabel 11475 975  0    50   Input ~ 0
-VCC1V35_T
+VCC1V35
 Wire Wire Line
 	9175 5725 9375 5725
 Text Notes 17250 8725 0    118  ~ 0
@@ -2775,11 +2775,11 @@ DONE
 Text Notes 19075 8925 0    118  ~ 0
 CLK->N26
 Text GLabel 3950 1000 0    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Text GLabel 3750 7325 0    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Text GLabel 6425 1000 0    50   Input ~ 0
-VCC1V8_T
+VCC1V8
 Text Notes 5475 8710 0    50   ~ 0
 DNP
 Text Notes 5475 8910 0    50   ~ 0
@@ -2849,13 +2849,13 @@ F 3 "" H 13725 8825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 13725 8600 0    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 Text GLabel 14975 8600 2    50   Input ~ 0
 VCC3V3_T
 Text GLabel 14975 8700 2    50   Input ~ 0
 GCLK100
 Text GLabel 15650 8525 1    50   Input ~ 0
-VCC3V3_T
+VCC3V3
 $Comp
 L ecp5-dc-scm:C_100n_0402 C?
 U 1 1 602CC257

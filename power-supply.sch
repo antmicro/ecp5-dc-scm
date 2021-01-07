@@ -13,10 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	12975 3450 12675 3450
-Wire Wire Line
-	12375 3300 12675 3300
 Connection ~ 12375 3300
 $Comp
 L ecp5-dc-scm:GND #PWR085
@@ -699,10 +695,6 @@ Text Notes 12725 4050 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
 	12675 3600 12975 3600
-Wire Wire Line
-	13000 5325 12700 5325
-Wire Wire Line
-	12400 5175 12700 5175
 Connection ~ 12400 5175
 $Comp
 L ecp5-dc-scm:GND #PWR086
@@ -892,10 +884,6 @@ Text Notes 12800 5925 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
 	12700 5475 13000 5475
-Wire Wire Line
-	13000 7175 12675 7175
-Wire Wire Line
-	12400 7025 12675 7025
 Connection ~ 12400 7025
 $Comp
 L ecp5-dc-scm:GND #PWR087
@@ -1164,8 +1152,8 @@ F 6 "2u2" H 3950 2375 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text Label 3025 9725 2    50   ~ 0
-VCCINT_EN
-Text Label 3025 9825 2    50   ~ 0
+VCCA0_EN
+Text Label 3025 9925 2    50   ~ 0
 VCCAUX_EN
 Wire Wire Line
 	2400 10450 2400 10025
@@ -1183,7 +1171,7 @@ $EndComp
 Wire Wire Line
 	2400 10025 2325 10025
 Text GLabel 1350 9125 1    50   Input ~ 0
-VCC3V3
+VCC5V0
 Wire Wire Line
 	1525 9725 1350 9725
 Wire Wire Line
@@ -1223,7 +1211,7 @@ Text Notes 9075 975  0    118  ~ 0
 PWR_LED Indicators
 Wire Notes Line
 	475  8400 475  8425
-Text Label 3025 9925 2    50   ~ 0
+Text Label 3025 9825 2    50   ~ 0
 VCCIO_EN
 Text Notes 12875 2900 0    118  ~ 0
 3V3 supply
@@ -1304,10 +1292,6 @@ F 6 "124k" V 14703 7320 50  0000 L CNN "Val"
 	1    14650 7250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	13000 8925 12675 8925
-Wire Wire Line
-	12400 8775 12675 8775
 Connection ~ 12400 8775
 $Comp
 L ecp5-dc-scm:GND #PWR088
@@ -1516,14 +1500,12 @@ F 5 "IHLP1212AEERR47M11" H 14050 8775 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	13850 8775 13800 8775
-Text Notes 4300 11025 0    50   ~ 0
-STEP1: VRs start and RoT boots (HPM_STBY_EN when both are done)\nSTEP2: HPM starts its VRs and sets HPM_STBY_RDY when done\nSTEP3: FPGA VCCINT (1.0V)\nSTEP4: FPGA VCCAUX + DDR3 (1.8V, 1.35V)\nSTEP5: FPGA VCCIO + DDR3 (3.3V, DDRVTT), HPM reset is de-asserted\nSTEP6: HPM boots
 $Comp
 L ecp5-dc-scm:LM3881MME_NOPB U12
 U 1 1 6113B8AB
 P 1925 9825
 F 0 "U12" H 1675 10150 50  0000 C CNN
-F 1 "LM3881MME_NOPB" H 2000 10100 50  0000 C CNN
+F 1 "LM3881MME_NOPB" H 1950 10225 50  0000 C CNN
 F 2 "ecp5-dc-scm-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 1925 10225 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3881.pdf" H 1925 10325 50  0001 L CNN
 F 4 "Texas Instruments" H 1925 10425 50  0001 L CNN "Manufacturer"
@@ -1537,8 +1519,6 @@ Wire Wire Line
 	2325 9825 2500 9825
 Wire Wire Line
 	2325 9725 2400 9725
-Text Notes 6075 11100 0    50   ~ 0
-^ TODO: decide which DC-SCI pin connected\n    to FPGA does this
 Wire Wire Line
 	1125 9925 1125 10075
 Wire Wire Line
@@ -1619,27 +1599,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 9100 2500 9175
 Text GLabel 2500 9100 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	12675 3450 12675 3300
-Connection ~ 12675 3300
-Wire Wire Line
-	12675 3300 12975 3300
-Wire Wire Line
-	12700 5325 12700 5175
-Connection ~ 12700 5175
-Wire Wire Line
-	12700 5175 13000 5175
-Wire Wire Line
-	12675 7175 12675 7025
-Connection ~ 12675 7025
-Wire Wire Line
-	12675 7025 13000 7025
-Wire Wire Line
-	12675 8925 12675 8775
-Connection ~ 12675 8775
-Wire Wire Line
-	12675 8775 13000 8775
+VCC5V0
 Text Notes 7575 10225 0    79   ~ 0
 Battery connector
 $Comp
@@ -1677,7 +1637,7 @@ Connection ~ 1125 9825
 Wire Wire Line
 	1125 9825 1525 9825
 Text GLabel 1125 9125 1    50   Input ~ 0
-VCC3V3
+VCC5V0
 Wire Wire Line
 	1125 9275 1125 9125
 $Comp
@@ -1741,10 +1701,6 @@ F 6 "0R" V 7128 1745 50  0000 L CNN "Val"
 	1    7075 1675
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	12900 1600 12600 1600
-Wire Wire Line
-	12300 1450 12600 1450
 Connection ~ 12300 1450
 $Comp
 L ecp5-dc-scm:GND #PWR?
@@ -2136,8 +2092,6 @@ Wire Wire Line
 Connection ~ 3125 5450
 Wire Wire Line
 	4500 5500 4050 5500
-Text Label 4050 5500 0    50   ~ 0
-1V2_EN
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 6005096D
@@ -3226,143 +3180,8 @@ Wire Wire Line
 	13800 2250 13800 2500
 Wire Wire Line
 	8875 6025 9575 6025
-Wire Wire Line
-	6875 7750 7300 7750
-Text Label 6925 7750 0    50   ~ 0
-VR_GOOD
-$Comp
-L ecp5-dc-scm:GND #PWR?
-U 1 1 6005089D
-P 6525 8100
-AR Path="/5FEC3511/6005089D" Ref="#PWR?"  Part="1" 
-AR Path="/5FCA4661/6005089D" Ref="#PWR?"  Part="1" 
-AR Path="/5FFA4931/6005089D" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86D1B/6005089D" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86BEB/6005089D" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 6525 7850 50  0001 C CNN
-F 1 "GND" H 6530 7927 50  0000 C CNN
-F 2 "" H 6525 8100 50  0001 C CNN
-F 3 "" H 6525 8100 50  0001 C CNN
-	1    6525 8100
-	1    0    0    -1  
-$EndComp
-Text GLabel 6525 7400 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	6225 7850 5875 7850
-Wire Wire Line
-	6225 7750 5875 7750
-Wire Wire Line
-	6225 7650 5875 7650
-Text Label 5875 7850 0    50   ~ 0
-2V5_PG
-$Comp
-L ecp5-dc-scm:SN74LVC1G11DBVR U?
-U 1 1 60050892
-P 6625 7850
-AR Path="/5FCA4661/60050892" Ref="U?"  Part="1" 
-AR Path="/5FFA4931/60050892" Ref="U?"  Part="1" 
-AR Path="/5FD86D1B/60050892" Ref="U?"  Part="1" 
-AR Path="/5FD86BEB/60050892" Ref="U14"  Part="1" 
-F 0 "U14" H 6800 7825 60  0000 L CNN
-F 1 "SN74LVC1G11DBVR" H 6800 7750 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-6" H 6655 8000 60  0001 L CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1607678267544&ref_url=https%253A%252F%252Fru.mouser.com%252F" H 6825 8150 60  0001 L CNN
-F 4 "SN74LVC1G11DBVR" H 6825 8350 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 6825 8950 60  0001 L CNN "Manufacturer"
-	1    6625 7850
-	1    0    0    -1  
-$EndComp
 Text Notes 700  7025 0    118  ~ 0
 Power sequencer
-Wire Wire Line
-	6950 9975 6950 10050
-Wire Wire Line
-	6650 9175 6600 9175
-Text Label 5725 9675 0    50   ~ 0
-3V3_PG
-Text Label 5725 9575 0    50   ~ 0
-1V2_PG
-Text Label 5725 9475 0    50   ~ 0
-1V35_PG
-Text Label 5725 9375 0    50   ~ 0
-1V8_PG
-Text Label 7250 9275 0    50   ~ 0
-PWR_EN
-Text Label 5875 7750 0    50   ~ 0
-VR2_PG
-Text Label 5875 7650 0    50   ~ 0
-VR1_PG
-Text Label 7250 9675 0    50   ~ 0
-VR2_PG
-Text Label 7250 9475 0    50   ~ 0
-VR1_PG
-Wire Wire Line
-	7150 9675 7525 9675
-Wire Wire Line
-	7150 9475 7525 9475
-Wire Wire Line
-	6650 9675 5725 9675
-Wire Wire Line
-	6650 9575 5725 9575
-Wire Wire Line
-	6650 9475 5725 9475
-Wire Wire Line
-	6650 9375 5725 9375
-Text Label 5750 9075 0    50   ~ 0
-VR_GOOD
-Wire Wire Line
-	6650 9075 5750 9075
-Text Notes 5650 9850 0    50   ~ 0
-TODO: add footprint in libs
-Text Notes 5950 8900 0    50   ~ 0
-RoT booted flag pin
-$Comp
-L ecp5-dc-scm:GND #PWR?
-U 1 1 60050827
-P 6950 10050
-AR Path="/5FEC3511/60050827" Ref="#PWR?"  Part="1" 
-AR Path="/5FCA4661/60050827" Ref="#PWR?"  Part="1" 
-AR Path="/5FFA4931/60050827" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86D1B/60050827" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86BEB/60050827" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 6950 9800 50  0001 C CNN
-F 1 "GND" H 6955 9877 50  0000 C CNN
-F 2 "" H 6950 10050 50  0001 C CNN
-F 3 "" H 6950 10050 50  0001 C CNN
-	1    6950 10050
-	1    0    0    -1  
-$EndComp
-Text GLabel 6950 8675 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	7150 9275 7525 9275
-Text GLabel 6600 9175 0    50   Input ~ 0
-HPM_STBY_EN
-$Comp
-L ecp5-dc-scm:SN74LS08DBR U?
-U 1 1 6005081E
-P 6950 9075
-AR Path="/5FEC3511/6005081E" Ref="U?"  Part="1" 
-AR Path="/5FCA4661/6005081E" Ref="U?"  Part="1" 
-AR Path="/5FFA4931/6005081E" Ref="U?"  Part="1" 
-AR Path="/5FD86D1B/6005081E" Ref="U?"  Part="1" 
-AR Path="/5FD86BEB/6005081E" Ref="U15"  Part="1" 
-F 0 "U15" H 6650 9575 60  0000 C CNN
-F 1 "SN74LS08DBR" H 6525 9450 60  0000 C CNN
-F 2 "" H 7150 9275 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 7150 9375 60  0001 L CNN
-F 4 "SN74LS08DBR" H 7150 9575 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 7150 10175 60  0001 L CNN "Manufacturer"
-	1    6950 9075
-	1    0    0    -1  
-$EndComp
-Text GLabel 6650 9275 0    50   Input ~ 0
-HPM_STBY_RDY
-Text GLabel 7150 9075 2    50   Input ~ 0
-HPM_STBY_EN
-Text GLabel 6650 8975 0    50   Input ~ 0
-ROT_RDY
 $Comp
 L ecp5-dc-scm:C_47u_1210 C109
 U 1 1 60B8CD07
@@ -3443,209 +3262,40 @@ F 6 "66k5" V 14597 8930 50  0000 R CNN "Val"
 	1    14650 9000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6925 11175 0    50   Input ~ 0
+Text GLabel 6900 11050 0    50   Input ~ 0
 HPM_STBY_RST_N
-Text Label 3650 7125 0    50   ~ 0
-VCCINT_EN
 Wire Wire Line
-	4400 7425 4400 7450
+	12300 1450 12900 1450
 Wire Wire Line
-	4400 7450 4600 7450
-Text GLabel 4600 7450 2    50   Input ~ 0
-VCC1V0_T
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 6E9240E8
-P 4400 7225
-AR Path="/5FCA4661/6E9240E8" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/6E9240E8" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/6E9240E8" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/6E9240E8" Ref="Q9"  Part="1" 
-F 0 "Q9" H 4508 7278 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4508 7172 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4600 7425 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4600 7525 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4600 7725 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4600 8325 60  0001 L CNN "Manufacturer"
-	1    4400 7225
-	1    0    0    1   
-$EndComp
+	12375 3300 12975 3300
 Wire Wire Line
-	3650 7125 4100 7125
-Text Label 3625 8250 0    50   ~ 0
+	12400 5175 13000 5175
+Wire Wire Line
+	12400 7025 13000 7025
+Wire Wire Line
+	12400 8775 13000 8775
+Text Label 4450 5500 2    50   ~ 0
+VCCA0_EN
+Text Label 12925 8925 2    50   ~ 0
+VCCA0_EN
+Wire Wire Line
+	13000 8925 12575 8925
+Text Label 12925 3450 2    50   ~ 0
 VCCIO_EN
-Text GLabel 4175 8075 0    50   Input ~ 0
-VCC3V3
 Wire Wire Line
-	4375 8550 4375 8575
-Wire Wire Line
-	4375 8575 4575 8575
-Text GLabel 4575 8575 2    50   Input ~ 0
-VCC3V3_T
-Wire Wire Line
-	4375 9225 4575 9225
-Text GLabel 4575 9225 2    50   Input ~ 0
-VCC1V35_T
-Text GLabel 4175 9275 0    50   Input ~ 0
-VCC1V8
-Wire Wire Line
-	4375 9750 4375 9825
-Wire Wire Line
-	4375 9825 4575 9825
-Text GLabel 4575 9825 2    50   Input ~ 0
-VCC1V8_T
-Wire Wire Line
-	3625 9450 4075 9450
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050850
-P 4375 8350
-AR Path="/5FCA4661/60050850" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050850" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050850" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050850" Ref="Q5"  Part="1" 
-F 0 "Q5" H 4483 8403 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4483 8297 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 8550 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 8650 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4575 8850 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4575 9450 60  0001 L CNN "Manufacturer"
-	1    4375 8350
-	1    0    0    1   
-$EndComp
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050860
-P 4375 9550
-AR Path="/5FCA4661/60050860" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050860" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050860" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050860" Ref="Q7"  Part="1" 
-F 0 "Q7" H 4483 9603 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4483 9497 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 9750 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 9850 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4575 10050 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4575 10650 60  0001 L CNN "Manufacturer"
-	1    4375 9550
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3625 8250 4075 8250
-Text GLabel 4175 7500 0    50   Input ~ 0
-VCC2V5
-Wire Wire Line
-	4375 7975 4375 8000
-Wire Wire Line
-	4375 8000 4575 8000
-Text GLabel 4575 8000 2    50   Input ~ 0
-VCC2V5_T
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050879
-P 4375 7775
-AR Path="/5FCA4661/60050879" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050879" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050879" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050879" Ref="Q4"  Part="1" 
-F 0 "Q4" H 4483 7828 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4483 7722 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 7975 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 8075 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4575 8275 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4575 8875 60  0001 L CNN "Manufacturer"
-	1    4375 7775
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3625 7675 4075 7675
-Text GLabel 4175 9875 0    50   Input ~ 0
-VCC1V2
-Wire Wire Line
-	3625 10050 4075 10050
-Text GLabel 4575 10425 2    50   Input ~ 0
-VCC1V2_T
-Wire Wire Line
-	4375 10425 4575 10425
-Wire Wire Line
-	4375 10350 4375 10425
-Text GLabel 4200 6975 0    50   Input ~ 0
-VCC1V0
-Text Label 3625 9450 0    50   ~ 0
-VCCAUX_EN
-Text Label 3625 10050 0    50   ~ 0
+	12975 3450 12575 3450
+Text Label 12950 5325 2    50   ~ 0
 VCCIO_EN
-Text Label 3625 7675 0    50   ~ 0
+Wire Wire Line
+	13000 5325 12575 5325
+Text Label 12950 7175 2    50   ~ 0
+VCCIO_EN
+Wire Wire Line
+	13000 7175 12575 7175
+Text Label 12875 1600 2    50   ~ 0
 VCCAUX_EN
 Wire Wire Line
-	12600 1600 12600 1450
-Connection ~ 12600 1450
-Wire Wire Line
-	12600 1450 12900 1450
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050887
-P 4375 10150
-AR Path="/5FCA4661/60050887" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050887" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050887" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050887" Ref="Q8"  Part="1" 
-F 0 "Q8" H 4483 10203 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4483 10097 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 10350 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 10450 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4575 10650 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4575 11250 60  0001 L CNN "Manufacturer"
-	1    4375 10150
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	4400 7025 4400 6975
-Wire Wire Line
-	4400 6975 4200 6975
-Wire Wire Line
-	4375 7575 4375 7500
-Wire Wire Line
-	4375 7500 4175 7500
-Wire Wire Line
-	4375 8150 4375 8075
-Wire Wire Line
-	4375 8075 4175 8075
-Wire Wire Line
-	4375 8675 4175 8675
-Wire Wire Line
-	4375 9350 4375 9275
-Wire Wire Line
-	4375 9275 4175 9275
-Wire Wire Line
-	4375 9950 4375 9875
-Wire Wire Line
-	4375 9875 4175 9875
-Wire Wire Line
-	4375 8750 4375 8675
-Text Label 3625 8850 0    50   ~ 0
-VCCAUX_EN
-$Comp
-L ecp5-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60050858
-P 4375 8950
-AR Path="/5FCA4661/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FFA4931/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60050858" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60050858" Ref="Q6"  Part="1" 
-F 0 "Q6" H 4483 9003 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 4483 8897 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:SOT-23-3" H 4575 9150 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4575 9250 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 4575 9450 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 4575 10050 60  0001 L CNN "Manufacturer"
-	1    4375 8950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3625 8850 4075 8850
-Wire Wire Line
-	4375 9150 4375 9225
-Text GLabel 4175 8675 0    50   Input ~ 0
-VCC1V35
+	12900 1600 12450 1600
+Text Notes 2650 10450 0    50   ~ 0
+STEP1: 1V2, 1V0\nSTEP2: 3V3, 1V8, 1V35\nSTEP3: 2V5\nSource: Trellis
 $EndSCHEMATC

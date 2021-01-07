@@ -1305,21 +1305,21 @@ Wire Wire Line
 	14150 3800 14400 3800
 Connection ~ 14150 3800
 Text GLabel 15050 3800 2    50   Input ~ 0
-VCC1V2_T
+VCC1V2
 Text GLabel 13700 4850 2    50   Input ~ 0
-VCC1V2_T
+VCC1V2
 Wire Wire Line
 	11400 4850 11650 4850
 Text GLabel 2750 4600 0    50   Input ~ 0
-VCC1V2_T
+VCC1V2
 Wire Wire Line
 	12400 6450 13075 6450
 Text GLabel 13700 6450 2    50   Input ~ 0
-VCC2V5_T
+VCC2V5
 Text GLabel 3500 5250 0    50   Input ~ 0
-VCC1V2_T
+VCC1V2
 Text GLabel 3525 6650 0    50   Input ~ 0
-VCC1V2_T
+VCC1V2
 Wire Wire Line
 	5550 5950 5300 5950
 Wire Wire Line

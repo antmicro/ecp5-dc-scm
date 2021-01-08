@@ -1967,18 +1967,18 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60050933
-P 10075 9675
+P 10475 9675
 AR Path="/5FDA6477/60050933" Ref="D?"  Part="1" 
 AR Path="/5FFA4931/60050933" Ref="D?"  Part="1" 
 AR Path="/5FD86D1B/60050933" Ref="D?"  Part="1" 
 AR Path="/5FD86BEB/60050933" Ref="D11"  Part="1" 
-F 0 "D11" H 10100 9575 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9200 9900 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:LED_0603" H 10275 9875 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10275 9975 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10275 10175 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10275 10775 60  0001 L CNN "Manufacturer"
-	1    10075 9675
+F 0 "D11" H 10500 9575 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9600 9900 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 10675 9875 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10675 9975 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10675 10175 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10675 10775 60  0001 L CNN "Manufacturer"
+	1    10475 9675
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1988,19 +1988,19 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 6005093E
-P 10525 9675
+P 10125 9675
 AR Path="/5FDA6477/6005093E" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/6005093E" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/6005093E" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/6005093E" Ref="R111"  Part="1" 
-F 0 "R111" H 10475 9775 60  0000 C CNN
-F 1 "R_1k_0402" H 10525 9525 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 10725 9875 60  0001 L CNN
-F 3 "" H 10525 9675 50  0001 C CNN
-F 4 "BOURNS" H 10725 10075 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 10725 9975 60  0001 L CNN "MPN"
-F 6 "1k" H 10675 9625 50  0000 C CNN "Val"
-	1    10525 9675
+F 0 "R111" H 10075 9775 60  0000 C CNN
+F 1 "R_1k_0402" H 10125 9525 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10325 9875 60  0001 L CNN
+F 3 "" H 10125 9675 50  0001 C CNN
+F 4 "BOURNS" H 10325 10075 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 10325 9975 60  0001 L CNN "MPN"
+F 6 "1k" H 10275 9625 50  0000 C CNN "Val"
+	1    10125 9675
 	1    0    0    -1  
 $EndComp
 Text GLabel 10775 9675 2    50   Input ~ 0
@@ -2245,18 +2245,18 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 600509CA
-P 10050 6775
+P 10450 6775
 AR Path="/5FDA6477/600509CA" Ref="D?"  Part="1" 
 AR Path="/5FFA4931/600509CA" Ref="D?"  Part="1" 
 AR Path="/5FD86D1B/600509CA" Ref="D?"  Part="1" 
 AR Path="/5FD86BEB/600509CA" Ref="D7"  Part="1" 
-F 0 "D7" H 10075 6675 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9175 7000 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:LED_0603" H 10250 6975 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10250 7075 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10250 7275 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10250 7875 60  0001 L CNN "Manufacturer"
-	1    10050 6775
+F 0 "D7" H 10475 6675 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9575 7000 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 10650 6975 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10650 7075 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10650 7275 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10650 7875 60  0001 L CNN "Manufacturer"
+	1    10450 6775
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2266,19 +2266,19 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 600509D5
-P 10500 6775
+P 10100 6775
 AR Path="/5FDA6477/600509D5" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/600509D5" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/600509D5" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/600509D5" Ref="R107"  Part="1" 
-F 0 "R107" H 10450 6875 60  0000 C CNN
-F 1 "R_1k_0402" H 10500 6625 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 10700 6975 60  0001 L CNN
-F 3 "" H 10500 6775 50  0001 C CNN
-F 4 "BOURNS" H 10700 7175 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 10700 7075 60  0001 L CNN "MPN"
-F 6 "1k" H 10650 6725 50  0000 C CNN "Val"
-	1    10500 6775
+F 0 "R107" H 10050 6875 60  0000 C CNN
+F 1 "R_1k_0402" H 10100 6625 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10300 6975 60  0001 L CNN
+F 3 "" H 10100 6775 50  0001 C CNN
+F 4 "BOURNS" H 10300 7175 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 10300 7075 60  0001 L CNN "MPN"
+F 6 "1k" H 10250 6725 50  0000 C CNN "Val"
+	1    10100 6775
 	1    0    0    -1  
 $EndComp
 Text GLabel 10750 6775 2    50   Input ~ 0
@@ -2600,19 +2600,19 @@ VCC3V3
 $Comp
 L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60050A9D
-P 10625 2725
+P 10225 2725
 AR Path="/5FCA4661/60050A9D" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/60050A9D" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/60050A9D" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/60050A9D" Ref="R113"  Part="1" 
-F 0 "R113" H 10575 2825 60  0000 C CNN
-F 1 "R_1k_0402" H 10625 2575 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 10825 2925 60  0001 L CNN
-F 3 "" H 10625 2725 50  0001 C CNN
-F 4 "BOURNS" H 10825 3125 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 10825 3025 60  0001 L CNN "MPN"
-F 6 "1k" H 10775 2675 50  0000 C CNN "Val"
-	1    10625 2725
+F 0 "R113" H 10175 2825 60  0000 C CNN
+F 1 "R_1k_0402" H 10225 2575 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10425 2925 60  0001 L CNN
+F 3 "" H 10225 2725 50  0001 C CNN
+F 4 "BOURNS" H 10425 3125 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 10425 3025 60  0001 L CNN "MPN"
+F 6 "1k" H 10375 2675 50  0000 C CNN "Val"
+	1    10225 2725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2622,18 +2622,18 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60050AA7
-P 10175 2725
+P 10575 2725
 AR Path="/5FCA4661/60050AA7" Ref="D?"  Part="1" 
 AR Path="/5FFA4931/60050AA7" Ref="D?"  Part="1" 
 AR Path="/5FD86D1B/60050AA7" Ref="D?"  Part="1" 
 AR Path="/5FD86BEB/60050AA7" Ref="D13"  Part="1" 
-F 0 "D13" H 10200 2625 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9300 2950 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:LED_0603" H 10375 2925 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10375 3025 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10375 3225 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10375 3825 60  0001 L CNN "Manufacturer"
-	1    10175 2725
+F 0 "D13" H 10600 2625 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9700 2950 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 10775 2925 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10775 3025 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10775 3225 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10775 3825 60  0001 L CNN "Manufacturer"
+	1    10575 2725
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2710,19 +2710,19 @@ VCC3V3
 $Comp
 L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60050AD2
-P 10600 1300
+P 10200 1300
 AR Path="/5FCA4661/60050AD2" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/60050AD2" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/60050AD2" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/60050AD2" Ref="R112"  Part="1" 
-F 0 "R112" H 10550 1400 60  0000 C CNN
-F 1 "R_1k_0402" H 10600 1150 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 10800 1500 60  0001 L CNN
-F 3 "" H 10600 1300 50  0001 C CNN
-F 4 "BOURNS" H 10800 1700 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 10800 1600 60  0001 L CNN "MPN"
-F 6 "1k" H 10750 1250 50  0000 C CNN "Val"
-	1    10600 1300
+F 0 "R112" H 10150 1400 60  0000 C CNN
+F 1 "R_1k_0402" H 10200 1150 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10400 1500 60  0001 L CNN
+F 3 "" H 10200 1300 50  0001 C CNN
+F 4 "BOURNS" H 10400 1700 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 10400 1600 60  0001 L CNN "MPN"
+F 6 "1k" H 10350 1250 50  0000 C CNN "Val"
+	1    10200 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2732,18 +2732,18 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60050ADC
-P 10150 1300
+P 10550 1300
 AR Path="/5FCA4661/60050ADC" Ref="D?"  Part="1" 
 AR Path="/5FFA4931/60050ADC" Ref="D?"  Part="1" 
 AR Path="/5FD86D1B/60050ADC" Ref="D?"  Part="1" 
 AR Path="/5FD86BEB/60050ADC" Ref="D12"  Part="1" 
-F 0 "D12" H 10175 1200 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9275 1525 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:LED_0603" H 10350 1500 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10350 1600 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10350 1800 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10350 2400 60  0001 L CNN "Manufacturer"
-	1    10150 1300
+F 0 "D12" H 10575 1200 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9675 1525 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 10750 1500 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10750 1600 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10750 1800 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10750 2400 60  0001 L CNN "Manufacturer"
+	1    10550 1300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2820,19 +2820,19 @@ VCC3V3
 $Comp
 L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60050B07
-P 10525 8150
+P 10125 8150
 AR Path="/5FCA4661/60050B07" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/60050B07" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/60050B07" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/60050B07" Ref="R110"  Part="1" 
-F 0 "R110" H 10475 8250 60  0000 C CNN
-F 1 "R_1k_0402" H 10525 8000 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 10725 8350 60  0001 L CNN
-F 3 "" H 10525 8150 50  0001 C CNN
-F 4 "BOURNS" H 10725 8550 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 10725 8450 60  0001 L CNN "MPN"
-F 6 "1k" H 10675 8100 50  0000 C CNN "Val"
-	1    10525 8150
+F 0 "R110" H 10075 8250 60  0000 C CNN
+F 1 "R_1k_0402" H 10125 8000 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10325 8350 60  0001 L CNN
+F 3 "" H 10125 8150 50  0001 C CNN
+F 4 "BOURNS" H 10325 8550 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 10325 8450 60  0001 L CNN "MPN"
+F 6 "1k" H 10275 8100 50  0000 C CNN "Val"
+	1    10125 8150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2842,18 +2842,18 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60050B11
-P 10075 8150
+P 10475 8150
 AR Path="/5FCA4661/60050B11" Ref="D?"  Part="1" 
 AR Path="/5FFA4931/60050B11" Ref="D?"  Part="1" 
 AR Path="/5FD86D1B/60050B11" Ref="D?"  Part="1" 
 AR Path="/5FD86BEB/60050B11" Ref="D10"  Part="1" 
-F 0 "D10" H 10100 8050 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9200 8375 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:LED_0603" H 10275 8350 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10275 8450 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10275 8650 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10275 9250 60  0001 L CNN "Manufacturer"
-	1    10075 8150
+F 0 "D10" H 10500 8050 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9600 8375 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 10675 8350 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10675 8450 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10675 8650 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10675 9250 60  0001 L CNN "Manufacturer"
+	1    10475 8150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2938,40 +2938,38 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60050B40
-P 10075 4225
+P 10475 4225
 AR Path="/5FCA4661/60050B40" Ref="D?"  Part="1" 
 AR Path="/5FFA4931/60050B40" Ref="D?"  Part="1" 
 AR Path="/5FD86D1B/60050B40" Ref="D?"  Part="1" 
 AR Path="/5FD86BEB/60050B40" Ref="D8"  Part="1" 
-F 0 "D8" H 10100 4125 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9200 4450 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:LED_0603" H 10275 4425 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10275 4525 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10275 4725 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10275 5325 60  0001 L CNN "Manufacturer"
-	1    10075 4225
+F 0 "D8" H 10500 4125 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9600 4450 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 10675 4425 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10675 4525 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10675 4725 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10675 5325 60  0001 L CNN "Manufacturer"
+	1    10475 4225
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9875 4225 9975 4225
-Wire Wire Line
-	10275 4225 10375 4225
 $Comp
 L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60050B4B
-P 10525 4225
+P 10125 4225
 AR Path="/5FCA4661/60050B4B" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/60050B4B" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/60050B4B" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/60050B4B" Ref="R108"  Part="1" 
-F 0 "R108" H 10475 4325 60  0000 C CNN
-F 1 "R_1k_0402" H 10525 4075 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 10725 4425 60  0001 L CNN
-F 3 "" H 10525 4225 50  0001 C CNN
-F 4 "BOURNS" H 10725 4625 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 10725 4525 60  0001 L CNN "MPN"
-F 6 "1k" H 10675 4175 50  0000 C CNN "Val"
-	1    10525 4225
+F 0 "R108" H 10075 4325 60  0000 C CNN
+F 1 "R_1k_0402" H 10125 4075 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10325 4425 60  0001 L CNN
+F 3 "" H 10125 4225 50  0001 C CNN
+F 4 "BOURNS" H 10325 4625 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 10325 4525 60  0001 L CNN "MPN"
+F 6 "1k" H 10275 4175 50  0000 C CNN "Val"
+	1    10125 4225
 	1    0    0    -1  
 $EndComp
 Text GLabel 10775 4225 2    50   Input ~ 0
@@ -3019,18 +3017,18 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 60050B66
-P 10075 5425
+P 10475 5425
 AR Path="/5FCA4661/60050B66" Ref="D?"  Part="1" 
 AR Path="/5FFA4931/60050B66" Ref="D?"  Part="1" 
 AR Path="/5FD86D1B/60050B66" Ref="D?"  Part="1" 
 AR Path="/5FD86BEB/60050B66" Ref="D9"  Part="1" 
-F 0 "D9" H 10100 5325 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 9200 5650 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:LED_0603" H 10275 5625 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10275 5725 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 10275 5925 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 10275 6525 60  0001 L CNN "Manufacturer"
-	1    10075 5425
+F 0 "D9" H 10500 5325 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9600 5650 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:LED_0603" H 10675 5625 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10675 5725 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10675 5925 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10675 6525 60  0001 L CNN "Manufacturer"
+	1    10475 5425
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -3040,19 +3038,19 @@ Wire Wire Line
 $Comp
 L ecp5-dc-scm:R_1k_0402 R?
 U 1 1 60050B71
-P 10525 5425
+P 10125 5425
 AR Path="/5FCA4661/60050B71" Ref="R?"  Part="1" 
 AR Path="/5FFA4931/60050B71" Ref="R?"  Part="1" 
 AR Path="/5FD86D1B/60050B71" Ref="R?"  Part="1" 
 AR Path="/5FD86BEB/60050B71" Ref="R109"  Part="1" 
-F 0 "R109" H 10475 5525 60  0000 C CNN
-F 1 "R_1k_0402" H 10525 5275 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 10725 5625 60  0001 L CNN
-F 3 "" H 10525 5425 50  0001 C CNN
-F 4 "BOURNS" H 10725 5825 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 10725 5725 60  0001 L CNN "MPN"
-F 6 "1k" H 10675 5375 50  0000 C CNN "Val"
-	1    10525 5425
+F 0 "R109" H 10075 5525 60  0000 C CNN
+F 1 "R_1k_0402" H 10125 5275 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 10325 5625 60  0001 L CNN
+F 3 "" H 10125 5425 50  0001 C CNN
+F 4 "BOURNS" H 10325 5825 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 10325 5725 60  0001 L CNN "MPN"
+F 6 "1k" H 10275 5375 50  0000 C CNN "Val"
+	1    10125 5425
 	1    0    0    -1  
 $EndComp
 Text GLabel 10775 5425 2    50   Input ~ 0
@@ -3482,4 +3480,6 @@ F 6 "66k5" V 14597 8930 50  0000 R CNN "Val"
 	1    14650 9000
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	10275 4225 10375 4225
 $EndSCHEMATC

@@ -1959,10 +1959,10 @@ Text GLabel 13900 5675 0    50   Input ~ 0
 MMC_DAT7
 Text GLabel 13900 5475 0    50   Input ~ 0
 MMC_CMD
-Text GLabel 13900 5375 0    50   Input ~ 0
+Text GLabel 13900 6575 0    50   Input ~ 0
 MMC_CLK
 Text GLabel 13900 5175 0    50   Input ~ 0
-MMC_CLK
+MMC_RSTN
 Text Notes 6525 10000 0    30   ~ 0
 D7/IO7\n\nD5/MISO2/IO5\n\nD6/IO6\n\nD4/MOSI2/IO4\n\nD3/IO3\n\nD1/MISO/IO1\n\nD2/IO2\n\nD0/MOSI/IO0\n\nSN/CSN\n\nHOLDN/DI/BUSY/CSSPIN/CEN\n\nCS1N\n\nDOUT/CSON\n\nWRITEN\n\nINITN\n\nCCLK,8,MCLK/SCK
 Wire Notes Line
@@ -2303,7 +2303,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 6375 14450 6375
 Wire Wire Line
-	13900 5375 14450 5375
+	13900 6575 14450 6575
 Wire Wire Line
 	13900 5475 14450 5475
 Wire Wire Line
@@ -2932,6 +2932,4 @@ Text GLabel 4025 5125 0    50   Input ~ 0
 I2C[10]_SDA
 Text GLabel 4025 4825 0    50   Input ~ 0
 I2C[12]_SDA
-Text Notes 13150 5000 0    50   ~ 0
-MMC_CLK duplicated - why?\n
 $EndSCHEMATC

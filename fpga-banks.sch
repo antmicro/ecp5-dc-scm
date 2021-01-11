@@ -1959,7 +1959,7 @@ Text GLabel 13900 5675 0    50   Input ~ 0
 MMC_DAT7
 Text GLabel 13900 5475 0    50   Input ~ 0
 MMC_CMD
-Text GLabel 13900 6575 0    50   Input ~ 0
+Text GLabel 13900 6675 0    50   Input ~ 0
 MMC_CLK
 Text GLabel 13900 5175 0    50   Input ~ 0
 MMC_RSTN
@@ -2303,7 +2303,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 6375 14450 6375
 Wire Wire Line
-	13900 6575 14450 6575
+	13900 6675 14450 6675
 Wire Wire Line
 	13900 5475 14450 5475
 Wire Wire Line
@@ -2846,8 +2846,6 @@ Text GLabel 14975 8600 2    50   Input ~ 0
 VCC3V3_T
 Text GLabel 14975 8700 2    50   Input ~ 0
 GCLK100
-Text GLabel 15650 8525 1    50   Input ~ 0
-VCC3V3
 $Comp
 L ecp5-dc-scm:C_100n_0402 C241
 U 1 1 602CC257
@@ -2932,4 +2930,10 @@ Text GLabel 4025 5125 0    50   Input ~ 0
 I2C[10]_SDA
 Text GLabel 4025 4825 0    50   Input ~ 0
 I2C[12]_SDA
+Text GLabel 13900 6575 0    50   Input ~ 0
+GCLK100
+Wire Wire Line
+	13900 6575 14450 6575
+Text GLabel 15650 8525 1    50   Input ~ 0
+VCC3V3_T
 $EndSCHEMATC

@@ -2312,18 +2312,18 @@ Text Notes 20125 6675 0    118  ~ 0
 DONE/check
 Text Notes 20450 8475 0    118  ~ 0
 DONE
-Text GLabel 11175 -775 0    50   Input ~ 0
+Text GLabel 4025 6225 0    50   Input ~ 0
 USR_LED0
-Text GLabel 11175 -675 0    50   Input ~ 0
+Text GLabel 4025 5225 0    50   Input ~ 0
 USR_LED1
-Text GLabel 11175 -575 0    50   Input ~ 0
+Text GLabel 4025 5325 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
-	11550 -775 11175 -775
+	4400 6225 4025 6225
 Wire Wire Line
-	11550 -575 11175 -575
+	4400 5325 4025 5325
 Wire Wire Line
-	11550 -675 11175 -675
+	4400 5225 4025 5225
 Text GLabel 6550 4125 0    50   Input ~ 0
 ESPI_CLK
 Text GLabel 6550 4225 0    50   Input ~ 0

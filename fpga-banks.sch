@@ -592,34 +592,7 @@ F 6 "470n" H 9700 1200 50  0000 L CNN "Val"
 	-1   0    0    -1  
 $EndComp
 Connection ~ 9675 1150
-Wire Wire Line
-	9675 1150 9425 1150
 Connection ~ 9675 1450
-Wire Wire Line
-	9675 1450 9425 1450
-$Comp
-L ecp5-dc-scm:C_470n_0402 C?
-U 1 1 622E8F33
-P 9425 1300
-AR Path="/5FD74EA8/622E8F33" Ref="C?"  Part="1" 
-AR Path="/5FC6B687/622E8F33" Ref="C?"  Part="1" 
-AR Path="/5FD86CE4/622E8F33" Ref="C227"  Part="1" 
-F 0 "C227" H 9450 1400 60  0000 L CNN
-F 1 "C_470n_0402" H 9425 1150 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-cap" H 9625 1500 60  0001 L CNN
-F 3 "" H 9425 1300 50  0001 C CNN
-F 4 "TDK" H 9625 1700 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1E474M050BB" H 9625 1600 60  0001 L CNN "MPN"
-F 6 "470n" H 9450 1200 50  0000 L CNN "Val"
-	1    9425 1300
-	-1   0    0    -1  
-$EndComp
-Connection ~ 9425 1150
-Wire Wire Line
-	9425 1150 9175 1150
-Connection ~ 9425 1450
-Wire Wire Line
-	9425 1450 9175 1450
 $Comp
 L ecp5-dc-scm:C_470n_0402 C?
 U 1 1 622E8F40
@@ -2946,4 +2919,8 @@ Text GLabel 15650 8525 1    50   Input ~ 0
 VCC3V3
 Text GLabel 17675 3075 0    50   Input ~ 0
 HPM_STBY_RST_N
+Wire Wire Line
+	9175 1150 9675 1150
+Wire Wire Line
+	9175 1450 9675 1450
 $EndSCHEMATC

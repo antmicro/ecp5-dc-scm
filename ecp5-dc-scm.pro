@@ -1,4 +1,4 @@
-update=Wed 13 Jan 2021 10:29:54 CET
+update=Wed 13 Jan 2021 18:16:16 CET
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ LastNetListRead=
 CopperLayerCount=8
 BoardThickness=1.57
 AllowMicroVias=0
-AllowBlindVias=0
+AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.09999999999999999
@@ -242,7 +242,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.15
+Clearance=0.1
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.2

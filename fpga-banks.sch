@@ -2809,8 +2809,6 @@ F 3 "" H 13725 8825 50  0001 C CNN
 $EndComp
 Text GLabel 13725 8600 0    50   Input ~ 0
 VCC3V3
-Text GLabel 14975 8600 2    50   Input ~ 0
-VCC3V3_T
 Text GLabel 14975 8700 2    50   Input ~ 0
 GCLK100
 $Comp
@@ -2901,8 +2899,6 @@ Text GLabel 13900 6575 0    50   Input ~ 0
 GCLK100
 Wire Wire Line
 	13900 6575 14450 6575
-Text GLabel 15650 8525 1    50   Input ~ 0
-VCC3V3_T
 $Comp
 L ecp5-dc-scm:C_100n_0402 C216
 U 1 1 60714C96
@@ -2936,12 +2932,18 @@ L ecp5-dc-scm:GND #PWR?
 U 1 1 60816C43
 P 10950 3950
 AR Path="/5FD86CE4/606A2400/60816C43" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86CE4/60816C43" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10950 3700 50  0001 C CNN
+AR Path="/5FD86CE4/60816C43" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 10950 3700 50  0001 C CNN
 F 1 "GND" H 10955 3777 50  0000 C CNN
 F 2 "" H 10950 3950 50  0001 C CNN
 F 3 "" H 10950 3950 50  0001 C CNN
 	1    10950 3950
 	1    0    0    -1  
 $EndComp
+Text GLabel 14975 8600 2    50   Input ~ 0
+VCC3V3
+Text GLabel 15650 8525 1    50   Input ~ 0
+VCC3V3
+Text GLabel 17675 3075 0    50   Input ~ 0
+HPM_STBY_RST_N
 $EndSCHEMATC

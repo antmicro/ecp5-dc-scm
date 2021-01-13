@@ -69,93 +69,78 @@ F 5 "Wurth Electronics Inc." H 6050 3100 60  0001 L CNN "Manufacturer"
 	1    5850 2000
 	0    -1   1    0   
 $EndComp
-$Comp
-L ecp5-dc-scm:NVT2008DQ,115 U7
-U 1 1 628E0C73
-P 4850 5875
-F 0 "U7" H 4850 6390 50  0000 C CNN
-F 1 "NVT2008DQ,115" H 4850 6299 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:QFN50P250X450X100-21N" H 5550 6625 50  0001 C CNN
-F 3 "" H 5500 6625 50  0001 C CNN
-F 4 "NVT2008BQ,115" H 5150 6725 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 5250 6825 50  0001 C CNN "Manufacturer"
-	1    4850 5875
-	1    0    0    -1  
-$EndComp
-Text GLabel 4150 6375 0    50   Input ~ 0
-I3C[0]_SDA_3V3
-Text GLabel 4150 6175 0    50   Input ~ 0
-I3C[1]_SDA_3V3
-Text GLabel 4150 6275 0    50   Input ~ 0
-I3C[1]_SCL_3V3
-Text GLabel 4150 5975 0    50   Input ~ 0
-I3C[2]_SDA_3V3
-Text GLabel 4150 6075 0    50   Input ~ 0
-I3C[2]_SCL_3V3
-Text GLabel 4150 5775 0    50   Input ~ 0
-I3C[3]_SDA_3V3
 Text GLabel 4150 5875 0    50   Input ~ 0
-I3C[3]_SCL_3V3
+I3C[0]_SDA_3V3
+Text GLabel 4150 6075 0    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 4150 5975 0    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 4150 6275 0    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 4150 6175 0    50   Input ~ 0
+I3C[2]_SCL_3V3
 Text GLabel 4150 6475 0    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 4150 6375 0    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 4150 5775 0    50   Input ~ 0
 I3C[0]_SCL_3V3
 Text GLabel 5550 5625 2    50   Input ~ 0
 VCC1V0
 $Comp
 L ecp5-dc-scm:GND #PWR035
 U 1 1 628E4783
-P 4325 7100
-F 0 "#PWR035" H 4325 6850 50  0001 C CNN
-F 1 "GND" H 4330 6927 50  0000 C CNN
-F 2 "" H 4325 7100 50  0001 C CNN
-F 3 "" H 4325 7100 50  0001 C CNN
-	1    4325 7100
-	-1   0    0    -1  
+P 5375 7100
+F 0 "#PWR035" H 5375 6850 50  0001 C CNN
+F 1 "GND" H 5380 6927 50  0000 C CNN
+F 2 "" H 5375 7100 50  0001 C CNN
+F 3 "" H 5375 7100 50  0001 C CNN
+	1    5375 7100
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 6625 4325 6625
+	5250 6625 5375 6625
 Wire Wire Line
-	4325 6625 4325 7100
-Wire Wire Line
-	4450 5775 4150 5775
-Wire Wire Line
-	4450 5875 4150 5875
-Wire Wire Line
-	4450 5975 4150 5975
-Wire Wire Line
-	4450 6075 4150 6075
-Wire Wire Line
-	4450 6175 4150 6175
-Wire Wire Line
-	4450 6275 4150 6275
-Wire Wire Line
-	4450 6375 4150 6375
+	5375 6625 5375 7100
 Wire Wire Line
 	4450 6475 4150 6475
 Wire Wire Line
-	5250 5775 5550 5775
+	4450 6375 4150 6375
 Wire Wire Line
-	5250 5875 5550 5875
+	4450 6275 4150 6275
 Wire Wire Line
-	5250 5975 5550 5975
+	4450 6175 4150 6175
 Wire Wire Line
-	5250 6075 5550 6075
+	4450 6075 4150 6075
 Wire Wire Line
-	5250 6175 5550 6175
+	4450 5975 4150 5975
 Wire Wire Line
-	5250 6275 5550 6275
+	4450 5875 4150 5875
+Wire Wire Line
+	4450 5775 4150 5775
+Wire Wire Line
+	5250 6475 5550 6475
 Wire Wire Line
 	5250 6375 5550 6375
 Wire Wire Line
-	5250 6475 5550 6475
-Text GLabel 4050 5175 0    50   Input ~ 0
-VCC3V3
+	5250 6275 5550 6275
+Wire Wire Line
+	5250 6175 5550 6175
+Wire Wire Line
+	5250 6075 5550 6075
+Wire Wire Line
+	5250 5975 5550 5975
+Wire Wire Line
+	5250 5875 5550 5875
+Wire Wire Line
+	5250 5775 5550 5775
 Wire Wire Line
 	4450 5625 4100 5625
 Wire Wire Line
 	5550 5625 5250 5625
 Wire Wire Line
-	5875 6625 5450 6625
-Text Label 5875 6625 2    50   ~ 0
+	3825 6625 4250 6625
+Text Label 3825 6625 0    50   ~ 0
 1V0_EN
 $Comp
 L ecp5-dc-scm:R_357k_0402 R50
@@ -376,59 +361,55 @@ Wire Wire Line
 	4100 5625 4100 5575
 Wire Wire Line
 	4100 5275 4100 5175
-Wire Wire Line
-	4050 5175 4100 5175
 Text Label 4150 5625 0    50   ~ 0
 1V0_EN
 $Comp
 L ecp5-dc-scm:C_100n_0402 C55
 U 1 1 62A2E02E
-P 5450 6825
-F 0 "C55" H 5335 6780 60  0000 R CNN
-F 1 "C_100n_0402" H 5450 6675 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-cap" H 5650 7025 60  0001 L CNN
-F 3 "" H 5450 6825 50  0001 C CNN
-F 4 "Walsin" H 5650 7225 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 5650 7125 60  0001 L CNN "MPN"
-F 6 "100n" H 5335 6878 50  0000 R CNN "Val"
-	1    5450 6825
-	-1   0    0    1   
+P 4250 6825
+F 0 "C55" H 4135 6780 60  0000 R CNN
+F 1 "C_100n_0402" H 4250 6675 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 4450 7025 60  0001 L CNN
+F 3 "" H 4250 6825 50  0001 C CNN
+F 4 "Walsin" H 4450 7225 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4450 7125 60  0001 L CNN "MPN"
+F 6 "100n" H 4135 6878 50  0000 R CNN "Val"
+	1    4250 6825
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5450 6625 5450 6675
-Connection ~ 5450 6625
-Wire Wire Line
-	5450 6625 5200 6625
+	4250 6625 4250 6675
+Connection ~ 4250 6625
 $Comp
 L ecp5-dc-scm:GND #PWR036
 U 1 1 62A34612
-P 5450 7100
-F 0 "#PWR036" H 5450 6850 50  0001 C CNN
-F 1 "GND" H 5455 6927 50  0000 C CNN
-F 2 "" H 5450 7100 50  0001 C CNN
-F 3 "" H 5450 7100 50  0001 C CNN
-	1    5450 7100
-	-1   0    0    -1  
+P 4250 7100
+F 0 "#PWR036" H 4250 6850 50  0001 C CNN
+F 1 "GND" H 4255 6927 50  0000 C CNN
+F 2 "" H 4250 7100 50  0001 C CNN
+F 3 "" H 4250 7100 50  0001 C CNN
+	1    4250 7100
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 6975 5450 7100
+	4250 6975 4250 7100
 Text Notes 2050 4750 0    118  ~ 24
 I3C voltage level translation
-Text GLabel 5550 6375 2    50   Input ~ 0
-I3C[0]_SDA_1V0
-Text GLabel 5550 6175 2    50   Input ~ 0
-I3C[1]_SDA_1V0
-Text GLabel 5550 6275 2    50   Input ~ 0
-I3C[1]_SCL_1V0
-Text GLabel 5550 5975 2    50   Input ~ 0
-I3C[2]_SDA_1V0
-Text GLabel 5550 6075 2    50   Input ~ 0
-I3C[2]_SCL_1V0
-Text GLabel 5550 5775 2    50   Input ~ 0
-I3C[3]_SDA_1V0
 Text GLabel 5550 5875 2    50   Input ~ 0
-I3C[3]_SCL_1V0
+I3C[0]_SDA_1V0
+Text GLabel 5550 6075 2    50   Input ~ 0
+I3C[1]_SDA_1V0
+Text GLabel 5550 5975 2    50   Input ~ 0
+I3C[1]_SCL_1V0
+Text GLabel 5550 6275 2    50   Input ~ 0
+I3C[2]_SDA_1V0
+Text GLabel 5550 6175 2    50   Input ~ 0
+I3C[2]_SCL_1V0
 Text GLabel 5550 6475 2    50   Input ~ 0
+I3C[3]_SDA_1V0
+Text GLabel 5550 6375 2    50   Input ~ 0
+I3C[3]_SCL_1V0
+Text GLabel 5550 5775 2    50   Input ~ 0
 I3C[0]_SCL_1V0
 Wire Wire Line
 	11275 3800 11275 3750
@@ -2566,4 +2547,54 @@ Wire Wire Line
 	1900 10750 2150 10750
 Connection ~ 2650 8225
 Connection ~ 2650 8975
+Wire Wire Line
+	3825 5175 4100 5175
+Wire Wire Line
+	4250 6625 4500 6625
+$Comp
+L ecp5-dc-scm:NVT2008DQ,115 U7
+U 1 1 628E0C73
+P 4850 5875
+F 0 "U7" H 4850 6390 50  0000 C CNN
+F 1 "NVT2008DQ,115" H 4850 6299 50  0000 C CNN
+F 2 "ecp5-dc-scm-footprints:QFN50P250X450X100-21N" H 5550 6625 50  0001 C CNN
+F 3 "" H 5500 6625 50  0001 C CNN
+F 4 "NVT2008BQ,115" H 5150 6725 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 5250 6825 50  0001 C CNN "Manufacturer"
+	1    4850 5875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ecp5-dc-scm:C_100n_0402 C248
+U 1 1 60645B03
+P 5800 6950
+F 0 "C248" H 5685 6905 60  0000 R CNN
+F 1 "C_100n_0402" H 5800 6800 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 6000 7150 60  0001 L CNN
+F 3 "" H 5800 6950 50  0001 C CNN
+F 4 "Walsin" H 6000 7350 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6000 7250 60  0001 L CNN "MPN"
+F 6 "100n" H 5685 7003 50  0000 R CNN "Val"
+	1    5800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5-dc-scm:GND #PWR0131
+U 1 1 606462D3
+P 5800 7100
+F 0 "#PWR0131" H 5800 6850 50  0001 C CNN
+F 1 "GND" H 5805 6927 50  0000 C CNN
+F 2 "" H 5800 7100 50  0001 C CNN
+F 3 "" H 5800 7100 50  0001 C CNN
+	1    5800 7100
+	1    0    0    -1  
+$EndComp
+Text GLabel 5875 6625 2    50   Input ~ 0
+VCC1V0
+Wire Wire Line
+	5875 6625 5800 6625
+Wire Wire Line
+	5800 6625 5800 6800
+Text GLabel 3825 5175 0    50   Input ~ 0
+1V0_PG
 $EndSCHEMATC

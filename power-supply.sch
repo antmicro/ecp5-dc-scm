@@ -2994,7 +2994,7 @@ F 5 "ON Semiconductor" H 10075 5825 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Text GLabel 9200 4275 0    50   Input ~ 0
-VCC1V0
+VCC3V3
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 60050B5C
@@ -3093,10 +3093,6 @@ Wire Wire Line
 	9875 6225 9875 6125
 Text Label 8875 6025 0    50   ~ 0
 PWR_EN
-Wire Wire Line
-	9275 4925 8875 4925
-Text Label 8875 4925 0    50   ~ 0
-1V0_PG
 Text Notes 4675 4150 0    118  ~ 0
 1V2 Supply
 Text Notes 12775 675  0    118  ~ 0
@@ -3232,8 +3228,6 @@ Text Label 6175 1900 0    50   ~ 0
 5V0_PG
 Text Label 8950 8850 0    50   ~ 0
 3V3_PG
-Text GLabel 6900 11050 0    50   Input ~ 0
-HPM_STBY_RST_N
 Wire Wire Line
 	12300 1450 12900 1450
 Wire Wire Line
@@ -3483,10 +3477,10 @@ $EndComp
 Wire Wire Line
 	10275 4225 10375 4225
 $Comp
-L ecp5-dc-scm:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP12
 U 1 1 601B2FDF
 P 6775 1900
-F 0 "TP?" V 6775 1775 50  0000 C CNN
+F 0 "TP12" V 6775 1775 50  0000 C CNN
 F 1 "TP_SMD1MM" H 6775 1800 50  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 6975 2100 60  0001 L CNN
 F 3 "" H 6975 2200 60  0001 L CNN
@@ -3494,4 +3488,10 @@ F 3 "" H 6975 2200 60  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 6675 1900
+Text Notes 8425 4125 0    50   ~ 0
+3V3 levels required by I2C translator
+Text GLabel 9200 4925 0    50   Input ~ 0
+1V0_PG
+Wire Wire Line
+	9200 4925 9275 4925
 $EndSCHEMATC

@@ -3482,4 +3482,16 @@ F 6 "66k5" V 14597 8930 50  0000 R CNN "Val"
 $EndComp
 Wire Wire Line
 	10275 4225 10375 4225
+$Comp
+L ecp5-dc-scm:TP_SMD1MM TP?
+U 1 1 601B2FDF
+P 6775 1900
+F 0 "TP?" V 6775 1775 50  0000 C CNN
+F 1 "TP_SMD1MM" H 6775 1800 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 6975 2100 60  0001 L CNN
+F 3 "" H 6975 2200 60  0001 L CNN
+	1    6775 1900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6675 1900
 $EndSCHEMATC

@@ -2196,27 +2196,13 @@ Text GLabel 5400 9675 0    50   Input ~ 0
 VIRTUAL_RESEAT
 Text GLabel 8825 4325 0    50   Input ~ 0
 HPM_FW_RECOVERY
-Text GLabel 8825 4425 0    50   Input ~ 0
-SYS_PWRBTN_N
-Text GLabel 8825 4525 0    50   Input ~ 0
-SYS_PWROK
-Text GLabel 8825 4625 0    50   Input ~ 0
-DBP_PREQ_N
-Text GLabel 8825 7325 0    50   Input ~ 0
-DBP_PRDY_N
-Text GLabel 8825 7425 0    50   Input ~ 0
-RST_PLTRST_BUF_N
-Text GLabel 8825 7525 0    50   Input ~ 0
-SPARE1
-Text GLabel 8825 7625 0    50   Input ~ 0
-RoT_CPU_RST_N
-Text GLabel 8825 7725 0    50   Input ~ 0
-CHASI#
 Text GLabel 8825 7825 0    50   Input ~ 0
-SPARE0
-Text GLabel 8825 7925 0    50   Input ~ 0
-IRQ_N
+SYS_PWRBTN_N
 Text GLabel 8825 8025 0    50   Input ~ 0
+SYS_PWROK
+Text GLabel 8825 7925 0    50   Input ~ 0
+DBP_PREQ_N
+Text GLabel 8825 8125 0    50   Input ~ 0
 PRSNT1_N
 Text GLabel 5400 9775 0    50   Input ~ 0
 PRSNT0_N
@@ -2311,27 +2297,25 @@ Y
 Text Notes 18100 3175 0    50   ~ 0
 TODO: Check and connect these misc signalls
 Wire Wire Line
-	9375 8025 8825 8025
+	9375 8125 8825 8125
 Wire Wire Line
-	9375 7925 8825 7925
-Wire Wire Line
-	9375 7825 8825 7825
-Wire Wire Line
-	8825 7725 9375 7725
-Wire Wire Line
-	9375 7625 8825 7625
-Wire Wire Line
-	9375 7525 8825 7525
-Wire Wire Line
-	8825 7425 9375 7425
+	9375 6025 8825 6025
 Wire Wire Line
 	9375 7325 8825 7325
 Wire Wire Line
-	9375 4625 8825 4625
+	9375 7525 8825 7525
 Wire Wire Line
-	8825 4525 9375 4525
+	9375 7725 8825 7725
 Wire Wire Line
-	9375 4425 8825 4425
+	8825 7625 9375 7625
+Wire Wire Line
+	9375 7425 8825 7425
+Wire Wire Line
+	9375 7925 8825 7925
+Wire Wire Line
+	8825 8025 9375 8025
+Wire Wire Line
+	9375 7825 8825 7825
 Wire Wire Line
 	9375 4325 8825 4325
 Wire Wire Line
@@ -2915,24 +2899,40 @@ Text GLabel 14975 8600 2    50   Input ~ 0
 VCC3V3
 Text GLabel 15650 8525 1    50   Input ~ 0
 VCC3V3
-Text GLabel 8825 4225 0    50   Input ~ 0
+Text GLabel 8825 5125 0    50   Input ~ 0
 HPM_STBY_RST_N
 Wire Wire Line
 	9175 1150 9675 1150
 Wire Wire Line
 	9175 1450 9675 1450
 Wire Wire Line
-	8825 4225 9375 4225
+	8825 5125 9375 5125
 Text Notes 8225 3950 0    50   ~ 0
 Misc orphans: move freely
 Text Notes 8200 7250 0    50   ~ 0
 Misc orphans: move freely
-Text GLabel 8825 8125 0    50   Input ~ 0
+Text GLabel 8825 4525 0    50   Input ~ 0
 HPM_STBY_RDY
 Wire Wire Line
-	9375 8225 8825 8225
+	9375 3525 8825 3525
 Wire Wire Line
-	9375 8125 8825 8125
-Text GLabel 8825 8225 0    50   Input ~ 0
+	9375 4525 8825 4525
+Text GLabel 8825 3525 0    50   Input ~ 0
 HPM_STBY_EN
+Text GLabel 8825 7325 0    50   Input ~ 0
+SPARE1
+Text GLabel 8825 7725 0    50   Input ~ 0
+IRQ_N
+Text GLabel 8825 7625 0    50   Input ~ 0
+CHASI#
+Text GLabel 8825 7425 0    50   Input ~ 0
+RoT_CPU_RST_N
+Text GLabel 8825 7525 0    50   Input ~ 0
+SPARE0
+Text GLabel 8825 6025 0    50   Input ~ 0
+DBP_PRDY_N
+Wire Wire Line
+	8825 7125 9375 7125
+Text GLabel 8825 7125 0    50   Input ~ 0
+RST_PLTRST_BUF_N
 $EndSCHEMATC

@@ -2206,9 +2206,9 @@ Text GLabel 8825 8125 0    50   Input ~ 0
 PRSNT1_N
 Text GLabel 5400 9775 0    50   Input ~ 0
 PRSNT0_N
-Text GLabel 8825 4025 0    50   Input ~ 0
+Text GLabel 8825 3925 0    50   Input ~ 0
 PECI_BMC
-Text GLabel 8825 4125 0    50   Input ~ 0
+Text GLabel 8825 4025 0    50   Input ~ 0
 PVCCIO_PECI
 Wire Wire Line
 	13900 5675 14450 5675
@@ -2319,9 +2319,9 @@ Wire Wire Line
 Wire Wire Line
 	9375 4325 8825 4325
 Wire Wire Line
-	8825 4125 9375 4125
-Wire Wire Line
 	8825 4025 9375 4025
+Wire Wire Line
+	8825 3925 9375 3925
 Wire Wire Line
 	5950 9775 5400 9775
 Wire Wire Line
@@ -2907,7 +2907,7 @@ Wire Wire Line
 	9175 1450 9675 1450
 Wire Wire Line
 	8825 5125 9375 5125
-Text Notes 8225 3950 0    50   ~ 0
+Text Notes 8225 3850 0    50   ~ 0
 Misc orphans: move freely
 Text Notes 8200 7250 0    50   ~ 0
 Misc orphans: move freely

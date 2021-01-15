@@ -2105,7 +2105,7 @@ Wire Wire Line
 	4400 5900 4500 5900
 Connection ~ 5200 6600
 Wire Wire Line
-	5200 6600 5200 6400
+	5200 6600 5200 6450
 Wire Wire Line
 	4500 6000 4400 6000
 Connection ~ 4400 6000
@@ -3494,4 +3494,11 @@ Text GLabel 9200 4925 0    50   Input ~ 0
 1V0_PG
 Wire Wire Line
 	9200 4925 9275 4925
+Wire Wire Line
+	5200 6450 5300 6450
+Wire Wire Line
+	5300 6450 5300 6400
+Connection ~ 5200 6450
+Wire Wire Line
+	5200 6450 5200 6400
 $EndSCHEMATC

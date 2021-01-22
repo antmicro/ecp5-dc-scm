@@ -18,7 +18,7 @@
   (fp_line (start -5.1 4.7) (end -5.1 2) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -4.1 0 90) (size 3.4 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.1 0 90) (size 3.4 2.4) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/7447798720.stp
+  (model ${KIPRJMOD}/lib/3d-models/7447798720.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

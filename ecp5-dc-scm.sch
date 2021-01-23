@@ -1348,4 +1348,26 @@ BB 9B A2 A8 C0 A0 C0 A8 E8 A8 D4 CC 54 B1 FF 4F 4C 57 04 00 F0 35 38 5C 1E E7 F9
 B9 C1 A7 D7 93 02 09 21 FF 01 DF 0C D7 F5 0D 0F 1C 9A 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L antmicroMechanicalParts:oshw_logo N?
+U 1 1 60F75667
+P 5850 6700
+F 0 "N?" H 6044 6703 50  0000 L CNN
+F 1 "oshw_logo" H 6044 6612 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 5870 6460 50  0001 C CNN
+F 3 "" H 5850 6700 50  0001 C CNN
+	1    5850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:antmicro_logo N?
+U 1 1 60F75AF0
+P 5825 7000
+F 0 "N?" H 6039 7093 50  0000 L CNN
+F 1 "antmicro_logo" H 6039 7002 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_20mm" H 5725 7250 50  0001 C CNN
+F 3 "" H 5825 7350 50  0001 C CNN
+	1    5825 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

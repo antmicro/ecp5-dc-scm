@@ -2935,4 +2935,40 @@ Wire Wire Line
 	8825 7125 9375 7125
 Text GLabel 8825 7125 0    50   Input ~ 0
 RST_PLTRST_BUF_N
+Text GLabel 14225 3475 0    50   Input ~ 0
+ROT_RDY\ROT_GPIO0
+Text GLabel 14225 3875 0    50   Input ~ 0
+ROT_TX
+Text GLabel 14225 3775 0    50   Input ~ 0
+ROT_RX
+Text GLabel 14225 3975 0    50   Input ~ 0
+ROT_SCLK
+Text GLabel 14225 3575 0    50   Input ~ 0
+ROT_MOSI
+Text GLabel 14225 3675 0    50   Input ~ 0
+ROT_MISO
+Text GLabel 14225 3275 0    50   Input ~ 0
+ROT_SS
+Text GLabel 14225 2975 0    50   Input ~ 0
+ROT_GPIO1
+Text GLabel 14225 3175 0    50   Input ~ 0
+ROT_GPIO2
+Wire Wire Line
+	14225 3275 14450 3275
+Wire Wire Line
+	14225 3675 14450 3675
+Wire Wire Line
+	14225 3475 14450 3475
+Wire Wire Line
+	14225 3175 14450 3175
+Wire Wire Line
+	14225 2975 14450 2975
+Wire Wire Line
+	14225 3575 14450 3575
+Wire Wire Line
+	14225 3775 14450 3775
+Wire Wire Line
+	14225 3875 14450 3875
+Wire Wire Line
+	14225 3975 14450 3975
 $EndSCHEMATC

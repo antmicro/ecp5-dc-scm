@@ -1159,9 +1159,9 @@ Wire Wire Line
 	9675 6125 9175 6125
 Wire Wire Line
 	9675 6025 9175 6025
-Text Notes 8325 4350 0    118  ~ 0
+Text Notes 8350 3800 0    118  ~ 0
 RoT connector
-Text Notes 8775 6950 0    50   ~ 0
+Text Notes 9000 7050 0    50   ~ 0
 preliminary\n
 Text GLabel 8225 4625 0    50   Input ~ 0
 ROT_RDY\ROT_GPIO0
@@ -1256,25 +1256,23 @@ Wire Wire Line
 	8725 4725 8225 4725
 Wire Wire Line
 	8725 4625 8225 4625
-Text GLabel 9675 6525 2    50   Input ~ 0
+Text GLabel 9675 6625 2    50   Input ~ 0
 VCC3V3
-Wire Wire Line
-	8225 6525 8725 6525
 $Comp
 L ecp5-dc-scm:GND #PWR?
 U 1 1 626717FC
-P 8225 6625
+P 8725 7000
 AR Path="/5FC6B687/626717FC" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/626717FC" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 8225 6375 50  0001 C CNN
-F 1 "GND" H 8230 6452 50  0000 C CNN
-F 2 "" H 8225 6625 50  0001 C CNN
-F 3 "" H 8225 6625 50  0001 C CNN
-	1    8225 6625
+F 0 "#PWR024" H 8725 6750 50  0001 C CNN
+F 1 "GND" H 8730 6827 50  0000 C CNN
+F 2 "" H 8725 7000 50  0001 C CNN
+F 3 "" H 8725 7000 50  0001 C CNN
+	1    8725 7000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9175 6525 9675 6525
+	9175 6625 9675 6625
 Text GLabel 8225 5025 0    50   Input ~ 0
 ROT_QSPI_DQ1
 Text GLabel 8225 5125 0    50   Input ~ 0
@@ -1284,7 +1282,7 @@ ROT_QSPI_DQ3
 Wire Wire Line
 	8725 6425 8225 6425
 Wire Wire Line
-	8225 6525 8225 6625
+	8725 6725 8725 7000
 Text GLabel 9675 4625 2    50   Input ~ 0
 ROT_QSPI_CS_N
 Text GLabel 9675 6425 2    50   Input ~ 0
@@ -1295,31 +1293,67 @@ Text GLabel 8225 4825 0    50   Input ~ 0
 PROGRAM_N
 Text GLabel 8225 4725 0    50   Input ~ 0
 INIT_N
+NoConn ~ 9750 7050
 $Comp
-L ecp5-dc-scm:529910408 J3
-U 1 1 5FF77C4B
-P 8925 6775
-F 0 "J3" H 8850 6775 50  0000 C CNN
-F 1 "529910408" H 8950 6675 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:529910408" H 8675 4425 50  0001 C CNN
-F 3 "" H 9175 4475 50  0001 C CNN
-	1    8925 6775
+L antmicroB2bConnectors:52991-0508 J3
+U 1 1 600F7DF7
+P 8925 6975
+F 0 "J3" H 8950 4060 50  0000 C CNN
+F 1 "52991-0508" H 8950 4151 50  0000 C CNN
+F 2 "antmicro-footprints:529910508" H 10475 5275 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/529910508_sd.pdf" H 9175 5175 50  0001 C CNN
+	1    8925 6975
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	8725 6625 8725 6725
+Connection ~ 8725 6725
+Wire Wire Line
+	9175 6625 9175 6725
+Text GLabel 8225 6525 0    50   Input ~ 0
+ROT_GPIO2
+Wire Wire Line
+	8725 6525 8225 6525
+Text GLabel 9675 6525 2    50   Input ~ 0
+ROT_GPIO1
+Wire Wire Line
+	9175 6525 9675 6525
+Text GLabel 8225 4525 0    50   Input ~ 0
+ROT_TX
+Text GLabel 8225 4425 0    50   Input ~ 0
+ROT_RX
+Wire Wire Line
+	8725 4525 8225 4525
+Wire Wire Line
+	8725 4425 8225 4425
+Text GLabel 8225 4325 0    50   Input ~ 0
+ROT_SCLK
+Wire Wire Line
+	8725 4325 8225 4325
+Text GLabel 9675 4325 2    50   Input ~ 0
+ROT_MOSI
+Wire Wire Line
+	9175 4325 9675 4325
+Text GLabel 9675 4425 2    50   Input ~ 0
+ROT_MISO
+Wire Wire Line
+	9175 4425 9675 4425
+Text GLabel 9675 4525 2    50   Input ~ 0
+ROT_SS
+Wire Wire Line
+	9175 4525 9675 4525
+Connection ~ 9175 6625
 $Comp
-L ecp5-dc-scm:9774030151 SP?
-U 1 1 63326701
-P 9775 6900
-AR Path="/5FD17EF1/63326701" Ref="SP?"  Part="1" 
-AR Path="/624C566F/63326701" Ref="SP2"  Part="1" 
-F 0 "SP2" H 9905 6953 60  0000 L CNN
-F 1 "9774030151" H 9905 6847 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:9774030151" H 9775 6900 60  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 9775 6900 60  0001 C CNN
-F 4 "Wurth Elektronik" H 9775 6900 50  0001 C CNN "Manufacturer"
-F 5 "9774030151" H 9775 6900 50  0001 C CNN "MPN"
-	1    9775 6900
+L antmicroMechanicalParts:9774040151 SP2
+U 1 1 601A25A1
+P 9950 7050
+F 0 "SP2" H 10080 7103 60  0000 L CNN
+F 1 "9774040151" H 10080 6997 60  0000 L CNN
+F 2 "antmicro-footprints:9774040151" H 9950 7050 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774040151.pdf" H 9950 7050 60  0001 C CNN
+F 4 "Wurth Elektronik" H 9950 7050 50  0001 C CNN "Manufacturer"
+F 5 "9774030151" H 9950 7050 50  0001 C CNN "MPN"
+	1    9950 7050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9575 6900
 $EndSCHEMATC

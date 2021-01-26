@@ -13,41 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ecp5-dc-scm:SFF-TA-1002-4C+ J5
-U 1 1 625AED2C
-P 7875 1425
-F 0 "J5" H 7875 1590 50  0000 C CNN
-F 1 "SFF-TA-1002-4C+" H 7875 1499 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:SFF-TA-1002-4C+" H 8275 1475 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?__cf_chl_jschl_tk__=4604d1306574a1ee474ea914090d3e0c57e266a6-1606907014-0-AbkYBTCTl__kMBcY3BDmgKpfUy32FqitwN2Lniuy8W-uyv2Ev04Q-Q5Mr7srIz_Wnur0_9chB4CRbxKSYcEh7IvAJYsUgJ0PWIS5YdRqqHg567uaZciEX2hQP4ss5l6M4XdNrxEjJppHvyRV3ku89t-VmUSzhgCb8oJlyHpTxST4dEmKZNXfM53TM0tmGirdVbCRt1Byrx5pkz_uMvNABIOj7B2-eDGK52J3DWRD76zEyjdxY7Iz11gPiOY5i_QGIR3uOwkR5LBPNXe8zGqAf8--AKa7RqDbIriQRt90_32C4zIuHqbGa05BXS135E65ov80PbVcb4eSiutCqcJUAacUwu3eVnXVeIumfihJxuP8Rv7_n6saeG_2IuQpEiskzovLGKZM3667Y-rm-AL1NRXTamtvBxqTk0vyMvZ60FgJ" H 7875 1525 50  0001 C CNN
-	1    7875 1425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7175 1525 6625 1525
-Wire Wire Line
-	7175 1625 6625 1625
-Wire Wire Line
-	7175 1825 6925 1825
-Wire Wire Line
-	6625 2025 7175 2025
-Wire Wire Line
-	7175 2125 6625 2125
-Wire Wire Line
-	7175 2225 6625 2225
-Wire Wire Line
-	6625 2325 7175 2325
-Wire Wire Line
-	7175 2425 6625 2425
-Wire Wire Line
-	7175 2525 6625 2525
-Wire Wire Line
-	6625 2625 7175 2625
-Wire Wire Line
-	7175 2725 6925 2725
-Wire Wire Line
-	7175 2825 6625 2825
 Wire Wire Line
 	9125 1525 8575 1525
 Wire Wire Line
@@ -68,34 +33,6 @@ Wire Wire Line
 	9125 2725 8575 2725
 Wire Wire Line
 	9125 2825 8575 2825
-Wire Wire Line
-	7175 6125 6625 6125
-Wire Wire Line
-	7175 6225 6625 6225
-Wire Wire Line
-	6625 6325 7175 6325
-Wire Wire Line
-	7175 6425 6625 6425
-Wire Wire Line
-	7175 6525 6925 6525
-Wire Wire Line
-	6625 6625 7175 6625
-Wire Wire Line
-	7175 6725 6625 6725
-Wire Wire Line
-	7175 6825 6625 6825
-Wire Wire Line
-	6625 6925 7175 6925
-Wire Wire Line
-	7175 7025 6625 7025
-Wire Wire Line
-	7175 7125 6625 7125
-Wire Wire Line
-	6625 7225 7175 7225
-Wire Wire Line
-	7175 7325 6625 7325
-Wire Wire Line
-	7175 7425 6925 7425
 Wire Wire Line
 	9125 6125 8575 6125
 Wire Wire Line
@@ -175,58 +112,6 @@ Wire Wire Line
 Wire Wire Line
 	9125 5825 8575 5825
 Wire Wire Line
-	7175 3125 6625 3125
-Wire Wire Line
-	7175 3225 6625 3225
-Wire Wire Line
-	6625 3325 7175 3325
-Wire Wire Line
-	7175 3425 6625 3425
-Wire Wire Line
-	7175 3525 6625 3525
-Wire Wire Line
-	6625 3625 7175 3625
-Wire Wire Line
-	7175 3725 6625 3725
-Wire Wire Line
-	7175 3825 6625 3825
-Wire Wire Line
-	6625 3925 7175 3925
-Wire Wire Line
-	7175 4025 6625 4025
-Wire Wire Line
-	7175 4125 6925 4125
-Wire Wire Line
-	6625 4225 7175 4225
-Wire Wire Line
-	7175 4325 6625 4325
-Wire Wire Line
-	7175 4425 6925 4425
-Wire Wire Line
-	7175 4525 6625 4525
-Wire Wire Line
-	7175 4625 6625 4625
-Wire Wire Line
-	7175 4825 6625 4825
-Wire Wire Line
-	7175 4925 6625 4925
-Wire Wire Line
-	7175 5125 6625 5125
-Wire Wire Line
-	7175 5225 6625 5225
-Wire Wire Line
-	6625 5325 7175 5325
-Wire Wire Line
-	7175 5425 6625 5425
-Wire Wire Line
-	7175 5525 6625 5525
-Wire Wire Line
-	6625 5625 7175 5625
-Wire Wire Line
-	7175 5725 6625 5725
-Wire Wire Line
-	7175 5825 6625 5825
-Wire Wire Line
 	9125 7725 8575 7725
 Wire Wire Line
 	9125 7825 8575 7825
@@ -268,62 +153,6 @@ Wire Wire Line
 	8575 10225 9125 10225
 Wire Wire Line
 	9125 10325 8575 10325
-Wire Wire Line
-	7175 7725 6625 7725
-Wire Wire Line
-	7175 7825 6625 7825
-Wire Wire Line
-	6625 7925 7175 7925
-Wire Wire Line
-	7175 8025 6625 8025
-Wire Wire Line
-	7175 8125 6625 8125
-Wire Wire Line
-	6625 8225 7175 8225
-Wire Wire Line
-	7175 8325 6625 8325
-Wire Wire Line
-	7175 8425 6625 8425
-Wire Wire Line
-	6625 8525 7175 8525
-Wire Wire Line
-	7175 8625 6625 8625
-Wire Wire Line
-	7175 8725 6625 8725
-Wire Wire Line
-	6625 8825 7175 8825
-Wire Wire Line
-	7175 8925 6625 8925
-Wire Wire Line
-	7175 9025 6625 9025
-Wire Wire Line
-	7175 9125 6625 9125
-Wire Wire Line
-	7175 9225 6925 9225
-Wire Wire Line
-	6625 9325 7175 9325
-Wire Wire Line
-	7175 9425 6625 9425
-Wire Wire Line
-	7175 9525 6925 9525
-Wire Wire Line
-	6625 9625 7175 9625
-Wire Wire Line
-	7175 9725 6625 9725
-Wire Wire Line
-	7175 9825 6925 9825
-Wire Wire Line
-	6625 9925 7175 9925
-Wire Wire Line
-	7175 10025 6625 10025
-Wire Wire Line
-	7175 10125 6925 10125
-Wire Wire Line
-	6625 10225 7175 10225
-Wire Wire Line
-	7175 10325 6625 10325
-Wire Wire Line
-	7175 10425 6925 10425
 Text GLabel 6625 1625 0    50   Input ~ 0
 P12V_AUX
 Connection ~ 6925 2725
@@ -337,12 +166,8 @@ Wire Wire Line
 	6925 4425 6925 4725
 Connection ~ 6925 4725
 Wire Wire Line
-	6925 4725 7175 4725
-Wire Wire Line
 	6925 4725 6925 5025
 Connection ~ 6925 5025
-Wire Wire Line
-	6925 5025 7175 5025
 Wire Wire Line
 	6925 5025 6925 6525
 Connection ~ 6925 6525
@@ -378,11 +203,7 @@ Wire Wire Line
 	6925 1825 6925 2725
 Wire Wire Line
 	6925 1825 6925 1725
-Wire Wire Line
-	6925 1725 7175 1725
 Connection ~ 6925 1825
-Wire Wire Line
-	6625 1925 7175 1925
 Text GLabel 6625 2825 0    50   Input ~ 0
 VIRTUAL_RESEAT
 Text GLabel 6625 3125 0    50   Input ~ 0
@@ -801,4 +622,183 @@ Text GLabel 10950 6725 2    50   Input ~ 0
 SGPIO0_CLK
 Text GLabel 9125 2525 2    50   Input ~ 0
 SPI0_CLK
+Wire Wire Line
+	6625 2325 7175 2325
+Wire Wire Line
+	7175 2225 6625 2225
+Wire Wire Line
+	7175 2125 6625 2125
+Wire Wire Line
+	6625 2025 7175 2025
+Wire Wire Line
+	6625 1925 7175 1925
+Wire Wire Line
+	7175 1825 6925 1825
+Wire Wire Line
+	6925 1725 7175 1725
+Wire Wire Line
+	7175 1625 6625 1625
+Wire Wire Line
+	7175 2825 6625 2825
+Wire Wire Line
+	7175 2725 6925 2725
+Wire Wire Line
+	6625 2625 7175 2625
+Wire Wire Line
+	7175 2525 6625 2525
+Wire Wire Line
+	7175 2425 6625 2425
+Wire Wire Line
+	7175 1525 6625 1525
+Wire Wire Line
+	6625 3925 7175 3925
+Wire Wire Line
+	7175 3825 6625 3825
+Wire Wire Line
+	7175 10425 6925 10425
+Wire Wire Line
+	7175 3725 6625 3725
+Wire Wire Line
+	7175 10325 6625 10325
+Wire Wire Line
+	6625 10225 7175 10225
+Wire Wire Line
+	7175 10125 6925 10125
+Wire Wire Line
+	7175 10025 6625 10025
+Wire Wire Line
+	6625 9925 7175 9925
+Wire Wire Line
+	7175 9825 6925 9825
+Wire Wire Line
+	7175 9725 6625 9725
+Wire Wire Line
+	6625 9625 7175 9625
+Wire Wire Line
+	7175 9525 6925 9525
+Wire Wire Line
+	7175 9425 6625 9425
+Wire Wire Line
+	6625 3625 7175 3625
+Wire Wire Line
+	6625 9325 7175 9325
+Wire Wire Line
+	7175 9225 6925 9225
+Wire Wire Line
+	7175 9125 6625 9125
+Wire Wire Line
+	7175 9025 6625 9025
+Wire Wire Line
+	7175 8925 6625 8925
+Wire Wire Line
+	6625 8825 7175 8825
+Wire Wire Line
+	7175 8725 6625 8725
+Wire Wire Line
+	7175 8625 6625 8625
+Wire Wire Line
+	6625 8525 7175 8525
+Wire Wire Line
+	7175 8425 6625 8425
+Wire Wire Line
+	7175 3525 6625 3525
+Wire Wire Line
+	7175 8325 6625 8325
+Wire Wire Line
+	6625 8225 7175 8225
+Wire Wire Line
+	7175 8125 6625 8125
+Wire Wire Line
+	7175 8025 6625 8025
+Wire Wire Line
+	6625 7925 7175 7925
+Wire Wire Line
+	7175 7825 6625 7825
+Wire Wire Line
+	7175 7725 6625 7725
+Wire Wire Line
+	7175 7425 6925 7425
+Wire Wire Line
+	7175 7325 6625 7325
+Wire Wire Line
+	6625 7225 7175 7225
+Wire Wire Line
+	7175 3425 6625 3425
+Wire Wire Line
+	7175 7125 6625 7125
+Wire Wire Line
+	7175 7025 6625 7025
+Wire Wire Line
+	6625 6925 7175 6925
+Wire Wire Line
+	7175 6825 6625 6825
+Wire Wire Line
+	7175 6725 6625 6725
+Wire Wire Line
+	6625 6625 7175 6625
+Wire Wire Line
+	7175 6525 6925 6525
+Wire Wire Line
+	7175 6425 6625 6425
+Wire Wire Line
+	6625 6325 7175 6325
+Wire Wire Line
+	7175 6225 6625 6225
+Wire Wire Line
+	6625 3325 7175 3325
+Wire Wire Line
+	7175 6125 6625 6125
+Wire Wire Line
+	7175 5825 6625 5825
+Wire Wire Line
+	7175 5725 6625 5725
+Wire Wire Line
+	6625 5625 7175 5625
+Wire Wire Line
+	7175 5525 6625 5525
+Wire Wire Line
+	7175 5425 6625 5425
+Wire Wire Line
+	6625 5325 7175 5325
+Wire Wire Line
+	7175 5225 6625 5225
+Wire Wire Line
+	7175 5125 6625 5125
+Wire Wire Line
+	6925 5025 7175 5025
+Wire Wire Line
+	7175 3225 6625 3225
+Wire Wire Line
+	7175 4925 6625 4925
+Wire Wire Line
+	7175 4825 6625 4825
+Wire Wire Line
+	6925 4725 7175 4725
+Wire Wire Line
+	7175 4625 6625 4625
+Wire Wire Line
+	7175 4525 6625 4525
+Wire Wire Line
+	7175 4425 6925 4425
+Wire Wire Line
+	7175 4325 6625 4325
+Wire Wire Line
+	6625 4225 7175 4225
+Wire Wire Line
+	7175 4125 6925 4125
+Wire Wire Line
+	7175 4025 6625 4025
+Wire Wire Line
+	7175 3125 6625 3125
+$Comp
+L antmicroPciConnectors:SFF-TA-1002-4C+ J5
+U 1 1 6011CEC1
+P 7875 1425
+F 0 "J5" H 7875 1590 50  0000 C CNN
+F 1 "SFF-TA-1002-4C+" H 7875 1499 50  0000 C CNN
+F 2 "antmicro-footprints:SFF-TA-1002-4C+" H 8025 1475 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?__cf_chl_jschl_tk__=4604d1306574a1ee474ea914090d3e0c57e266a6-1606907014-0-AbkYBTCTl__kMBcY3BDmgKpfUy32FqitwN2Lniuy8W-uyv2Ev04Q-Q5Mr7srIz_Wnur0_9chB4CRbxKSYcEh7IvAJYsUgJ0PWIS5YdRqqHg567uaZciEX2hQP4ss5l6M4XdNrxEjJppHvyRV3ku89t-VmUSzhgCb8oJlyHpTxST4dEmKZNXfM53TM0tmGirdVbCRt1Byrx5pkz_uMvNABIOj7B2-eDGK52J3DWRD76zEyjdxY7Iz11gPiOY5i_QGIR3uOwkR5LBPNXe8zGqAf8--AKa7RqDbIriQRt90_32C4zIuHqbGa05BXS135E65ov80PbVcb4eSiutCqcJUAacUwu3eVnXVeIumfihJxuP8Rv7_n6saeG_2IuQpEiskzovLGKZM3667Y-rm-AL1NRXTamtvBxqTk0vyMvZ60FgJ" H 8075 1375 50  0001 C CNN
+	1    7875 1425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

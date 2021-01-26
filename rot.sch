@@ -1165,19 +1165,6 @@ Text Notes 9000 7050 0    50   ~ 0
 preliminary\n
 Text GLabel 8225 4625 0    50   Input ~ 0
 ROT_RDY\ROT_GPIO0
-$Comp
-L ecp5-dc-scm:M20-7830642 J4
-U 1 1 5FD63CCC
-P 11725 2200
-F 0 "J4" H 11725 2647 60  0000 C CNN
-F 1 "M20-7830642" H 11725 2541 60  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical" H 11925 2400 60  0001 L CNN
-F 3 "" H 11925 2500 60  0001 L CNN
-F 4 "M20-7830642" H 11925 2700 60  0001 L CNN "MPN"
-F 5 "Molex" H 11925 2800 60  0001 L CNN "Manufacturer"
-	1    11725 2200
-	1    0    0    -1  
-$EndComp
 Text GLabel 10900 1950 1    50   Input ~ 0
 VCC3V3
 Text GLabel 11525 2000 0    50   Input ~ 0
@@ -1354,6 +1341,19 @@ F 3 "https://www.we-online.com/catalog/datasheet/9774040151.pdf" H 9950 7050 60 
 F 4 "Wurth Elektronik" H 9950 7050 50  0001 C CNN "Manufacturer"
 F 5 "9774030151" H 9950 7050 50  0001 C CNN "MPN"
 	1    9950 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:M20-7830642 J4
+U 1 1 601172F6
+P 11725 2200
+F 0 "J4" H 11725 2647 60  0000 C CNN
+F 1 "M20-7830642" H 11725 2541 60  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Vertical_pmod" H 11925 2400 60  0001 L CNN
+F 3 "" H 11925 2500 60  0001 L CNN
+F 4 "M20-7830642" H 11925 2700 60  0001 L CNN "MPN"
+F 5 "Molex" H 11925 2800 60  0001 L CNN "Manufacturer"
+	1    11725 2200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

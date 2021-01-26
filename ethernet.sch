@@ -684,26 +684,8 @@ Wire Wire Line
 Connection ~ 3450 8750
 Wire Wire Line
 	3175 8750 3175 8875
-Wire Wire Line
-	4000 8750 3725 8750
-Wire Wire Line
-	4000 8875 4000 8750
 Text GLabel 5225 8400 2    50   Input ~ 0
 VCC3V3
-$Comp
-L ecp5-dc-scm:R_10k2_0402 R8
-U 1 1 609328B2
-P 4000 9025
-F 0 "R8" V 4125 8975 60  0000 R CNN
-F 1 "R_10k2_0402" H 4000 8875 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 4200 9225 60  0001 L CNN
-F 3 "" H 4000 9025 50  0001 C CNN
-F 4 "MULTICOMP PRO" H 4200 9425 60  0001 L CNN "Manufacturer"
-F 5 "MCWR04X1022FTL" H 4200 9325 60  0001 L CNN "MPN"
-F 6 "10k2" V 3850 8975 50  0000 R CNN "Val"
-	1    4000 9025
-	0    -1   -1   0   
-$EndComp
 $Comp
 L ecp5-dc-scm:R_10k2_0402 R7
 U 1 1 609328A9
@@ -751,26 +733,10 @@ Wire Wire Line
 	3725 9175 3725 10200
 Text GLabel 1825 10450 0    50   UnSpc ~ 0
 ETH_MDIO
-Text GLabel 1825 10350 0    50   UnSpc ~ 0
-ETH_MDC
 Text Label 1475 10775 0    50   ~ 0
 ETH_LED1
 Text Label 1475 10925 0    50   ~ 0
 ETH_LED2
-$Comp
-L ecp5-dc-scm:R_10k2_0402 R9
-U 1 1 60AFC08E
-P 4275 9025
-F 0 "R9" V 4400 8975 60  0000 R CNN
-F 1 "R_10k2_0402" H 4275 8875 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 4475 9225 60  0001 L CNN
-F 3 "" H 4275 9025 50  0001 C CNN
-F 4 "MULTICOMP PRO" H 4475 9425 60  0001 L CNN "Manufacturer"
-F 5 "MCWR04X1022FTL" H 4475 9325 60  0001 L CNN "MPN"
-F 6 "10k2" V 4125 8975 50  0000 R CNN "Val"
-	1    4275 9025
-	0    -1   -1   0   
-$EndComp
 $Comp
 L ecp5-dc-scm:R_10k2_0402 R10
 U 1 1 60AFC097
@@ -792,8 +758,6 @@ Wire Wire Line
 Wire Wire Line
 	4275 8875 4275 8750
 Connection ~ 4275 8750
-Wire Wire Line
-	4275 8750 4000 8750
 Connection ~ 4550 8750
 Wire Wire Line
 	5100 8750 5100 8875
@@ -833,10 +797,6 @@ Connection ~ 4825 8750
 Wire Wire Line
 	4825 8750 5100 8750
 Wire Wire Line
-	4000 10350 1825 10350
-Wire Wire Line
-	4000 9175 4000 10350
-Wire Wire Line
 	1825 10450 4275 10450
 Wire Wire Line
 	4275 9175 4275 10450
@@ -849,7 +809,6 @@ Wire Wire Line
 Wire Wire Line
 	4825 9175 4825 10775
 Connection ~ 5100 8750
-Connection ~ 4000 8750
 Wire Wire Line
 	1475 10925 5100 10925
 Wire Wire Line
@@ -1695,4 +1654,20 @@ Wire Wire Line
 	5200 6250 4375 6250
 Wire Wire Line
 	3350 5950 3350 6000
+Wire Wire Line
+	3725 8750 4275 8750
+$Comp
+L antmicroResistors0402:R_2k2_0402 R9
+U 1 1 6038072F
+P 4275 9025
+F 0 "R9" V 4150 9100 60  0000 L CNN
+F 1 "R_2k2_0402" H 4275 8875 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4475 9225 60  0001 L CNN
+F 3 "" H 4275 9025 50  0001 C CNN
+F 4 "YAGEO" H 4475 9425 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 4475 9325 60  0001 L CNN "MPN"
+F 6 "2k2" V 4425 9075 50  0000 L CNN "Val"
+	1    4275 9025
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

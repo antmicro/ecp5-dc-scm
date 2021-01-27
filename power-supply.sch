@@ -77,12 +77,6 @@ Wire Wire Line
 Text Notes 15050 2825 0    50   ~ 0
 3.3V/3A
 NoConn ~ -625 5725
-Wire Wire Line
-	1725 1200 1950 1200
-Text GLabel 1950 1025 1    50   Input ~ 0
-VCC12V
-Wire Wire Line
-	1950 1025 1950 1200
 $Comp
 L ecp5-dc-scm:TPS54561 IC1
 U 1 1 60694B04
@@ -1025,25 +1019,23 @@ F 3 "" H 13900 7975 50  0001 C CNN
 	1    13900 7975
 	1    0    0    -1  
 $EndComp
-Text GLabel 8400 10725 2    50   Input ~ 0
+Text GLabel 6000 9875 0    50   Input ~ 0
 3V0_BAT
 Wire Wire Line
-	8425 10875 8425 10825
+	6300 10500 6300 10275
 $Comp
 L ecp5-dc-scm:GND #PWR076
 U 1 1 5FF71002
-P 8425 10875
-F 0 "#PWR076" H 8425 10625 50  0001 C CNN
-F 1 "GND" H 8430 10702 50  0000 C CNN
-F 2 "" H 8425 10875 50  0001 C CNN
-F 3 "" H 8425 10875 50  0001 C CNN
-	1    8425 10875
-	1    0    0    -1  
+P 6300 10500
+F 0 "#PWR076" H 6300 10250 50  0001 C CNN
+F 1 "GND" H 6305 10327 50  0000 C CNN
+F 2 "" H 6300 10500 50  0001 C CNN
+F 3 "" H 6300 10500 50  0001 C CNN
+	1    6300 10500
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 10825 8425 10825
-Wire Wire Line
-	8100 10725 8400 10725
+	6300 9875 6000 9875
 Text Label 4275 8825 2    50   ~ 0
 VCCA0_EN
 Text Label 4275 9025 2    50   ~ 0
@@ -1487,69 +1479,28 @@ Wire Wire Line
 	3200 8200 3200 8275
 Text GLabel 3200 8200 1    50   Input ~ 0
 VCC5V0
-Text Notes 7575 10225 0    79   ~ 0
+Text Notes 5950 9525 0    118  ~ 0
 Battery connector
-$Comp
-L ecp5-dc-scm:GND #PWR060
-U 1 1 5FDD39DE
-P 1950 1475
-F 0 "#PWR060" H 1950 1225 50  0001 C CNN
-F 1 "GND" H 1955 1302 50  0000 C CNN
-F 2 "" H 1950 1475 50  0001 C CNN
-F 3 "" H 1950 1475 50  0001 C CNN
-	1    1950 1475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 1350 1950 1475
-Wire Wire Line
-	1725 1350 1950 1350
-$Comp
-L ecp5-dc-scm:RCW-0C TP4
-U 1 1 5FF4E33F
-P 1625 1200
-F 0 "TP4" V 1625 1075 50  0000 C CNN
-F 1 "RCW-0C" V 1491 1247 50  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:PROBE_PAD_1206" H 1825 1400 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1825 1500 60  0001 L CNN
-F 4 "RCW-0C" H 1825 1700 60  0001 L CNN "MPN"
-F 5 "TE Connectivity AMP Connectors" H 1825 2300 60  0001 L CNN "Manufacturer"
-	1    1625 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L ecp5-dc-scm:RCW-0C TP5
-U 1 1 5FF4E667
-P 1625 1350
-F 0 "TP5" V 1625 1225 50  0000 C CNN
-F 1 "RCW-0C" V 1491 1397 50  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:PROBE_PAD_1206" H 1825 1550 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1825 1650 60  0001 L CNN
-F 4 "RCW-0C" H 1825 1850 60  0001 L CNN "MPN"
-F 5 "TE Connectivity AMP Connectors" H 1825 2450 60  0001 L CNN "Manufacturer"
-	1    1625 1350
-	0    1    1    0   
-$EndComp
 $Comp
 L ecp5-dc-scm:0466003.NR F1
 U 1 1 5FF6F26B
-P 1525 2100
-F 0 "F1" H 1875 2314 50  0000 C CNN
-F 1 "0466003.NR" H 1875 2223 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1525 2400 50  0001 L CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 1525 2600 50  0001 L CNN
-F 4 "Littelfuse" H 1525 2600 50  0001 L CNN "Manufacturer"
-F 5 "0466003.NR " H 1775 2500 50  0001 C CNN "MPN"
-	1    1525 2100
+P 1375 2725
+F 0 "F1" H 1725 2939 50  0000 C CNN
+F 1 "0466003.NR" H 1725 2848 50  0000 C CNN
+F 2 "ecp5-dc-scm-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1375 3025 50  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 1375 3225 50  0001 L CNN
+F 4 "Littelfuse" H 1375 3225 50  0001 L CNN "Manufacturer"
+F 5 "0466003.NR " H 1625 3125 50  0001 C CNN "MPN"
+	1    1375 2725
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 2100 2    50   Input ~ 0
+Text GLabel 2250 2725 2    50   Input ~ 0
 VCC12V
 Wire Wire Line
-	2125 2100 2400 2100
+	1975 2725 2250 2725
 Wire Wire Line
-	1625 2100 1375 2100
-Text GLabel 1375 2100 0    50   Input ~ 0
+	1475 2725 1225 2725
+Text GLabel 1225 2725 0    50   Input ~ 0
 P12V_AUX
 $Comp
 L ecp5-dc-scm:R_0R_1206 R94
@@ -3444,8 +3395,6 @@ F 3 "" H 3800 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 2850 3800 2650
-Text Notes 6025 11100 0    50   ~ 0
-TODO: this connector doesn't fit underneath the M.2 card\nShould it be replaced with solderpads?
 Text Label 8925 6025 0    50   ~ 0
 5V0_PG
 Wire Wire Line
@@ -3510,16 +3459,90 @@ Connection ~ 1775 8925
 Wire Wire Line
 	1775 8925 2225 8925
 $Comp
-L ecp5-dc-scm:S2B-PH-K-S_LF__SN_ J18
-U 1 1 60256C81
-P 8000 10725
-F 0 "J18" V 7775 10733 50  0000 C CNN
-F 1 "S2B-PH-K-S_LF__SN_" V 7866 10733 50  0000 C CNN
-F 2 "ecp5-dc-scm-footprints:PinHeader_1x2_P2mm_Drill1mm_RA" H 8200 10925 60  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8200 11025 60  0001 L CNN
-F 4 "S2B-PH-K-S(LF)(SN)" H 8200 11225 60  0001 L CNN "MPN"
-F 5 "JST Sales America Inc." H 8200 11825 60  0001 L CNN "Manufacturer"
-	1    8000 10725
+L antmicroRectangularConnectorsHeadersMalePins:5040500291 J18
+U 1 1 61058A53
+P 6700 9975
+F 0 "J18" H 6930 9921 50  0000 L CNN
+F 1 "5040500291" H 6930 9830 50  0000 L CNN
+F 2 "antmicro-footprints:MOLEX_5040500291" H 6700 9975 50  0001 L BNN
+F 3 "" H 6700 9975 50  0001 L BNN
+F 4 "Molex" H 6700 9975 50  0001 L BNN "MANUFACTURER"
+F 5 "5040500291" H 6700 9975 50  0001 L BNN "MPN"
+	1    6700 9975
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 10175
+Wire Wire Line
+	6300 10175 6300 9975
+Connection ~ 6300 10275
+Wire Wire Line
+	6300 10275 6300 10175
+Wire Wire Line
+	1550 2150 1550 1925
+$Comp
+L ecp5-dc-scm:GND #PWR044
+U 1 1 611E8356
+P 1550 2150
+F 0 "#PWR044" H 1550 1900 50  0001 C CNN
+F 1 "GND" H 1555 1977 50  0000 C CNN
+F 2 "" H 1550 2150 50  0001 C CNN
+F 3 "" H 1550 2150 50  0001 C CNN
+	1    1550 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1525 1400 1525
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:5040500291 J8
+U 1 1 611E835F
+P 1950 1625
+F 0 "J8" H 2180 1571 50  0000 L CNN
+F 1 "5040500291" H 2180 1480 50  0000 L CNN
+F 2 "antmicro-footprints:MOLEX_5040500291" H 1950 1625 50  0001 L BNN
+F 3 "" H 1950 1625 50  0001 L BNN
+F 4 "Molex" H 1950 1625 50  0001 L BNN "MANUFACTURER"
+F 5 "5040500291" H 1950 1625 50  0001 L BNN "MPN"
+	1    1950 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 1825
+Wire Wire Line
+	1550 1825 1550 1625
+Connection ~ 1550 1925
+Wire Wire Line
+	1550 1925 1550 1825
+Text Notes 1025 1050 0    118  ~ 0
+AUX supply connector
+Text GLabel 1250 1525 0    50   Input ~ 0
+P12V_AUX
+$Comp
+L antmicroTestPoints:RCW-0C TP4
+U 1 1 6153D5FE
+P 1400 1425
+F 0 "TP4" H 1475 1350 50  0000 R CNN
+F 1 "RCW-0C" H 1250 1375 50  0001 R CNN
+F 2 "antmicro-footprints:PROBE_PAD_1206" H 1600 1625 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1600 1725 60  0001 L CNN
+F 4 "RCW-0C" H 1600 1925 60  0001 L CNN "MPN"
+F 5 "TE Connectivity AMP Connectors" H 1600 2525 60  0001 L CNN "Manufacturer"
+	1    1400 1425
+	-1   0    0    1   
+$EndComp
+Connection ~ 1400 1525
+Wire Wire Line
+	1400 1525 1250 1525
+$Comp
+L antmicroTestPoints:RCW-0C TP5
+U 1 1 6153E4CF
+P 1450 1625
+F 0 "TP5" V 1450 1475 50  0000 C CNN
+F 1 "RCW-0C" V 1550 1525 50  0001 C CNN
+F 2 "antmicro-footprints:PROBE_PAD_1206" H 1650 1825 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1650 1925 60  0001 L CNN
+F 4 "RCW-0C" H 1650 2125 60  0001 L CNN "MPN"
+F 5 "TE Connectivity AMP Connectors" H 1650 2725 60  0001 L CNN "Manufacturer"
+	1    1450 1625
 	0    1    1    0   
 $EndComp
+Connection ~ 1550 1625
 $EndSCHEMATC

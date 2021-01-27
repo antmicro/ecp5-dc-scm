@@ -495,8 +495,6 @@ Wire Wire Line
 NoConn ~ 8200 7275
 NoConn ~ 8300 7275
 Wire Wire Line
-	4875 9700 5050 9700
-Wire Wire Line
 	4875 9800 5225 9800
 Wire Wire Line
 	4875 9900 5400 9900
@@ -735,11 +733,6 @@ VCC3V3
 Wire Wire Line
 	6800 8700 6800 8950
 Wire Wire Line
-	5050 9525 5050 9700
-Connection ~ 5050 9700
-Wire Wire Line
-	5050 9700 7000 9700
-Wire Wire Line
 	5225 9525 5225 9800
 Connection ~ 5225 9800
 Wire Wire Line
@@ -792,10 +785,6 @@ Connection ~ 6800 10700
 Wire Wire Line
 	6800 10700 7000 10700
 Wire Wire Line
-	5050 9225 5050 8950
-Wire Wire Line
-	5050 8950 5225 8950
-Wire Wire Line
 	6800 8950 6800 9225
 Wire Wire Line
 	6625 9225 6625 8950
@@ -840,7 +829,6 @@ Wire Wire Line
 	5750 8950 5925 8950
 Wire Wire Line
 	5225 9225 5225 8950
-Connection ~ 5225 8950
 Wire Wire Line
 	5225 8950 5400 8950
 Text Notes 12275 5025 0    118  ~ 24
@@ -1992,7 +1980,6 @@ Wire Wire Line
 Connection ~ 3600 9700
 Wire Wire Line
 	3600 9700 3600 9800
-NoConn ~ 3675 10200
 Wire Wire Line
 	3675 10600 3675 10700
 Connection ~ 3675 10700
@@ -3296,20 +3283,6 @@ Connection ~ 14500 1925
 Wire Wire Line
 	13850 6525 14175 6525
 $Comp
-L ecp5-dc-scm:R_33k_0402 R58
-U 1 1 6014C840
-P 5050 9375
-F 0 "R58" V 4875 9375 60  0000 L CNN
-F 1 "R_33k_0402" H 5050 9225 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 5250 9575 60  0001 L CNN
-F 3 "" H 5050 9375 50  0001 C CNN
-F 4 "VISHAY" H 5250 9775 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233K0FKED" H 5250 9675 60  0001 L CNN "MPN"
-F 6 "33k" V 5200 9400 50  0000 L CNN "Val"
-	1    5050 9375
-	0    1    1    0   
-$EndComp
-$Comp
 L ecp5-dc-scm:R_33k_0402 R59
 U 1 1 6019DC9D
 P 5225 9375
@@ -3448,5 +3421,32 @@ F 5 "CRCW040233K0FKED" H 7000 9675 60  0001 L CNN "MPN"
 F 6 "33k" V 6950 9400 50  0000 L CNN "Val"
 	1    6800 9375
 	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_22R_0402 R14
+U 1 1 609E2663
+P 5025 9700
+F 0 "R14" H 5025 9913 60  0000 C CNN
+F 1 "R_22R_0402" H 5025 9550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5225 9900 60  0001 L CNN
+F 3 "" H 5025 9700 50  0001 C CNN
+F 4 "VISHAY" H 5225 10100 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 5225 10000 60  0001 L CNN "MPN"
+F 6 "22R" H 5025 9815 50  0000 C CNN "Val"
+	1    5025 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 9700 7000 9700
+$Comp
+L ecp5-dc-scm:TP_SMD1MM TP16
+U 1 1 60A28FAD
+P 3675 10100
+F 0 "TP16" H 3675 10025 50  0000 R CNN
+F 1 "TP_SMD1MM" H 3675 10000 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 3875 10300 60  0001 L CNN
+F 3 "" H 3875 10400 60  0001 L CNN
+	1    3675 10100
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

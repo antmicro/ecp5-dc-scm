@@ -1090,8 +1090,6 @@ F 3 "" H 1825 9575 50  0001 C CNN
 $EndComp
 Text Notes 9075 975  0    118  ~ 0
 PWR_LED Indicators
-Wire Notes Line
-	1075 8675 1075 8700
 Text Label 4275 8925 2    50   ~ 0
 VCCIO_EN
 Text Notes 12875 2900 0    118  ~ 0
@@ -1407,48 +1405,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 9125 2050 8825
 Connection ~ 2050 8825
-$Comp
-L ecp5-dc-scm:R_1k_0402 R85
-U 1 1 5FFECF1E
-P 3100 8500
-F 0 "R85" V 2850 8775 60  0000 L CNN
-F 1 "R_1k_0402" H 3100 8350 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 3300 8700 60  0001 L CNN
-F 3 "" H 3100 8500 50  0001 C CNN
-F 4 "BOURNS" H 3300 8900 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 3300 8800 60  0001 L CNN "MPN"
-F 6 "1k" V 2850 8975 50  0000 L CNN "Val"
-	1    3100 8500
-	0    1    1    0   
-$EndComp
-$Comp
-L ecp5-dc-scm:R_1k_0402 R86
-U 1 1 5FFED382
-P 3200 8500
-F 0 "R86" V 3050 8675 60  0000 L CNN
-F 1 "R_1k_0402" H 3200 8350 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 3400 8700 60  0001 L CNN
-F 3 "" H 3200 8500 50  0001 C CNN
-F 4 "BOURNS" H 3400 8900 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 3400 8800 60  0001 L CNN "MPN"
-F 6 "1k" V 3050 8875 50  0000 L CNN "Val"
-	1    3200 8500
-	0    1    1    0   
-$EndComp
-$Comp
-L ecp5-dc-scm:R_1k_0402 R87
-U 1 1 5FFED63B
-P 3300 8500
-F 0 "R87" V 3250 8575 60  0000 L CNN
-F 1 "R_1k_0402" H 3300 8350 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 3500 8700 60  0001 L CNN
-F 3 "" H 3300 8500 50  0001 C CNN
-F 4 "BOURNS" H 3500 8900 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 3500 8800 60  0001 L CNN "MPN"
-F 6 "1k" V 3250 8775 50  0000 L CNN "Val"
-	1    3300 8500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3100 8650 3100 8825
 Connection ~ 3100 8825
@@ -3421,38 +3377,10 @@ F 3 "" H 1475 9575 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1475 9475 1475 9575
-Text Notes 1350 10100 1    50   ~ 0
-Delay capacitor calculated \nfrom datasheet (1) equation\n(now set as 0.26s delay)
-$Comp
-L ecp5-dc-scm:C_1u5_0603 C262
-U 1 1 6058F23B
-P 1475 9325
-F 0 "C262" H 1590 9370 60  0000 L CNN
-F 1 "C_1u5_0603" H 1475 9175 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0603-cap" H 1675 9525 60  0001 L CNN
-F 3 "" H 1475 9325 50  0001 C CNN
-F 4 "TDK" H 1675 9725 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1E155K080AB" H 1675 9625 60  0001 L CNN "MPN"
-F 6 "1u5" H 1590 9272 50  0000 L CNN "Val"
-	1    1475 9325
-	1    0    0    -1  
-$EndComp
+Text Notes 1350 10350 1    50   ~ 0
+Delay capacitor calculated \nfor 0-1.22V change via 100k to 5V\n(now set as ~ 0.26s delay)
 Wire Wire Line
 	1775 8300 1775 8225
-$Comp
-L ecp5-dc-scm:R_1k_0402 R8
-U 1 1 602298C4
-P 1775 8450
-F 0 "R8" V 1730 8520 60  0000 L CNN
-F 1 "R_1k_0402" H 1775 8300 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 1975 8650 60  0001 L CNN
-F 3 "" H 1775 8450 50  0001 C CNN
-F 4 "BOURNS" H 1975 8850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 1975 8750 60  0001 L CNN "MPN"
-F 6 "1k" V 1828 8520 50  0000 L CNN "Val"
-	1    1775 8450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1775 8600 1775 8925
 Connection ~ 1775 8925
@@ -3545,4 +3473,92 @@ F 5 "TE Connectivity AMP Connectors" H 1650 2725 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 Connection ~ 1550 1625
+$Comp
+L ecp5-dc-scm:C_10u_0402 C?
+U 1 1 601E1A26
+P 1475 9325
+AR Path="/5FD17EF1/601E1A26" Ref="C?"  Part="1" 
+AR Path="/5FD86BEB/601E1A26" Ref="C262"  Part="1" 
+F 0 "C262" H 1525 9225 60  0000 L CNN
+F 1 "C_10u_0402" H 1475 9175 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 1675 9525 60  0001 L CNN
+F 3 "" H 1475 9325 50  0001 C CNN
+F 4 "MURATA" H 1675 9725 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1675 9625 60  0001 L CNN "MPN"
+F 6 "10u" H 1525 9150 50  0000 L CNN "Val"
+	1    1475 9325
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5-dc-scm:R_100k_0402 R?
+U 1 1 6022575B
+P 1775 8450
+AR Path="/5FDA6477/6022575B" Ref="R?"  Part="1" 
+AR Path="/5FFA4931/6022575B" Ref="R?"  Part="1" 
+AR Path="/5FD86D1B/6022575B" Ref="R?"  Part="1" 
+AR Path="/5FD86BEB/6022575B" Ref="R8"  Part="1" 
+F 0 "R8" V 1775 8525 60  0000 L CNN
+F 1 "R_100k_0402" H 1775 8300 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 1975 8650 60  0001 L CNN
+F 3 "" H 1775 8450 50  0001 C CNN
+F 4 "VISHAY" H 1975 8850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 1975 8750 60  0001 L CNN "MPN"
+F 6 "100k" V 1850 8525 50  0000 L CNN "Val"
+	1    1775 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L ecp5-dc-scm:R_100k_0402 R?
+U 1 1 6025E97A
+P 3100 8500
+AR Path="/5FDA6477/6025E97A" Ref="R?"  Part="1" 
+AR Path="/5FFA4931/6025E97A" Ref="R?"  Part="1" 
+AR Path="/5FD86D1B/6025E97A" Ref="R?"  Part="1" 
+AR Path="/5FD86BEB/6025E97A" Ref="R85"  Part="1" 
+F 0 "R85" V 2850 8850 60  0000 L CNN
+F 1 "R_100k_0402" H 3100 8350 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 3300 8700 60  0001 L CNN
+F 3 "" H 3100 8500 50  0001 C CNN
+F 4 "VISHAY" H 3300 8900 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 3300 8800 60  0001 L CNN "MPN"
+F 6 "100k" V 2850 9050 50  0000 L CNN "Val"
+	1    3100 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L ecp5-dc-scm:R_100k_0402 R?
+U 1 1 6029A0A7
+P 3200 8500
+AR Path="/5FDA6477/6029A0A7" Ref="R?"  Part="1" 
+AR Path="/5FFA4931/6029A0A7" Ref="R?"  Part="1" 
+AR Path="/5FD86D1B/6029A0A7" Ref="R?"  Part="1" 
+AR Path="/5FD86BEB/6029A0A7" Ref="R86"  Part="1" 
+F 0 "R86" V 3025 8750 60  0000 L CNN
+F 1 "R_100k_0402" H 3200 8350 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 3400 8700 60  0001 L CNN
+F 3 "" H 3200 8500 50  0001 C CNN
+F 4 "VISHAY" H 3400 8900 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 3400 8800 60  0001 L CNN "MPN"
+F 6 "100k" V 3025 8950 50  0000 L CNN "Val"
+	1    3200 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L ecp5-dc-scm:R_100k_0402 R?
+U 1 1 6029A30A
+P 3300 8500
+AR Path="/5FDA6477/6029A30A" Ref="R?"  Part="1" 
+AR Path="/5FFA4931/6029A30A" Ref="R?"  Part="1" 
+AR Path="/5FD86D1B/6029A30A" Ref="R?"  Part="1" 
+AR Path="/5FD86BEB/6029A30A" Ref="R87"  Part="1" 
+F 0 "R87" V 3200 8650 60  0000 L CNN
+F 1 "R_100k_0402" H 3300 8350 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 3500 8700 60  0001 L CNN
+F 3 "" H 3300 8500 50  0001 C CNN
+F 4 "VISHAY" H 3500 8900 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 3500 8800 60  0001 L CNN "MPN"
+F 6 "100k" V 3200 8850 50  0000 L CNN "Val"
+	1    3300 8500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

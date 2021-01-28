@@ -1282,12 +1282,12 @@ Text GLabel 8225 4725 0    50   Input ~ 0
 INIT_N
 NoConn ~ 9750 7050
 $Comp
-L antmicroB2bConnectors:52991-0508 J3
+L ecp5-dc-scm:52991-0508 J3
 U 1 1 600F7DF7
 P 8925 6975
 F 0 "J3" H 8950 4060 50  0000 C CNN
 F 1 "52991-0508" H 8950 4151 50  0000 C CNN
-F 2 "antmicro-footprints:529910508" H 10475 5275 50  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:529910508" H 10475 5275 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/529910508_sd.pdf" H 9175 5175 50  0001 C CNN
 	1    8925 6975
 	1    0    0    1   
@@ -1331,12 +1331,12 @@ Wire Wire Line
 	9175 4525 9675 4525
 Connection ~ 9175 6625
 $Comp
-L antmicroMechanicalParts:9774040151 SP2
+L ecp5-dc-scm:9774040151 SP2
 U 1 1 601A25A1
 P 9950 7050
 F 0 "SP2" H 10080 7103 60  0000 L CNN
 F 1 "9774040151" H 10080 6997 60  0000 L CNN
-F 2 "antmicro-footprints:9774040151" H 9950 7050 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:9774040151" H 9950 7050 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774040151.pdf" H 9950 7050 60  0001 C CNN
 F 4 "Wurth Elektronik" H 9950 7050 50  0001 C CNN "Manufacturer"
 F 5 "9774030151" H 9950 7050 50  0001 C CNN "MPN"
@@ -1344,12 +1344,12 @@ F 5 "9774030151" H 9950 7050 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:M20-7830642 J4
+L ecp5-dc-scm:M20-7830642 J4
 U 1 1 601172F6
 P 11725 2200
 F 0 "J4" H 11725 2647 60  0000 C CNN
 F 1 "M20-7830642" H 11725 2541 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_6x2_P2.54mm_Vertical_pmod" H 11925 2400 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical_pmod" H 11925 2400 60  0001 L CNN
 F 3 "" H 11925 2500 60  0001 L CNN
 F 4 "M20-7830642" H 11925 2700 60  0001 L CNN "MPN"
 F 5 "Molex" H 11925 2800 60  0001 L CNN "Manufacturer"

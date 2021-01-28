@@ -3424,12 +3424,12 @@ Wire Wire Line
 Text Notes 1350 10100 1    50   ~ 0
 Delay capacitor calculated \nfrom datasheet (1) equation\n(now set as 0.26s delay)
 $Comp
-L antmicroCapacitors0603:C_1u5_0603 C262
+L ecp5-dc-scm:C_1u5_0603 C262
 U 1 1 6058F23B
 P 1475 9325
 F 0 "C262" H 1590 9370 60  0000 L CNN
 F 1 "C_1u5_0603" H 1475 9175 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1675 9525 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0603-cap" H 1675 9525 60  0001 L CNN
 F 3 "" H 1475 9325 50  0001 C CNN
 F 4 "TDK" H 1675 9725 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1E155K080AB" H 1675 9625 60  0001 L CNN "MPN"
@@ -3459,12 +3459,12 @@ Connection ~ 1775 8925
 Wire Wire Line
 	1775 8925 2225 8925
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:5040500291 J18
+L ecp5-dc-scm:5040500291 J18
 U 1 1 61058A53
 P 6700 9975
 F 0 "J18" H 6930 9921 50  0000 L CNN
 F 1 "5040500291" H 6930 9830 50  0000 L CNN
-F 2 "antmicro-footprints:MOLEX_5040500291" H 6700 9975 50  0001 L BNN
+F 2 "ecp5-dc-scm-footprints:MOLEX_5040500291" H 6700 9975 50  0001 L BNN
 F 3 "" H 6700 9975 50  0001 L BNN
 F 4 "Molex" H 6700 9975 50  0001 L BNN "MANUFACTURER"
 F 5 "5040500291" H 6700 9975 50  0001 L BNN "MPN"
@@ -3493,12 +3493,12 @@ $EndComp
 Wire Wire Line
 	1550 1525 1400 1525
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:5040500291 J8
+L ecp5-dc-scm:5040500291 J8
 U 1 1 611E835F
 P 1950 1625
 F 0 "J8" H 2180 1571 50  0000 L CNN
 F 1 "5040500291" H 2180 1480 50  0000 L CNN
-F 2 "antmicro-footprints:MOLEX_5040500291" H 1950 1625 50  0001 L BNN
+F 2 "ecp5-dc-scm-footprints:MOLEX_5040500291" H 1950 1625 50  0001 L BNN
 F 3 "" H 1950 1625 50  0001 L BNN
 F 4 "Molex" H 1950 1625 50  0001 L BNN "MANUFACTURER"
 F 5 "5040500291" H 1950 1625 50  0001 L BNN "MPN"
@@ -3516,12 +3516,12 @@ AUX supply connector
 Text GLabel 1250 1525 0    50   Input ~ 0
 P12V_AUX
 $Comp
-L antmicroTestPoints:RCW-0C TP4
+L ecp5-dc-scm:RCW-0C TP4
 U 1 1 6153D5FE
 P 1400 1425
 F 0 "TP4" H 1475 1350 50  0000 R CNN
 F 1 "RCW-0C" H 1250 1375 50  0001 R CNN
-F 2 "antmicro-footprints:PROBE_PAD_1206" H 1600 1625 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PROBE_PAD_1206" H 1600 1625 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1600 1725 60  0001 L CNN
 F 4 "RCW-0C" H 1600 1925 60  0001 L CNN "MPN"
 F 5 "TE Connectivity AMP Connectors" H 1600 2525 60  0001 L CNN "Manufacturer"
@@ -3532,12 +3532,12 @@ Connection ~ 1400 1525
 Wire Wire Line
 	1400 1525 1250 1525
 $Comp
-L antmicroTestPoints:RCW-0C TP5
+L ecp5-dc-scm:RCW-0C TP5
 U 1 1 6153E4CF
 P 1450 1625
 F 0 "TP5" V 1450 1475 50  0000 C CNN
 F 1 "RCW-0C" V 1550 1525 50  0001 C CNN
-F 2 "antmicro-footprints:PROBE_PAD_1206" H 1650 1825 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:PROBE_PAD_1206" H 1650 1825 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1650 1925 60  0001 L CNN
 F 4 "RCW-0C" H 1650 2125 60  0001 L CNN "MPN"
 F 5 "TE Connectivity AMP Connectors" H 1650 2725 60  0001 L CNN "Manufacturer"

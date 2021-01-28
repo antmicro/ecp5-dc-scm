@@ -1545,12 +1545,12 @@ Wire Wire Line
 Wire Wire Line
 	3725 8750 4275 8750
 $Comp
-L antmicroResistors0402:R_2k2_0402 R9
+L ecp5-dc-scm:R_2k2_0402 R9
 U 1 1 6038072F
 P 4275 9025
 F 0 "R9" V 4150 9100 60  0000 L CNN
 F 1 "R_2k2_0402" H 4275 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4475 9225 60  0001 L CNN
+F 2 "ecp5-dc-scm-footprints:0402-res" H 4475 9225 60  0001 L CNN
 F 3 "" H 4275 9025 50  0001 C CNN
 F 4 "YAGEO" H 4475 9425 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 4475 9325 60  0001 L CNN "MPN"
@@ -1559,12 +1559,12 @@ F 6 "2k2" V 4425 9075 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroOscillators:ASEMB-25.000MHZ-LC-T U22
+L ecp5-dc-scm:ASEMB-25.000MHZ-LC-T U22
 U 1 1 6074CE5C
 P 8250 7225
 F 0 "U22" H 8875 7512 60  0000 C CNN
 F 1 "ASEMB-25.000MHZ-LC-T" H 8875 7406 60  0000 C CNN
-F 2 "antmicro-footprints:OSC_ASEM1-16.000MHZ-LC-T" H 9050 7465 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:OSC_ASEM1-16.000MHZ-LC-T" H 9050 7465 60  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2581438.pdf" H 8875 7406 60  0001 C CNN
 	1    8250 7225
 	1    0    0    -1  

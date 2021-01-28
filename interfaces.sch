@@ -433,14 +433,7 @@ F 3 "" H 8825 7225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8600 7225 8700 7225
-Wire Wire Line
 	8600 7275 8600 7225
-Wire Wire Line
-	8700 7275 8700 7225
-Connection ~ 8700 7225
-Wire Wire Line
-	8700 7225 8825 7225
 NoConn ~ 8200 7275
 NoConn ~ 8300 7275
 Wire Wire Line
@@ -2916,19 +2909,6 @@ Wire Wire Line
 	7700 6900 8400 6900
 Wire Wire Line
 	7700 7000 8500 7000
-$Comp
-L ecp5-dc-scm:TPD6E05U06 D2
-U 1 1 5FEE4C8C
-P 8150 7525
-F 0 "D2" V 8279 6847 50  0000 R CNN
-F 1 "TPD6E05U06" V 8188 6847 50  0000 R CNN
-F 2 "ecp5-dc-scm-footprints:TPD6E05U06" H 9350 7775 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 9650 7875 50  0001 C CNN
-F 4 "TPD6E05U06RVZR" V 8188 6847 50  0001 R CNN "MPN"
-F 5 "Texas Instruments" V 8097 6847 50  0001 R CNN "Manufacturer"
-	1    8150 7525
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8400 7275 8400 6900
 Connection ~ 8400 6900
@@ -3341,4 +3321,19 @@ F 3 "http://www.farnell.com/datasheets/2581438.pdf" H 11200 3081 60  0001 C CNN
 $EndComp
 NoConn ~ 13025 2725
 NoConn ~ 13000 6950
+$Comp
+L antmicroTVSDiodes:SP3011-06UTG D2
+U 1 1 602B7E12
+P 8150 7525
+F 0 "D2" V 8370 6947 50  0000 R CNN
+F 1 "SP3011-06UTG" V 8279 6947 50  0000 R CNN
+F 2 "antmicro-footprints:SON50P350X135X55-14N" H 9350 7775 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2244129.pdf" H 9650 7875 50  0001 C CNN
+F 4 "SP3011-06UTG" V 8188 6947 50  0000 R CNN "MPN"
+F 5 "Littlefuse" V 8097 6947 50  0000 R CNN "Manufacturer"
+	1    8150 7525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 7225 8825 7225
 $EndSCHEMATC

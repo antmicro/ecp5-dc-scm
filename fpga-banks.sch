@@ -2328,8 +2328,6 @@ Wire Wire Line
 	5950 9675 5400 9675
 Text GLabel 14000 950  0    50   Input ~ 0
 VCC3V3
-Text Notes 10475 17000 0    118  ~ 24
-USB Client
 Text GLabel 9175 3325 0    50   Input ~ 0
 ULPI1_D0
 Text GLabel 9175 5425 0    50   Input ~ 0
@@ -2368,8 +2366,6 @@ Text GLabel 9175 6725 0    50   Input ~ 0
 ULPI1_RESET
 Wire Wire Line
 	9375 6125 9175 6125
-Text Notes 10350 12875 0    118  ~ 24
-USB HOST
 Text GLabel 9175 2225 0    50   Input ~ 0
 ULPI2_D0
 Wire Wire Line

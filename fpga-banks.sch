@@ -2980,4 +2980,12 @@ Text Label 8525 10125 0    50   ~ 0
 PCIE_BMC_TX_C_DN
 Wire Wire Line
 	8000 10125 7925 10125
+Text GLabel 1900 7625 0    50   Input ~ 0
+PIRQ#
+Text GLabel 1900 7425 0    50   Input ~ 0
+RST
+Text GLabel 1900 7325 0    50   Input ~ 0
+GPIO
+Text GLabel 1900 7125 0    50   Input ~ 0
+PP
 $EndSCHEMATC

@@ -312,7 +312,7 @@ PCIE_HPM_RX1_P
 Text GLabel 6625 9725 0    50   Input ~ 0
 PCIE_HPM_RX1_N
 Text GLabel 6625 9925 0    50   Input ~ 0
-PCIE_HPM_RX3_P
+PCIE_HPM_RX2_P
 Text GLabel 6625 10025 0    50   Input ~ 0
 PCIE_HPM_RX2_N
 Text GLabel 6625 10225 0    50   Input ~ 0

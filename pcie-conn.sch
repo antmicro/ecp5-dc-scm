@@ -486,37 +486,37 @@ NoConn ~ 4650 1950
 NoConn ~ 6250 1950
 NoConn ~ 6250 2050
 Text GLabel 6775 3050 2    50   Input ~ 0
-PCIE_HPM_RXP[0]
+PCIE_HPM_RX_P
 Text GLabel 6775 3150 2    50   Input ~ 0
-PCIE_HPM_RXN[0]
+PCIE_HPM_RX_N
 Text GLabel 7350 2750 2    50   Input ~ 0
-PCIE_HPM_TXP[0]
+PCIE_HPM_TX0_P
 Text GLabel 7350 2850 2    50   Input ~ 0
-PCIE_HPM_TXN[0]
+PCIE_HPM_TX0_N
 Text GLabel 6775 3650 2    50   Input ~ 0
-PCIE_HPM_RXP[1]
+PCIE_HPM_RX1_P
 Text GLabel 6775 3750 2    50   Input ~ 0
-PCIE_HPM_RXN[1]
+PCIE_HPM_RX1_N
 Text GLabel 6775 4250 2    50   Input ~ 0
-PCIE_HPM_RXP[2]
+PCIE_HPM_RX2_P
 Text GLabel 6775 4350 2    50   Input ~ 0
-PCIE_HPM_RXN[2]
+PCIE_HPM_RX2_N
 Text GLabel 6775 4850 2    50   Input ~ 0
-PCIE_HPM_RXP[3]
+PCIE_HPM_RX3_P
 Text GLabel 6775 4950 2    50   Input ~ 0
-PCIE_HPM_RXN[3]
+PCIE_HPM_RX3_N
 Text GLabel 7350 3350 2    50   Input ~ 0
-PCIE_HPM_TXP[1]
+PCIE_HPM_TX1_P
 Text GLabel 7350 3450 2    50   Input ~ 0
-PCIE_HPM_TXN[1]
+PCIE_HPM_TX1_N
 Text GLabel 7350 3950 2    50   Input ~ 0
-PCIE_HPM_TXP[2]
+PCIE_HPM_TX2_P
 Text GLabel 7350 4050 2    50   Input ~ 0
-PCIE_HPM_TXN[2]
+PCIE_HPM_TX2_N
 Text GLabel 7350 4550 2    50   Input ~ 0
-PCIE_HPM_TXP[3]
+PCIE_HPM_TX3_P
 Text GLabel 7350 4650 2    50   Input ~ 0
-PCIE_HPM_TXN[3]
+PCIE_HPM_TX3_N
 Wire Wire Line
 	6250 3950 6450 3950
 $Comp

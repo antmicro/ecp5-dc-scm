@@ -1300,18 +1300,18 @@ $EndComp
 $Comp
 L ecp5-dc-scm:ECP5UM5G_85_CABGA756-ecp5-dc-scm U?
 U 11 1 6103B98E
-P 8650 10025
+P 9300 10025
 AR Path="/5FD74EA8/6103B98E" Ref="U?"  Part="11" 
 AR Path="/5FC6B687/6103B98E" Ref="U?"  Part="11" 
 AR Path="/5FD86CE4/6103B98E" Ref="U21"  Part="11" 
 AR Path="/6103B98E" Ref="U?"  Part="11" 
-F 0 "U21" H 9580 9628 60  0000 L CNN
-F 1 "ECP5UM5G_85_CABGA756" H 9580 9522 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 8200 12375 50  0001 C CNN
-F 3 "" V 8200 12375 50  0001 C CNN
-F 4 "LFE5UM5G-85F-8BG756C" V 8150 12225 60  0001 R CNN "MPN"
-F 5 "Lattice Semiconductor" V 8200 12375 50  0001 C CNN "Manufacturer"
-	11   8650 10025
+F 0 "U21" H 10230 9628 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA756" H 10230 9522 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:CABGA756_27x27mm_p0.8mm" V 8850 12375 50  0001 C CNN
+F 3 "" V 8850 12375 50  0001 C CNN
+F 4 "LFE5UM5G-85F-8BG756C" V 8800 12225 60  0001 R CNN "MPN"
+F 5 "Lattice Semiconductor" V 8850 12375 50  0001 C CNN "Manufacturer"
+	11   9300 10025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1393,17 +1393,17 @@ Text GLabel 4025 3725 0    50   Input ~ 0
 I2C[11]_SDA
 Text GLabel 4025 3225 0    50   Input ~ 0
 I2C[11]_SCL
-Text GLabel 8325 10825 0    50   Input ~ 0
+Text GLabel 8975 10825 0    50   Input ~ 0
 CLK_100M_PCIE_DP
-Text GLabel 8325 10925 0    50   Input ~ 0
+Text GLabel 8975 10925 0    50   Input ~ 0
 CLK_100M_PCIE_DN
-Text GLabel 8325 10025 0    50   Input ~ 0
+Text GLabel 7925 10025 0    50   Input ~ 0
 PCIE_BMC_TX_DP
-Text GLabel 8325 10125 0    50   Input ~ 0
+Text GLabel 7925 10125 0    50   Input ~ 0
 PCIE_BMC_TX_DN
-Text GLabel 8325 10225 0    50   Input ~ 0
+Text GLabel 8975 10225 0    50   Input ~ 0
 PCIE_BMC_RX_DP
-Text GLabel 8325 10325 0    50   Input ~ 0
+Text GLabel 8975 10325 0    50   Input ~ 0
 PCIE_BMC_RX_DN
 $Comp
 L ecp5-dc-scm:R_10k_0402 R126
@@ -1860,19 +1860,6 @@ Text GLabel 11600 5400 0    50   BiDi ~ 0
 DDR3_DQ7
 Text GLabel 11600 6500 0    50   BiDi ~ 0
 DDR3_DM0
-$Comp
-L ecp5-dc-scm:GND #PWR?
-U 1 1 618B8AFF
-P 8375 8625
-AR Path="/5FD86CE4/606A2400/618B8AFF" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86CE4/618B8AFF" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 8375 8375 50  0001 C CNN
-F 1 "GND" V 8380 8497 50  0000 R CNN
-F 2 "" H 8375 8625 50  0001 C CNN
-F 3 "" H 8375 8625 50  0001 C CNN
-	1    8375 8625
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9375 8525 9175 8525
 Wire Wire Line
@@ -2014,18 +2001,16 @@ DONE
 Text GLabel 775  9350 0    50   Input ~ 0
 DONE
 Wire Wire Line
-	8325 10125 8650 10125
+	8975 10325 9300 10325
 Wire Wire Line
-	8325 10325 8650 10325
+	8975 10225 9300 10225
 Wire Wire Line
-	8325 10225 8650 10225
+	8450 10025 9300 10025
 Wire Wire Line
-	8325 10025 8650 10025
+	8975 10925 9300 10925
 Wire Wire Line
-	8325 10925 8650 10925
-Wire Wire Line
-	8325 10825 8650 10825
-Text Notes 8550 9825 0    118  ~ 0
+	8975 10825 9300 10825
+Text Notes 9200 9825 0    118  ~ 0
 PCIe x1
 $Comp
 L ecp5-dc-scm:R_0R_0402 R133
@@ -2206,10 +2191,6 @@ Text GLabel 8825 8125 0    50   Input ~ 0
 PRSNT1_N
 Text GLabel 5400 9775 0    50   Input ~ 0
 PRSNT0_N
-Text GLabel 8825 3925 0    50   Input ~ 0
-PECI_BMC
-Text GLabel 8825 4025 0    50   Input ~ 0
-PVCCIO_PECI
 Wire Wire Line
 	13900 5675 14450 5675
 Wire Wire Line
@@ -2318,10 +2299,6 @@ Wire Wire Line
 	9375 7825 8825 7825
 Wire Wire Line
 	9375 4325 8825 4325
-Wire Wire Line
-	8825 4025 9375 4025
-Wire Wire Line
-	8825 3925 9375 3925
 Wire Wire Line
 	5950 9775 5400 9775
 Wire Wire Line
@@ -2903,8 +2880,6 @@ Wire Wire Line
 	9175 1450 9675 1450
 Wire Wire Line
 	8825 5125 9375 5125
-Text Notes 8225 3850 0    50   ~ 0
-Misc orphans: move freely
 Text Notes 8200 7250 0    50   ~ 0
 Misc orphans: move freely
 Text GLabel 8825 4525 0    50   Input ~ 0
@@ -2967,4 +2942,42 @@ Wire Wire Line
 	14225 3875 14450 3875
 Wire Wire Line
 	14225 3975 14450 3975
+$Comp
+L ecp5-dc-scm:C_100n_0402 C57
+U 1 1 60422690
+P 8150 10125
+F 0 "C57" V 7925 10100 60  0000 L CNN
+F 1 "C_100n_0402" H 8150 9975 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 8350 10325 60  0001 L CNN
+F 3 "" H 8150 10125 50  0001 C CNN
+F 4 "Walsin" H 8350 10525 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8350 10425 60  0001 L CNN "MPN"
+F 6 "100n" V 8000 10050 50  0000 L CNN "Val"
+	1    8150 10125
+	0    -1   1    0   
+$EndComp
+$Comp
+L ecp5-dc-scm:C_100n_0402 C58
+U 1 1 6045748F
+P 8300 10025
+F 0 "C58" V 8100 9975 60  0000 L CNN
+F 1 "C_100n_0402" H 8300 9875 60  0001 C CNN
+F 2 "ecp5-dc-scm-footprints:0402-cap" H 8500 10225 60  0001 L CNN
+F 3 "" H 8300 10025 50  0001 C CNN
+F 4 "Walsin" H 8500 10425 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8500 10325 60  0001 L CNN "MPN"
+F 6 "100n" V 8175 9925 50  0000 L CNN "Val"
+	1    8300 10025
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8300 10125 9300 10125
+Wire Wire Line
+	7925 10025 8150 10025
+Text Label 8525 10025 0    50   ~ 0
+PCIE_BMC_TX_C_DP
+Text Label 8525 10125 0    50   ~ 0
+PCIE_BMC_TX_C_DN
+Wire Wire Line
+	8000 10125 7925 10125
 $EndSCHEMATC

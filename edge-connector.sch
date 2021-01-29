@@ -108,10 +108,6 @@ Wire Wire Line
 Wire Wire Line
 	8575 5625 8825 5625
 Wire Wire Line
-	9125 5725 8575 5725
-Wire Wire Line
-	9125 5825 8575 5825
-Wire Wire Line
 	9125 7725 8575 7725
 Wire Wire Line
 	9125 7825 8575 7825
@@ -133,10 +129,6 @@ Wire Wire Line
 	9125 8725 8575 8725
 Wire Wire Line
 	8575 8825 9125 8825
-Wire Wire Line
-	9300 9025 9250 9025
-Wire Wire Line
-	9300 9125 9250 9125
 Wire Wire Line
 	8575 9325 9125 9325
 Wire Wire Line
@@ -309,24 +301,24 @@ IRQ_N
 Text GLabel 6625 9125 0    50   Input ~ 0
 PRSNT1_N
 Text GLabel 6625 9325 0    50   Input ~ 0
-PCIE_HPM_RXP[0]
+PCIE_HPM_RX0_P
 Text GLabel 6625 9425 0    50   Input ~ 0
-PCIE_HPM_RXN[0]
+PCIE_HPM_RX0_N
 Connection ~ 6925 9525
 Wire Wire Line
 	6925 9525 6925 9825
 Text GLabel 6625 9625 0    50   Input ~ 0
-PCIE_HPM_RXP[1]
+PCIE_HPM_RX1_P
 Text GLabel 6625 9725 0    50   Input ~ 0
-PCIE_HPM_RXN[1]
+PCIE_HPM_RX1_N
 Text GLabel 6625 9925 0    50   Input ~ 0
-PCIE_HPM_RXP[2]
+PCIE_HPM_RX3_P
 Text GLabel 6625 10025 0    50   Input ~ 0
-PCIE_HPM_RXN[2]
+PCIE_HPM_RX2_N
 Text GLabel 6625 10225 0    50   Input ~ 0
-PCIE_HPM_RXP[3]
+PCIE_HPM_RX3_P
 Text GLabel 6625 10325 0    50   Input ~ 0
-PCIE_HPM_RXN[3]
+PCIE_HPM_RX3_N
 Text GLabel 9125 1625 2    50   Input ~ 0
 P12V_AUX
 Text GLabel 9125 1525 2    50   Input ~ 0
@@ -466,10 +458,6 @@ Text GLabel 9125 5425 2    50   Input ~ 0
 NCSI_RXD0
 Text GLabel 9125 5525 2    50   Input ~ 0
 NCSI_RXD1
-Text GLabel 9125 5725 2    50   Input ~ 0
-PECI_BMC
-Text GLabel 9125 5825 2    50   Input ~ 0
-PVCCIO_PECI
 Text GLabel 9125 6125 2    50   Input ~ 0
 SGPIO0_DO
 Text GLabel 9125 6225 2    50   Input ~ 0
@@ -512,21 +500,21 @@ USB1_DP
 Text GLabel 9125 8825 2    50   Input ~ 0
 USB1_DN
 Text GLabel 9125 9325 2    50   Input ~ 0
-PCIE_HPM_TXP[0]
+PCIE_HPM_TX0_P
 Text GLabel 9125 9425 2    50   Input ~ 0
-PCIE_HPM_TXN[0]
+PCIE_HPM_TX0_N
 Text GLabel 9125 9625 2    50   Input ~ 0
-PCIE_HPM_TXP[1]
+PCIE_HPM_TX1_P
 Text GLabel 9125 9725 2    50   Input ~ 0
-PCIE_HPM_TXN[1]
+PCIE_HPM_TX1_N
 Text GLabel 9125 9925 2    50   Input ~ 0
-PCIE_HPM_TXP[2]
+PCIE_HPM_TX2_P
 Text GLabel 9125 10025 2    50   Input ~ 0
-PCIE_HPM_TXN[2]
+PCIE_HPM_TX2_N
 Text GLabel 9125 10225 2    50   Input ~ 0
-PCIE_HPM_TXP[3]
+PCIE_HPM_TX3_P
 Text GLabel 9125 10325 2    50   Input ~ 0
-PCIE_HPM_TXN[3]
+PCIE_HPM_TX3_N
 Wire Wire Line
 	8825 10425 8825 10625
 $Comp
@@ -560,9 +548,9 @@ Text GLabel 9125 8525 2    50   Input ~ 0
 USB2_DN
 Text GLabel 9125 8425 2    50   Input ~ 0
 USB2_DP
-Text GLabel 9300 9125 2    50   Input ~ 0
+Text GLabel 8950 9125 2    50   Input ~ 0
 CLK_PCIE_x4_DN
-Text GLabel 9300 9025 2    50   Input ~ 0
+Text GLabel 8950 9025 2    50   Input ~ 0
 CLK_PCIE_x4_DP
 Text GLabel 9125 6725 2    50   Input ~ 0
 SGPIO1_CLK
@@ -584,34 +572,6 @@ Wire Wire Line
 	10950 6725 10825 6725
 Wire Wire Line
 	10525 6725 10375 6725
-$Comp
-L ecp5-dc-scm:R_0R_0402 R45
-U 1 1 623648E7
-P 9100 9025
-F 0 "R45" H 8875 9075 60  0000 C CNN
-F 1 "R_0R_0402" H 9100 8875 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 9225 60  0001 L CNN
-F 3 "" H 9100 9025 50  0001 C CNN
-F 4 "PANASONIC" H 9300 9425 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 9300 9325 60  0001 L CNN "MPN"
-F 6 "0R" H 9100 9025 50  0000 C CNN "Val"
-	1    9100 9025
-	1    0    0    -1  
-$EndComp
-$Comp
-L ecp5-dc-scm:R_0R_0402 R46
-U 1 1 623DA9F9
-P 9100 9125
-F 0 "R46" H 8875 9175 60  0000 C CNN
-F 1 "R_0R_0402" H 9100 8975 60  0001 C CNN
-F 2 "ecp5-dc-scm-footprints:0402-res" H 9300 9325 60  0001 L CNN
-F 3 "" H 9100 9125 50  0001 C CNN
-F 4 "PANASONIC" H 9300 9525 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 9300 9425 60  0001 L CNN "MPN"
-F 6 "0R" H 9100 9125 50  0000 C CNN "Val"
-	1    9100 9125
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8950 9025 8575 9025
 Wire Wire Line
@@ -801,4 +761,6 @@ F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?_
 	1    7875 1425
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8575 5725
+NoConn ~ 8575 5825
 $EndSCHEMATC

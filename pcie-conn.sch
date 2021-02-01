@@ -486,9 +486,9 @@ NoConn ~ 4650 1950
 NoConn ~ 6250 1950
 NoConn ~ 6250 2050
 Text GLabel 6775 3050 2    50   Input ~ 0
-PCIE_HPM_RX_P
+PCIE_HPM_RX0_P
 Text GLabel 6775 3150 2    50   Input ~ 0
-PCIE_HPM_RX_N
+PCIE_HPM_RX0_N
 Text GLabel 7350 2750 2    50   Input ~ 0
 PCIE_HPM_TX0_P
 Text GLabel 7350 2850 2    50   Input ~ 0

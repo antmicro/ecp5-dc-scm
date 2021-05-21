@@ -43,7 +43,7 @@ Key Features
 Block diagram
 -------------
 
-.. figure:: img/diagram.png
+.. figure:: img/ecp5-dc-scm-diagram.png
 
 License
 =======

@@ -1,4 +1,4 @@
-update=Fri 29 Jan 2021 11:25:42 CET
+update=Wed 03 Nov 2021 17:21:03 CET
 version=1
 last_client=kicad
 [general]
@@ -40,10 +40,11 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.1
-TrackWidth3=0.15
-TrackWidth4=0.2
-TrackWidth5=0.3
-TrackWidth6=0.5
+TrackWidth3=0.127
+TrackWidth4=0.15
+TrackWidth5=0.2
+TrackWidth6=0.3
+TrackWidth7=0.5
 ViaDiameter1=0.5
 ViaDrill1=0.2
 dPairWidth1=0.2
@@ -252,7 +253,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=PCIe
+Name=Ethernet
 Clearance=0.11
 TrackWidth=0.11
 ViaDiameter=0.5
@@ -263,6 +264,17 @@ dPairWidth=0.11
 dPairGap=0.11
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=PCIe
+Clearance=0.1
+TrackWidth=0.11
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.5
+uViaDrill=0.1
+dPairWidth=0.127
+dPairGap=0.123
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=ULPI
 Clearance=0.1
 TrackWidth=0.15
@@ -273,7 +285,7 @@ uViaDrill=0.1
 dPairWidth=0.16
 dPairGap=0.15
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/4]
 Name=USB
 Clearance=0.15
 TrackWidth=0.16

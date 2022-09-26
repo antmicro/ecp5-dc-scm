@@ -148,20 +148,6 @@ Wire Wire Line
 Text GLabel 6625 1625 0    50   Input ~ 0
 P12V_AUX
 Connection ~ 6925 2725
-Wire Wire Line
-	6925 2725 6925 4125
-Connection ~ 6925 4125
-Wire Wire Line
-	6925 4125 6925 4425
-Connection ~ 6925 4425
-Wire Wire Line
-	6925 4425 6925 4725
-Connection ~ 6925 4725
-Wire Wire Line
-	6925 4725 6925 5025
-Connection ~ 6925 5025
-Wire Wire Line
-	6925 5025 6925 6525
 Connection ~ 6925 6525
 Wire Wire Line
 	6925 6525 6925 7425
@@ -218,21 +204,21 @@ Text GLabel 6625 3925 0    50   Input ~ 0
 I2C[4]_SCL
 Text GLabel 6625 4025 0    50   Input ~ 0
 I2C[4]_SDA
-Text GLabel 6625 4225 0    50   Input ~ 0
+Text GLabel 6625 4425 0    50   Input ~ 0
 CLK_100M_PCIE_DP
-Text GLabel 6625 4325 0    50   Input ~ 0
-CLK_100M_PCIE_DN
 Text GLabel 6625 4525 0    50   Input ~ 0
+CLK_100M_PCIE_DN
+Text GLabel 6625 4725 0    50   Input ~ 0
 PCIE_BMC_TX_DP
-Text GLabel 6625 4625 0    50   Input ~ 0
-PCIE_BMC_TX_DN
 Text GLabel 6625 4825 0    50   Input ~ 0
+PCIE_BMC_TX_DN
+Text GLabel 6625 5025 0    50   Input ~ 0
 PCIE_BMC_RX_DP
-Text GLabel 6625 4925 0    50   Input ~ 0
-PCIE_BMC_RX_DN
 Text GLabel 6625 5125 0    50   Input ~ 0
+PCIE_BMC_RX_DN
+Text GLabel 6625 4125 0    50   Input ~ 0
 I2C[5]_SCL
-Text GLabel 6625 5225 0    50   Input ~ 0
+Text GLabel 6625 4225 0    50   Input ~ 0
 I2C[5]_SDA
 Text GLabel 6625 5325 0    50   Input ~ 0
 I2C[6]_SCL
@@ -721,31 +707,23 @@ Wire Wire Line
 Wire Wire Line
 	6625 5325 7175 5325
 Wire Wire Line
-	7175 5225 6625 5225
+	7175 4225 6625 4225
 Wire Wire Line
-	7175 5125 6625 5125
-Wire Wire Line
-	6925 5025 7175 5025
+	7175 4125 6625 4125
 Wire Wire Line
 	7175 3225 6625 3225
 Wire Wire Line
-	7175 4925 6625 4925
+	7175 5125 6625 5125
+Wire Wire Line
+	7175 5025 6625 5025
 Wire Wire Line
 	7175 4825 6625 4825
 Wire Wire Line
-	6925 4725 7175 4725
-Wire Wire Line
-	7175 4625 6625 4625
+	7175 4725 6625 4725
 Wire Wire Line
 	7175 4525 6625 4525
 Wire Wire Line
-	7175 4425 6925 4425
-Wire Wire Line
-	7175 4325 6625 4325
-Wire Wire Line
-	6625 4225 7175 4225
-Wire Wire Line
-	7175 4125 6925 4125
+	6625 4425 7175 4425
 Wire Wire Line
 	7175 4025 6625 4025
 Wire Wire Line
@@ -763,4 +741,26 @@ F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?_
 $EndComp
 NoConn ~ 8575 5725
 NoConn ~ 8575 5825
+Wire Wire Line
+	6925 2725 6925 4325
+Wire Wire Line
+	7175 4325 6925 4325
+Connection ~ 6925 4325
+Wire Wire Line
+	6925 4325 6925 4625
+Wire Wire Line
+	7175 4625 6925 4625
+Connection ~ 6925 4625
+Wire Wire Line
+	6925 4625 6925 4925
+Wire Wire Line
+	7175 4925 6925 4925
+Connection ~ 6925 4925
+Wire Wire Line
+	6925 4925 6925 5225
+Wire Wire Line
+	7175 5225 6925 5225
+Connection ~ 6925 5225
+Wire Wire Line
+	6925 5225 6925 6525
 $EndSCHEMATC

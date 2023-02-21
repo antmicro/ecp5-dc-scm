@@ -1,4 +1,4 @@
-(module BGA100CP100_17X10_1800X1400X140B46N (layer F.Cu) (tedit 5FEC5C20)
+(module BGA100CP100_17X10_1800X1400X140B46N (layer F.Cu) (tedit 627BA8D0)
   (fp_text reference REF** (at -9.27955 -13.43801) (layer F.SilkS)
     (effects (font (size 1.349937 1.349937) (thickness 0.015)))
   )
@@ -117,7 +117,7 @@
   (pad A9 smd circle (at 3.5 -8) (size 0.37 0.37) (layers F.Cu F.Paste F.Mask))
   (pad A2 smd circle (at -3.5 -8) (size 0.37 0.37) (layers F.Cu F.Paste F.Mask))
   (pad A1 smd circle (at -4.5 -8) (size 0.37 0.37) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/BGA100CP100_17X10_1800X1400X140B46N.step
+  (model ${KIPRJMOD}/lib/3d-models/BGA100CP100_17X10_1800X1400X140B46N.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

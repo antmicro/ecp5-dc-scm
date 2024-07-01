@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "ecp5-dc-scm")(type "KiCad")(uri "${KIPRJMOD}/lib/ecp5-dc-scm.kicad_sym")(options "")(descr ""))
-)

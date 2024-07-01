@@ -2,7 +2,7 @@
 ECP5 DC-SCM
 ============
 
-Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2024 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
       :target: https://opensource.antmicro.com/projects/ecp5-dc-scm
@@ -22,8 +22,9 @@ Repository structure
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``lib`` - contains the component libraries
 * ``img`` - contains graphics for this README
+* ``doc`` - contains schematics in pdf form
+* ``assets`` - contains visual assets
 
 Key Features
 ------------

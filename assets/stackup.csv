@@ -1,6 +1,4 @@
 Name;Type;Material;Thickness[mm];Constant
-F.SilkS;Top Silk Screen;;;
-F.Paste;Top Solder Paste;;;
 F.Mask;Top Solder Mask;;0.01;
 F.Cu;copper;;0.035;
 dielectric 1;prepreg;PR2116;0.12;3.9
@@ -18,5 +16,3 @@ In6.Cu;copper;;0.035;
 dielectric 7;prepreg;PR2116;0.12;3.9
 B.Cu;copper;;0.035;
 B.Mask;Bottom Solder Mask;;0.01;
-B.Paste;Bottom Solder Paste;;;
-B.SilkS;Bottom Silk Screen;;;
